@@ -1,8 +1,10 @@
-# Khala privacy: feedback revision 2
+# Privacy: Who Captures the Value?
 
 Live site: https://kdotpham.github.io/khala-privacy-reviewed/
 
 The original khala-privacy repository and live site remain unchanged.
+
+Release metadata: November 2, 2026 · Privacy · 15 min read.
 
 This review build contains 23 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
 
@@ -23,7 +25,9 @@ npm run verify
 - `slide-runtime.js`: interactive behavior within individual slides.
 - `base-assets/privacy.js`: article/deck navigation, modal expansion and theme synchronization.
 - `base-assets/privacy.css`: article and modal styling.
-- `source/og.png`: generated black cover artwork. The real Khala logo is overlaid by HTML.
+- `site-meta.json`: report title, release date and reading time.
+- `source/cover.svg`: portable thumbnail with outlined Inter Tight type.
+- `source/og.png`: final black cover artwork, with exact Inter Tight lettering and the original Khala logo.
 - `dist/`: deployable multi-file article and individual slide exports.
 - `github/`: self-contained root index and slide ZIP, created by self-contained.cjs.
 
