@@ -1,20 +1,32 @@
-# Khala privacy: reviewed edition
+# Khala privacy: feedback revision 2
 
+Live site: https://kdotpham.github.io/khala-privacy-reviewed/
 
-A separate copy of the 23-slide privacy report, reviewed on 18 October 2026. The original repository and live site are unchanged.
+The original khala-privacy repository and live site remain unchanged.
 
+This review build contains 23 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
 
-- `index.html`: self-contained article and deck. Includes fonts, artwork and slide HTML.
-- `khala-slides.zip`: standalone HTML and SVG slide exports.
-- `Khala-Privacy-Review.html` and `.csv`: the severity-ranked audit (32 findings, 5 Critical).
-- `editable-site.zip`: the complete editable static website with individual slides and assets.
+**Slide 16 contains SAMPLE DATA · NOT FOR POSTING. Replace the monthly placeholders before publishing the report as final.**
 
+## Edit and rebuild
 
-SVG and Expand downloads work directly from the self-contained page. The detailed article retains the Khala author byline, navy/slate palette and original slide compositions. Appendix and visible source-note captions remain removed.
+Install Node.js and Python 3, then run:
 
+```
+npm install
+npm run generate
+npm run verify
+```
 
-The placeholder UR monthly history has been replaced by the supplied team-reported 350K snapshot. Adoption measures retain their distinct definitions. The review does not independently re-verify all underlying financial, protocol or legal claims.
+- `source/index.html`: editable slide content and original layout styles.
+- `feedback-v2.css`: final layout and dark-theme corrections; also embedded in the source HTML.
+- `slide-runtime.js`: interactive behavior within individual slides.
+- `base-assets/privacy.js`: article/deck navigation, modal expansion and theme synchronization.
+- `base-assets/privacy.css`: article and modal styling.
+- `source/og.png`: generated black cover artwork. The real Khala logo is overlaid by HTML.
+- `dist/`: deployable multi-file article and individual slide exports.
+- `github/`: self-contained root index and slide ZIP, created by self-contained.cjs.
 
+Deploy `dist/`, or use the root files in `github/` for GitHub Pages (`main`, `/ (root)`). Keep `.nojekyll` in the publishing root.
 
-GitHub Pages is enabled for this public repository from `main` at `/ (root)`. To run locally, serve this folder with `python3 -m http.server 8000`.
-
+The supplied research was not independently re-verified. The previous review table is a historical audit, not a claim that its original findings remain unresolved.
