@@ -1,0 +1,17 @@
+# Privacy: Who Captures the Value?
+
+> Khala Research report by 0xSammy and Jack Ai-Leung. 23 slides. Publication date: 2026-11-02. Market-cap snapshot: 2026-10-15.
+
+## Report formats
+
+- [Full report in Markdown](https://kdotpham.github.io/khala-privacy-reviewed/report.md): Slide text, chart labels, tables, interactive details and supplied source attributions.
+- [Structured report JSON](https://kdotpham.github.io/khala-privacy-reviewed/report.json): Stable slide IDs, titles, data status, chart labels, tables and hover notes.
+- [Readable HTML](https://kdotpham.github.io/khala-privacy-reviewed/report.html): Complete report without JavaScript or iframe dependencies.
+- [Visual report](https://kdotpham.github.io/khala-privacy-reviewed/): Interactive slide compositions.
+
+## Data qualifications
+
+- Slide 16 monthly chart values are SAMPLE DATA, NOT FOR POSTING, and must not be treated as observed history.
+- Slide 22 scenario ranges are illustrative assumptions.
+- Team-reported metrics and supplied dates are preserved; this pass did not independently verify the research.
+- The network-privacy comparison on slide 7 covers Nym and UR (SN25) only.

@@ -8,6 +8,10 @@ Release metadata: November 2, 2026 · Privacy · 15 min read.
 
 This review build contains 23 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
 
+Jack's latest pass limits slide 7's network-privacy comparison to Nym and UR. Their combined market cap is $30.6M at the supplied snapshot; the summary and valuation-gap text use that same scope. Slide footers have a dedicated clear area behind the logo in light and dark modes.
+
+Agent-readable formats are generated directly from the editable slides: `report.html` (no JavaScript required), `report.md`, `report.json`, and `llms.txt`. The main page also includes a collapsed, server-rendered full transcript and Article JSON-LD. Chart labels, tables and 149 interactive notes retain their supplied dates and qualifications. Sample data on slide 16 and illustrative scenarios on slide 22 are explicitly tagged. No new research verification is implied.
+
 **Slide 16 contains SAMPLE DATA · NOT FOR POSTING. Replace the monthly placeholders before publishing the report as final.**
 
 ## Edit and rebuild
@@ -26,6 +30,7 @@ npm run verify
 - `base-assets/privacy.js`: article/deck navigation, modal expansion and theme synchronization.
 - `base-assets/privacy.css`: article and modal styling.
 - `site-meta.json`: report title, release date and reading time.
+- `agent-readable.cjs`: generates the HTML transcript, Markdown, structured JSON and format index from the slides; do not edit generated report files independently.
 - `source/cover.svg`: portable thumbnail with outlined Inter Tight type.
 - `source/og.png`: final black cover artwork, with exact Inter Tight lettering and the original Khala logo.
 - `dist/`: deployable multi-file article and individual slide exports.
