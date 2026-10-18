@@ -11,8 +11,8 @@ Slide 16: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholder
 
 
 Executive summary
-1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR, the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 SN25 has a user base, with token demand still conditional URnetwork reports 350K monthly users. SN25 demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)
-Catalysts to watch First operator deposit on SN25 Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027
+1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)
+Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027
 
 [View slide 1](https://kdotpham.github.io/khala-privacy-reviewed/#summary)
 
@@ -126,7 +126,7 @@ Encrypting amounts is not sufficient on its own, because the network connection 
 | Payments and payroll Company-reported deployments | Salaries, supplier invoices and treasury movements | Bron paid salaries in confidential USDT on Ethereum mainnet through Zama, January 2026 | Zcash Monero Umbra Zama Bron Aleo |
 | Trading and tokenised assets Company-reported deployments | Orders, positions and holdings | GSR executed a confidential OTC trade on the Zama protocol, March 2026; Dfns added confidential tokens to its wallet platform | Zama Dfns Pantera investor |
 | Private computation and AI NEAR AI live; others building | Customer data and model inputs | NEAR AI Cloud runs confidential inference with an attestation per request; secure-hardware and MPC networks are building | Venice NEAR AI Seismic a16z investor Nillion Hack VC investor |
-| Private connectivity URnetwork live; others building | IP addresses and who is talking to whom | URnetwork’s VPN reports about 350K monthly users (team-reported); NymVPN runs on the Nym mixnet | SN25 UR Nym Orchid Sentinel Mysterium |
+| Private connectivity URnetwork live; others building | IP addresses and who is talking to whom | URnetwork’s VPN reports about 350K monthly users (team-reported); NymVPN runs on the Nym mixnet | UR (SN25) Nym Orchid Sentinel Mysterium |
 | Programmable privacy Building | Hidden inputs for sealed-bid auctions, private ballots and strategy games | Reusable tools, so each application does not need its own cryptography | Fhenix Zama Multicoin investor Aztec Noir |
 
 ### Chart details and interactive notes
@@ -146,9 +146,9 @@ Encrypting amounts is not sufficient on its own, because the network connection 
 
 Zcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.
 Grass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.
-The network-privacy comparison includes Nym and UR.
+The network-privacy comparison includes Nym and UR (SN25).
 
-### Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR only.
+### Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.
 
 Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Transaction privacy · Zcash · $20.8B · Monero · $10.2B · Private AI · Venice · $1.1B · Paid network capacity · Grass · $486M · Helium · $85.0M · Network privacy · Nym · $22.2M · UR (SN25) · $8.4M
 
@@ -182,15 +182,15 @@ Venice 13
 ## Slide 9: Privacy tokens capture value differently
 
 
-Zcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR supplies network connectivity.
+Zcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR (SN25) supplies network connectivity.
 These products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals.
 
-|  | Zcash | Aztec | Umbra | Venice | SN25 UR New |
+|  | Zcash | Aztec | Umbra | Venice | UR (SN25) New |
 | --- | --- | --- | --- | --- | --- |
 | What it produces | Private ZEC transfers hide addresses, amounts and memos. Transparent transfers remain available. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
 | Reported adoption | ~9.4M transparent addresses ever observed, not wallets | 100K+ legacy Connect wallets; current Aztec unverified | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
 | Who pays for it | Senders pay fees. Issuance funds miners and development. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
-| Does value reach the token | Monetary asset ZEC is money, the fee and the mining reward. Value depends on demand to hold. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Operators can deposit UR. The rate is zero at launch, so buying is not enforced. |
+| Does value reach the token | Monetary asset ZEC is money, the fee and the mining reward. Value depends on demand to hold. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Operators can deposit UR (SN25). The rate is zero at launch, so buying is not enforced. |
 
 ### Chart details and interactive notes
 
@@ -200,22 +200,22 @@ These products report different adoption measures and connect activity to tokens
 | Aztec | Ethereum L2 for private smart contracts: confidential balances, state and execution |  |
 | Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
-| SN25 UR | Bandwidth and routing marketplace: independent providers carry traffic, validators score performance |  |
+| UR (SN25) | Bandwidth and routing marketplace: independent providers carry traffic, validators score performance |  |
 | Zcash | ~9.4M transparent addresses ever observed; one wallet can hold many |  |
 | Aztec | 100K+ wallets on Aztec Connect, its retired predecessor |  |
 | Umbra | 3,428 encrypted user accounts on Solana |  |
 | Venice | ~21.9K wallets indexed by VeniceStats |  |
-| SN25 UR | 350K+ monthly URnetwork app users (team-reported, off-chain) |  |
+| UR (SN25) | 350K+ monthly URnetwork app users (team-reported, off-chain) |  |
 | Zcash | Senders pay fees; miners and the development fund are also paid from new issuance |  |
 | Aztec | Users pay fees or apps sponsor them; operator rewards are partly token emissions |  |
 | Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
 | Venice | Users pay subscriptions or API credits, or stake $VVV for a daily share of inference |  |
-| SN25 UR | Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue |  |
+| UR (SN25) | Customers pay operators; URnetwork's UR (SN25) Pro subscription is operator revenue, not automatically subnet revenue |  |
 | Zcash | $ZEC is the money, the fee and the mining reward, with a fixed cap. The bet is demand to hold |  |
 | Aztec | $AZTEC funds fees, staking and governance; congestion fees burn, the rest pays operators |  |
 | Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
 | Venice | $VVV is staked for inference capacity, and a share of credit purchases buys back and burns it |  |
-| SN25 UR | UR alpha funds emissions and locked operator deposits, which can be zero; buys not enforced |  |
+| UR (SN25) | UR (SN25) alpha funds emissions and locked operator deposits, which can be zero; buys not enforced |  |
 
 [View slide 9](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
 
@@ -329,18 +329,18 @@ Chart labels in display order: 14M · At launch · 3M · Before Sep 2026 · 2.5M
 
 [View slide 13](https://kdotpham.github.io/khala-privacy-reviewed/#venice)
 
-## Slide 14: UR has users, but operator demand for SN25 has yet to begin
+## Slide 14: UR (SN25) has users, but priced deposits have yet to begin
 
 
 An established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.
 In this section
 Where privacy leaks 15
 URnetwork users 16
-How SN25 works 17
-Operators as SN25 buyers 18
+How UR (SN25) works 17
+Operators as UR (SN25) buyers 18
 The bull case 19
-How value reaches UR 20
-UR can host operators in billion-dollar enterprise and AI-agent markets 21
+How value reaches UR (SN25) 20
+UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 21
 What to watch 22
 Catalysts across all five 23
 
@@ -348,18 +348,20 @@ Catalysts across all five 23
 
 ## Slide 15: Wallet privacy can fail at network connections and cross-chain swaps
 
+**Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested.**
 
-Controlled tests matched 95–98% of wallet traffic to IP addresses. Bitcoin and Solana tests used testnets. Cross-chain refunds expose a separate timing link.
-Crossings leak: the swap route into private Zcash
-Connections leak: wallet users a passive observer identified
+A 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.
+Swap boundaries: a historical refund-linking example (2025)
+RPC traffic: address-to-IP linking in controlled tests
+Researcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection.
 
 ### Swap route into shielded ZEC and where it leaked
 
 Chart labels in display order: Wallet elsewhere · SOL, ETH or USDC · NEAR Intents · Solvers fill the swap · Shielded ZEC · Private balance · Refund · Sent to the original transparent address, · so timing and amounts can be matched · $1.5B+ · ZEC swap volume through · NEAR Intents by March 2026 · (sponsored research)
 
-### Deanonymisation success rate
+### Controlled TRAP experiments: wallet-address-to-IP linking success, by blockchain and network
 
-Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · 95.3% · Ethereum, MetaMask · 96.8% · Bitcoin, Electrum · 97.7% · Solana, Torus · 96.6%
+Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask · 3 observations · 95.3% · Ethereum testnet · MetaMask · 3 observations · 96.8% · Bitcoin testnet · Electrum · 4 observations · 97.7% · Solana testnet · Torus · 4 observations · 96.6%
 
 ### Chart details and interactive notes
 
@@ -368,28 +370,28 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · 95.3% ·
 | Wallet elsewhere | SOL, ETH or USDC |  |
 | NEAR Intents | Solvers fill the swap |  |
 | Shielded ZEC | Private balance |  |
-| The refund leak | ZachXBT showed in October 2025 that a refund went back to the transparent address the funds came from, so an observer could match timing and amounts. Zashi committed to one-time addresses and shielded refunds. | Cryptopolitan, 21 October 2025 |
+| Historical refund example (2025) | A reported transparent-address refund illustrated swap-boundary linkability. ECC’s Q4 2025 roadmap proposed ephemeral addresses to reduce linkability; this slide does not establish the current implementation’s status. | ECC Q4 2025 roadmap: https://zodl.com/ecc-roadmap-q4-2025/; original incident supplied via Cryptopolitan, 21 October 2025 |
 | $1.5B+ through NEAR Intents | Cumulative ZEC swap volume by the end of March 2026. | CoinDesk Research, sponsored by GenZcash |
-| Ethereum mainnet: 95.3% | Mainnet attack on Ethereum RPC users over three rounds. | Wang et al., arXiv 2508.21440 |
-| Ethereum, MetaMask: 96.8% | Real-world experiment. | Wang et al., arXiv 2508.21440 |
-| Bitcoin, Electrum: 97.7% | Testnet experiment; Electrum assigned CVE-2025-43968. | Wang et al., arXiv 2508.21440 |
-| Solana, Torus: 96.6% | Testnet experiment. | Wang et al., arXiv 2508.21440 |
+| Ethereum mainnet: 95.33% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
+| Ethereum testnet: 96.80% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
+| Bitcoin testnet: 97.70% | Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
+| Solana testnet: 96.58% | Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
 
 [View slide 15](https://kdotpham.github.io/khala-privacy-reviewed/#edges)
 
-## Slide 16: UR reports 350K monthly users
+## Slide 16: UR (SN25) reports 350K monthly users
 
 **SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported.**
 
 URnetwork’s monthly user growth, shown here with placeholder data pending the verified series.
 126,717 providers across 103 countries
-The user base already exists while the deposit rate is set at zero for launch, so the open question for SN25 is pricing rather than demand.
+The user base already exists while the deposit rate is set at zero for launch, so the open question for UR (SN25) is pricing rather than demand.
 The bars illustrate the intended chart layout. Replace the sample monthly values before publication.
 SAMPLE DATA · NOT FOR POSTING
 
 ### Placeholder monthly active users chart. Sample data, not for posting.
 
-Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K · 1 JUN 2026 · 220K · 1 JUL 2026 · 265K · 1 AUG 2026 · UR launches on Bittensor SN25 · 300K · 1 SEP 2026 · 330K · 1 OCT 2026 · 350K · 15 OCT 2026
+Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K · 1 JUN 2026 · 220K · 1 JUL 2026 · 265K · 1 AUG 2026 · UR (SN25) launches on Bittensor UR (SN25) · 300K · 1 SEP 2026 · 330K · 1 OCT 2026 · 350K · 15 OCT 2026
 
 ### Chart details and interactive notes
 
@@ -406,40 +408,41 @@ Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K 
 
 [View slide 16](https://kdotpham.github.io/khala-privacy-reviewed/#mau)
 
-## Slide 17: UR pays miners for routing capacity that validators independently measure
+## Slide 17: UR (SN25) uses validator scores to reward routing capacity
 
+**Design is distinct from launch: the documented launch has a UR-run operator and sole validator. The 200-fleet figure is a design cap.**
 
-Customers pay operators. Validators measure miners. The dashed operator-deposit link remains inactive while the rate is zero.
+Mechanism design shown below. Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.
 126,717 Providers on URnetwork (team-reported)
 103 Countries covered (team-reported)
-~200 Top-level miner fleets, ranked by distinct exit IPs
-$8.4M SN25 market cap, mid-October 2026
+Up to 200 Top-level fleet capacity in the design; not a live count
+$8.4M UR (SN25) market cap, mid-October 2026
 
-### How SN25 works
+### How UR (SN25) works
 
-Chart labels in display order: Customers · Privacy apps and VPN users · Network operators · Sell privacy, co-sign paths · Miners · Route encrypted traffic · Subnet reserve · Operator deposits held here · SN25 emissions · Miners 41% · validators 41% Owner 18% · Validators · Re-measure paths, score pools · pay · route · measure · weights · pay for measured capacity · operators deposit UR against expected traffic
+Chart labels in display order: Customers · Privacy apps and VPN users · Network operators · Sell privacy, co-sign paths · Miners · Route encrypted traffic · Subnet reserve · Operator deposits held here · UR (SN25) emissions · Miners 41% · validators 41% Owner 18% · Validators · Re-measure paths, score pools · pay · route · measure · weights · pay for measured capacity · operators deposit UR (SN25) against expected traffic
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Customers | Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN. | UR litepaper |
-| Network operators | Operators run privacy servers and a verification endpoint and decide how rewards split among their miners. | UR litepaper |
-| Miners | Pool-tier miners join operators; about 200 top-level fleets hold their own slots, ranked by distinct routable exit IPs. | UR litepaper |
-| Subnet reserve | Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period. | UR litepaper |
-| SN25 emissions | Bittensor emits UR each cycle: 18% to the subnet owner, 41% to miners and 41% to validators. Settlement runs on a seven-day cycle. | UR litepaper |
-| Validators | Validators stake UR and score both miner tiers each cycle under commit-reveal. At launch the subnet owner is the largest validator by stake. | UR litepaper |
+| Customers | Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN. | UR (SN25) litepaper |
+| Network operators | Operators run privacy servers and a verification endpoint and decide how rewards split among their miners. | UR (SN25) litepaper |
+| Miners | Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets. | https://github.com/urfoundation/sn#two-miner-tiers-in-parallel |
+| Subnet reserve | Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period. | UR (SN25) litepaper |
+| UR (SN25) emissions | 18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout. | https://github.com/urfoundation/sn#emission--yuma-consensus |
+| Validators | Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool. | https://github.com/urfoundation/sn/blob/main/VALIDATOR.md |
 
 [View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#sn25)
 
-## Slide 18: Priced deposits would create demand for SN25
+## Slide 18: Priced deposits could create demand for UR (SN25)
 
 
-If deposits are priced, operators would acquire and lock SN25 against the users and data they serve. The rate is currently zero.
-Above the dotted line, operators buy more SN25 than miners receive in emissions.
-Deposits sit in a reserve that never pays out, so every unit purchased leaves circulating supply permanently. Where the line sits depends on the reference rate UR sets.
+Priced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.
+Illustrative only: above the dotted line, assumed deposits exceed miner emissions. No deposit-rate calibration is supplied.
+The reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase.
 
-### SN25 demand by number of operators
+### UR (SN25) demand by number of operators
 
 Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PRICED · ur.io alone · ur.io · vpn.dev · ww.dev · 3 operators · NEXT · adds vpn.dev and ww.dev · ur.io · vpn.dev · ww.dev · Operator 4 · Operator 5 · Operator N · N operators · AT SCALE · any operator can join
 
@@ -447,67 +450,67 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| ur.io | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| ur.io | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| vpn.dev | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| ww.dev | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| ur.io | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| vpn.dev | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| ww.dev | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| Operator 4 | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| Operator 5 | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
-| Operator N | Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced. | Illustrative |
+| ur.io | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| ur.io | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| vpn.dev | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| ww.dev | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| ur.io | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| vpn.dev | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| ww.dev | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| Operator 4 | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| Operator 5 | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
+| Operator N | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
 
 [View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
 
-## Slide 19: SN25 would be worth 10× at Helium’s market cap and 58× at Grass’s
+## Slide 19: UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s
 
 
-The 15 October 2026 snapshot puts UR at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.
-A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR, a gap of around 1,000 times.
-A product already in market URnetwork, the VPN that SN25 supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.
-Demand linked to usage Once the deposit rate rises above zero, operators must acquire and permanently lock UR in proportion to their traffic, converting customer growth into token demand. Until then, TAO inflows fund supply.
-What UR would be worth at its peers’ market caps
+The 15 October 2026 snapshot puts UR (SN25) at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.
+A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.
+A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.
+Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.
+What UR (SN25) would be worth at its peers’ market caps
 
-### UR market cap against peers
+### UR (SN25) market cap against peers
 
-Chart labels in display order: $1M · $10M · $100M · $1B · UR snapshot · $8.4M · Nym · $22.2M · 2.6x · Helium · $85M · 10x · Grass · $486M · 58x
+Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) snapshot · $8.4M · Nym · $22.2M · 2.6x · Helium · $85M · 10x · Grass · $486M · 58x
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| A wide valuation gap | Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR, a gap of around 1,000 times. |  |
-| A product already in market | URnetwork, the VPN that SN25 supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch. |  |
-| Demand linked to usage | Once the deposit rate rises above zero, operators must acquire and permanently lock UR in proportion to their traffic, converting customer growth into token demand. Until then, TAO inflows fund supply. |  |
-| UR today: ~$8.4M | SN25 market cap, mid-October 2026. | CoinGecko and MEXC, 15 October 2026 |
+| A wide valuation gap | Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times. |  |
+| A product already in market | URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch. |  |
+| Demand linked to usage | If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying. | https://github.com/urfoundation/sn |
+| UR (SN25) today: ~$8.4M | UR (SN25) market cap, mid-October 2026. | CoinGecko and MEXC, 15 October 2026 |
 | Nym: ~$22.2M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko and MEXC, 15 October 2026 |
 | Helium: ~$85M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko and MEXC, 15 October 2026 |
 | Grass: ~$486M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). | CoinGecko and MEXC, 15 October 2026 |
 
 [View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
-## Slide 20: Operator deposits could turn UR usage into lasting SN25 demand
+## Slide 20: Operator deposits could link UR (SN25) demand to usage
 
 
-TAO inflows and sector interest support SN25 today. Priced operator deposits would add demand by locking UR against network traffic.
-How value reaches SN25, most likely first
+TAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.
+How value reaches UR (SN25), most likely first
 1
-TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into SN25 lifts emissions and alpha demand.
+TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.
 Live since November 2025
 2
-Sector re-rating SN25 trades as Bittensor's privacy exposure while capital rotates into the category.
+Sector re-rating UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category.
 Live
 3
-Operator deposits Operators acquire UR to deposit against traffic, and deposits stay in the reserve rather than returning to circulation.
+Operator deposits Priced deposits lock tokens against traffic; fresh market purchases are expected, not enforced.
 Rate set to zero at launch
 4
-Reserve governance Future onchain governance could direct how the reserve is used.
-Speculative; no proposal
+Reserve governance The current reserve has no outbound transfer path; a different future architecture is not a present holder right.
+Current reserve design
 
 ### Who pays and where value accrues
 
-Chart labels in display order: paid by token issuance · paid by customers · network · token · issuer · or app · Emissions subsidy · durable only if demand arrives · Customer-paid fees · durable: Zama, Railgun · Weakest · neither side captures it · Issuer economics · captured by issuers: USAD, Bron · UR today · operator deposits · UR if operators pay
+Chart labels in display order: paid by token issuance · paid by customers · network · token · issuer · or app · Emissions subsidy · durable only if demand arrives · Customer-paid fees · durable: Zama, Railgun · Weakest · neither side captures it · Issuer economics · captured by issuers: USAD, Bron · UR (SN25) today · operator deposits · UR (SN25) if operators pay
 
 ### Chart details and interactive notes
 
@@ -517,24 +520,24 @@ Chart labels in display order: paid by token issuance · paid by customers · ne
 | Customer-paid fees | Customers pay per transfer or computation, and the fees reach the network token. |  |
 | Weakest | Issuance pays for supply and the value accrues to apps or issuers. |  |
 | Issuer economics | Customers pay, but reserve yield and fees accrue to issuers and distributors. |  |
-| UR today | Bittensor emissions pay for supply and value reaches SN25 through TAO inflows; no customer fees reach the token yet. |  |
-| UR if operators pay | Operators acquire UR to deposit against real traffic, so customer demand reaches the token. |  |
-| TAO inflows | Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into SN25 lifts emissions and alpha demand. | UR litepaper; FalconX |
-| Sector re-rating | SN25 trades as Bittensor's privacy exposure while capital rotates into the category. | UR litepaper; FalconX |
-| Operator deposits | Operators acquire UR to deposit against traffic, and deposits stay in the reserve rather than returning to circulation. | UR litepaper; FalconX |
-| Reserve governance | Future onchain governance could direct how the reserve is used. | UR litepaper; FalconX |
+| UR (SN25) today | Bittensor emissions pay for supply and value reaches UR (SN25) through TAO inflows; no customer fees reach the token yet. |  |
+| UR (SN25) if operators pay | Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token. |  |
+| TAO inflows | Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand. | UR (SN25) litepaper; FalconX |
+| Sector re-rating | UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category. | UR (SN25) litepaper; FalconX |
+| Operator deposits | Priced deposits lock tokens against traffic; purchases from revenue are expected off-chain, not enforced. The current reserve has no outbound transfer path. | https://github.com/urfoundation/sn |
+| Reserve governance | The existing reserve has no outbound transfer function. Any different future reserve model would require a separate architecture; it is not a present spending right. | https://github.com/urfoundation/sn |
 
 [View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#value)
 
-## Slide 21: UR’s operator roadmap extends from consumer VPNs into enterprise and AI
+## Slide 21: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
 
 
-ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR revenue.
+ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR (SN25) revenue.
 Operators can share the miner fleet, although additional traffic still creates operating costs.
 AI agents are routinely blocked by bot controls and data-centre IP detection, and residential routes are what let them reach the open web.
-If these programmes become paying operators, their traffic could create SN25 demand once deposits are priced.
+If these programmes become paying operators, their traffic could create UR (SN25) demand once deposits are priced.
 
-| Operator | Market | What it does on UR | Market reference and metric |
+| Operator | Market | What it does on UR (SN25) | Market reference and metric |
 | --- | --- | --- | --- |
 | ur.io | Consumer VPN Live | 350K+ monthly users today (team-reported) | The live proof that the network serves real demand |
 | Project Bastion | Enterprise network access Research | Secure access for companies, their staff and their devices | Zscaler $3.77B ARR, FY2026 |
@@ -554,7 +557,7 @@ If these programmes become paying operators, their traffic could create SN25 dem
 
 [View slide 21](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
 
-## Slide 22: Operator deposits distinguish the illustrative SN25 scenarios
+## Slide 22: Operator deposits distinguish the illustrative UR (SN25) scenarios
 
 **End-2027 scenario ranges are illustrative assumptions, not forecasts or a supplied valuation model.**
 
@@ -565,7 +568,7 @@ The number to watch Track monthly operator deposits relative to miner emissions.
 | --- | --- | --- | --- |
 | Bull | Wallets and privacy apps buy capacity, and operator deposits reach a quarter of miner emissions. | $100M to $250M | 12× to 30× |
 | Base | Deposits switch on in 2027, and two to four operators pay small amounts. | $15M to $30M | 1.8× to 3.6× |
-| Bear | The deposit rate stays at zero, there is still one operator, and TAO flows out of SN25. | $2M to $5M | 0.24× to 0.60× |
+| Bear | The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). | $2M to $5M | 0.24× to 0.60× |
 
 ### Chart details and interactive notes
 
@@ -573,7 +576,7 @@ The number to watch Track monthly operator deposits relative to miner emissions.
 | --- | --- | --- |
 | Bull: $100M to $250M market cap | Wallets and privacy apps buy capacity, and operator deposits reach a quarter of miner emissions. Signal to watch: monthly deposits as a share of miner emissions. | Khala Research, illustrative |
 | Base: $15M to $30M market cap | Deposits switch on in 2027, and two to four operators pay small amounts. Signal to watch: number of operators with non-zero deposits. | Khala Research, illustrative |
-| Bear: $2M to $5M market cap | The deposit rate stays at zero, there is still one operator, and TAO flows out of SN25. Signal to watch: net tao flow into sn25, negative three months running. | Khala Research, illustrative |
+| Bear: $2M to $5M market cap | The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). Signal to watch: net tao flow into sn25, negative three months running. | Khala Research, illustrative |
 
 [View slide 22](https://kdotpham.github.io/khala-privacy-reviewed/#watch)
 
@@ -588,7 +591,7 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Late 2026 | Aztec | Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |
 | 26 Apr 2027 | All five | Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |
 | Coming soon | Umbra | Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |
-| When priced | SN25 UR | First operator deposit | Turns users into SN25 buying; the rate is set at zero for launch |
+| When priced | UR (SN25) | First operator deposit | Turns users into UR (SN25) buying; the rate is set at zero for launch |
 | Quarterly | Zcash | Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |
 | Ongoing | Venice | Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |
 
@@ -600,7 +603,7 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Aztec: Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |  |
 | All five: Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |  |
 | Umbra: Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |  |
-| SN25 UR: First operator deposit | Turns users into SN25 buying; the rate is set at zero for launch |  |
+| UR (SN25): First operator deposit | Turns users into UR (SN25) buying; the rate is set at zero for launch |  |
 | Zcash: Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |  |
 | Venice: Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |  |
 

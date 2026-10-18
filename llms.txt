@@ -13,5 +13,5 @@
 
 - Slide 16 monthly chart values are SAMPLE DATA, NOT FOR POSTING, and must not be treated as observed history.
 - Slide 22 scenario ranges are illustrative assumptions.
-- Team-reported metrics and supplied dates are preserved; this pass did not independently verify the research.
+- Slide 15 was checked against the primary paper and UR (SN25) mechanism copy against official documentation on 2026-10-18. Other supplied metrics and dates remain unverified.
 - The network-privacy comparison on slide 7 covers Nym and UR (SN25) only.

@@ -1,0 +1,321 @@
+{
+  "title": "Khala Privacy \u2014 Research and Claim Audit",
+  "audited_on": "2026-10-18",
+  "build": "2026-10-18-audit-v7",
+  "project_name": "UR (SN25)",
+  "scope": "All 23 slides reviewed for claim wording, labels, numerical consistency and evidence provenance. Targeted primary-source verification covers slide 15 and UR (SN25) mechanism/launch wording. This is not a complete fresh fact-check of every financial metric, legal date or product claim.",
+  "primary_sources": [
+    "https://arxiv.org/html/2508.21440v1",
+    "https://github.com/urfoundation/sn",
+    "https://github.com/urfoundation/sn/blob/main/VALIDATOR.md",
+    "https://zodl.com/ecc-roadmap-q4-2025/"
+  ],
+  "slide_15": {
+    "paper": "Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee (Extended Version)",
+    "authors": "Shan Wang et al.",
+    "version": "arXiv:2508.21440v1, submitted 2025-08-29",
+    "url": "https://arxiv.org/html/2508.21440v1",
+    "verified_results": [
+      {
+        "network": "Ethereum mainnet",
+        "wallet": "MetaMask",
+        "observations": 3,
+        "success_pct": 95.33
+      },
+      {
+        "network": "Ethereum testnet",
+        "wallet": "MetaMask",
+        "observations": 3,
+        "success_pct": 96.8
+      },
+      {
+        "network": "Bitcoin testnet",
+        "wallet": "Electrum",
+        "observations": 4,
+        "success_pct": 97.7
+      },
+      {
+        "network": "Solana testnet",
+        "wallet": "Torus",
+        "observations": 4,
+        "success_pct": 96.58
+      }
+    ],
+    "scope": "Links IPs to wallet pseudonyms/addresses from traffic timing under a strong passive observer. Researchers used controlled endpoints and emulated routers, not an actual ISP deployment. Three or four observations and frequency-filter assumptions matter. Not population-wide exposure or named-person identification.",
+    "limits": "Dynamic IPs, NAT, missing observations and network conditions can reduce success. Tor/VPN defenses are not resolved by the study; UR (SN25) was not tested. This is a preprint result, not an independent replication.",
+    "cve": "The prior slide mentioned a CVE. That claim was removed from the tooltip because this audit did not independently establish the registry record."
+  },
+  "issues": [
+    {
+      "Slide number": 15,
+      "Element": "Address-to-IP claim",
+      "Issue": "CORRECTED: \u201c95\u201398% of wallet traffic\u201d used the wrong denominator and omitted the strong observer setup. The study reports address-linking success in controlled experiments, not the share of all users exposed or identification of named people.",
+      "Severity": "Critical",
+      "Recommended fix": "Keep the corrected subtitle and visible experimental-scope qualification. Do not imply that UR (SN25) was tested or proven to prevent the attack."
+    },
+    {
+      "Slide number": 16,
+      "Element": "Monthly MAU chart",
+      "Issue": "OPEN \u2014 PUBLICATION HOLD: the monthly bars are sample data. The 350K headline, 126,717 providers and 103 countries are supplied/team-reported, not independently substantiated in this audit.",
+      "Severity": "Critical",
+      "Recommended fix": "Retain the requested placeholder in this review draft. Replace it with dated, defined and evidenced observations before public/client release."
+    },
+    {
+      "Slide number": 11,
+      "Element": "Vulnerability and supply claims",
+      "Issue": "OPEN: the critical proving-vulnerability assertion, v6 remediation, 200,000 staking threshold, 20% governance mint cap and November unlock are not primary-source verified in this audit. These can materially change the investment story.",
+      "Severity": "Critical",
+      "Recommended fix": "Obtain exact official disclosure, protocol/tokenomics and unlock references before external reliance. Remove or qualify any unsupported assertion."
+    },
+    {
+      "Slide number": 15,
+      "Element": "Ethereum chart row",
+      "Issue": "CORRECTED: 96.8% was labelled \u201cEthereum, MetaMask\u201d and described as a real-world experiment without identifying the testnet.",
+      "Severity": "Major",
+      "Recommended fix": "Keep separate Ethereum mainnet (95.33%) and testnet (96.80%) rows, with MetaMask and three observations. Bitcoin/Electrum and Solana/Torus are testnet experiments with four observations."
+    },
+    {
+      "Slide number": 17,
+      "Element": "Validator independence",
+      "Issue": "CORRECTED: \u201cindependently measure\u201d was inconsistent with the official launch documentation, which describes a UR-run operator and sole validator.",
+      "Severity": "Major",
+      "Recommended fix": "Retain the launch qualification; describe independent validation as a design goal/assumption rather than an established launch property."
+    },
+    {
+      "Slide number": 17,
+      "Element": "Fleet count and emission flow",
+      "Issue": "CORRECTED: approximately 200 fleets read as an observed count; it is a design capacity. The diagram\u2019s standard emission allocation was not distinguished from launch provider allocation.",
+      "Severity": "Major",
+      "Recommended fix": "Keep \u201cUp to 200\u201d and the design-capacity label. Keep the visible distinction between mechanism design and documented launch allocation."
+    },
+    {
+      "Slide number": "18\u201320",
+      "Element": "Deposits versus market purchases",
+      "Issue": "CORRECTED: the text equated deposits with required new market buying. Official documentation says revenue-funded purchases are expected off-chain, not enforced.",
+      "Severity": "Major",
+      "Recommended fix": "Describe token locking separately from net market purchases. Keep scenarios conditional on pricing, traffic and funding assumptions."
+    },
+    {
+      "Slide number": 20,
+      "Element": "Reserve governance",
+      "Issue": "CORRECTED: speculative spending of the existing reserve conflicted with the one-way reserve design.",
+      "Severity": "Major",
+      "Recommended fix": "State that the current reserve has no outbound transfer path. A future different architecture is not an existing holder right."
+    },
+    {
+      "Slide number": "1, 3, 7, 9\u201313, 16\u201317, 19, 21",
+      "Element": "Market and adoption evidence",
+      "Issue": "OPEN: supplied snapshots, company metrics, fees, revenue, fund-raising and peer values are not a fresh independently verified dataset. Broad publisher names are insufficient to reproduce each observation.",
+      "Severity": "Major",
+      "Recommended fix": "Attach exact source URLs, observation dates, metric definitions and archived data extracts in the evidence register. Preserve the 15 October snapshot until the entire comparison is refreshed consistently."
+    },
+    {
+      "Slide number": "1, 5, 11\u201312, 21, 23",
+      "Element": "Legal dates and planned launches",
+      "Issue": "OPEN: future court dates, unlock dates, product launches and roadmap status are retained from supplied research; this audit did not independently confirm them.",
+      "Severity": "Major",
+      "Recommended fix": "Verify each against the official docket, announcement or release. Mark plans as conditional and date the status."
+    },
+    {
+      "Slide number": 13,
+      "Element": "Private-AI and token-mechanism assertions",
+      "Issue": "OPEN: device encryption, server retention, issuance reduction, DIEM economics and buyback rate remain supplied claims with secondary attributions.",
+      "Severity": "Major",
+      "Recommended fix": "Check official product architecture, privacy policy and tokenomics. Do not conflate encrypted transport or non-retention with end-to-end confidential inference."
+    },
+    {
+      "Slide number": 15,
+      "Element": "Swap refund example and volume",
+      "Issue": "PARTLY CORRECTED: the refund example is now explicitly historical (2025). The official roadmap supports a planned linkability mitigation, not confirmation of its current rollout. The $1.5B figure remains supplied sponsored research.",
+      "Severity": "Major",
+      "Recommended fix": "Confirm the original incident and current implementation separately. Keep sponsored-research attribution for the volume claim and do not present the historical example as a newly tested current flaw."
+    },
+    {
+      "Slide number": 18,
+      "Element": "Illustrative deposit/emission threshold",
+      "Issue": "CORRECTED: the graphic could imply a calibrated crossover where operator buying exceeds emissions. No model or deposit rate was supplied.",
+      "Severity": "Major",
+      "Recommended fix": "Keep the explicit illustrative/no-calibration statement and avoid using the crossover as a quantitative forecast."
+    },
+    {
+      "Slide number": 22,
+      "Element": "End-2027 scenarios",
+      "Issue": "OPEN ASSUMPTION: bear/base/bull ranges have no supplied cash-flow or deposit-based valuation model.",
+      "Severity": "Major",
+      "Recommended fix": "Keep \u201cillustrative assumptions\u201d visible and in machine-readable outputs; supply assumptions and sensitivity analysis before treating ranges as targets."
+    },
+    {
+      "Slide number": "7, 19",
+      "Element": "Valuation causality and comparability",
+      "Issue": "OPEN INTERPRETATION: the chart cannot establish that token value capture caused different peer valuations. Market caps differ in supply, business models and risk.",
+      "Severity": "Major",
+      "Recommended fix": "Treat the comparison as context, not causal proof. The 10\u00d7 and 58\u00d7 calculations are arithmetic comparisons, not expected returns."
+    },
+    {
+      "Slide number": "All applicable slides",
+      "Element": "Project naming",
+      "Issue": "CORRECTED: mixed UR, SN25 and SN25 UR labels made the project reference inconsistent.",
+      "Severity": "Minor",
+      "Recommended fix": "Use UR (SN25) for the project. Keep the distinct URnetwork product name and technical IDs/URLs unchanged."
+    },
+    {
+      "Slide number": "7, 19",
+      "Element": "Recomputed arithmetic",
+      "Issue": "CHECKED: $22.2M + $8.4M = $30.6M; $31B / $30.6M \u2248 1,013\u00d7; $85M / $8.4M \u2248 10.1\u00d7; $486M / $8.4M \u2248 57.9\u00d7. Inputs themselves remain supplied.",
+      "Severity": "Minor",
+      "Recommended fix": "Keep rounded wording around 1,000\u00d7, 10\u00d7 and 58\u00d7; retain the snapshot date and illustrative qualification."
+    }
+  ],
+  "coverage": [
+    {
+      "slide": 1,
+      "id": "summary",
+      "title": "Privacy products are growing, but token value capture remains uneven",
+      "finding": "Summary checked against displayed claims; evidence for supplied adoption, market values and milestones remains open."
+    },
+    {
+      "slide": 2,
+      "id": "act1",
+      "title": "Privacy is becoming necessary for corporate payments",
+      "finding": "Story divider; no new quantitative assertion. Corporate confidentiality is a thesis rather than independently established universal necessity."
+    },
+    {
+      "slide": 3,
+      "id": "capital",
+      "title": "Public ledgers expose the activity behind $306B of stablecoins",
+      "finding": "Snapshot units and hierarchy checked; stablecoin totals, issuer share and quote require exact dated primary references."
+    },
+    {
+      "slide": 4,
+      "id": "founders",
+      "title": "Buterin and Durov both place privacy in core infrastructure",
+      "finding": "Founder positions and the Cloud Chat/Secret Chat distinction retained; quote provenance and user count were not independently re-verified."
+    },
+    {
+      "slide": 5,
+      "id": "policy",
+      "title": "US policy has shifted toward privacy, while developer liability remains open",
+      "finding": "Policy timeline retained; exact legal event dates and their scope remain primary-source verification tasks."
+    },
+    {
+      "slide": 6,
+      "id": "usecases",
+      "title": "Payroll and trading are the first commercial tests of confidentiality",
+      "finding": "Deployments remain company-reported; network-level correlation is supported by the study only under its stated setup."
+    },
+    {
+      "slide": 7,
+      "id": "priced",
+      "title": "Privacy demand alone does not set token value",
+      "finding": "Nym plus UR (SN25) only in the network-privacy subset; total recomputed. Peer figures and valuation causality remain unverified."
+    },
+    {
+      "slide": 8,
+      "id": "act2",
+      "title": "Token designs differ in how usage reaches holders",
+      "finding": "Story divider; no new numerical claim."
+    },
+    {
+      "slide": 9,
+      "id": "tokens",
+      "title": "Privacy tokens capture value differently",
+      "finding": "Project naming and non-comparable adoption-metric qualification checked; individual product/token claims remain supplied research."
+    },
+    {
+      "slide": 10,
+      "id": "zcash",
+      "title": "Zcash prices in future private use",
+      "finding": "Chart and prose use supplied Zcash history and fees; sponsored research attribution retained; no independent refresh."
+    },
+    {
+      "slide": 11,
+      "id": "aztec",
+      "title": "Aztec has $12M staked against $58K in user funds",
+      "finding": "Critical disclosure, staking, minting and unlock claims need exact primary sources before external reliance."
+    },
+    {
+      "slide": 12,
+      "id": "umbra",
+      "title": "Umbra\u2019s fees reach its treasury, with no automatic payout to holders",
+      "finding": "Treasury/holder distinction and supplied conditional vesting retained; primary tokenomics and adoption proof remain open."
+    },
+    {
+      "slide": 13,
+      "id": "venice",
+      "title": "Venice converts part of customer revenue into VVV buybacks",
+      "finding": "Product privacy, tokenomics and financial claims require official architecture and economics evidence."
+    },
+    {
+      "slide": 14,
+      "id": "act3",
+      "title": "UR (SN25) has users, but priced deposits have yet to begin",
+      "finding": "Naming corrected; deposit pricing is conditional. Established audience figures remain team-reported."
+    },
+    {
+      "slide": 15,
+      "id": "edges",
+      "title": "Wallet privacy can fail at network connections and cross-chain swaps",
+      "finding": "Primary TRAP paper checked; mainnet/testnet labels, unit of success, observation count and scope corrected. Historical swap case separated from current status."
+    },
+    {
+      "slide": 16,
+      "id": "mau",
+      "title": "UR (SN25) reports 350K monthly users",
+      "finding": "Sample monthly series preserved at user request with NOT FOR POSTING label; no claim that sample bars are observed history."
+    },
+    {
+      "slide": 17,
+      "id": "sn25",
+      "title": "UR (SN25) uses validator scores to reward routing capacity",
+      "finding": "Official mechanism and validator documentation checked; independence, fleet capacity and launch/design distinction corrected. Team metrics not independently verified."
+    },
+    {
+      "slide": 18,
+      "id": "operators",
+      "title": "Priced deposits could create demand for UR (SN25)",
+      "finding": "Token locking separated from new purchases; threshold explicitly illustrative; zero-rate launch distinguished from conditional priced deposits."
+    },
+    {
+      "slide": 19,
+      "id": "bull",
+      "title": "UR (SN25) would be worth 10\u00d7 at Helium\u2019s market cap and 58\u00d7 at Grass\u2019s",
+      "finding": "10\u00d7/58\u00d7 arithmetic checked from supplied inputs; deposit wording corrected. No price target or causal valuation proof."
+    },
+    {
+      "slide": 20,
+      "id": "value",
+      "title": "Operator deposits could link UR (SN25) demand to usage",
+      "finding": "One-way reserve and deposit-funding copy corrected. Precise Bittensor emission-lookback description remains a verification task."
+    },
+    {
+      "slide": 21,
+      "id": "pipeline",
+      "title": "UR (SN25)\u2019s operator roadmap extends from consumer VPNs into enterprise and AI",
+      "finding": "Research projects remain labelled; peer scale is not UR (SN25) revenue. Roadmap/admission status and addressable-market inputs need dated primary evidence."
+    },
+    {
+      "slide": 22,
+      "id": "watch",
+      "title": "Operator deposits distinguish the illustrative UR (SN25) scenarios",
+      "finding": "Scenarios remain assumptions with no supplied valuation model; nothing in this audit certifies end-2027 outcomes."
+    },
+    {
+      "slide": 23,
+      "id": "catalysts",
+      "title": "Dated events and operating signals will test the privacy thesis",
+      "finding": "Calendar combines scheduled, conditional and recurring indicators; all material future dates require official confirmation."
+    }
+  ],
+  "verdict": "Return for rework before public/client release: sample data and unresolved material evidence remain.",
+  "priorities": [
+    "Replace slide 16 sample series with verified, defined observations before publication.",
+    "Obtain primary disclosure and tokenomics evidence for slide 11.",
+    "Complete exact-source evidence for material market, adoption, revenue and future-date claims.",
+    "Keep the corrected study limitations, launch-state distinctions and conditional purchase/deposit wording.",
+    "Preserve the approved design and synchronize every export and machine-readable format."
+  ],
+  "validation": {
+    "automated": "23-slide source/export text and geometry parity, links and downloads, byline and desktop/mobile modal DOM passed.",
+    "browser": "Automated checks recorded here; post-publication browser checks are reported separately."
+  }
+}

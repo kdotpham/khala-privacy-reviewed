@@ -8,9 +8,9 @@ Release metadata: November 2, 2026 · Privacy · 15 min read.
 
 This review build contains 23 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
 
-Jack's latest pass limits slide 7's network-privacy comparison to Nym and UR. Their combined market cap is $30.6M at the supplied snapshot; the summary and valuation-gap text use that same scope. Slide footers have a dedicated clear area behind the logo in light and dark modes.
+Jack's latest pass limits slide 7's network-privacy comparison to Nym and UR (SN25). Their combined market cap is $30.6M at the supplied snapshot; the summary and valuation-gap text use that same scope. Slide footers have a dedicated clear area behind the logo in light and dark modes.
 
-Agent-readable formats are generated directly from the editable slides: `report.html` (no JavaScript required), `report.md`, `report.json`, and `llms.txt`. The main page also includes a collapsed, server-rendered full transcript and Article JSON-LD. Chart labels, tables and 149 interactive notes retain their supplied dates and qualifications. Sample data on slide 16 and illustrative scenarios on slide 22 are explicitly tagged. No new research verification is implied.
+Agent-readable formats are generated directly from the editable slides: `report.html` (no JavaScript required), `report.md`, `report.json`, and `llms.txt`. The main page also includes a collapsed, server-rendered full transcript and Article JSON-LD. Chart labels, tables and 149 interactive notes retain their supplied dates and qualifications. Sample data on slide 16 and illustrative scenarios on slide 22 are explicitly tagged. A targeted primary-source audit on 18 October checked slide 15 and UR (SN25) mechanism wording; the remaining research is not independently refreshed.
 
 **Slide 16 contains SAMPLE DATA · NOT FOR POSTING. Replace the monthly placeholders before publishing the report as final.**
 
@@ -38,4 +38,6 @@ npm run verify
 
 Deploy `dist/`, or use the root files in `github/` for GitHub Pages (`main`, `/ (root)`). Keep `.nojekyll` in the publishing root.
 
-The supplied research was not independently re-verified. The previous review table is a historical audit, not a claim that its original findings remain unresolved.
+See [the 18 October research audit](Khala-Research-Audit-2026-10-18.html), also supplied as CSV and JSON. It covers all 23 slides, records corrections and separates verified findings from unresolved evidence. Slide 15 now identifies address-to-IP linking under a controlled observer setup and labels Ethereum mainnet versus testnet. UR (SN25) was not tested by that study. Slide 17 distinguishes design from the documented launch and labels the 200-fleet figure as a capacity limit. Deposit locking is distinct from guaranteed new market purchases. The older review files are historical.
+
+Current build: `2026-10-18-audit-v7`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.

@@ -16,7 +16,7 @@
     }
   ],
   "market_data_as_of": "2026-10-15",
-  "research_status": "Supplied research; not independently re-verified in this design pass.",
+  "research_status": "Targeted primary-source audit on 2026-10-18 checked slide 15 and UR (SN25) mechanism wording. Other market, adoption and milestone figures remain supplied research, not independently re-verified.",
   "sample_data_slide_numbers": [
     16
   ],
@@ -37,10 +37,10 @@
       "paragraphs": [
         "Executive summary",
         "Privacy products are growing, but token value capture remains uneven",
-        "1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR, the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 SN25 has a user base, with token demand still conditional URnetwork reports 350K monthly users. SN25 demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)",
-        "Catalysts to watch First operator deposit on SN25 Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027"
+        "1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)",
+        "Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027"
       ],
-      "text": "Executive summary\nPrivacy products are growing, but token value capture remains uneven\n1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR, the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 SN25 has a user base, with token demand still conditional URnetwork reports 350K monthly users. SN25 demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)\nCatalysts to watch First operator deposit on SN25 Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
+      "text": "Executive summary\nPrivacy products are growing, but token value capture remains uneven\n1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -485,7 +485,7 @@
               "Private connectivity URnetwork live; others building",
               "IP addresses and who is talking to whom",
               "URnetwork’s VPN reports about 350K monthly users (team-reported); NymVPN runs on the Nym mixnet",
-              "SN25 UR Nym Orchid Sentinel Mysterium"
+              "UR (SN25) Nym Orchid Sentinel Mysterium"
             ],
             [
               "Programmable privacy Building",
@@ -536,12 +536,12 @@
         "Privacy demand alone does not set token value",
         "Zcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.",
         "Grass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.",
-        "The network-privacy comparison includes Nym and UR."
+        "The network-privacy comparison includes Nym and UR (SN25)."
       ],
-      "text": "Privacy demand alone does not set token value\nZcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.\nGrass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.\nThe network-privacy comparison includes Nym and UR.",
+      "text": "Privacy demand alone does not set token value\nZcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.\nGrass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.\nThe network-privacy comparison includes Nym and UR (SN25).",
       "charts": [
         {
-          "description": "Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR only.",
+          "description": "Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.",
           "labels": [
             "1M",
             "10M",
@@ -679,10 +679,10 @@
       "warnings": [],
       "paragraphs": [
         "Privacy tokens capture value differently",
-        "Zcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR supplies network connectivity.",
+        "Zcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR (SN25) supplies network connectivity.",
         "These products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals."
       ],
-      "text": "Privacy tokens capture value differently\nZcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR supplies network connectivity.\nThese products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals.",
+      "text": "Privacy tokens capture value differently\nZcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR (SN25) supplies network connectivity.\nThese products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals.",
       "charts": [],
       "tables": [
         {
@@ -693,7 +693,7 @@
               "Aztec",
               "Umbra",
               "Venice",
-              "SN25 UR New"
+              "UR (SN25) New"
             ],
             [
               "What it produces",
@@ -725,7 +725,7 @@
               "Fee + stake AZTEC pays fees and supports staking. Congestion fees burn.",
               "Governance UMBRA governs its treasury. There is no automatic buyback or dividend.",
               "Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV.",
-              "Conditional Operators can deposit UR. The rate is zero at launch, so buying is not enforced."
+              "Conditional Operators can deposit UR (SN25). The rate is zero at launch, so buying is not enforced."
             ]
           ]
         }
@@ -752,7 +752,7 @@
           "source": ""
         },
         {
-          "label": "SN25 UR",
+          "label": "UR (SN25)",
           "description": "Bandwidth and routing marketplace: independent providers carry traffic, validators score performance",
           "source": ""
         },
@@ -777,7 +777,7 @@
           "source": ""
         },
         {
-          "label": "SN25 UR",
+          "label": "UR (SN25)",
           "description": "350K+ monthly URnetwork app users (team-reported, off-chain)",
           "source": ""
         },
@@ -802,8 +802,8 @@
           "source": ""
         },
         {
-          "label": "SN25 UR",
-          "description": "Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue",
+          "label": "UR (SN25)",
+          "description": "Customers pay operators; URnetwork's UR (SN25) Pro subscription is operator revenue, not automatically subnet revenue",
           "source": ""
         },
         {
@@ -827,8 +827,8 @@
           "source": ""
         },
         {
-          "label": "SN25 UR",
-          "description": "UR alpha funds emissions and locked operator deposits, which can be zero; buys not enforced",
+          "label": "UR (SN25)",
+          "description": "UR (SN25) alpha funds emissions and locked operator deposits, which can be zero; buys not enforced",
           "source": ""
         }
       ]
@@ -1220,26 +1220,26 @@
     {
       "slide_number": 14,
       "id": "act3",
-      "title": "UR has users, but operator demand for SN25 has yet to begin",
+      "title": "UR (SN25) has users, but priced deposits have yet to begin",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#act3",
       "kind": "section_divider",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "UR has users, but operator demand for SN25 has yet to begin",
+        "UR (SN25) has users, but priced deposits have yet to begin",
         "An established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.",
         "In this section",
         "Where privacy leaks 15",
         "URnetwork users 16",
-        "How SN25 works 17",
-        "Operators as SN25 buyers 18",
+        "How UR (SN25) works 17",
+        "Operators as UR (SN25) buyers 18",
         "The bull case 19",
-        "How value reaches UR 20",
-        "UR can host operators in billion-dollar enterprise and AI-agent markets 21",
+        "How value reaches UR (SN25) 20",
+        "UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 21",
         "What to watch 22",
         "Catalysts across all five 23"
       ],
-      "text": "UR has users, but operator demand for SN25 has yet to begin\nAn established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.\nIn this section\nWhere privacy leaks 15\nURnetwork users 16\nHow SN25 works 17\nOperators as SN25 buyers 18\nThe bull case 19\nHow value reaches UR 20\nUR can host operators in billion-dollar enterprise and AI-agent markets 21\nWhat to watch 22\nCatalysts across all five 23",
+      "text": "UR (SN25) has users, but priced deposits have yet to begin\nAn established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.\nIn this section\nWhere privacy leaks 15\nURnetwork users 16\nHow UR (SN25) works 17\nOperators as UR (SN25) buyers 18\nThe bull case 19\nHow value reaches UR (SN25) 20\nUR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 21\nWhat to watch 22\nCatalysts across all five 23",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -1251,14 +1251,17 @@
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#edges",
       "kind": "content",
       "data_status": "supplied_research",
-      "warnings": [],
+      "warnings": [
+        "Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested."
+      ],
       "paragraphs": [
         "Wallet privacy can fail at network connections and cross-chain swaps",
-        "Controlled tests matched 95–98% of wallet traffic to IP addresses. Bitcoin and Solana tests used testnets. Cross-chain refunds expose a separate timing link.",
-        "Crossings leak: the swap route into private Zcash",
-        "Connections leak: wallet users a passive observer identified"
+        "A 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.",
+        "Swap boundaries: a historical refund-linking example (2025)",
+        "RPC traffic: address-to-IP linking in controlled tests",
+        "Researcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection."
       ],
-      "text": "Wallet privacy can fail at network connections and cross-chain swaps\nControlled tests matched 95–98% of wallet traffic to IP addresses. Bitcoin and Solana tests used testnets. Cross-chain refunds expose a separate timing link.\nCrossings leak: the swap route into private Zcash\nConnections leak: wallet users a passive observer identified",
+      "text": "Wallet privacy can fail at network connections and cross-chain swaps\nA 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.\nSwap boundaries: a historical refund-linking example (2025)\nRPC traffic: address-to-IP linking in controlled tests\nResearcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection.",
       "charts": [
         {
           "description": "Swap route into shielded ZEC and where it leaked",
@@ -1294,9 +1297,9 @@
               "source": ""
             },
             {
-              "label": "The refund leak",
-              "description": "ZachXBT showed in October 2025 that a refund went back to the transparent address the funds came from, so an observer could match timing and amounts. Zashi committed to one-time addresses and shielded refunds.",
-              "source": "Cryptopolitan, 21 October 2025"
+              "label": "Historical refund example (2025)",
+              "description": "A reported transparent-address refund illustrated swap-boundary linkability. ECC’s Q4 2025 roadmap proposed ephemeral addresses to reduce linkability; this slide does not establish the current implementation’s status.",
+              "source": "ECC Q4 2025 roadmap: https://zodl.com/ecc-roadmap-q4-2025/; original incident supplied via Cryptopolitan, 21 October 2025"
             },
             {
               "label": "$1.5B+ through NEAR Intents",
@@ -1306,40 +1309,44 @@
           ]
         },
         {
-          "description": "Deanonymisation success rate",
+          "description": "Controlled TRAP experiments: wallet-address-to-IP linking success, by blockchain and network",
           "labels": [
             "0%",
             "50%",
             "100%",
             "Ethereum mainnet",
+            "MetaMask · 3 observations",
             "95.3%",
-            "Ethereum, MetaMask",
+            "Ethereum testnet",
+            "MetaMask · 3 observations",
             "96.8%",
-            "Bitcoin, Electrum",
+            "Bitcoin testnet",
+            "Electrum · 4 observations",
             "97.7%",
-            "Solana, Torus",
+            "Solana testnet",
+            "Torus · 4 observations",
             "96.6%"
           ],
           "details": [
             {
-              "label": "Ethereum mainnet: 95.3%",
-              "description": "Mainnet attack on Ethereum RPC users over three rounds.",
-              "source": "Wang et al., arXiv 2508.21440"
+              "label": "Ethereum mainnet: 95.33%",
+              "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
             },
             {
-              "label": "Ethereum, MetaMask: 96.8%",
-              "description": "Real-world experiment.",
-              "source": "Wang et al., arXiv 2508.21440"
+              "label": "Ethereum testnet: 96.80%",
+              "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
             },
             {
-              "label": "Bitcoin, Electrum: 97.7%",
-              "description": "Testnet experiment; Electrum assigned CVE-2025-43968.",
-              "source": "Wang et al., arXiv 2508.21440"
+              "label": "Bitcoin testnet: 97.70%",
+              "description": "Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
             },
             {
-              "label": "Solana, Torus: 96.6%",
-              "description": "Testnet experiment.",
-              "source": "Wang et al., arXiv 2508.21440"
+              "label": "Solana testnet: 96.58%",
+              "description": "Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
             }
           ]
         }
@@ -1362,9 +1369,9 @@
           "source": ""
         },
         {
-          "label": "The refund leak",
-          "description": "ZachXBT showed in October 2025 that a refund went back to the transparent address the funds came from, so an observer could match timing and amounts. Zashi committed to one-time addresses and shielded refunds.",
-          "source": "Cryptopolitan, 21 October 2025"
+          "label": "Historical refund example (2025)",
+          "description": "A reported transparent-address refund illustrated swap-boundary linkability. ECC’s Q4 2025 roadmap proposed ephemeral addresses to reduce linkability; this slide does not establish the current implementation’s status.",
+          "source": "ECC Q4 2025 roadmap: https://zodl.com/ecc-roadmap-q4-2025/; original incident supplied via Cryptopolitan, 21 October 2025"
         },
         {
           "label": "$1.5B+ through NEAR Intents",
@@ -1372,31 +1379,31 @@
           "source": "CoinDesk Research, sponsored by GenZcash"
         },
         {
-          "label": "Ethereum mainnet: 95.3%",
-          "description": "Mainnet attack on Ethereum RPC users over three rounds.",
-          "source": "Wang et al., arXiv 2508.21440"
+          "label": "Ethereum mainnet: 95.33%",
+          "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
         },
         {
-          "label": "Ethereum, MetaMask: 96.8%",
-          "description": "Real-world experiment.",
-          "source": "Wang et al., arXiv 2508.21440"
+          "label": "Ethereum testnet: 96.80%",
+          "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
         },
         {
-          "label": "Bitcoin, Electrum: 97.7%",
-          "description": "Testnet experiment; Electrum assigned CVE-2025-43968.",
-          "source": "Wang et al., arXiv 2508.21440"
+          "label": "Bitcoin testnet: 97.70%",
+          "description": "Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
         },
         {
-          "label": "Solana, Torus: 96.6%",
-          "description": "Testnet experiment.",
-          "source": "Wang et al., arXiv 2508.21440"
+          "label": "Solana testnet: 96.58%",
+          "description": "Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
         }
       ]
     },
     {
       "slide_number": 16,
       "id": "mau",
-      "title": "UR reports 350K monthly users",
+      "title": "UR (SN25) reports 350K monthly users",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
       "kind": "content",
       "data_status": "sample_not_for_publication",
@@ -1404,14 +1411,14 @@
         "SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported."
       ],
       "paragraphs": [
-        "UR reports 350K monthly users",
+        "UR (SN25) reports 350K monthly users",
         "URnetwork’s monthly user growth, shown here with placeholder data pending the verified series.",
         "126,717 providers across 103 countries",
-        "The user base already exists while the deposit rate is set at zero for launch, so the open question for SN25 is pricing rather than demand.",
+        "The user base already exists while the deposit rate is set at zero for launch, so the open question for UR (SN25) is pricing rather than demand.",
         "The bars illustrate the intended chart layout. Replace the sample monthly values before publication.",
         "SAMPLE DATA · NOT FOR POSTING"
       ],
-      "text": "UR reports 350K monthly users\nURnetwork’s monthly user growth, shown here with placeholder data pending the verified series.\n126,717 providers across 103 countries\nThe user base already exists while the deposit rate is set at zero for launch, so the open question for SN25 is pricing rather than demand.\nThe bars illustrate the intended chart layout. Replace the sample monthly values before publication.\nSAMPLE DATA · NOT FOR POSTING",
+      "text": "UR (SN25) reports 350K monthly users\nURnetwork’s monthly user growth, shown here with placeholder data pending the verified series.\n126,717 providers across 103 countries\nThe user base already exists while the deposit rate is set at zero for launch, so the open question for UR (SN25) is pricing rather than demand.\nThe bars illustrate the intended chart layout. Replace the sample monthly values before publication.\nSAMPLE DATA · NOT FOR POSTING",
       "charts": [
         {
           "description": "Placeholder monthly active users chart. Sample data, not for posting.",
@@ -1426,7 +1433,7 @@
             "1 JUL 2026",
             "265K",
             "1 AUG 2026",
-            "UR launches on Bittensor SN25",
+            "UR (SN25) launches on Bittensor UR (SN25)",
             "300K",
             "1 SEP 2026",
             "330K",
@@ -1525,23 +1532,25 @@
     {
       "slide_number": 17,
       "id": "sn25",
-      "title": "UR pays miners for routing capacity that validators independently measure",
+      "title": "UR (SN25) uses validator scores to reward routing capacity",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sn25",
       "kind": "content",
       "data_status": "supplied_research",
-      "warnings": [],
+      "warnings": [
+        "Design is distinct from launch: the documented launch has a UR-run operator and sole validator. The 200-fleet figure is a design cap."
+      ],
       "paragraphs": [
-        "UR pays miners for routing capacity that validators independently measure",
-        "Customers pay operators. Validators measure miners. The dashed operator-deposit link remains inactive while the rate is zero.",
+        "UR (SN25) uses validator scores to reward routing capacity",
+        "Mechanism design shown below. Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.",
         "126,717 Providers on URnetwork (team-reported)",
         "103 Countries covered (team-reported)",
-        "~200 Top-level miner fleets, ranked by distinct exit IPs",
-        "$8.4M SN25 market cap, mid-October 2026"
+        "Up to 200 Top-level fleet capacity in the design; not a live count",
+        "$8.4M UR (SN25) market cap, mid-October 2026"
       ],
-      "text": "UR pays miners for routing capacity that validators independently measure\nCustomers pay operators. Validators measure miners. The dashed operator-deposit link remains inactive while the rate is zero.\n126,717 Providers on URnetwork (team-reported)\n103 Countries covered (team-reported)\n~200 Top-level miner fleets, ranked by distinct exit IPs\n$8.4M SN25 market cap, mid-October 2026",
+      "text": "UR (SN25) uses validator scores to reward routing capacity\nMechanism design shown below. Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.\n126,717 Providers on URnetwork (team-reported)\n103 Countries covered (team-reported)\nUp to 200 Top-level fleet capacity in the design; not a live count\n$8.4M UR (SN25) market cap, mid-October 2026",
       "charts": [
         {
-          "description": "How SN25 works",
+          "description": "How UR (SN25) works",
           "labels": [
             "Customers",
             "Privacy apps and VPN users",
@@ -1551,7 +1560,7 @@
             "Route encrypted traffic",
             "Subnet reserve",
             "Operator deposits held here",
-            "SN25 emissions",
+            "UR (SN25) emissions",
             "Miners 41% · validators 41% Owner 18%",
             "Validators",
             "Re-measure paths, score pools",
@@ -1560,38 +1569,38 @@
             "measure",
             "weights",
             "pay for measured capacity",
-            "operators deposit UR against expected traffic"
+            "operators deposit UR (SN25) against expected traffic"
           ],
           "details": [
             {
               "label": "Customers",
               "description": "Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN.",
-              "source": "UR litepaper"
+              "source": "UR (SN25) litepaper"
             },
             {
               "label": "Network operators",
               "description": "Operators run privacy servers and a verification endpoint and decide how rewards split among their miners.",
-              "source": "UR litepaper"
+              "source": "UR (SN25) litepaper"
             },
             {
               "label": "Miners",
-              "description": "Pool-tier miners join operators; about 200 top-level fleets hold their own slots, ranked by distinct routable exit IPs.",
-              "source": "UR litepaper"
+              "description": "Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets.",
+              "source": "https://github.com/urfoundation/sn#two-miner-tiers-in-parallel"
             },
             {
               "label": "Subnet reserve",
               "description": "Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period.",
-              "source": "UR litepaper"
+              "source": "UR (SN25) litepaper"
             },
             {
-              "label": "SN25 emissions",
-              "description": "Bittensor emits UR each cycle: 18% to the subnet owner, 41% to miners and 41% to validators. Settlement runs on a seven-day cycle.",
-              "source": "UR litepaper"
+              "label": "UR (SN25) emissions",
+              "description": "18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout.",
+              "source": "https://github.com/urfoundation/sn#emission--yuma-consensus"
             },
             {
               "label": "Validators",
-              "description": "Validators stake UR and score both miner tiers each cycle under commit-reveal. At launch the subnet owner is the largest validator by stake.",
-              "source": "UR litepaper"
+              "description": "Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool.",
+              "source": "https://github.com/urfoundation/sn/blob/main/VALIDATOR.md"
             }
           ]
         }
@@ -1601,53 +1610,53 @@
         {
           "label": "Customers",
           "description": "Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN.",
-          "source": "UR litepaper"
+          "source": "UR (SN25) litepaper"
         },
         {
           "label": "Network operators",
           "description": "Operators run privacy servers and a verification endpoint and decide how rewards split among their miners.",
-          "source": "UR litepaper"
+          "source": "UR (SN25) litepaper"
         },
         {
           "label": "Miners",
-          "description": "Pool-tier miners join operators; about 200 top-level fleets hold their own slots, ranked by distinct routable exit IPs.",
-          "source": "UR litepaper"
+          "description": "Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets.",
+          "source": "https://github.com/urfoundation/sn#two-miner-tiers-in-parallel"
         },
         {
           "label": "Subnet reserve",
           "description": "Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period.",
-          "source": "UR litepaper"
+          "source": "UR (SN25) litepaper"
         },
         {
-          "label": "SN25 emissions",
-          "description": "Bittensor emits UR each cycle: 18% to the subnet owner, 41% to miners and 41% to validators. Settlement runs on a seven-day cycle.",
-          "source": "UR litepaper"
+          "label": "UR (SN25) emissions",
+          "description": "18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout.",
+          "source": "https://github.com/urfoundation/sn#emission--yuma-consensus"
         },
         {
           "label": "Validators",
-          "description": "Validators stake UR and score both miner tiers each cycle under commit-reveal. At launch the subnet owner is the largest validator by stake.",
-          "source": "UR litepaper"
+          "description": "Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool.",
+          "source": "https://github.com/urfoundation/sn/blob/main/VALIDATOR.md"
         }
       ]
     },
     {
       "slide_number": 18,
       "id": "operators",
-      "title": "Priced deposits would create demand for SN25",
+      "title": "Priced deposits could create demand for UR (SN25)",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#operators",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Priced deposits would create demand for SN25",
-        "If deposits are priced, operators would acquire and lock SN25 against the users and data they serve. The rate is currently zero.",
-        "Above the dotted line, operators buy more SN25 than miners receive in emissions.",
-        "Deposits sit in a reserve that never pays out, so every unit purchased leaves circulating supply permanently. Where the line sits depends on the reference rate UR sets."
+        "Priced deposits could create demand for UR (SN25)",
+        "Priced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.",
+        "Illustrative only: above the dotted line, assumed deposits exceed miner emissions. No deposit-rate calibration is supplied.",
+        "The reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase."
       ],
-      "text": "Priced deposits would create demand for SN25\nIf deposits are priced, operators would acquire and lock SN25 against the users and data they serve. The rate is currently zero.\nAbove the dotted line, operators buy more SN25 than miners receive in emissions.\nDeposits sit in a reserve that never pays out, so every unit purchased leaves circulating supply permanently. Where the line sits depends on the reference rate UR sets.",
+      "text": "Priced deposits could create demand for UR (SN25)\nPriced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.\nIllustrative only: above the dotted line, assumed deposits exceed miner emissions. No deposit-rate calibration is supplied.\nThe reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase.",
       "charts": [
         {
-          "description": "SN25 demand by number of operators",
+          "description": "UR (SN25) demand by number of operators",
           "labels": [
             "MINER EMISSIONS",
             "ur.io",
@@ -1673,53 +1682,53 @@
           "details": [
             {
               "label": "ur.io",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "ur.io",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "vpn.dev",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "ww.dev",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "ur.io",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "vpn.dev",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "ww.dev",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "Operator 4",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "Operator 5",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             },
             {
               "label": "Operator N",
-              "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-              "source": "Illustrative"
+              "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+              "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
             }
           ]
         }
@@ -1728,82 +1737,82 @@
       "hover_details": [
         {
           "label": "ur.io",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "ur.io",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "vpn.dev",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "ww.dev",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "ur.io",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "vpn.dev",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "ww.dev",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "Operator 4",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "Operator 5",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         },
         {
           "label": "Operator N",
-          "description": "Acquires and locks SN25 in proportion to the users and data it serves, once deposits are priced.",
-          "source": "Illustrative"
+          "description": "Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used.",
+          "source": "Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
         }
       ]
     },
     {
       "slide_number": 19,
       "id": "bull",
-      "title": "SN25 would be worth 10× at Helium’s market cap and 58× at Grass’s",
+      "title": "UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "SN25 would be worth 10× at Helium’s market cap and 58× at Grass’s",
-        "The 15 October 2026 snapshot puts UR at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.",
-        "A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR, a gap of around 1,000 times.",
-        "A product already in market URnetwork, the VPN that SN25 supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
-        "Demand linked to usage Once the deposit rate rises above zero, operators must acquire and permanently lock UR in proportion to their traffic, converting customer growth into token demand. Until then, TAO inflows fund supply.",
-        "What UR would be worth at its peers’ market caps"
+        "UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s",
+        "The 15 October 2026 snapshot puts UR (SN25) at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.",
+        "A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.",
+        "A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
+        "Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.",
+        "What UR (SN25) would be worth at its peers’ market caps"
       ],
-      "text": "SN25 would be worth 10× at Helium’s market cap and 58× at Grass’s\nThe 15 October 2026 snapshot puts UR at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.\nA wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR, a gap of around 1,000 times.\nA product already in market URnetwork, the VPN that SN25 supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.\nDemand linked to usage Once the deposit rate rises above zero, operators must acquire and permanently lock UR in proportion to their traffic, converting customer growth into token demand. Until then, TAO inflows fund supply.\nWhat UR would be worth at its peers’ market caps",
+      "text": "UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s\nThe 15 October 2026 snapshot puts UR (SN25) at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.\nA wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.\nA product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.\nDemand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.\nWhat UR (SN25) would be worth at its peers’ market caps",
       "charts": [
         {
-          "description": "UR market cap against peers",
+          "description": "UR (SN25) market cap against peers",
           "labels": [
             "$1M",
             "$10M",
             "$100M",
             "$1B",
-            "UR snapshot",
+            "UR (SN25) snapshot",
             "$8.4M",
             "Nym",
             "$22.2M",
@@ -1817,8 +1826,8 @@
           ],
           "details": [
             {
-              "label": "UR today: ~$8.4M",
-              "description": "SN25 market cap, mid-October 2026.",
+              "label": "UR (SN25) today: ~$8.4M",
+              "description": "UR (SN25) market cap, mid-October 2026.",
               "source": "CoinGecko and MEXC, 15 October 2026"
             },
             {
@@ -1843,22 +1852,22 @@
       "hover_details": [
         {
           "label": "A wide valuation gap",
-          "description": "Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR, a gap of around 1,000 times.",
+          "description": "Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.",
           "source": ""
         },
         {
           "label": "A product already in market",
-          "description": "URnetwork, the VPN that SN25 supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
+          "description": "URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
           "source": ""
         },
         {
           "label": "Demand linked to usage",
-          "description": "Once the deposit rate rises above zero, operators must acquire and permanently lock UR in proportion to their traffic, converting customer growth into token demand. Until then, TAO inflows fund supply.",
-          "source": ""
+          "description": "If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.",
+          "source": "https://github.com/urfoundation/sn"
         },
         {
-          "label": "UR today: ~$8.4M",
-          "description": "SN25 market cap, mid-October 2026.",
+          "label": "UR (SN25) today: ~$8.4M",
+          "description": "UR (SN25) market cap, mid-October 2026.",
           "source": "CoinGecko and MEXC, 15 October 2026"
         },
         {
@@ -1881,29 +1890,29 @@
     {
       "slide_number": 20,
       "id": "value",
-      "title": "Operator deposits could turn UR usage into lasting SN25 demand",
+      "title": "Operator deposits could link UR (SN25) demand to usage",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#value",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Operator deposits could turn UR usage into lasting SN25 demand",
-        "TAO inflows and sector interest support SN25 today. Priced operator deposits would add demand by locking UR against network traffic.",
-        "How value reaches SN25, most likely first",
+        "Operator deposits could link UR (SN25) demand to usage",
+        "TAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.",
+        "How value reaches UR (SN25), most likely first",
         "1",
-        "TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into SN25 lifts emissions and alpha demand.",
+        "TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.",
         "Live since November 2025",
         "2",
-        "Sector re-rating SN25 trades as Bittensor's privacy exposure while capital rotates into the category.",
+        "Sector re-rating UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category.",
         "Live",
         "3",
-        "Operator deposits Operators acquire UR to deposit against traffic, and deposits stay in the reserve rather than returning to circulation.",
+        "Operator deposits Priced deposits lock tokens against traffic; fresh market purchases are expected, not enforced.",
         "Rate set to zero at launch",
         "4",
-        "Reserve governance Future onchain governance could direct how the reserve is used.",
-        "Speculative; no proposal"
+        "Reserve governance The current reserve has no outbound transfer path; a different future architecture is not a present holder right.",
+        "Current reserve design"
       ],
-      "text": "Operator deposits could turn UR usage into lasting SN25 demand\nTAO inflows and sector interest support SN25 today. Priced operator deposits would add demand by locking UR against network traffic.\nHow value reaches SN25, most likely first\n1\nTAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into SN25 lifts emissions and alpha demand.\nLive since November 2025\n2\nSector re-rating SN25 trades as Bittensor's privacy exposure while capital rotates into the category.\nLive\n3\nOperator deposits Operators acquire UR to deposit against traffic, and deposits stay in the reserve rather than returning to circulation.\nRate set to zero at launch\n4\nReserve governance Future onchain governance could direct how the reserve is used.\nSpeculative; no proposal",
+      "text": "Operator deposits could link UR (SN25) demand to usage\nTAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.\nHow value reaches UR (SN25), most likely first\n1\nTAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.\nLive since November 2025\n2\nSector re-rating UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category.\nLive\n3\nOperator deposits Priced deposits lock tokens against traffic; fresh market purchases are expected, not enforced.\nRate set to zero at launch\n4\nReserve governance The current reserve has no outbound transfer path; a different future architecture is not a present holder right.\nCurrent reserve design",
       "charts": [
         {
           "description": "Who pays and where value accrues",
@@ -1922,9 +1931,9 @@
             "neither side captures it",
             "Issuer economics",
             "captured by issuers: USAD, Bron",
-            "UR today",
+            "UR (SN25) today",
             "operator deposits",
-            "UR if operators pay"
+            "UR (SN25) if operators pay"
           ],
           "details": [
             {
@@ -1948,13 +1957,13 @@
               "source": ""
             },
             {
-              "label": "UR today",
-              "description": "Bittensor emissions pay for supply and value reaches SN25 through TAO inflows; no customer fees reach the token yet.",
+              "label": "UR (SN25) today",
+              "description": "Bittensor emissions pay for supply and value reaches UR (SN25) through TAO inflows; no customer fees reach the token yet.",
               "source": ""
             },
             {
-              "label": "UR if operators pay",
-              "description": "Operators acquire UR to deposit against real traffic, so customer demand reaches the token.",
+              "label": "UR (SN25) if operators pay",
+              "description": "Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token.",
               "source": ""
             }
           ]
@@ -1983,53 +1992,53 @@
           "source": ""
         },
         {
-          "label": "UR today",
-          "description": "Bittensor emissions pay for supply and value reaches SN25 through TAO inflows; no customer fees reach the token yet.",
+          "label": "UR (SN25) today",
+          "description": "Bittensor emissions pay for supply and value reaches UR (SN25) through TAO inflows; no customer fees reach the token yet.",
           "source": ""
         },
         {
-          "label": "UR if operators pay",
-          "description": "Operators acquire UR to deposit against real traffic, so customer demand reaches the token.",
+          "label": "UR (SN25) if operators pay",
+          "description": "Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token.",
           "source": ""
         },
         {
           "label": "TAO inflows",
-          "description": "Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into SN25 lifts emissions and alpha demand.",
-          "source": "UR litepaper; FalconX"
+          "description": "Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.",
+          "source": "UR (SN25) litepaper; FalconX"
         },
         {
           "label": "Sector re-rating",
-          "description": "SN25 trades as Bittensor's privacy exposure while capital rotates into the category.",
-          "source": "UR litepaper; FalconX"
+          "description": "UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category.",
+          "source": "UR (SN25) litepaper; FalconX"
         },
         {
           "label": "Operator deposits",
-          "description": "Operators acquire UR to deposit against traffic, and deposits stay in the reserve rather than returning to circulation.",
-          "source": "UR litepaper; FalconX"
+          "description": "Priced deposits lock tokens against traffic; purchases from revenue are expected off-chain, not enforced. The current reserve has no outbound transfer path.",
+          "source": "https://github.com/urfoundation/sn"
         },
         {
           "label": "Reserve governance",
-          "description": "Future onchain governance could direct how the reserve is used.",
-          "source": "UR litepaper; FalconX"
+          "description": "The existing reserve has no outbound transfer function. Any different future reserve model would require a separate architecture; it is not a present spending right.",
+          "source": "https://github.com/urfoundation/sn"
         }
       ]
     },
     {
       "slide_number": 21,
       "id": "pipeline",
-      "title": "UR’s operator roadmap extends from consumer VPNs into enterprise and AI",
+      "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "UR’s operator roadmap extends from consumer VPNs into enterprise and AI",
-        "ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR revenue.",
+        "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
+        "ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR (SN25) revenue.",
         "Operators can share the miner fleet, although additional traffic still creates operating costs.",
         "AI agents are routinely blocked by bot controls and data-centre IP detection, and residential routes are what let them reach the open web.",
-        "If these programmes become paying operators, their traffic could create SN25 demand once deposits are priced."
+        "If these programmes become paying operators, their traffic could create UR (SN25) demand once deposits are priced."
       ],
-      "text": "UR’s operator roadmap extends from consumer VPNs into enterprise and AI\nur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR revenue.\nOperators can share the miner fleet, although additional traffic still creates operating costs.\nAI agents are routinely blocked by bot controls and data-centre IP detection, and residential routes are what let them reach the open web.\nIf these programmes become paying operators, their traffic could create SN25 demand once deposits are priced.",
+      "text": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI\nur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR (SN25) revenue.\nOperators can share the miner fleet, although additional traffic still creates operating costs.\nAI agents are routinely blocked by bot controls and data-centre IP detection, and residential routes are what let them reach the open web.\nIf these programmes become paying operators, their traffic could create UR (SN25) demand once deposits are priced.",
       "charts": [],
       "tables": [
         {
@@ -2037,7 +2046,7 @@
             [
               "Operator",
               "Market",
-              "What it does on UR",
+              "What it does on UR (SN25)",
               "Market reference and metric"
             ],
             [
@@ -2104,7 +2113,7 @@
     {
       "slide_number": 22,
       "id": "watch",
-      "title": "Operator deposits distinguish the illustrative SN25 scenarios",
+      "title": "Operator deposits distinguish the illustrative UR (SN25) scenarios",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#watch",
       "kind": "content",
       "data_status": "illustrative_scenarios",
@@ -2112,11 +2121,11 @@
         "End-2027 scenario ranges are illustrative assumptions, not forecasts or a supplied valuation model."
       ],
       "paragraphs": [
-        "Operator deposits distinguish the illustrative SN25 scenarios",
+        "Operator deposits distinguish the illustrative UR (SN25) scenarios",
         "End-2027 market-cap ranges are illustrative assumptions. No cash-flow or deposit-based valuation model is supplied. The axis is logarithmic, in USD.",
         "The number to watch Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions."
       ],
-      "text": "Operator deposits distinguish the illustrative SN25 scenarios\nEnd-2027 market-cap ranges are illustrative assumptions. No cash-flow or deposit-based valuation model is supplied. The axis is logarithmic, in USD.\nThe number to watch Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions.",
+      "text": "Operator deposits distinguish the illustrative UR (SN25) scenarios\nEnd-2027 market-cap ranges are illustrative assumptions. No cash-flow or deposit-based valuation model is supplied. The axis is logarithmic, in USD.\nThe number to watch Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions.",
       "charts": [],
       "tables": [
         {
@@ -2141,7 +2150,7 @@
             ],
             [
               "Bear",
-              "The deposit rate stays at zero, there is still one operator, and TAO flows out of SN25.",
+              "The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25).",
               "$2M to $5M",
               "0.24× to 0.60×"
             ]
@@ -2161,7 +2170,7 @@
         },
         {
           "label": "Bear: $2M to $5M market cap",
-          "description": "The deposit rate stays at zero, there is still one operator, and TAO flows out of SN25. Signal to watch: net tao flow into sn25, negative three months running.",
+          "description": "The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). Signal to watch: net tao flow into sn25, negative three months running.",
           "source": "Khala Research, illustrative"
         }
       ]
@@ -2215,9 +2224,9 @@
             ],
             [
               "When priced",
-              "SN25 UR",
+              "UR (SN25)",
               "First operator deposit",
-              "Turns users into SN25 buying; the rate is set at zero for launch"
+              "Turns users into UR (SN25) buying; the rate is set at zero for launch"
             ],
             [
               "Quarterly",
@@ -2256,8 +2265,8 @@
           "source": ""
         },
         {
-          "label": "SN25 UR: First operator deposit",
-          "description": "Turns users into SN25 buying; the rate is set at zero for launch",
+          "label": "UR (SN25): First operator deposit",
+          "description": "Turns users into UR (SN25) buying; the rate is set at zero for launch",
           "source": ""
         },
         {
