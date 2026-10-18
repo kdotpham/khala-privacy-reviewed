@@ -78,13 +78,13 @@
       "warnings": [],
       "paragraphs": [
         "Public ledgers expose the activity behind $306B of stablecoins",
-        "That exceeds crypto ETFs, DeFi and tokenised assets combined, and every transfer, balance and counterparty relationship is visible to anyone.",
+        "That exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.",
         "Once an address is linked to a company, its payroll, supplier terms and treasury positions become public record.",
         "Tether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.",
         "At this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.",
         "“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026"
       ],
-      "text": "Public ledgers expose the activity behind $306B of stablecoins\nThat exceeds crypto ETFs, DeFi and tokenised assets combined, and every transfer, balance and counterparty relationship is visible to anyone.\nOnce an address is linked to a company, its payroll, supplier terms and treasury positions become public record.\nTether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.\nAt this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.\n“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026",
+      "text": "Public ledgers expose the activity behind $306B of stablecoins\nThat exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.\nOnce an address is linked to a company, its payroll, supplier terms and treasury positions become public record.\nTether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.\nAt this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.\n“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026",
       "charts": [
         {
           "description": "Capital in selected onchain financial products, by component",
@@ -725,7 +725,7 @@
               "Fee + stake AZTEC pays fees and supports staking. Congestion fees burn.",
               "Governance UMBRA governs its treasury. There is no automatic buyback or dividend.",
               "Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV.",
-              "Conditional Operators can deposit UR (SN25). The rate is zero at launch, so buying is not enforced."
+              "Conditional Operators can deposit UR (SN25). Deposits are not required at the zero launch rate; new buying is not guaranteed."
             ]
           ]
         }
@@ -803,7 +803,7 @@
         },
         {
           "label": "UR (SN25)",
-          "description": "Customers pay operators; URnetwork's UR (SN25) Pro subscription is operator revenue, not automatically subnet revenue",
+          "description": "Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue",
           "source": ""
         },
         {
@@ -1677,7 +1677,7 @@
             "Operator N",
             "N operators",
             "AT SCALE",
-            "any operator can join"
+            "additional operators"
           ],
           "details": [
             {
@@ -1963,7 +1963,7 @@
             },
             {
               "label": "UR (SN25) if operators pay",
-              "description": "Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token.",
+              "description": "Priced deposits would lock tokens against traffic; new market buying is expected, not enforced.",
               "source": ""
             }
           ]
@@ -1998,7 +1998,7 @@
         },
         {
           "label": "UR (SN25) if operators pay",
-          "description": "Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token.",
+          "description": "Priced deposits would lock tokens against traffic; new market buying is expected, not enforced.",
           "source": ""
         },
         {
@@ -2226,7 +2226,7 @@
               "When priced",
               "UR (SN25)",
               "First operator deposit",
-              "Turns users into UR (SN25) buying; the rate is set at zero for launch"
+              "Links traffic to token locking; the launch rate is zero"
             ],
             [
               "Quarterly",
@@ -2266,7 +2266,7 @@
         },
         {
           "label": "UR (SN25): First operator deposit",
-          "description": "Turns users into UR (SN25) buying; the rate is set at zero for launch",
+          "description": "Links traffic to token locking; the launch rate is zero",
           "source": ""
         },
         {

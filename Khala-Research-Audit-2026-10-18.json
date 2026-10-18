@@ -1,7 +1,7 @@
 {
   "title": "Khala Privacy \u2014 Research and Claim Audit",
   "audited_on": "2026-10-18",
-  "build": "2026-10-18-audit-v7",
+  "build": "2026-10-18-audit-v8",
   "project_name": "UR (SN25)",
   "scope": "All 23 slides reviewed for claim wording, labels, numerical consistency and evidence provenance. Targeted primary-source verification covers slide 15 and UR (SN25) mechanism/launch wording. This is not a complete fresh fact-check of every financial metric, legal date or product claim.",
   "primary_sources": [
@@ -89,7 +89,7 @@
       "Recommended fix": "Keep \u201cUp to 200\u201d and the design-capacity label. Keep the visible distinction between mechanism design and documented launch allocation."
     },
     {
-      "Slide number": "18\u201320",
+      "Slide number": "9, 18\u201320, 23",
       "Element": "Deposits versus market purchases",
       "Issue": "CORRECTED: the text equated deposits with required new market buying. Official documentation says revenue-funded purchases are expected off-chain, not enforced.",
       "Severity": "Major",
@@ -316,6 +316,6 @@
   ],
   "validation": {
     "automated": "23-slide source/export text and geometry parity, links and downloads, byline and desktop/mobile modal DOM passed.",
-    "browser": "Automated checks recorded here; post-publication browser checks are reported separately."
+    "browser": "Live browser checked: slide 15 caveats visible within the grid, slide 17 KPI text within boxes, renamed comparison labels within the grid; light/dark checks reported separately."
   }
 }

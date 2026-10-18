@@ -32,7 +32,7 @@ Where markets pay for privacy 7
 ## Slide 3: Public ledgers expose the activity behind $306B of stablecoins
 
 
-That exceeds crypto ETFs, DeFi and tokenised assets combined, and every transfer, balance and counterparty relationship is visible to anyone.
+That exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.
 Once an address is linked to a company, its payroll, supplier terms and treasury positions become public record.
 Tether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.
 At this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.
@@ -190,7 +190,7 @@ These products report different adoption measures and connect activity to tokens
 | What it produces | Private ZEC transfers hide addresses, amounts and memos. Transparent transfers remain available. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
 | Reported adoption | ~9.4M transparent addresses ever observed, not wallets | 100K+ legacy Connect wallets; current Aztec unverified | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
 | Who pays for it | Senders pay fees. Issuance funds miners and development. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
-| Does value reach the token | Monetary asset ZEC is money, the fee and the mining reward. Value depends on demand to hold. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Operators can deposit UR (SN25). The rate is zero at launch, so buying is not enforced. |
+| Does value reach the token | Monetary asset ZEC is money, the fee and the mining reward. Value depends on demand to hold. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Operators can deposit UR (SN25). Deposits are not required at the zero launch rate; new buying is not guaranteed. |
 
 ### Chart details and interactive notes
 
@@ -210,7 +210,7 @@ These products report different adoption measures and connect activity to tokens
 | Aztec | Users pay fees or apps sponsor them; operator rewards are partly token emissions |  |
 | Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
 | Venice | Users pay subscriptions or API credits, or stake $VVV for a daily share of inference |  |
-| UR (SN25) | Customers pay operators; URnetwork's UR (SN25) Pro subscription is operator revenue, not automatically subnet revenue |  |
+| UR (SN25) | Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue |  |
 | Zcash | $ZEC is the money, the fee and the mining reward, with a fixed cap. The bet is demand to hold |  |
 | Aztec | $AZTEC funds fees, staking and governance; congestion fees burn, the rest pays operators |  |
 | Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
@@ -444,7 +444,7 @@ The reserve has no outbound transfer path. Deposits lock tokens, but operators m
 
 ### UR (SN25) demand by number of operators
 
-Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PRICED · ur.io alone · ur.io · vpn.dev · ww.dev · 3 operators · NEXT · adds vpn.dev and ww.dev · ur.io · vpn.dev · ww.dev · Operator 4 · Operator 5 · Operator N · N operators · AT SCALE · any operator can join
+Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PRICED · ur.io alone · ur.io · vpn.dev · ww.dev · 3 operators · NEXT · adds vpn.dev and ww.dev · ur.io · vpn.dev · ww.dev · Operator 4 · Operator 5 · Operator N · N operators · AT SCALE · additional operators
 
 ### Chart details and interactive notes
 
@@ -521,7 +521,7 @@ Chart labels in display order: paid by token issuance · paid by customers · ne
 | Weakest | Issuance pays for supply and the value accrues to apps or issuers. |  |
 | Issuer economics | Customers pay, but reserve yield and fees accrue to issuers and distributors. |  |
 | UR (SN25) today | Bittensor emissions pay for supply and value reaches UR (SN25) through TAO inflows; no customer fees reach the token yet. |  |
-| UR (SN25) if operators pay | Operators acquire UR (SN25) to deposit against real traffic, so customer demand reaches the token. |  |
+| UR (SN25) if operators pay | Priced deposits would lock tokens against traffic; new market buying is expected, not enforced. |  |
 | TAO inflows | Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand. | UR (SN25) litepaper; FalconX |
 | Sector re-rating | UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category. | UR (SN25) litepaper; FalconX |
 | Operator deposits | Priced deposits lock tokens against traffic; purchases from revenue are expected off-chain, not enforced. The current reserve has no outbound transfer path. | https://github.com/urfoundation/sn |
@@ -591,7 +591,7 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Late 2026 | Aztec | Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |
 | 26 Apr 2027 | All five | Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |
 | Coming soon | Umbra | Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |
-| When priced | UR (SN25) | First operator deposit | Turns users into UR (SN25) buying; the rate is set at zero for launch |
+| When priced | UR (SN25) | First operator deposit | Links traffic to token locking; the launch rate is zero |
 | Quarterly | Zcash | Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |
 | Ongoing | Venice | Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |
 
@@ -603,7 +603,7 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Aztec: Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |  |
 | All five: Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |  |
 | Umbra: Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |  |
-| UR (SN25): First operator deposit | Turns users into UR (SN25) buying; the rate is set at zero for launch |  |
+| UR (SN25): First operator deposit | Links traffic to token locking; the launch rate is zero |  |
 | Zcash: Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |  |
 | Venice: Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |  |
 

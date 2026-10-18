@@ -40,4 +40,4 @@ Deploy `dist/`, or use the root files in `github/` for GitHub Pages (`main`, `/ 
 
 See [the 18 October research audit](Khala-Research-Audit-2026-10-18.html), also supplied as CSV and JSON. It covers all 23 slides, records corrections and separates verified findings from unresolved evidence. Slide 15 now identifies address-to-IP linking under a controlled observer setup and labels Ethereum mainnet versus testnet. UR (SN25) was not tested by that study. Slide 17 distinguishes design from the documented launch and labels the 200-fleet figure as a capacity limit. Deposit locking is distinct from guaranteed new market purchases. The older review files are historical.
 
-Current build: `2026-10-18-audit-v7`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
+Current build: `2026-10-18-audit-v8`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
