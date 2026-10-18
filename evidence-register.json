@@ -1,0 +1,238 @@
+{
+  "status": "References retained from supplied materials. This formatting review does not independently refresh each claim.",
+  "snapshot": "15–17 October 2026",
+  "notes": [
+    {
+      "slide": 1,
+      "id": "summary",
+      "title": "Privacy products are growing, but token value capture remains uneven",
+      "retainedSourceNotes": [],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 2,
+      "id": "act1",
+      "title": "Privacy is becoming necessary for corporate payments",
+      "retainedSourceNotes": [],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 3,
+      "id": "capital",
+      "title": "Public ledgers expose the activity behind $306B of stablecoins",
+      "retainedSourceNotes": [
+        "Capital in selected onchain financial products, USD. ETF figures are net assets; tokenised assets are distributed value."
+      ],
+      "tooltipReferences": [
+        "DefiLlama, 15 October 2026",
+        "The Block, 10 October 2026",
+        "rwa.xyz, distributed value, 14 October 2026"
+      ]
+    },
+    {
+      "slide": 4,
+      "id": "founders",
+      "title": "Buterin and Durov both place privacy in core infrastructure",
+      "retainedSourceNotes": [],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 5,
+      "id": "policy",
+      "title": "US policy has shifted toward privacy, while developer liability remains open",
+      "retainedSourceNotes": [
+        "Upper axis to scale from mid-2022; lower axis expands March 2025 to October 2026. Developer liability is still open: Roman Storm’s retrial is set for April 2027."
+      ],
+      "tooltipReferences": [
+        "US Treasury"
+      ]
+    },
+    {
+      "slide": 6,
+      "id": "usecases",
+      "title": "Payroll and trading are the first commercial tests of confidentiality",
+      "retainedSourceNotes": [],
+      "tooltipReferences": [
+        "Zama and Bron, 16 January 2026",
+        "GSR, 12 March 2026",
+        "NEAR AI, 3 December 2025",
+        "URnetwork; Nym",
+        "a16z; Multicoin"
+      ]
+    },
+    {
+      "slide": 7,
+      "id": "priced",
+      "title": "Privacy demand alone does not set token value",
+      "retainedSourceNotes": [
+        "Market cap, USD, log scale. CoinGecko and MEXC, 15 October 2026."
+      ],
+      "tooltipReferences": [
+        "CoinGecko and MEXC, 15 October 2026"
+      ]
+    },
+    {
+      "slide": 8,
+      "id": "act2",
+      "title": "Token designs differ in how usage reaches holders",
+      "retainedSourceNotes": [],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 9,
+      "id": "tokens",
+      "title": "Privacy tokens capture value differently",
+      "retainedSourceNotes": [
+        "Cumulative counts as of 17 Oct 2026. Sources: SoChain (Zcash); Aztec (Aztec Connect); Solana chain data (Umbra); VeniceStats (Venice); URnetwork (UR)."
+      ],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 10,
+      "id": "zcash",
+      "title": "Zcash prices in future private use",
+      "retainedSourceNotes": [
+        "Share of ZEC supply held in shielded pools. approximate reported latest"
+      ],
+      "tooltipReferences": [
+        "Blockworks Advisory, funded by GenZcash",
+        "The Block, 26 December 2025"
+      ]
+    },
+    {
+      "slide": 11,
+      "id": "aztec",
+      "title": "Aztec has $12M staked against $58K in user funds",
+      "retainedSourceNotes": [
+        "Price $0.020 and supply 10.35B (CoinDesk, 14 October 2026); circulating supply and unlocks (Tokenomist); staking, value secured and minting limit (L2BEAT, 16 October 2026); vulnerability notice (Aztec, 7 August 2026)."
+      ],
+      "tooltipReferences": [
+        "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+      ]
+    },
+    {
+      "slide": 12,
+      "id": "umbra",
+      "title": "Umbra’s fees reach its treasury, with no automatic payout to holders",
+      "retainedSourceNotes": [
+        "Price, market cap $5.2M, fully diluted $10.2M and deposits (DefiLlama, 15 October 2026); sale terms (MetaDAO; The Block, 10 October 2025); vesting (Blockworks token transparency filing, 29 September 2026). Not the Ethereum stealth-address project of the same name."
+      ],
+      "tooltipReferences": [
+        "DefiLlama; MetaDAO"
+      ]
+    },
+    {
+      "slide": 13,
+      "id": "venice",
+      "title": "Venice converts part of customer revenue into VVV buybacks",
+      "retainedSourceNotes": [
+        "Market cap about $1.1B and price about $23 (CoinGecko, mid-October 2026). Issuance: Decrypt, 21 September 2026; Phemex, 19 August 2026. Users and run rate: Erik Voorhees via Phemex, August 2026. Series A: TechCrunch via AI Weekly, 1 July 2026."
+      ],
+      "tooltipReferences": [
+        "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+      ]
+    },
+    {
+      "slide": 14,
+      "id": "act3",
+      "title": "UR has users, but operator demand for SN25 has yet to begin",
+      "retainedSourceNotes": [],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 15,
+      "id": "edges",
+      "title": "Wallet privacy can fail at network connections and cross-chain swaps",
+      "retainedSourceNotes": [
+        "Wang et al., arXiv preprint, experiments March to April 2025. The observer watches traffic at internet exchanges or provider routers. Bitcoin and Solana rows ran on testnets. The authors name Tor or VPNs as possible defences."
+      ],
+      "tooltipReferences": [
+        "Cryptopolitan, 21 October 2025",
+        "CoinDesk Research, sponsored by GenZcash",
+        "Wang et al., arXiv 2508.21440"
+      ]
+    },
+    {
+      "slide": 16,
+      "id": "mau",
+      "title": "UR reports 350K monthly users",
+      "retainedSourceNotes": [
+        "Monthly active users and providers are team-reported. Source: URnetwork."
+      ],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 17,
+      "id": "sn25",
+      "title": "UR pays miners for routing capacity that validators independently measure",
+      "retainedSourceNotes": [
+        "Solid lines run today on mainnet, including validator measurement and weights. The dashed line is the deposit link, which switches on once deposits are priced after launch. Deposits"
+      ],
+      "tooltipReferences": [
+        "UR litepaper"
+      ]
+    },
+    {
+      "slide": 18,
+      "id": "operators",
+      "title": "Priced deposits would create demand for SN25",
+      "retainedSourceNotes": [
+        "Illustrative, not a forecast. The deposit rate is set at zero for the launch period and UR has not yet set prices. Mechanism: UR SN25 architecture (September 2026); UR Foundation SN25 repository."
+      ],
+      "tooltipReferences": [
+        "Illustrative"
+      ]
+    },
+    {
+      "slide": 19,
+      "id": "bull",
+      "title": "SN25 would be worth 10× at Helium’s snapshot market cap",
+      "retainedSourceNotes": [
+        "Market cap, USD, log scale. CoinGecko and MEXC, 15 October 2026. Multiples compare market caps today and are illustrative, not price targets."
+      ],
+      "tooltipReferences": [
+        "CoinGecko and MEXC, 15 October 2026"
+      ]
+    },
+    {
+      "slide": 20,
+      "id": "value",
+      "title": "UR holders receive no revenue while operator deposits remain unpriced",
+      "retainedSourceNotes": [
+        "Ranked by likelihood. The deposit pathway is the one that turns UR from a subsidised network into a paid one."
+      ],
+      "tooltipReferences": [
+        "UR litepaper; FalconX"
+      ]
+    },
+    {
+      "slide": 21,
+      "id": "pipeline",
+      "title": "UR’s operator roadmap extends from consumer VPNs into enterprise and AI",
+      "retainedSourceNotes": [
+        "Operator pipeline: UR, Introduction to SN25 (August 2026). Comparables: Zscaler FY2026 results; Tailscale Series C (2025); Browserbase Series B (SiliconANGLE, 17 June 2025); Bright Data ARR (reported 2025). Comparables show market scale, not UR forecasts."
+      ],
+      "tooltipReferences": []
+    },
+    {
+      "slide": 22,
+      "id": "watch",
+      "title": "Operator deposits distinguish the illustrative SN25 scenarios",
+      "retainedSourceNotes": [
+        "Implied SN25 market cap by end 2027, log scale. Illustrative ranges, not forecasts or investment advice."
+      ],
+      "tooltipReferences": [
+        "Khala Research, illustrative"
+      ]
+    },
+    {
+      "slide": 23,
+      "id": "catalysts",
+      "title": "Dated events and operating signals will test the privacy thesis",
+      "retainedSourceNotes": [
+        "Unlock date: Tokenomist. Aztec v6: Aztec, 7 August 2026. Storm retrial: The Block, 26 August 2026."
+      ],
+      "tooltipReferences": []
+    }
+  ]
+}
