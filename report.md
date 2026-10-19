@@ -188,7 +188,7 @@ Zcash remains the established benchmark on the next slide. These five products u
 
 |  | Nullmask | Aztec | Umbra | Venice | UR (SN25) New |
 | --- | --- | --- | --- | --- | --- |
-| What it produces | Private transfers and swaps through existing wallets. Pool entry and exit stay public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
+| What it produces | Private transfers and swaps; entry and exit stay public. Supported wallets | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
 | Reported adoption | Live pools Ethereum and Base documented; MAU not verified | 100K+ legacy Connect wallets; current Aztec unverified | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
 | Who pays for it | Users pay 0.5% on deposits and withdrawals, plus network fees. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
 | Does value reach the token | Rewards + burns Analytics reports MASK burns and ZEC payouts. Fee-to-token routing needs verification. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed. |
@@ -198,6 +198,7 @@ Zcash remains the established benchmark on the next slide. These five products u
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
 | Nullmask ($MASK) | Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history. | https://nullmask.io/docs/privacy |
+| Supported wallets | Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026. | https://nullmask.io/docs/getting-started |
 | Aztec | Ethereum L2 for private smart contracts: confidential balances, state and execution |  |
 | Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
@@ -250,27 +251,27 @@ Chart labels in display order: ~8% · Start of 2025 · ~23% · Dec 2025 · 31.0%
 **Nullmask product documentation checked 2026-10-19. Operator visibility and public pool boundaries remain material. Market cap/FDV are a 2026-10-19 snapshot, not the earlier peer snapshot. Fee-funded buyback routing is not independently verified; Solana and private perpetuals are roadmap items.**
 
 Users keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.
-What it sells Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.
+What it sells Private transfers and swaps through shielded pools, using your existing wallet. Ethereum Base
 How value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.
 Evidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.
 What has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.
 
 ### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
 
-Chart labels in display order: Existing-wallet access, with visible pool boundaries · Existing wallet · Same wallet signs · each action · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · act · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · The operator can still read private balances and history. · $27.7M · Market cap · 19 Oct 2026 · $45.8M · FDV · 19 Oct 2026
+Chart labels in display order: Existing-wallet access, with visible pool boundaries · Existing wallet · MetaMask · Rabby · Same wallet signs each action · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · act · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · The operator can still read private balances and history. · $27.7M · Market cap · 19 Oct 2026 · $45.8M · FDV · 19 Oct 2026
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Existing wallet | The wallet signs each action. Nullmask does not receive the wallet private key. | https://nullmask.io/docs/security |
+| Supported wallets | Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026. | https://nullmask.io/docs/getting-started |
 | Shielded pool | Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount. | https://nullmask.io/docs/privacy |
 | Relayed transfers and swaps | Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it. | https://nullmask.io/docs/swap |
 | Withdrawal | The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit. | https://nullmask.io/docs/privacy |
 | Who can see the history? | Nullmask servers can read private balances and history. The privacy claim protects against outside blockchain observers, not the operator. | https://nullmask.io/docs/privacy |
 | MASK market cap: $27.7M | Circulating market cap $27.74M; observed 19 October 2026. This is a newer snapshot than the existing 15 October peer comparisons. | https://defillama.com/protocol/nullmask |
 | MASK fully diluted value: $45.8M | Fully diluted value $45.83M; observed 19 October 2026. Market cap and FDV are not interchangeable. | https://defillama.com/protocol/nullmask |
-| What it sells | Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base. | https://nullmask.io/docs/networks |
+| What it sells | Private transfers and swaps through shielded pools. Official documentation names MetaMask and Rabby as wallet examples and Ethereum and Base as networks. Compatibility does not mean a wallet partnership. | https://nullmask.io/docs/getting-started; https://nullmask.io/docs/networks |
 | How value reaches MASK | Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification. | https://app.nullmask.io/analytics |
 | Evidence of demand | Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately. | https://app.nullmask.io/analytics |
 | What has to be true | Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption. | https://nullmask.io/docs/project-roadmap |

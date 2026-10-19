@@ -716,7 +716,7 @@
             ],
             [
               "What it produces",
-              "Private transfers and swaps through existing wallets. Pool entry and exit stay public.",
+              "Private transfers and swaps; entry and exit stay public. Supported wallets",
               "Ethereum L2 for private contracts, balances and execution.",
               "Private Solana balances, transfers and swaps. Deposits and withdrawals stay public.",
               "Private AI chat, images and APIs. Prompts are not stored on its servers.",
@@ -754,6 +754,11 @@
           "label": "Nullmask ($MASK)",
           "description": "Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history.",
           "source": "https://nullmask.io/docs/privacy"
+        },
+        {
+          "label": "Supported wallets",
+          "description": "Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026.",
+          "source": "https://nullmask.io/docs/getting-started"
         },
         {
           "label": "Aztec",
@@ -950,20 +955,21 @@
       "paragraphs": [
         "Nullmask brings private transfers and swaps to existing wallets",
         "Users keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.",
-        "What it sells Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.",
+        "What it sells Private transfers and swaps through shielded pools, using your existing wallet. Ethereum Base",
         "How value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.",
         "Evidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.",
         "What has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption."
       ],
-      "text": "Nullmask brings private transfers and swaps to existing wallets\nUsers keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.\nWhat it sells Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.\nHow value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.\nEvidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.\nWhat has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.",
+      "text": "Nullmask brings private transfers and swaps to existing wallets\nUsers keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.\nWhat it sells Private transfers and swaps through shielded pools, using your existing wallet. Ethereum Base\nHow value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.\nEvidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.\nWhat has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.",
       "charts": [
         {
           "description": "Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026",
           "labels": [
             "Existing-wallet access, with visible pool boundaries",
             "Existing wallet",
-            "Same wallet signs",
-            "each action",
+            "MetaMask",
+            "Rabby",
+            "Same wallet signs each action",
             "Shielded pool",
             "0.5% deposit fee",
             "deposit",
@@ -984,9 +990,9 @@
           ],
           "details": [
             {
-              "label": "Existing wallet",
-              "description": "The wallet signs each action. Nullmask does not receive the wallet private key.",
-              "source": "https://nullmask.io/docs/security"
+              "label": "Supported wallets",
+              "description": "Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026.",
+              "source": "https://nullmask.io/docs/getting-started"
             },
             {
               "label": "Shielded pool",
@@ -1024,9 +1030,9 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "Existing wallet",
-          "description": "The wallet signs each action. Nullmask does not receive the wallet private key.",
-          "source": "https://nullmask.io/docs/security"
+          "label": "Supported wallets",
+          "description": "Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026.",
+          "source": "https://nullmask.io/docs/getting-started"
         },
         {
           "label": "Shielded pool",
@@ -1060,8 +1066,8 @@
         },
         {
           "label": "What it sells",
-          "description": "Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.",
-          "source": "https://nullmask.io/docs/networks"
+          "description": "Private transfers and swaps through shielded pools. Official documentation names MetaMask and Rabby as wallet examples and Ethereum and Base as networks. Compatibility does not mean a wallet partnership.",
+          "source": "https://nullmask.io/docs/getting-started; https://nullmask.io/docs/networks"
         },
         {
           "label": "How value reaches MASK",

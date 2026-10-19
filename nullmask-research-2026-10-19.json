@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-19",
-  "build": "2026-10-19-nullmask-v10",
+  "build": "2026-10-19-wallet-logos-v11",
   "scope": "Slide 9 comparison and new slide 11. Zcash remains slide 10. The deck now contains 24 slides.",
   "confirmed_from_primary_docs": {
     "privacy": "Inside-pool transfers conceal public counterparties/amounts. Swaps expose assets and amounts but not the user. Pool deposits and withdrawals publish boundary information; the operator can read balances and history.",
@@ -70,5 +70,20 @@
     "watch": 23,
     "catalysts": 24
   },
-  "historical_audit": "Khala-Research-Audit-2026-10-18.* refers to the previous 23-slide edition. Its previous slide 15 is now 16; sample 16 is now 17; scenario 22 is now 23. The research findings remain qualifications; it was not a full refresh."
+  "historical_audit": "Khala-Research-Audit-2026-10-18.* refers to the previous 23-slide edition. Its previous slide 15 is now 16; sample 16 is now 17; scenario 22 is now 23. The research findings remain qualifications; it was not a full refresh.",
+  "wallet_support": {
+    "checked": "2026-10-19",
+    "wallets": [
+      "MetaMask",
+      "Rabby"
+    ],
+    "source": "https://nullmask.io/docs/getting-started",
+    "qualification": "Named supported wallet examples; not evidence of commercial partnerships or wallet-wide privacy.",
+    "logos": {
+      "MetaMask": "https://github.com/MetaMask/metamask-extension/blob/develop/app/images/logo/metamask-fox.svg",
+      "Rabby": "https://github.com/RabbyHub/logo/blob/master/symbol.svg",
+      "Ethereum": "https://github.com/ethereum/ethereum-org-website/blob/dev/public/images/eth-logo.png",
+      "Base": "https://icons.llamao.fi/icons/chains/rsz_base.jpg"
+    }
+  }
 }
