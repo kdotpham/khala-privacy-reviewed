@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-10-19",
+  "build": "2026-10-19-nullmask-v9",
+  "scope": "Slide 9 comparison and new slide 11. Zcash remains slide 10. The deck now contains 24 slides.",
+  "confirmed_from_primary_docs": {
+    "privacy": "Inside-pool transfers conceal public counterparties/amounts. Swaps expose assets and amounts but not the user. Pool deposits and withdrawals publish boundary information; the operator can read balances and history.",
+    "fees": "0.5% deposits, 0.5% withdrawals; no Nullmask protocol fee for swaps, with exchange and network fees still applicable.",
+    "networks": "Official network and swap documentation lists Ethereum and Base; the slide does not infer live Solana service from the token being on Solana.",
+    "token_metrics": "Analytics tracks MASK burns and ZEC holder distributions. Its reported revenue combines platform fees with ZEC rewards paid to the development wallet.",
+    "roadmap": "Solana integration and private perpetuals are Q4 2026 roadmap targets, not established delivered features."
+  },
+  "not_independently_verified": [
+    "Fee-to-MASK buyback routing or a guaranteed fee entitlement",
+    "Repeat users or monthly active users",
+    "Token lockups and team allocation promises from social posts",
+    "Broader chain support beyond the official network documentation"
+  ],
+  "valuation_snapshot": {
+    "date": "2026-10-19",
+    "source": "https://defillama.com/protocol/nullmask",
+    "market_cap_usd": 27740000,
+    "fdv_usd": 45830000,
+    "display": "$27.7M market cap; $45.8M FDV",
+    "caveat": "Other peer market caps retain their supplied 15 October snapshot. This update does not refresh the entire dataset."
+  },
+  "sources": [
+    {
+      "url": "https://nullmask.io/docs/privacy",
+      "for": "Visibility and operator access"
+    },
+    {
+      "url": "https://nullmask.io/docs/security",
+      "for": "Wallet spending authority and server read keys"
+    },
+    {
+      "url": "https://nullmask.io/docs/fees",
+      "for": "Fees"
+    },
+    {
+      "url": "https://nullmask.io/docs/swap",
+      "for": "Swap visibility and documented pairs"
+    },
+    {
+      "url": "https://nullmask.io/docs/networks",
+      "for": "Documented networks"
+    },
+    {
+      "url": "https://nullmask.io/docs/project-roadmap",
+      "for": "Roadmap targets"
+    },
+    {
+      "url": "https://app.nullmask.io/analytics",
+      "for": "Revenue methodology, burns and reward categories"
+    },
+    {
+      "url": "https://defillama.com/protocol/nullmask",
+      "for": "Market-cap/FDV snapshot"
+    }
+  ],
+  "numbering": {
+    "tokens": 9,
+    "zcash": 10,
+    "nullmask": 11,
+    "aztec": 12,
+    "umbra": 13,
+    "venice": 14,
+    "edges": 16,
+    "mau": 17,
+    "sn25": 18,
+    "watch": 23,
+    "catalysts": 24
+  },
+  "historical_audit": "Khala-Research-Audit-2026-10-18.* refers to the previous 23-slide edition. Its previous slide 15 is now 16; sample 16 is now 17; scenario 22 is now 23. The research findings remain qualifications; it was not a full refresh."
+}

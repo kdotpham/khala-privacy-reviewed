@@ -16,15 +16,33 @@
     }
   ],
   "market_data_as_of": "2026-10-15",
-  "research_status": "Targeted primary-source audit on 2026-10-18 checked slide 15 and UR (SN25) mechanism wording. Other market, adoption and milestone figures remain supplied research, not independently re-verified.",
+  "research_status": "Primary-source checks cover RPC privacy and UR (SN25) mechanism wording on 2026-10-18, plus Nullmask product documentation on 2026-10-19. Other market, adoption and milestone figures remain supplied research, not independently re-verified.",
   "sample_data_slide_numbers": [
-    16
+    17
+  ],
+  "market_data_overrides": {
+    "nullmask": "2026-10-19"
+  },
+  "coverage_universe": [
+    "Zcash",
+    "Nullmask",
+    "Aztec",
+    "Umbra",
+    "Venice",
+    "UR (SN25)"
+  ],
+  "comparison_slide_scope": [
+    "Nullmask",
+    "Aztec",
+    "Umbra",
+    "Venice",
+    "UR (SN25)"
   ],
   "network_privacy_chart_scope": [
     "Nym",
     "UR (SN25)"
   ],
-  "slide_count": 23,
+  "slide_count": 24,
   "slides": [
     {
       "slide_number": 1,
@@ -660,11 +678,12 @@
         "In this section",
         "Privacy token landscape 9",
         "Zcash 10",
-        "Aztec 11",
-        "Umbra 12",
-        "Venice 13"
+        "Nullmask ($MASK) 11",
+        "Aztec 12",
+        "Umbra 13",
+        "Venice 14"
       ],
-      "text": "Token designs differ in how usage reaches holders\nWhat each privacy network sells, who pays for it, and how much of that value reaches the token.\nIn this section\nPrivacy token landscape 9\nZcash 10\nAztec 11\nUmbra 12\nVenice 13",
+      "text": "Token designs differ in how usage reaches holders\nWhat each privacy network sells, who pays for it, and how much of that value reaches the token.\nIn this section\nPrivacy token landscape 9\nZcash 10\nNullmask ($MASK) 11\nAztec 12\nUmbra 13\nVenice 14",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -679,17 +698,17 @@
       "warnings": [],
       "paragraphs": [
         "Privacy tokens capture value differently",
-        "Zcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR (SN25) supplies network connectivity.",
-        "These products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals."
+        "Nullmask brings shielded activity to existing wallets. Aztec and Umbra serve Ethereum and Solana applications. Venice sells private AI access. UR (SN25) supplies connectivity.",
+        "Zcash remains the established benchmark on the next slide. These five products use different adoption measures and connect usage to tokens differently."
       ],
-      "text": "Privacy tokens capture value differently\nZcash protects money. Aztec and Umbra add confidential activity on Ethereum and Solana. Venice sells private AI access. UR (SN25) supplies network connectivity.\nThese products report different adoption measures and connect activity to tokens differently. The figures below are not comparable wallet totals.",
+      "text": "Privacy tokens capture value differently\nNullmask brings shielded activity to existing wallets. Aztec and Umbra serve Ethereum and Solana applications. Venice sells private AI access. UR (SN25) supplies connectivity.\nZcash remains the established benchmark on the next slide. These five products use different adoption measures and connect usage to tokens differently.",
       "charts": [],
       "tables": [
         {
           "rows": [
             [
               "",
-              "Zcash",
+              "Nullmask",
               "Aztec",
               "Umbra",
               "Venice",
@@ -697,7 +716,7 @@
             ],
             [
               "What it produces",
-              "Private ZEC transfers hide addresses, amounts and memos. Transparent transfers remain available.",
+              "Private transfers and swaps through existing wallets. Pool entry and exit stay public.",
               "Ethereum L2 for private contracts, balances and execution.",
               "Private Solana balances, transfers and swaps. Deposits and withdrawals stay public.",
               "Private AI chat, images and APIs. Prompts are not stored on its servers.",
@@ -705,7 +724,7 @@
             ],
             [
               "Reported adoption",
-              "~9.4M transparent addresses ever observed, not wallets",
+              "Live pools Ethereum and Base documented; MAU not verified",
               "100K+ legacy Connect wallets; current Aztec unverified",
               "3,428 existing encrypted accounts on Solana",
               "~21.9K wallet profiles indexed by VeniceStats",
@@ -713,7 +732,7 @@
             ],
             [
               "Who pays for it",
-              "Senders pay fees. Issuance funds miners and development.",
+              "Users pay 0.5% on deposits and withdrawals, plus network fees.",
               "Users or apps pay fees. Emissions also pay operators.",
               "Users pay fees and tips. Protocol fees reach the DAO.",
               "Subscriptions, API credits or VVV staked for inference.",
@@ -721,7 +740,7 @@
             ],
             [
               "Does value reach the token",
-              "Monetary asset ZEC is money, the fee and the mining reward. Value depends on demand to hold.",
+              "Rewards + burns Analytics reports MASK burns and ZEC payouts. Fee-to-token routing needs verification.",
               "Fee + stake AZTEC pays fees and supports staking. Congestion fees burn.",
               "Governance UMBRA governs its treasury. There is no automatic buyback or dividend.",
               "Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV.",
@@ -732,9 +751,9 @@
       ],
       "hover_details": [
         {
-          "label": "Zcash",
-          "description": "Private money: shielded $ZEC transfers hide addresses, amounts and memos; transparent transfers remain possible",
-          "source": ""
+          "label": "Nullmask ($MASK)",
+          "description": "Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history.",
+          "source": "https://nullmask.io/docs/privacy"
         },
         {
           "label": "Aztec",
@@ -757,9 +776,9 @@
           "source": ""
         },
         {
-          "label": "Zcash",
-          "description": "~9.4M transparent addresses ever observed; one wallet can hold many",
-          "source": ""
+          "label": "Nullmask ($MASK)",
+          "description": "Official network documentation lists Ethereum and Base. No independently verified monthly-active-user count is used. Documentation checked 19 October 2026.",
+          "source": "https://nullmask.io/docs/networks"
         },
         {
           "label": "Aztec",
@@ -782,9 +801,9 @@
           "source": ""
         },
         {
-          "label": "Zcash",
-          "description": "Senders pay fees; miners and the development fund are also paid from new issuance",
-          "source": ""
+          "label": "Nullmask ($MASK)",
+          "description": "Deposit and withdrawal fees are 0.5%; swaps have no Nullmask protocol fee, although DEX and network fees still apply. Fees checked 19 October 2026.",
+          "source": "https://nullmask.io/docs/fees"
         },
         {
           "label": "Aztec",
@@ -807,9 +826,9 @@
           "source": ""
         },
         {
-          "label": "Zcash",
-          "description": "$ZEC is the money, the fee and the mining reward, with a fixed cap. The bet is demand to hold",
-          "source": ""
+          "label": "Nullmask ($MASK)",
+          "description": "MASK is the Solana token. Analytics reports burns and ZEC holder rewards, but this review has not independently traced product-fee-funded buybacks or established a contractual fee entitlement.",
+          "source": "https://app.nullmask.io/analytics"
         },
         {
           "label": "Aztec",
@@ -918,6 +937,151 @@
     },
     {
       "slide_number": 11,
+      "id": "nullmask",
+      "title": "Nullmask brings private transfers and swaps to existing wallets",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#nullmask",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [
+        "Nullmask product documentation checked 2026-10-19. Operator visibility and public pool boundaries remain material. Market cap/FDV are a 2026-10-19 snapshot, not the earlier peer snapshot. Fee-funded buyback routing is not independently verified; Solana and private perpetuals are roadmap items."
+      ],
+      "market_data_as_of": "2026-10-19",
+      "research_checked_on": "2026-10-19",
+      "paragraphs": [
+        "Nullmask brings private transfers and swaps to existing wallets",
+        "Users keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.",
+        "What it sells Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.",
+        "How value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.",
+        "Evidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.",
+        "What has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption."
+      ],
+      "text": "Nullmask brings private transfers and swaps to existing wallets\nUsers keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.\nWhat it sells Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.\nHow value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.\nEvidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.\nWhat has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.",
+      "charts": [
+        {
+          "description": "Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026",
+          "labels": [
+            "Existing-wallet access, with visible pool boundaries",
+            "Existing wallet",
+            "Same wallet signs",
+            "each action",
+            "Shielded pool",
+            "0.5% deposit fee",
+            "deposit",
+            "Transfer or swap",
+            "Relayer submits the action",
+            "Swap assets and amounts visible",
+            "act",
+            "Withdraw",
+            "0.5% withdrawal fee",
+            "Destination and amount public",
+            "exit",
+            "Private from chain watchers",
+            "The operator can still read private balances and history.",
+            "$27.7M",
+            "Market cap · 19 Oct 2026",
+            "$45.8M",
+            "FDV · 19 Oct 2026"
+          ],
+          "details": [
+            {
+              "label": "Existing wallet",
+              "description": "The wallet signs each action. Nullmask does not receive the wallet private key.",
+              "source": "https://nullmask.io/docs/security"
+            },
+            {
+              "label": "Shielded pool",
+              "description": "Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount.",
+              "source": "https://nullmask.io/docs/privacy"
+            },
+            {
+              "label": "Relayed transfers and swaps",
+              "description": "Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it.",
+              "source": "https://nullmask.io/docs/swap"
+            },
+            {
+              "label": "Withdrawal",
+              "description": "The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit.",
+              "source": "https://nullmask.io/docs/privacy"
+            },
+            {
+              "label": "Who can see the history?",
+              "description": "Nullmask servers can read private balances and history. The privacy claim protects against outside blockchain observers, not the operator.",
+              "source": "https://nullmask.io/docs/privacy"
+            },
+            {
+              "label": "MASK market cap: $27.7M",
+              "description": "Circulating market cap $27.74M; observed 19 October 2026. This is a newer snapshot than the existing 15 October peer comparisons.",
+              "source": "https://defillama.com/protocol/nullmask"
+            },
+            {
+              "label": "MASK fully diluted value: $45.8M",
+              "description": "Fully diluted value $45.83M; observed 19 October 2026. Market cap and FDV are not interchangeable.",
+              "source": "https://defillama.com/protocol/nullmask"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "hover_details": [
+        {
+          "label": "Existing wallet",
+          "description": "The wallet signs each action. Nullmask does not receive the wallet private key.",
+          "source": "https://nullmask.io/docs/security"
+        },
+        {
+          "label": "Shielded pool",
+          "description": "Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount.",
+          "source": "https://nullmask.io/docs/privacy"
+        },
+        {
+          "label": "Relayed transfers and swaps",
+          "description": "Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it.",
+          "source": "https://nullmask.io/docs/swap"
+        },
+        {
+          "label": "Withdrawal",
+          "description": "The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit.",
+          "source": "https://nullmask.io/docs/privacy"
+        },
+        {
+          "label": "Who can see the history?",
+          "description": "Nullmask servers can read private balances and history. The privacy claim protects against outside blockchain observers, not the operator.",
+          "source": "https://nullmask.io/docs/privacy"
+        },
+        {
+          "label": "MASK market cap: $27.7M",
+          "description": "Circulating market cap $27.74M; observed 19 October 2026. This is a newer snapshot than the existing 15 October peer comparisons.",
+          "source": "https://defillama.com/protocol/nullmask"
+        },
+        {
+          "label": "MASK fully diluted value: $45.8M",
+          "description": "Fully diluted value $45.83M; observed 19 October 2026. Market cap and FDV are not interchangeable.",
+          "source": "https://defillama.com/protocol/nullmask"
+        },
+        {
+          "label": "What it sells",
+          "description": "Private transfers and swaps through existing wallets, using shielded pools. Official network documentation lists Ethereum and Base.",
+          "source": "https://nullmask.io/docs/networks"
+        },
+        {
+          "label": "How value reaches MASK",
+          "description": "Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.",
+          "source": "https://app.nullmask.io/analytics"
+        },
+        {
+          "label": "Evidence of demand",
+          "description": "Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.",
+          "source": "https://app.nullmask.io/analytics"
+        },
+        {
+          "label": "What has to be true",
+          "description": "Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.",
+          "source": "https://nullmask.io/docs/project-roadmap"
+        }
+      ]
+    },
+    {
+      "slide_number": 12,
       "id": "aztec",
       "title": "Aztec has $12M staked against $58K in user funds",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#aztec",
@@ -1021,7 +1185,7 @@
       ]
     },
     {
-      "slide_number": 12,
+      "slide_number": 13,
       "id": "umbra",
       "title": "Umbra’s fees reach its treasury, with no automatic payout to holders",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#umbra",
@@ -1119,7 +1283,7 @@
       ]
     },
     {
-      "slide_number": 13,
+      "slide_number": 14,
       "id": "venice",
       "title": "Venice converts part of customer revenue into VVV buybacks",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#venice",
@@ -1218,7 +1382,7 @@
       ]
     },
     {
-      "slide_number": 14,
+      "slide_number": 15,
       "id": "act3",
       "title": "UR (SN25) has users, but priced deposits have yet to begin",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#act3",
@@ -1229,23 +1393,23 @@
         "UR (SN25) has users, but priced deposits have yet to begin",
         "An established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.",
         "In this section",
-        "Where privacy leaks 15",
-        "URnetwork users 16",
-        "How UR (SN25) works 17",
-        "Operators as UR (SN25) buyers 18",
-        "The bull case 19",
-        "How value reaches UR (SN25) 20",
-        "UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 21",
-        "What to watch 22",
-        "Catalysts across all five 23"
+        "Where privacy leaks 16",
+        "URnetwork users 17",
+        "How UR (SN25) works 18",
+        "Operators as UR (SN25) buyers 19",
+        "The bull case 20",
+        "How value reaches UR (SN25) 21",
+        "UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 22",
+        "What to watch 23",
+        "Catalysts across the coverage universe 24"
       ],
-      "text": "UR (SN25) has users, but priced deposits have yet to begin\nAn established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.\nIn this section\nWhere privacy leaks 15\nURnetwork users 16\nHow UR (SN25) works 17\nOperators as UR (SN25) buyers 18\nThe bull case 19\nHow value reaches UR (SN25) 20\nUR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 21\nWhat to watch 22\nCatalysts across all five 23",
+      "text": "UR (SN25) has users, but priced deposits have yet to begin\nAn established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.\nIn this section\nWhere privacy leaks 16\nURnetwork users 17\nHow UR (SN25) works 18\nOperators as UR (SN25) buyers 19\nThe bull case 20\nHow value reaches UR (SN25) 21\nUR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 22\nWhat to watch 23\nCatalysts across the coverage universe 24",
       "charts": [],
       "tables": [],
       "hover_details": []
     },
     {
-      "slide_number": 15,
+      "slide_number": 16,
       "id": "edges",
       "title": "Wallet privacy can fail at network connections and cross-chain swaps",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#edges",
@@ -1401,7 +1565,7 @@
       ]
     },
     {
-      "slide_number": 16,
+      "slide_number": 17,
       "id": "mau",
       "title": "UR (SN25) reports 350K monthly users",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
@@ -1530,7 +1694,7 @@
       ]
     },
     {
-      "slide_number": 17,
+      "slide_number": 18,
       "id": "sn25",
       "title": "UR (SN25) uses validator scores to reward routing capacity",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sn25",
@@ -1640,7 +1804,7 @@
       ]
     },
     {
-      "slide_number": 18,
+      "slide_number": 19,
       "id": "operators",
       "title": "Priced deposits could create demand for UR (SN25)",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#operators",
@@ -1788,7 +1952,7 @@
       ]
     },
     {
-      "slide_number": 19,
+      "slide_number": 20,
       "id": "bull",
       "title": "UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
@@ -1888,7 +2052,7 @@
       ]
     },
     {
-      "slide_number": 20,
+      "slide_number": 21,
       "id": "value",
       "title": "Operator deposits could link UR (SN25) demand to usage",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#value",
@@ -2024,7 +2188,7 @@
       ]
     },
     {
-      "slide_number": 21,
+      "slide_number": 22,
       "id": "pipeline",
       "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
@@ -2111,7 +2275,7 @@
       ]
     },
     {
-      "slide_number": 22,
+      "slide_number": 23,
       "id": "watch",
       "title": "Operator deposits distinguish the illustrative UR (SN25) scenarios",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#watch",
@@ -2176,7 +2340,7 @@
       ]
     },
     {
-      "slide_number": 23,
+      "slide_number": 24,
       "id": "catalysts",
       "title": "Dated events and operating signals will test the privacy thesis",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#catalysts",
@@ -2212,7 +2376,7 @@
             ],
             [
               "26 Apr 2027",
-              "All five",
+              "Coverage universe",
               "Roman Storm retrial on laundering and sanctions counts",
               "A conviction would raise legal risk for every privacy developer"
             ],
@@ -2239,6 +2403,12 @@
               "Venice",
               "Burn volumes and the Venice V2 video rollout",
               "Shows whether revenue growth is reaching VVV holders"
+            ],
+            [
+              "Q4 targets / ongoing",
+              "Nullmask",
+              "Wallet distribution, product fees and MASK burns",
+              "Tests repeat usage, token value capture and delivered integrations"
             ]
           ]
         }
@@ -2255,7 +2425,7 @@
           "source": ""
         },
         {
-          "label": "All five: Roman Storm retrial on laundering and sanctions counts",
+          "label": "Coverage universe: Roman Storm retrial on laundering and sanctions counts",
           "description": "A conviction would raise legal risk for every privacy developer",
           "source": ""
         },
@@ -2278,6 +2448,11 @@
           "label": "Venice: Burn volumes and the Venice V2 video rollout",
           "description": "Shows whether revenue growth is reaching VVV holders",
           "source": ""
+        },
+        {
+          "label": "Nullmask: Product fees, MASK burns and delivery",
+          "description": "Separate service fees from team-wallet rewards; verify token value capture and delivered integrations. Solana and perps are targets, not confirmed releases.",
+          "source": "https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap"
         }
       ]
     }
