@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-19",
-  "build": "2026-10-19-nullmask-v9",
+  "build": "2026-10-19-nullmask-v10",
   "scope": "Slide 9 comparison and new slide 11. Zcash remains slide 10. The deck now contains 24 slides.",
   "confirmed_from_primary_docs": {
     "privacy": "Inside-pool transfers conceal public counterparties/amounts. Swaps expose assets and amounts but not the user. Pool deposits and withdrawals publish boundary information; the operator can read balances and history.",

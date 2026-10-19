@@ -40,7 +40,7 @@ Deploy `dist/`, or use the root files in `github/` for GitHub Pages (`main`, `/ 
 
 See [the 18 October research audit](Khala-Research-Audit-2026-10-18.html), also supplied as CSV and JSON. It records the previous 23-slide edition; its numbers precede the new Nullmask slide. The RPC privacy slide now identifies address-to-IP linking under a controlled observer setup and labels Ethereum mainnet versus testnet. UR (SN25) was not tested by that study. The UR (SN25) mechanism slide distinguishes design from the documented launch and labels the 200-fleet figure as a capacity limit. Deposit locking is distinct from guaranteed new market purchases. The older review files are historical.
 
-Current build: `2026-10-19-nullmask-v9`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
+Current build: `2026-10-19-nullmask-v10`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
 
 
 ## Nullmask update, 19 October 2026

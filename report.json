@@ -744,7 +744,7 @@
               "Fee + stake AZTEC pays fees and supports staking. Congestion fees burn.",
               "Governance UMBRA governs its treasury. There is no automatic buyback or dividend.",
               "Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV.",
-              "Conditional Operators can deposit UR (SN25). Deposits are not required at the zero launch rate; new buying is not guaranteed."
+              "Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed."
             ]
           ]
         }
