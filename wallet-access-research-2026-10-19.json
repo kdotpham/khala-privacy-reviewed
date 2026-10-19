@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-19",
+  "build": "2026-10-19-logo-consistency-v12",
+  "scope": "Wallet access on slide 9; consistent project marks; slide 20 label; slide 24 Nullmask logo.",
+  "access": [
+    {
+      "project": "Nullmask",
+      "label": "Wallets",
+      "wallets": [
+        "MetaMask",
+        "Rabby"
+      ],
+      "description": "Nullmask names MetaMask and Rabby as supported wallet examples. Compatibility does not imply a commercial partnership or wallet-wide privacy.",
+      "source": "https://nullmask.io/docs/getting-started"
+    },
+    {
+      "project": "Aztec",
+      "label": "Wallet",
+      "wallets": [
+        "Azguard"
+      ],
+      "description": "Aztec documents Azguard as the available browser extension wallet for Aztec apps. The Aztec CLI wallet is also documented for advanced users. Do not confuse legacy Aztec Connect support with current private-wallet compatibility.",
+      "source": "https://docs.aztec.network/participate/basics/wallets"
+    },
+    {
+      "project": "Umbra",
+      "label": "Wallet",
+      "wallets": [
+        "Phantom"
+      ],
+      "description": "Phantom is advertised in Umbra’s live Connect wallet chooser. This is a verified example, not an exhaustive compatibility list. No wallet was connected and no registration or transaction was performed.",
+      "source": "https://v2.umbraprivacy.com/"
+    },
+    {
+      "project": "Venice",
+      "label": "Token access",
+      "wallets": [
+        "MetaMask",
+        "Coinbase Wallet"
+      ],
+      "description": "Venice’s official DIEM guide names MetaMask and Coinbase Wallet on Base for acquiring VVV/DIEM and using token access. These are access/payment wallets, not a claim of private wallet transactions.",
+      "source": "https://learn.venice.ai/guides/how-to-use-venices-diem-token-for-daily-ai-credits"
+    },
+    {
+      "project": "UR (SN25)",
+      "label": "Access",
+      "wallets": [],
+      "description": "URnetwork is the consumer VPN app supplied by UR (SN25). Wallet integrations are not interchangeable with network privacy. No external-wallet compatibility claim is made here.",
+      "source": "https://ur.io/"
+    }
+  ],
+  "logo_assets": {
+    "Azguard": "https://github.com/AzguardWallet/brandkit/blob/main/Azguard_Blue_Gradient_Round.png",
+    "Phantom": "https://v2.umbraprivacy.com/assets/wallets/phantom.png",
+    "Coinbase_Wallet": "https://v2.umbraprivacy.com/assets/wallets/coinbase.png",
+    "project_marks": "Reused original project marks from the existing slide 9 comparison."
+  },
+  "qualifications": [
+    "Wallet examples are not exhaustive and do not imply commercial partnerships.",
+    "Venice wallet logos indicate token access rather than transaction privacy.",
+    "URnetwork app access is shown instead of inventing a wallet integration.",
+    "No wallet was connected and no transaction was signed."
+  ]
+}

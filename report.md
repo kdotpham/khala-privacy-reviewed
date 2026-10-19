@@ -186,9 +186,9 @@ Venice 14
 Nullmask brings shielded activity to existing wallets. Aztec and Umbra serve Ethereum and Solana applications. Venice sells private AI access. UR (SN25) supplies connectivity.
 Zcash remains the established benchmark on the next slide. These five products use different adoption measures and connect usage to tokens differently.
 
-|  | Nullmask | Aztec | Umbra | Venice | UR (SN25) New |
+|  | Nullmask Wallets | Aztec Wallet Azguard | Umbra Wallet Phantom | Venice Token access | UR (SN25) New Access URnetwork app |
 | --- | --- | --- | --- | --- | --- |
-| What it produces | Private transfers and swaps; entry and exit stay public. Supported wallets | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
+| What it produces | Private transfers and swaps through existing wallets. Pool entry and exit stay public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
 | Reported adoption | Live pools Ethereum and Base documented; MAU not verified | 100K+ legacy Connect wallets; current Aztec unverified | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
 | Who pays for it | Users pay 0.5% on deposits and withdrawals, plus network fees. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
 | Does value reach the token | Rewards + burns Analytics reports MASK burns and ZEC payouts. Fee-to-token routing needs verification. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed. |
@@ -197,8 +197,12 @@ Zcash remains the established benchmark on the next slide. These five products u
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
+| Wallet access | Nullmask names MetaMask and Rabby as supported wallet examples. Compatibility does not imply a commercial partnership or wallet-wide privacy. Checked 19 October 2026. | https://nullmask.io/docs/getting-started |
+| Wallet access | Aztec documents Azguard as the available browser extension wallet for Aztec apps. The Aztec CLI wallet is also documented for advanced users. Do not confuse legacy Aztec Connect support with current private-wallet compatibility. Checked 19 October 2026. | https://docs.aztec.network/participate/basics/wallets |
+| Wallet access | Phantom is advertised in Umbra’s live Connect wallet chooser. This is a verified example, not an exhaustive compatibility list. No wallet was connected and no registration or transaction was performed. Checked 19 October 2026. | https://v2.umbraprivacy.com/ |
+| Wallet access | Venice’s official DIEM guide names MetaMask and Coinbase Wallet on Base for acquiring VVV/DIEM and using token access. These are access/payment wallets, not a claim of private wallet transactions. Checked 19 October 2026. | https://learn.venice.ai/guides/how-to-use-venices-diem-token-for-daily-ai-credits |
+| App access | URnetwork is the consumer VPN app supplied by UR (SN25). Wallet integrations are not interchangeable with network privacy. No external-wallet compatibility claim is made here. Checked 19 October 2026. | https://ur.io/ |
 | Nullmask ($MASK) | Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history. | https://nullmask.io/docs/privacy |
-| Supported wallets | Nullmask’s getting-started documentation explicitly names MetaMask and Rabby. These are supported wallet examples, not a claim of a commercial partnership or privacy for all activity in those wallets. Checked 19 October 2026. | https://nullmask.io/docs/getting-started |
 | Aztec | Ethereum L2 for private smart contracts: confidential balances, state and execution |  |
 | Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
@@ -508,7 +512,7 @@ What UR (SN25) would be worth at its peers’ market caps
 
 ### UR (SN25) market cap against peers
 
-Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) snapshot · $8.4M · Nym · $22.2M · 2.6x · Helium · $85M · 10x · Grass · $486M · 58x
+Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M · Nym · $22.2M · 2.6x · Helium · $85M · 10x · Grass · $486M · 58x
 
 ### Chart details and interactive notes
 

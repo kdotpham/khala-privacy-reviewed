@@ -40,7 +40,7 @@ Deploy `dist/`, or use the root files in `github/` for GitHub Pages (`main`, `/ 
 
 See [the 18 October research audit](Khala-Research-Audit-2026-10-18.html), also supplied as CSV and JSON. It records the previous 23-slide edition; its numbers precede the new Nullmask slide. The RPC privacy slide now identifies address-to-IP linking under a controlled observer setup and labels Ethereum mainnet versus testnet. UR (SN25) was not tested by that study. The UR (SN25) mechanism slide distinguishes design from the documented launch and labels the 200-fleet figure as a capacity limit. Deposit locking is distinct from guaranteed new market purchases. The older review files are historical.
 
-Current build: `2026-10-19-wallet-logos-v11`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
+Current build: `2026-10-19-logo-consistency-v12`. This remains a review draft: the sample chart and unresolved material evidence must be addressed before final public/client release.
 
 
 ## Nullmask update, 19 October 2026
@@ -52,3 +52,7 @@ The compact `editable-site.zip` omits the generated `dist/downloads/khala-slides
 ## Wallet and project logos, 19 October 2026
 
 Slides 9 and 11 identify MetaMask and Rabby as supported wallet examples, verified against Nullmask’s getting-started documentation. This does not imply commercial partnerships or privacy for activity outside Nullmask. Slide 11 also identifies Ethereum and Base separately as documented networks. Project marks were added to the Nullmask and Zcash profile titles. MetaMask and Rabby assets come from their official GitHub repositories; the Ethereum mark is from ethereum.org’s repository and the Base mark from DefiLlama’s chain icon set. All assets are embedded in slide HTML/SVG and remain portable.
+
+## Deck-wide logo consistency, 19 October 2026
+
+Slide 9 uses the same wallet/access strip in every project header: MetaMask and Rabby for Nullmask; Azguard for Aztec; Phantom as a verified Umbra example; MetaMask and Coinbase Wallet for Venice token access; and the URnetwork app for UR (SN25). The original comparison grid and product qualifications remain intact. Project marks now appear consistently on profile slides 10–14 and the UR-specific divider and slides 17–23. The generic RPC study on slide 16 retains its independent-study framing. Slide 20 labels the chart row UR (SN25), and slide 24 includes Nullmask’s mark. See wallet-access-research-2026-10-19.json for sources and scope.
