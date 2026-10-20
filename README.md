@@ -74,3 +74,7 @@ Build: `2026-10-20-slide-review-v15`. Section 1 now runs Buterin and Durov (3), 
 ## Coverage update, 20 October 2026
 
 Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced in the coverage universe by Nockchain (NOCK) and Pearl (PRL). Slide 9 now compares six projects without the wallet/access strip, and new profile slides 12 (NOCK) and 15 (Pearl) replace the Aztec profile. NOCK transfers are not private yet (a privacy pool is planned for Q2 2027), and Pearl's privacy sits in its zero-knowledge mining proofs rather than in PRL transfers; the slides say so. The deck now has 25 slides. Details and sources are in `coverage-update-2026-10-20-v16.json`.
+
+## PNG downloads, 21 October 2026
+
+Build: `2026-10-21-slide9-synthesis-v19-png`. Each slide and expanded view has a PNG download, and the article includes Download all PNGs. PNGs are rendered at 3200 × 1440 with embedded fonts and artwork in the selected light or dark theme; the bulk download is a ZIP of all 25 slides. The source implementation is `base-assets/png-downloads.js`; the generator embeds it in the single-file GitHub version. SVG and HTML downloads remain available.

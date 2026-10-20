@@ -184,43 +184,45 @@ Pearl (PRL) 15
 ## Slide 9: Privacy tokens capture value differently
 
 
-Nullmask and Umbra hide payments today and NOCK plans to, Venice and Pearl keep AI use and AI compute private, and UR (SN25) supplies private connectivity.
-Adoption figures mix live products, account counts, holder counts, mining capacity and reported monthly users, so they are not directly comparable.
+Direct Venice burns VVV with 5% of every credit purchase.
+Indirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.
+Not yet linked Nullmask documents no fee sharing, and UR (SN25) deposits launched at a zero rate.
+UR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced.
 
-|  | Nullmask | NOCK | Umbra | Venice | Pearl | UR (SN25) |
+|  | Venice | Umbra | NOCK | Pearl | Nullmask | UR (SN25) |
 | --- | --- | --- | --- | --- | --- | --- |
-| What it produces | Private transfers and swaps. Deposits and withdrawals are public. | Money on a zero-knowledge chain. Private transfers are planned for 2027. | Private Solana balances, transfers and swaps. | Private AI chat, images and APIs. Prompts are not stored. | Private AI compute: ZK proofs verify GPU work without revealing models or data. | Bandwidth and routing, measured by validators. |
-| Reported adoption | Live pools Ethereum and Base | 9,549 wrapped NOCK holders on Base | 3,428 encrypted accounts on Solana | ~21.9K wallets indexed by VeniceStats | ~320K GPU-equivalents mining; study, June 2026 | 350K+ monthly app users; team-reported |
-| Who pays for it | Users pay 0.5% on deposits and withdrawals. | Users pay size-based fees, all to miners. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or staked DIEM. | Inference customers pay credits, not PRL. | Customers pay operators. Subnet revenue is separate. |
-| Does value reach the token | Reported rewards MASK burns and ZEC rewards are reported apart from fees. | Monetary asset Miners take 80% of issuance and all fees; holders own capped money. | Governance UMBRA governs the treasury. No buyback or dividend. | Stake + burn Part of credit revenue buys and burns VVV. | Mining reward No mechanism links inference revenue to PRL. | Operator deposits Operators lock tokens against traffic; the launch rate is zero. |
+| What it produces | Private AI chat, images and APIs. Prompts are not stored. | Private Solana balances, transfers and swaps. | Money on a zero-knowledge chain. Private transfers are planned for 2027. | Private AI compute: ZK proofs verify GPU work without revealing models or data. | Private transfers and swaps. Deposits and withdrawals are public. | Bandwidth and routing, measured by validators. |
+| Reported adoption | ~21.9K wallets indexed by VeniceStats | 3,428 encrypted accounts on Solana | 9,549 wrapped NOCK holders on Base | ~320K GPU-equivalents mining; study, June 2026 | Live pools Ethereum and Base | 350K+ monthly app users; team-reported |
+| Who pays for it | Subscriptions, API credits or staked DIEM. | Users pay fees and tips. Protocol fees reach the DAO. | Users pay size-based fees, all to miners. | Inference customers pay credits, not PRL. | Users pay 0.5% on deposits and withdrawals. | Customers pay operators. Subnet revenue is separate. |
+| Does value reach the token | Stake + burn Part of credit revenue buys and burns VVV. | Governance UMBRA governs the treasury. No buyback or dividend. | Monetary asset Miners take 80% of issuance and all fees; holders own capped money. | Mining reward No mechanism links inference revenue to PRL. | Reported rewards MASK burns and ZEC rewards are reported apart from fees. | Operator deposits Operators lock tokens against traffic; the launch rate is zero. |
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Nullmask ($MASK) | Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history. | https://nullmask.io/docs/privacy |
-| NOCK | Nockchain miners produce zero-knowledge proofs instead of hashes. Its own FAQ says the mining proof does not hide transaction values or chain state, and its roadmap plans a privacy pool app for Q2 2027 and private DeFi foundations for Q3 2027. | https://docs.nockchain.org/start-here/faq; https://www.nockchain.org/roadmap |
-| Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
+| Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
+| NOCK | Nockchain miners produce zero-knowledge proofs instead of hashes. Its own FAQ says the mining proof does not hide transaction values or chain state, and its roadmap plans a privacy pool app for Q2 2027 and private DeFi foundations for Q3 2027. | https://docs.nockchain.org/start-here/faq; https://www.nockchain.org/roadmap |
 | Pearl (PRL) | Pearl miners run the matrix maths used in AI inference, so the same GPU work can serve a customer and compete for PRL block rewards. Its zero-knowledge mining proofs are designed to verify the work without revealing the matrices, which can hold model weights or user data. PRL transfers themselves are not shielded, and private, verifiable inference for customers is being developed with Attestable. | Bankless, 16 October 2026; pearlresearch.ai; BTCC, Pearl guide |
+| Nullmask ($MASK) | Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history. | https://nullmask.io/docs/privacy |
 | UR (SN25) | Bandwidth and routing marketplace: independent providers carry traffic, validators score performance |  |
-| Nullmask ($MASK) | Official documentation lists ETH and USDT on Ethereum, and ETH and USDC on Base. This cell describes product availability, not a monthly user count. Checked 20 October 2026. | https://nullmask.io/docs/networks |
-| NOCK | 9,549 addresses hold wrapped NOCK on Base (Basescan, 20 October 2026). Nockchain’s own explorer does not publish a readable address or holder total, so native-chain holders are not included; this is a holder count, not monthly activity. | https://basescan.org/token/0x9b5e262cf9bb04869ab40b19af91d2dc85761722 |
-| Umbra | 3,428 encrypted user accounts on Solana |  |
 | Venice | ~21.9K wallets indexed by VeniceStats |  |
+| Umbra | 3,428 encrypted user accounts on Solana |  |
+| NOCK | 9,549 addresses hold wrapped NOCK on Base (Basescan, 20 October 2026). Nockchain’s own explorer does not publish a readable address or holder total, so native-chain holders are not included; this is a holder count, not monthly activity. | https://basescan.org/token/0x9b5e262cf9bb04869ab40b19af91d2dc85761722 |
 | Pearl (PRL) | A June 2026 study estimated the mining network at the equivalent of 320,000 RTX 3090-class GPUs drawing 112 MW, and found the dominant mining software it examined was not serving customer inference. Pearl publishes no wallet, holder or user count. | Tom’s Hardware, June 2026; Datawallet, 2 October 2026 |
+| Nullmask ($MASK) | Official documentation lists ETH and USDT on Ethereum, and ETH and USDC on Base. This cell describes product availability, not a monthly user count. Checked 20 October 2026. | https://nullmask.io/docs/networks |
 | UR (SN25) | 350K+ monthly URnetwork app users (team-reported, off-chain) |  |
-| Nullmask ($MASK) | Deposit and withdrawal fees are 0.5%; swaps have no Nullmask protocol fee, although DEX and network fees still apply. Fees checked 19 October 2026. | https://nullmask.io/docs/fees |
-| NOCK | Fees scale with the encoded size of a transaction and go entirely to the miner. Third-party analysis describes fee revenue as negligible next to issuance. | https://docs.nockchain.org/usdnock-asset/overview; Datawallet |
-| Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
 | Venice | Users pay subscriptions or API credits, or stake $VVV for a daily share of inference |  |
+| Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
+| NOCK | Fees scale with the encoded size of a transaction and go entirely to the miner. Third-party analysis describes fee revenue as negligible next to issuance. | https://docs.nockchain.org/usdnock-asset/overview; Datawallet |
 | Pearl (PRL) | Inference customers pay per token from prepaid credits. A PRL-based compute marketplace is described in the whitepaper, with no launch date announced. | https://platform.pearlresearch.ai/docs; Bankless, 16 October 2026 |
+| Nullmask ($MASK) | Deposit and withdrawal fees are 0.5%; swaps have no Nullmask protocol fee, although DEX and network fees still apply. Fees checked 19 October 2026. | https://nullmask.io/docs/fees |
 | UR (SN25) | Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue |  |
-| Nullmask ($MASK) | The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders. | https://app.nullmask.io/analytics |
-| NOCK | NOCK is valued as a capped monetary asset. Miners receive 80% of new issuance and all fees, and a protocol fund receives 20%; no mechanism routes revenue to holders. | https://docs.nockchain.org/usdnock-asset/overview |
-| Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
 | Venice | $VVV is staked for inference capacity, and a share of credit purchases buys back and burns it |  |
+| Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
+| NOCK | NOCK is valued as a capped monetary asset. Miners receive 80% of new issuance and all fees, and a protocol fund receives 20%; no mechanism routes revenue to holders. | https://docs.nockchain.org/usdnock-asset/overview |
 | Pearl (PRL) | PRL pays block rewards and transfer fees. No mechanism links inference revenue to the token, so its value rests on demand to hold it. | BTCC, Pearl guide; Bankless, 16 October 2026 |
+| Nullmask ($MASK) | The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders. | https://app.nullmask.io/analytics |
 | UR (SN25) | Operators that sell privacy on the network are designed to deposit UR (SN25) against the traffic they expect, locking tokens while usage grows. The deposit rate was set at zero for launch, and the documentation expects any market purchases for deposits to happen off-chain rather than being enforced, so the link from usage to token demand is designed but not yet active. | UR price.yml and README, checked 20 October 2026 |
 
 [View slide 9](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
