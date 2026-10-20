@@ -1,0 +1,571 @@
+{
+  "checked_on": "2026-10-20",
+  "build": "2026-10-20-evidence-editorial-v13",
+  "scope": "All 24 slides and hover copy reviewed for unfinished verification notes and editorial patterns. Targeted primary-source factual checks, not an independent transaction-level audit of every historic number.",
+  "plugin": {
+    "name": "Avoid AI Writing",
+    "mode": "extracted prose review; content patches applied to HTML and exports",
+    "audit": "model_only",
+    "rewrite": "executed",
+    "second_pass": "model_only",
+    "bundled_detector": "not_run",
+    "bundled_preservation_validator": "not_run",
+    "additional_structural_checks": "executed separately"
+  },
+  "critical_findings": [
+    {
+      "finding": "Nullmask reports service fees and ZEC token rewards separately. Its revenue total adds protocol fees and developer-wallet holder rewards. No automatic service-fee payout is established by these disclosures.",
+      "sources": [
+        "https://app.nullmask.io/analytics",
+        "https://nullmask.io/docs/fees"
+      ],
+      "verification_limit": "Verified published accounting definitions. Dune query results were not exposed in the retrieved page; Etherscan source access returned 403. No cross-chain fee-to-reward transaction trace is claimed."
+    },
+    {
+      "finding": "Ethereum pool supports ETH/USDT; Base pool supports ETH/USDC. Wallet compatibility is not a partnership, and the operator can read private account history.",
+      "sources": [
+        "https://nullmask.io/docs/networks",
+        "https://nullmask.io/docs/getting-started",
+        "https://nullmask.io/docs/privacy"
+      ]
+    },
+    {
+      "finding": "The 100K+ wallet figure belongs to retired Aztec Connect. It is not current-network MAU. The comparison now labels the historical product explicitly.",
+      "sources": [
+        "https://aztec.network/blog/your-favorite-defi-apps-now-with-privacy"
+      ]
+    },
+    {
+      "finding": "Aztec disclosed the V5 proving vulnerability on 7 August 2026; V6 remediation was planned. The catalyst no longer states a future fix as delivered.",
+      "sources": [
+        "https://aztec.network/blog/alpha-v5-proving-system-vulnerability"
+      ]
+    },
+    {
+      "finding": "Venice explicitly directs $5 per $100 of purchased API credits to VVV buy-and-burn and documents the 2M annual emission step from 1 October 2026. Existing deck mechanism retained.",
+      "sources": [
+        "https://venice.ai/blog/tokenomics-update-credit-burns-and-diem-supply-expansion"
+      ]
+    },
+    {
+      "finding": "Umbra fee-collection documentation routes protocol fees to the governance-set treasury payout account. Existing treasury-versus-holder distinction retained.",
+      "sources": [
+        "https://docs.umbraprivacy.com/operations/fee-collection"
+      ]
+    },
+    {
+      "finding": "Time Tells All reports 95.33% Ethereum mainnet, 96.80% Ethereum testnet, 97.70% Bitcoin testnet and 96.58% Solana testnet under its controlled observer setup. UR was not tested.",
+      "sources": [
+        "https://arxiv.org/html/2508.21440v1"
+      ]
+    },
+    {
+      "finding": "Zashi iOS 2.4.7 (5 November 2025) includes ephemeral-address recovery; 2.4.8 (17 November 2025) updates NEAR swaps to unified addresses. The diagram now illustrates address-reuse risk rather than asserting a current implementation defect.",
+      "sources": [
+        "https://zodl.com/ecc-roadmap-q4-2025/",
+        "https://github.com/zodl-inc/zodl-ios/blob/main/CHANGELOG.md"
+      ]
+    },
+    {
+      "finding": "UR price.yml sets initial alpha_per_gib and alpha_per_user to zero. README states market purchases for deposits are expected off-chain, not enforced. Existing conditional deposit wording retained.",
+      "sources": [
+        "https://github.com/urfoundation/sn/blob/main/price.yml",
+        "https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback"
+      ]
+    },
+    {
+      "finding": "Slide 17 remains a clearly marked illustrative chart at the user’s earlier explicit request. No observed monthly series is inferred from the team-reported 350K endpoint.",
+      "status": "sample_not_for_publication"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "research",
+      "slide": 1,
+      "old": "Markets reward privacy only where demand reaches the token",
+      "new": "Privacy tokens use different routes to value capture",
+      "why": "Remove an unsupported universal claim about market pricing."
+    },
+    {
+      "kind": "editorial",
+      "slide": 2,
+      "old": "Corporate payment flows now settle on public ledgers, and the founders of the industry are building confidentiality into its base layer.",
+      "new": "Corporate payments are moving onto public ledgers. Buterin and Durov argue for privacy in the networks people already use.",
+      "why": "Replace broad industry framing with named subjects and a direct claim."
+    },
+    {
+      "kind": "research",
+      "slide": 3,
+      "old": "Once an address is linked to a company, its payroll, supplier terms and treasury positions become public record.",
+      "new": "Public payments can reveal a company’s counterparties, payment amounts and treasury balances.",
+      "why": "Public transactions do not disclose all contractual supplier terms."
+    },
+    {
+      "kind": "research",
+      "slide": 3,
+      "old": "Tether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.",
+      "new": "Tether and Circle account for 84% of supply; their public transfers can be monitored.",
+      "why": "Supply share does not prove activity share, and these issuers deploy contracts on several chains."
+    },
+    {
+      "kind": "editorial",
+      "slide": 3,
+      "old": "At this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.",
+      "new": "Public payroll and supplier payments can expose information companies normally keep confidential.",
+      "why": "Replace a rhetorical contrast with the concrete confidentiality problem."
+    },
+    {
+      "kind": "research",
+      "slide": 4,
+      "old": "Both positions point to privacy embedded at the infrastructure layer from the outset, which favours protocols over standalone privacy applications.",
+      "new": "Both argue for privacy in systems people already use. Wallet and application adoption will determine how widely it reaches users.",
+      "why": "The quoted positions do not establish that protocol tokens outperform applications."
+    },
+    {
+      "kind": "research",
+      "slide": 7,
+      "old": "Grass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.",
+      "new": "Grass and Helium provide market-cap benchmarks for networks that sell capacity. Their valuations do not establish a fair value for UR (SN25).",
+      "why": "Keep the comparison without asserting a proven cause of valuation differences."
+    },
+    {
+      "kind": "editorial",
+      "slide": 8,
+      "old": "Privacy token landscape",
+      "new": "Privacy token comparison",
+      "why": "Use a concrete description of the slide."
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "Private transfers and swaps through existing wallets. Pool entry and exit stay public.",
+      "new": "Private transfers and swaps through existing wallets. Deposits and withdrawals remain public.",
+      "why": "Explain the public boundaries in plain language.",
+      "sources": [
+        "https://nullmask.io/docs/privacy"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "Ethereum and Base documented; MAU not verified",
+      "new": "Ethereum and Base; supported assets only",
+      "why": "Report confirmed product availability instead of an unfinished user-count check.",
+      "sources": [
+        "https://nullmask.io/docs/networks"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "Official network documentation lists Ethereum and Base. No independently verified monthly-active-user count is used. Documentation checked 19 October 2026.",
+      "new": "Official documentation lists ETH and USDT on Ethereum, and ETH and USDC on Base. This cell describes product availability, not a monthly user count. Checked 20 October 2026.",
+      "why": "State exactly what the source establishes.",
+      "sources": [
+        "https://nullmask.io/docs/networks"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "legacy Connect wallets; current Aztec unverified",
+      "new": "legacy Connect wallets; retired product",
+      "why": "The 100K+ figure belongs to the retired Aztec Connect product, not the current network.",
+      "sources": [
+        "https://aztec.network/blog/your-favorite-defi-apps-now-with-privacy"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "100K+ wallets on Aztec Connect, its retired predecessor",
+      "new": "Aztec reports over 100,000 active wallets for the retired Aztec Connect product. This historical count is not current-network adoption.",
+      "why": "Make the historical scope explicit.",
+      "sources": [
+        "https://aztec.network/blog/your-favorite-defi-apps-now-with-privacy"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "Rewards + burns",
+      "new": "Reported rewards",
+      "why": "Avoid presenting reported token metrics as proven product-fee distribution."
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "Analytics reports MASK burns and ZEC payouts. Fee-to-token routing needs verification.",
+      "new": "Dashboard lists MASK burns and ZEC rewards separately from service fees.",
+      "why": "Replace the research to-do with the disclosed accounting distinction.",
+      "sources": [
+        "https://app.nullmask.io/analytics"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 9,
+      "old": "MASK is the Solana token. Analytics reports burns and ZEC holder rewards, but this review has not independently traced product-fee-funded buybacks or established a contractual fee entitlement.",
+      "new": "The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders.",
+      "why": "Describe the actual disclosures without claiming a traced cross-chain distribution.",
+      "sources": [
+        "https://app.nullmask.io/analytics",
+        "https://nullmask.io/docs/fees"
+      ]
+    },
+    {
+      "kind": "editorial",
+      "slide": 10,
+      "old": "Investors are paying for optionality on private use that has yet to materialise at scale.",
+      "new": "The valuation assumes wider private use than the current activity demonstrates.",
+      "why": "Replace finance shorthand with the existing argument in plain language."
+    },
+    {
+      "kind": "research",
+      "slide": 11,
+      "old": "Users keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.",
+      "new": "Users keep their wallets. Private transfers hide activity from public observers; the operator can read it. MASK rewards are reported separately from service fees.",
+      "why": "Remove the unresolved verification condition and state the privacy and accounting findings.",
+      "sources": [
+        "https://nullmask.io/docs/privacy",
+        "https://app.nullmask.io/analytics"
+      ]
+    },
+    {
+      "kind": "editorial",
+      "slide": 11,
+      "old": "Existing-wallet access, with visible pool boundaries",
+      "new": "Deposits and withdrawals remain public",
+      "why": "Use familiar terms instead of pool-boundary shorthand."
+    },
+    {
+      "kind": "research",
+      "slide": 11,
+      "old": "How value reaches MASK",
+      "new": "MASK rewards and burns",
+      "why": "The evidence supports reported token metrics, not automatic service-fee sharing."
+    },
+    {
+      "kind": "research",
+      "slide": 11,
+      "old": "Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.",
+      "new": "The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees.",
+      "why": "State the limit of the published mechanism as a finding rather than a research task.",
+      "sources": [
+        "https://app.nullmask.io/analytics"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 11,
+      "old": "Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.",
+      "new": "Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet.",
+      "why": "Report the fee and revenue definitions directly.",
+      "sources": [
+        "https://nullmask.io/docs/fees",
+        "https://app.nullmask.io/analytics"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 11,
+      "old": "Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.",
+      "new": "Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity.",
+      "why": "Make delivery status and operator visibility explicit.",
+      "sources": [
+        "https://nullmask.io/docs/project-roadmap",
+        "https://nullmask.io/docs/privacy"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 12,
+      "old": "Usage remains small relative to staking and valuation. The chart compares USD amounts on a logarithmic scale. The supplied release disclosures include a critical vulnerability.",
+      "new": "Aztec disclosed a critical proving bug on 7 August. The chart compares staking, valuation and user funds in USD on a logarithmic scale.",
+      "why": "Replace editorial scaffolding with the dated primary-source disclosure.",
+      "sources": [
+        "https://aztec.network/blog/alpha-v5-proving-system-vulnerability"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 16,
+      "old": "Swap boundaries: a historical refund-linking example (2025)",
+      "new": "Swap boundaries: reused refund addresses can link activity",
+      "why": "Use a conditional address-reuse example rather than imply an old implementation remains current."
+    },
+    {
+      "kind": "research",
+      "slide": 16,
+      "old": "Sent to the original transparent address,",
+      "new": "A reused transparent refund address",
+      "why": "Describe the mechanism conditionally rather than as a current Zodl implementation."
+    },
+    {
+      "kind": "research",
+      "slide": 16,
+      "old": "so timing and amounts can be matched",
+      "new": "can link amounts and timing",
+      "why": "Keep the risk concrete without asserting every refund is linkable."
+    },
+    {
+      "kind": "research",
+      "slide": 16,
+      "old": "Historical refund example (2025)||A reported transparent-address refund illustrated swap-boundary linkability. ECC’s Q4 2025 roadmap proposed ephemeral addresses to reduce linkability; this slide does not establish the current implementation’s status.||ECC Q4 2025 roadmap: https://zodl.com/ecc-roadmap-q4-2025/; original incident supplied via Cryptopolitan, 21 October 2025",
+      "new": "Refund address reuse||Reusing a transparent refund address can link activity. ECC’s Q4 2025 roadmap proposed ephemeral addresses. Zashi iOS release 2.4.7 (5 November 2025) added ephemeral-address recovery; 2.4.8 (17 November 2025) updated NEAR swaps to unified addresses. This diagram illustrates address-reuse risk, not a current Zodl vulnerability.||https://zodl.com/ecc-roadmap-q4-2025/; https://github.com/zodl-inc/zodl-ios/blob/main/CHANGELOG.md",
+      "why": "Resolve the historical/current distinction using official release notes.",
+      "sources": [
+        "https://zodl.com/ecc-roadmap-q4-2025/",
+        "https://github.com/zodl-inc/zodl-ios/blob/main/CHANGELOG.md"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 17,
+      "old": "URnetwork’s monthly user growth, shown here with placeholder data pending the verified series.",
+      "new": "Illustrative monthly series; 350K monthly users is the team-reported endpoint.",
+      "why": "Keep the explicitly requested sample chart visibly illustrative, without an unfinished verification instruction."
+    },
+    {
+      "kind": "editorial",
+      "slide": 17,
+      "old": "The user base already exists while the deposit rate is set at zero for launch, so the open question for UR (SN25) is pricing rather than demand.",
+      "new": "URnetwork reports an existing user base. The launch deposit rate is zero, so app usage does not yet require operators to buy UR (SN25).",
+      "why": "Replace a rhetorical contrast with the current mechanism and its limitation."
+    },
+    {
+      "kind": "research",
+      "slide": 17,
+      "old": "The bars illustrate the intended chart layout. Replace the sample monthly values before publication.",
+      "new": "The bars show the chart layout, not measured monthly growth.",
+      "why": "Retain the sample-data warning and remove an internal editing instruction."
+    },
+    {
+      "kind": "research",
+      "slide": 18,
+      "old": "Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period.",
+      "new": "Deposits are sized to measured traffic at a published rate. The launch price schedule sets the rate to zero.",
+      "why": "Use the checked price configuration rather than vague emphasis.",
+      "sources": [
+        "https://github.com/urfoundation/sn/blob/main/price.yml"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 19,
+      "old": "Illustrative only: above the dotted line, assumed deposits exceed miner emissions. No deposit-rate calibration is supplied.",
+      "new": "The bars assume deposits exceed miner emissions above the dotted line. Their heights are illustrative, not calibrated to a published rate.",
+      "why": "Express the scenario limitation directly without a missing-input research note."
+    },
+    {
+      "kind": "editorial",
+      "slide": 21,
+      "old": "How value reaches UR (SN25), most likely first",
+      "new": "How value can reach UR (SN25)",
+      "why": "Remove an unsupported ordering by likelihood."
+    },
+    {
+      "kind": "research",
+      "slide": 22,
+      "old": "The live proof that the network serves real demand",
+      "new": "Consumer app adoption, not operator-deposit revenue",
+      "why": "User counts demonstrate app use, not paid demand reaching the subnet token."
+    },
+    {
+      "kind": "research",
+      "slide": 23,
+      "old": "End-2027 market-cap ranges are illustrative assumptions. No cash-flow or deposit-based valuation model is supplied. The axis is logarithmic, in USD.",
+      "new": "End-2027 market-cap ranges are illustrative scenarios, not outputs from a cash-flow or deposit valuation model. The axis is logarithmic, in USD.",
+      "why": "Preserve the valuation qualification without sounding like unfinished research."
+    },
+    {
+      "kind": "research",
+      "slide": 24,
+      "old": "Version 6 fixes the critical proving bug",
+      "new": "Version 6 proving-system update",
+      "why": "A planned fix is not a delivered or guaranteed remediation.",
+      "sources": [
+        "https://aztec.network/blog/alpha-v5-proving-system-vulnerability"
+      ]
+    },
+    {
+      "kind": "research",
+      "slide": 24,
+      "old": "Aztec asked teams to pause new deployments until then",
+      "new": "Aztec asked teams to pause new deployments pending guidance",
+      "why": "Match the condition in the official incident disclosure.",
+      "sources": [
+        "https://aztec.network/blog/alpha-v5-proving-system-vulnerability"
+      ]
+    },
+    {
+      "kind": "editorial",
+      "slide": 24,
+      "old": "A conviction would raise legal risk for every privacy developer",
+      "new": "Could clarify liability for developers of privacy tools",
+      "why": "Remove the unsupported universal claim and preserve the conditional legal implication."
+    },
+    {
+      "kind": "research",
+      "slide": 24,
+      "old": "Separate service fees from team-wallet rewards; verify token value capture and delivered integrations. Solana and perps are targets, not confirmed releases.",
+      "new": "The dashboard reports service fees, developer-wallet ZEC rewards, holder payouts and burns as distinct metrics. Solana and private perpetuals remain roadmap targets.",
+      "why": "Replace the verify instruction with documented categories and delivery status.",
+      "sources": [
+        "https://app.nullmask.io/analytics",
+        "https://nullmask.io/docs/project-roadmap"
+      ]
+    },
+    {
+      "kind": "metadata",
+      "slide": 0,
+      "old": "2026-10-19-logo-consistency-v12",
+      "new": "2026-10-20-evidence-editorial-v13",
+      "why": "Identify the audited build."
+    },
+    {
+      "kind": "metadata",
+      "slide": 0,
+      "old": "Primary-source checks cover RPC privacy and UR (SN25) mechanism wording on 2026-10-18, plus Nullmask product documentation on 2026-10-19. Other market, adoption and milestone figures remain supplied research, not independently re-verified.",
+      "new": "Targeted primary-source audit on 2026-10-20 covers Nullmask fees, reward accounting and delivery status; historical Aztec Connect adoption; Aztec proving-system disclosures; wallet RPC experiments; refund release history; and UR (SN25) launch pricing. Market values retain their stated historical observation dates. This is not a transaction-level audit of every metric.",
+      "why": "Describe completed checks and their actual scope."
+    },
+    {
+      "kind": "metadata",
+      "slide": 0,
+      "old": "Nullmask product documentation checked 2026-10-19. Operator visibility and public pool boundaries remain material. Market cap/FDV are a 2026-10-19 snapshot, not the earlier peer snapshot. Fee-funded buyback routing is not independently verified; Solana and private perpetuals are roadmap items.",
+      "new": "Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV retain the 2026-10-19 observation date. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.",
+      "why": "Replace an open verification note with the checked accounting distinction."
+    },
+    {
+      "kind": "metadata",
+      "slide": 0,
+      "old": "fee-to-token routing is not independently verified, and roadmap items are not presented as live. Other supplied metrics and dates remain unverified.",
+      "new": "its dashboard reports product fees, developer-wallet ZEC rewards, holder payouts and MASK burns separately, without documenting automatic product-fee sharing. Roadmap targets are distinguished from live products. The 2026-10-20 evidence audit also checks historical Aztec Connect adoption, proving-system disclosures, the RPC study, refund release history and UR launch pricing. Market figures retain their stated historical observation dates.",
+      "why": "Record findings rather than leave verification to readers."
+    },
+    {
+      "kind": "metadata",
+      "slide": 0,
+      "old": "End-2027 scenario ranges are illustrative assumptions, not forecasts or a supplied valuation model.",
+      "new": "End-2027 scenario ranges are illustrative assumptions, not forecasts or outputs from a valuation model.",
+      "why": "Preserve the scenario warning in direct language."
+    }
+  ],
+  "changed_files": [
+    "source/index.html",
+    "build-article.cjs",
+    "agent-readable.cjs",
+    "dist/llms.txt",
+    "dist/index.html",
+    "dist/report.md",
+    "dist/report.json",
+    "dist/report.html",
+    "dist/slides/watch.html",
+    "dist/slides/sn25.html",
+    "dist/slides/tokens.html",
+    "dist/slides/aztec.html",
+    "dist/slides/mau.html",
+    "dist/slides/act1.html",
+    "dist/slides/summary.html",
+    "dist/slides/pipeline.html",
+    "dist/slides/catalysts.html",
+    "dist/slides/act2.html",
+    "dist/slides/founders.html",
+    "dist/slides/operators.html",
+    "dist/slides/priced.html",
+    "dist/slides/edges.html",
+    "dist/slides/zcash.html",
+    "dist/slides/value.html",
+    "dist/slides/capital.html",
+    "dist/slides/nullmask.html",
+    "dist/downloads/svg/founders.svg",
+    "dist/downloads/svg/summary.svg",
+    "dist/downloads/svg/act1.svg",
+    "dist/downloads/svg/tokens.svg",
+    "dist/downloads/svg/zcash.svg",
+    "dist/downloads/svg/watch.svg",
+    "dist/downloads/svg/nullmask.svg",
+    "dist/downloads/svg/edges.svg",
+    "dist/downloads/svg/aztec.svg",
+    "dist/downloads/svg/pipeline.svg",
+    "dist/downloads/svg/operators.svg",
+    "dist/downloads/svg/act2.svg",
+    "dist/downloads/svg/value.svg",
+    "dist/downloads/svg/priced.svg",
+    "dist/downloads/svg/mau.svg",
+    "dist/downloads/svg/capital.svg",
+    "dist/downloads/svg/sn25.svg",
+    "dist/downloads/svg/catalysts.svg",
+    "dist/downloads/html/watch.html",
+    "dist/downloads/html/sn25.html",
+    "dist/downloads/html/tokens.html",
+    "dist/downloads/html/aztec.html",
+    "dist/downloads/html/mau.html",
+    "dist/downloads/html/act1.html",
+    "dist/downloads/html/summary.html",
+    "dist/downloads/html/pipeline.html",
+    "dist/downloads/html/catalysts.html",
+    "dist/downloads/html/act2.html",
+    "dist/downloads/html/founders.html",
+    "dist/downloads/html/operators.html",
+    "dist/downloads/html/priced.html",
+    "dist/downloads/html/edges.html",
+    "dist/downloads/html/zcash.html",
+    "dist/downloads/html/value.html",
+    "dist/downloads/html/capital.html",
+    "dist/downloads/html/nullmask.html",
+    "github/llms.txt",
+    "github/index.html",
+    "github/report.md",
+    "github/report.json",
+    "github/report.html"
+  ],
+  "preserved": [
+    "24-slide order",
+    "fonts, palette and layout",
+    "company and wallet logos",
+    "hover functionality",
+    "dated historic market values",
+    "authors and release date",
+    "operator visibility, sample-data and scenario qualifications"
+  ],
+  "verification": {
+    "passed": true,
+    "slides": 24,
+    "changed_slide_ids": [
+      "summary",
+      "act1",
+      "capital",
+      "founders",
+      "priced",
+      "act2",
+      "tokens",
+      "zcash",
+      "nullmask",
+      "aztec",
+      "edges",
+      "mau",
+      "operators",
+      "value",
+      "pipeline",
+      "watch",
+      "catalysts"
+    ],
+    "layout_attributes": "unchanged",
+    "fonts_images_css": "unchanged",
+    "html_exports_and_embedded_frames": "match source text",
+    "json": "valid",
+    "unfinished_verification_notes": 0,
+    "sample_data_warning": "preserved",
+    "bundled_jsdom_checks": "unavailable after dependency installation was blocked; equivalent HTML/export and structure checks executed with lxml"
+  },
+  "editorial_preservation": {
+    "status": "PASS",
+    "semantic_review": "model_only",
+    "layout_export_text_checks": "executed",
+    "protected_quotes": "unchanged",
+    "source_values": "historical figures retained; dated factual corrections and qualifications are logged",
+    "second_pass": "completed; substantive qualifications retained"
+  }
+}

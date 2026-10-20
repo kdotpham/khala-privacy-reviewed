@@ -13,5 +13,5 @@
 
 - Slide 17 monthly chart values are SAMPLE DATA, NOT FOR POSTING, and must not be treated as observed history.
 - Slide 23 scenario ranges are illustrative assumptions.
-- Slide 16 was checked against the primary paper and UR (SN25) mechanism copy against official documentation on 2026-10-18. Nullmask product docs were checked 2026-10-19; fee-to-token routing is not independently verified, and roadmap items are not presented as live. Other supplied metrics and dates remain unverified.
+- Slide 16 was checked against the primary paper and UR (SN25) mechanism copy against official documentation on 2026-10-18. Nullmask product docs were checked 2026-10-19; its dashboard reports product fees, developer-wallet ZEC rewards, holder payouts and MASK burns separately, without documenting automatic product-fee sharing. Roadmap targets are distinguished from live products. The 2026-10-20 evidence audit also checks historical Aztec Connect adoption, proving-system disclosures, the RPC study, refund release history and UR launch pricing. Market figures retain their stated historical observation dates.
 - The network-privacy comparison on slide 7 covers Nym and UR (SN25) only.

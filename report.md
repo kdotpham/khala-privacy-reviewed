@@ -11,7 +11,7 @@ Slide 17: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholder
 
 
 Executive summary
-1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Markets reward privacy only where demand reaches the token Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)
+1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Privacy tokens use different routes to value capture Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)
 Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027
 
 [View slide 1](https://kdotpham.github.io/khala-privacy-reviewed/#summary)
@@ -19,7 +19,7 @@ Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 Novem
 ## Slide 2: Privacy is becoming necessary for corporate payments
 
 
-Corporate payment flows now settle on public ledgers, and the founders of the industry are building confidentiality into its base layer.
+Corporate payments are moving onto public ledgers. Buterin and Durov argue for privacy in the networks people already use.
 In this section
 Stablecoins on public ledgers 3
 Buterin and Durov 4
@@ -33,9 +33,9 @@ Where markets pay for privacy 7
 
 
 That exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.
-Once an address is linked to a company, its payroll, supplier terms and treasury positions become public record.
-Tether and Circle issue 84% of supply, so most activity runs through two contracts any analyst can monitor.
-At this scale, confidentiality becomes an operating requirement for corporate treasuries rather than a user preference.
+Public payments can reveal a company’s counterparties, payment amounts and treasury balances.
+Tether and Circle account for 84% of supply; their public transfers can be monitored.
+Public payroll and supplier payments can expose information companies normally keep confidential.
 “For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026
 
 ### Capital in selected onchain financial products, by component
@@ -87,7 +87,7 @@ Where it belongs
 In the product, with no backdoors, even at the cost of withdrawing from a market.
 Current gap
 Telegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.
-Implication Both positions point to privacy embedded at the infrastructure layer from the outset, which favours protocols over standalone privacy applications.
+Implication Both argue for privacy in systems people already use. Wallet and application adoption will determine how widely it reaches users.
 
 [View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#founders)
 
@@ -145,7 +145,7 @@ Encrypting amounts is not sufficient on its own, because the network connection 
 
 
 Zcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.
-Grass and Helium make the same point for network capacity: paying customers and token-level value capture support materially higher valuations.
+Grass and Helium provide market-cap benchmarks for networks that sell capacity. Their valuations do not establish a fair value for UR (SN25).
 The network-privacy comparison includes Nym and UR (SN25).
 
 ### Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.
@@ -171,7 +171,7 @@ Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Transac
 
 What each privacy network sells, who pays for it, and how much of that value reaches the token.
 In this section
-Privacy token landscape 9
+Privacy token comparison 9
 Zcash 10
 Nullmask ($MASK) 11
 Aztec 12
@@ -188,10 +188,10 @@ Zcash remains the established benchmark on the next slide. These five products u
 
 |  | Nullmask Wallets | Aztec Wallet Azguard | Umbra Wallet Phantom | Venice Token access | UR (SN25) New Access URnetwork app |
 | --- | --- | --- | --- | --- | --- |
-| What it produces | Private transfers and swaps through existing wallets. Pool entry and exit stay public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
-| Reported adoption | Live pools Ethereum and Base documented; MAU not verified | 100K+ legacy Connect wallets; current Aztec unverified | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
+| What it produces | Private transfers and swaps through existing wallets. Deposits and withdrawals remain public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
+| Reported adoption | Live pools Ethereum and Base; supported assets only | 100K+ legacy Connect wallets; retired product | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
 | Who pays for it | Users pay 0.5% on deposits and withdrawals, plus network fees. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
-| Does value reach the token | Rewards + burns Analytics reports MASK burns and ZEC payouts. Fee-to-token routing needs verification. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed. |
+| Does value reach the token | Reported rewards Dashboard lists MASK burns and ZEC rewards separately from service fees. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed. |
 
 ### Chart details and interactive notes
 
@@ -207,8 +207,8 @@ Zcash remains the established benchmark on the next slide. These five products u
 | Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
 | UR (SN25) | Bandwidth and routing marketplace: independent providers carry traffic, validators score performance |  |
-| Nullmask ($MASK) | Official network documentation lists Ethereum and Base. No independently verified monthly-active-user count is used. Documentation checked 19 October 2026. | https://nullmask.io/docs/networks |
-| Aztec | 100K+ wallets on Aztec Connect, its retired predecessor |  |
+| Nullmask ($MASK) | Official documentation lists ETH and USDT on Ethereum, and ETH and USDC on Base. This cell describes product availability, not a monthly user count. Checked 20 October 2026. | https://nullmask.io/docs/networks |
+| Aztec | Aztec reports over 100,000 active wallets for the retired Aztec Connect product. This historical count is not current-network adoption. |  |
 | Umbra | 3,428 encrypted user accounts on Solana |  |
 | Venice | ~21.9K wallets indexed by VeniceStats |  |
 | UR (SN25) | 350K+ monthly URnetwork app users (team-reported, off-chain) |  |
@@ -217,7 +217,7 @@ Zcash remains the established benchmark on the next slide. These five products u
 | Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
 | Venice | Users pay subscriptions or API credits, or stake $VVV for a daily share of inference |  |
 | UR (SN25) | Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue |  |
-| Nullmask ($MASK) | MASK is the Solana token. Analytics reports burns and ZEC holder rewards, but this review has not independently traced product-fee-funded buybacks or established a contractual fee entitlement. | https://app.nullmask.io/analytics |
+| Nullmask ($MASK) | The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders. | https://app.nullmask.io/analytics |
 | Aztec | $AZTEC funds fees, staking and governance; congestion fees burn, the rest pays operators |  |
 | Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
 | Venice | $VVV is staked for inference capacity, and a share of credit purchases buys back and burns it |  |
@@ -230,7 +230,7 @@ Zcash remains the established benchmark on the next slide. These five products u
 
 The shielded share of ZEC supply rose through 2025, then fell in the first half of 2026.
 At the mid-October snapshot, ZEC’s market value is roughly twice Monero’s. Most activity still settles transparently.
-Investors are paying for optionality on private use that has yet to materialise at scale.
+The valuation assumes wider private use than the current activity demonstrates.
 Q2 2026 network fees
 Transparent ~$92K Shielded ~$18K
 
@@ -252,17 +252,17 @@ Chart labels in display order: ~8% · Start of 2025 · ~23% · Dec 2025 · 31.0%
 
 ## Slide 11: Nullmask brings private transfers and swaps to existing wallets
 
-**Nullmask product documentation checked 2026-10-19. Operator visibility and public pool boundaries remain material. Market cap/FDV are a 2026-10-19 snapshot, not the earlier peer snapshot. Fee-funded buyback routing is not independently verified; Solana and private perpetuals are roadmap items.**
+**Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV retain the 2026-10-19 observation date. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
 
-Users keep their wallet setup while shielding activity. The investment case depends on repeat fee-paying usage and a verified path from fees to MASK.
+Users keep their wallets. Private transfers hide activity from public observers; the operator can read it. MASK rewards are reported separately from service fees.
 What it sells Private transfers and swaps through shielded pools, using your existing wallet. Ethereum Base
-How value reaches MASK Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification.
-Evidence of demand Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately.
-What has to be true Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption.
+MASK rewards and burns The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees.
+Evidence of demand Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet.
+What has to be true Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity.
 
 ### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
 
-Chart labels in display order: Existing-wallet access, with visible pool boundaries · Existing wallet · MetaMask · Rabby · Same wallet signs each action · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · act · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · The operator can still read private balances and history. · $27.7M · Market cap · 19 Oct 2026 · $45.8M · FDV · 19 Oct 2026
+Chart labels in display order: Deposits and withdrawals remain public · Existing wallet · MetaMask · Rabby · Same wallet signs each action · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · act · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · The operator can still read private balances and history. · $27.7M · Market cap · 19 Oct 2026 · $45.8M · FDV · 19 Oct 2026
 
 ### Chart details and interactive notes
 
@@ -276,16 +276,16 @@ Chart labels in display order: Existing-wallet access, with visible pool boundar
 | MASK market cap: $27.7M | Circulating market cap $27.74M; observed 19 October 2026. This is a newer snapshot than the existing 15 October peer comparisons. | https://defillama.com/protocol/nullmask |
 | MASK fully diluted value: $45.8M | Fully diluted value $45.83M; observed 19 October 2026. Market cap and FDV are not interchangeable. | https://defillama.com/protocol/nullmask |
 | What it sells | Private transfers and swaps through shielded pools. Official documentation names MetaMask and Rabby as wallet examples and Ethereum and Base as networks. Compatibility does not mean a wallet partnership. | https://nullmask.io/docs/getting-started; https://nullmask.io/docs/networks |
-| How value reaches MASK | Analytics tracks MASK burns and ZEC holder payouts. The share of product fees reaching holders needs on-chain verification. | https://app.nullmask.io/analytics |
-| Evidence of demand | Users pay 0.5% on entry and exit. Reported revenue also includes team-wallet ZEC rewards, so product fees must be assessed separately. | https://app.nullmask.io/analytics |
-| What has to be true | Fee-paying usage repeats as integrations expand. Solana and private perpetuals remain roadmap items; operator visibility is a trust assumption. | https://nullmask.io/docs/project-roadmap |
+| MASK rewards and burns | The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees. | https://app.nullmask.io/analytics |
+| Evidence of demand | Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet. | https://app.nullmask.io/analytics |
+| What has to be true | Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity. | https://nullmask.io/docs/project-roadmap |
 
 [View slide 11](https://kdotpham.github.io/khala-privacy-reviewed/#nullmask)
 
 ## Slide 12: Aztec has $12M staked against $58K in user funds
 
 
-Usage remains small relative to staking and valuation. The chart compares USD amounts on a logarithmic scale. The supplied release disclosures include a critical vulnerability.
+Aztec disclosed a critical proving bug on 7 August. The chart compares staking, valuation and user funds in USD on a logarithmic scale.
 What it sells Private smart contracts on Ethereum: confidential balances, state and execution, written in Noir.
 How value reaches the token Fees are paid in AZTEC, congestion fees burn, and sequencers must stake 200,000 AZTEC to produce blocks.
 What has to be true v6 closes the proving bug disclosed on 7 August, and apps bring user funds well above today’s $58K.
@@ -389,13 +389,13 @@ Catalysts across the coverage universe 24
 **Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested.**
 
 A 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.
-Swap boundaries: a historical refund-linking example (2025)
+Swap boundaries: reused refund addresses can link activity
 RPC traffic: address-to-IP linking in controlled tests
 Researcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection.
 
 ### Swap route into shielded ZEC and where it leaked
 
-Chart labels in display order: Wallet elsewhere · SOL, ETH or USDC · NEAR Intents · Solvers fill the swap · Shielded ZEC · Private balance · Refund · Sent to the original transparent address, · so timing and amounts can be matched · $1.5B+ · ZEC swap volume through · NEAR Intents by March 2026 · (sponsored research)
+Chart labels in display order: Wallet elsewhere · SOL, ETH or USDC · NEAR Intents · Solvers fill the swap · Shielded ZEC · Private balance · Refund · A reused transparent refund address · can link amounts and timing · $1.5B+ · ZEC swap volume through · NEAR Intents by March 2026 · (sponsored research)
 
 ### Controlled TRAP experiments: wallet-address-to-IP linking success, by blockchain and network
 
@@ -408,7 +408,7 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask
 | Wallet elsewhere | SOL, ETH or USDC |  |
 | NEAR Intents | Solvers fill the swap |  |
 | Shielded ZEC | Private balance |  |
-| Historical refund example (2025) | A reported transparent-address refund illustrated swap-boundary linkability. ECC’s Q4 2025 roadmap proposed ephemeral addresses to reduce linkability; this slide does not establish the current implementation’s status. | ECC Q4 2025 roadmap: https://zodl.com/ecc-roadmap-q4-2025/; original incident supplied via Cryptopolitan, 21 October 2025 |
+| Refund address reuse | Reusing a transparent refund address can link activity. ECC’s Q4 2025 roadmap proposed ephemeral addresses. Zashi iOS release 2.4.7 (5 November 2025) added ephemeral-address recovery; 2.4.8 (17 November 2025) updated NEAR swaps to unified addresses. This diagram illustrates address-reuse risk, not a current Zodl vulnerability. | https://zodl.com/ecc-roadmap-q4-2025/; https://github.com/zodl-inc/zodl-ios/blob/main/CHANGELOG.md |
 | $1.5B+ through NEAR Intents | Cumulative ZEC swap volume by the end of March 2026. | CoinDesk Research, sponsored by GenZcash |
 | Ethereum mainnet: 95.33% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
 | Ethereum testnet: 96.80% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
@@ -421,10 +421,10 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask
 
 **SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported.**
 
-URnetwork’s monthly user growth, shown here with placeholder data pending the verified series.
+Illustrative monthly series; 350K monthly users is the team-reported endpoint.
 126,717 providers across 103 countries
-The user base already exists while the deposit rate is set at zero for launch, so the open question for UR (SN25) is pricing rather than demand.
-The bars illustrate the intended chart layout. Replace the sample monthly values before publication.
+URnetwork reports an existing user base. The launch deposit rate is zero, so app usage does not yet require operators to buy UR (SN25).
+The bars show the chart layout, not measured monthly growth.
 SAMPLE DATA · NOT FOR POSTING
 
 ### Placeholder monthly active users chart. Sample data, not for posting.
@@ -467,7 +467,7 @@ Chart labels in display order: Customers · Privacy apps and VPN users · Networ
 | Customers | Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN. | UR (SN25) litepaper |
 | Network operators | Operators run privacy servers and a verification endpoint and decide how rewards split among their miners. | UR (SN25) litepaper |
 | Miners | Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets. | https://github.com/urfoundation/sn#two-miner-tiers-in-parallel |
-| Subnet reserve | Deposits are sized to real traffic at a published reference rate. The rate is zero during the initial period. | UR (SN25) litepaper |
+| Subnet reserve | Deposits are sized to measured traffic at a published rate. The launch price schedule sets the rate to zero. | UR (SN25) litepaper |
 | UR (SN25) emissions | 18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout. | https://github.com/urfoundation/sn#emission--yuma-consensus |
 | Validators | Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool. | https://github.com/urfoundation/sn/blob/main/VALIDATOR.md |
 
@@ -477,7 +477,7 @@ Chart labels in display order: Customers · Privacy apps and VPN users · Networ
 
 
 Priced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.
-Illustrative only: above the dotted line, assumed deposits exceed miner emissions. No deposit-rate calibration is supplied.
+The bars assume deposits exceed miner emissions above the dotted line. Their heights are illustrative, not calibrated to a published rate.
 The reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase.
 
 ### UR (SN25) demand by number of operators
@@ -532,7 +532,7 @@ Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M
 
 
 TAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.
-How value reaches UR (SN25), most likely first
+How value can reach UR (SN25)
 1
 TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.
 Live since November 2025
@@ -577,7 +577,7 @@ If these programmes become paying operators, their traffic could create UR (SN25
 
 | Operator | Market | What it does on UR (SN25) | Market reference and metric |
 | --- | --- | --- | --- |
-| ur.io | Consumer VPN Live | 350K+ monthly users today (team-reported) | The live proof that the network serves real demand |
+| ur.io | Consumer VPN Live | 350K+ monthly users today (team-reported) | Consumer app adoption, not operator-deposit revenue |
 | Project Bastion | Enterprise network access Research | Secure access for companies, their staff and their devices | Zscaler $3.77B ARR, FY2026 |
 | Project Meridian | Identity and private access for AI agents Research | Gives agents their own credentials and private routes to company systems | Tailscale $1.5B valuation, 2025 |
 | Project Stargate | Open web access for AI agents Research | Residential routes that let agents browse, retrieve and index the open web | Browserbase $300M valuation, 2025 |
@@ -597,9 +597,9 @@ If these programmes become paying operators, their traffic could create UR (SN25
 
 ## Slide 23: Operator deposits distinguish the illustrative UR (SN25) scenarios
 
-**End-2027 scenario ranges are illustrative assumptions, not forecasts or a supplied valuation model.**
+**End-2027 scenario ranges are illustrative assumptions, not forecasts or outputs from a valuation model.**
 
-End-2027 market-cap ranges are illustrative assumptions. No cash-flow or deposit-based valuation model is supplied. The axis is logarithmic, in USD.
+End-2027 market-cap ranges are illustrative scenarios, not outputs from a cash-flow or deposit valuation model. The axis is logarithmic, in USD.
 The number to watch Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions.
 
 | Scenario | What has to happen | $1M $10M $100M $1B 15 Oct 2026 $8.4M | Market-cap multiple |
@@ -626,8 +626,8 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Timing or trigger | Token | Event | Why it matters |
 | --- | --- | --- | --- |
 | 13 Nov 2026 | Aztec | Foundation token unlock | Adds supply while user funds secured are still under $100K |
-| Late 2026 | Aztec | Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |
-| 26 Apr 2027 | Coverage universe | Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |
+| Late 2026 | Aztec | Version 6 proving-system update | Aztec asked teams to pause new deployments pending guidance |
+| 26 Apr 2027 | Coverage universe | Roman Storm retrial on laundering and sanctions counts | Could clarify liability for developers of privacy tools |
 | Coming soon | Umbra | Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |
 | When priced | UR (SN25) | First operator deposit | Links traffic to token locking; the launch rate is zero |
 | Quarterly | Zcash | Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |
@@ -639,13 +639,13 @@ Scheduled milestones come first. Launch triggers and recurring operating indicat
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
 | Aztec: Foundation token unlock | Adds supply while user funds secured are still under $100K |  |
-| Aztec: Version 6 fixes the critical proving bug | Aztec asked teams to pause new deployments until then |  |
-| Coverage universe: Roman Storm retrial on laundering and sanctions counts | A conviction would raise legal risk for every privacy developer |  |
+| Aztec: Version 6 proving-system update | Aztec asked teams to pause new deployments pending guidance |  |
+| Coverage universe: Roman Storm retrial on laundering and sanctions counts | Could clarify liability for developers of privacy tools |  |
 | Umbra: Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |  |
 | UR (SN25): First operator deposit | Links traffic to token locking; the launch rate is zero |  |
 | Zcash: Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |  |
 | Venice: Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |  |
-| Nullmask: Product fees, MASK burns and delivery | Separate service fees from team-wallet rewards; verify token value capture and delivered integrations. Solana and perps are targets, not confirmed releases. | https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap |
+| Nullmask: Product fees, MASK burns and delivery | The dashboard reports service fees, developer-wallet ZEC rewards, holder payouts and burns as distinct metrics. Solana and private perpetuals remain roadmap targets. | https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap |
 
 [View slide 24](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
 
