@@ -716,7 +716,7 @@
             ],
             [
               "What it produces",
-              "Private transfers and swaps through existing wallets. Deposits and withdrawals remain public.",
+              "Private transfers and swaps. Deposits and withdrawals are public.",
               "Ethereum L2 for private contracts, balances and execution.",
               "Private Solana balances, transfers and swaps. Deposits and withdrawals stay public.",
               "Private AI chat, images and APIs. Prompts are not stored on its servers.",

@@ -139,7 +139,7 @@
       "kind": "research",
       "slide": 9,
       "old": "Private transfers and swaps through existing wallets. Pool entry and exit stay public.",
-      "new": "Private transfers and swaps through existing wallets. Deposits and withdrawals remain public.",
+      "new": "Private transfers and swaps. Deposits and withdrawals are public.",
       "why": "Explain the public boundaries in plain language.",
       "sources": [
         "https://nullmask.io/docs/privacy"
