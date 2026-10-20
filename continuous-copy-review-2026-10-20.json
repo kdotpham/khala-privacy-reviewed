@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-20",
+  "build": "2026-10-20-continuous-copy-v14",
+  "scope": "Connected narrative prose across the hero and deck; remove slide-navigation commentary from slide 9 and align its project headers. Concise chart labels and metrics remain reference text.",
+  "changes": [
+    {
+      "slide": "hero",
+      "old": "Demand for on-chain privacy is established. Whether it accrues to token holders depends on what each network sells, who pays for it, and where that value ends up.",
+      "new": "Demand for on-chain privacy is established, but the value reaching tokenholders depends on what each network sells, who pays for it and how the proceeds reach the token."
+    },
+    {
+      "slide": "summary",
+      "old": "Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement.",
+      "new": "With $306B of stablecoins on public ledgers, payroll and OTC deployments are testing how companies can settle transactions confidentially."
+    },
+    {
+      "slide": "summary",
+      "old": "Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M.",
+      "new": "Zcash is held as money and Venice funds VVV buybacks from revenue, while Nym and UR (SN25) together account for $30.6M in market value."
+    },
+    {
+      "slide": "summary",
+      "old": "Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero.",
+      "new": "Aztec secures $58K in user funds, while Umbra directs fees to its DAO and UR (SN25) keeps its operator-deposit rate at zero."
+    },
+    {
+      "slide": "summary",
+      "old": "URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate.",
+      "new": "URnetwork reports 350K monthly users, but usage-linked demand for UR (SN25) depends on a non-zero operator-deposit rate."
+    },
+    {
+      "slide": "act1",
+      "old": "Corporate payments are moving onto public ledgers. Buterin and Durov argue for privacy in the networks people already use.",
+      "new": "As corporate payments move onto public ledgers, Buterin and Durov argue for privacy in the networks people already use."
+    },
+    {
+      "slide": "capital",
+      "old": "That exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.",
+      "new": "Stablecoin supply exceeds crypto ETFs, DeFi and tokenised assets combined, exposing payment flows and counterparty relationships on public ledgers."
+    },
+    {
+      "slide": "founders",
+      "old": "Both argue for privacy in systems people already use. Wallet and application adoption will determine how widely it reaches users.",
+      "new": "Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users."
+    },
+    {
+      "slide": "founders",
+      "old": "In the protocol itself, covering payments, application activity, chain reads and network-level anonymity.",
+      "new": "Privacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity."
+    },
+    {
+      "slide": "founders",
+      "old": "Largely a roadmap, with adoption dependent on wallets and applications implementing it.",
+      "new": "Much of the proposal remains a roadmap that wallets and applications would need to implement."
+    },
+    {
+      "slide": "founders",
+      "old": "In the product, with no backdoors, even at the cost of withdrawing from a market.",
+      "new": "The product should exclude backdoors, even if that means withdrawing from a market."
+    },
+    {
+      "slide": "priced",
+      "old": "Zcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.",
+      "new": "Zcash and Venice show different routes to token demand, with network-capacity peers adding context to the 15 October 2026 market-cap comparison on a logarithmic USD scale."
+    },
+    {
+      "slide": "priced",
+      "old": "Grass and Helium provide market-cap benchmarks for networks that sell capacity. Their valuations do not establish a fair value for UR (SN25).",
+      "new": "Although Grass and Helium provide benchmarks for networks that sell capacity, their valuations do not establish a fair value for UR (SN25)."
+    },
+    {
+      "slide": "act2",
+      "old": "What each privacy network sells, who pays for it, and how much of that value reaches the token.",
+      "new": "Each privacy network sells a different service, so what users pay does not necessarily become value for tokenholders."
+    },
+    {
+      "slide": "tokens",
+      "old": "Nullmask brings shielded activity to existing wallets. Aztec and Umbra serve Ethereum and Solana applications. Venice sells private AI access. UR (SN25) supplies connectivity.",
+      "new": "Nullmask, Aztec and Umbra address private onchain activity, while Venice offers private AI access and UR (SN25) supplies connectivity."
+    },
+    {
+      "slide": "tokens",
+      "old": "Zcash remains the established benchmark on the next slide. These five products use different adoption measures and connect usage to tokens differently.",
+      "new": "Adoption figures cover live products, historical wallets, account counts and reported monthly users, so they are not directly comparable."
+    },
+    {
+      "slide": "zcash",
+      "old": "At the mid-October snapshot, ZEC’s market value is roughly twice Monero’s. Most activity still settles transparently.",
+      "new": "Although ZEC’s market value is roughly twice Monero’s at the mid-October snapshot, most activity still settles transparently."
+    },
+    {
+      "slide": "nullmask",
+      "old": "Users keep their wallets. Private transfers hide activity from public observers; the operator can read it. MASK rewards are reported separately from service fees.",
+      "new": "Nullmask lets users hide transfers from public observers through their existing wallets, but the operator can read their activity and reports MASK rewards separately from service fees."
+    },
+    {
+      "slide": "nullmask",
+      "old": "The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees.",
+      "new": "The dashboard reports ZEC holder payouts and MASK burns separately from service fees, without documenting an automatic distribution of those fees to holders."
+    },
+    {
+      "slide": "nullmask",
+      "old": "Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet.",
+      "new": "Nullmask’s 0.5% deposit and withdrawal fees are one part of reported revenue, which also includes ZEC rewards paid to the developer wallet."
+    },
+    {
+      "slide": "nullmask",
+      "old": "Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity.",
+      "new": "The product needs repeat paying usage to grow, with Solana and private perpetuals still on the roadmap and operator visibility remaining a trust assumption."
+    },
+    {
+      "slide": "aztec",
+      "old": "Aztec disclosed a critical proving bug on 7 August. The chart compares staking, valuation and user funds in USD on a logarithmic scale.",
+      "new": "User funds remain small relative to staking and valuation on the logarithmic USD chart, while Aztec’s 7 August proving-bug disclosure adds a security concern."
+    },
+    {
+      "slide": "umbra",
+      "old": "Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets. There is no automatic buyback or dividend.",
+      "new": "Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend."
+    },
+    {
+      "slide": "venice",
+      "old": "Venice sells private AI chat and API access. Paying users fund VVV buybacks, while annual issuance has been cut from 14M to 2M tokens.",
+      "new": "Venice uses revenue from private AI chat and API access to fund VVV buybacks, alongside a reduction in annual issuance from 14M to 2M tokens."
+    },
+    {
+      "slide": "venice",
+      "old": "Private AI chat, images and API access on open-source models. Prompts are encrypted on the device and not stored on Venice’s servers.",
+      "new": "Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers."
+    },
+    {
+      "slide": "venice",
+      "old": "Staked VVV earns a daily share of inference capacity and mints DIEM, worth $1 of API credit a day. $5 of every $100 of credit purchases buys and burns VVV.",
+      "new": "Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns."
+    },
+    {
+      "slide": "act3",
+      "old": "An established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.",
+      "new": "URnetwork has an established user base, but converting its traffic into token demand depends on introducing priced operator deposits."
+    },
+    {
+      "slide": "edges",
+      "old": "A 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.",
+      "new": "In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95–98% success after 3–4 observations, a result specific to the study’s setup."
+    },
+    {
+      "slide": "edges",
+      "old": "Researcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection.",
+      "new": "Because researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection."
+    },
+    {
+      "slide": "mau",
+      "old": "Illustrative monthly series; 350K monthly users is the team-reported endpoint.",
+      "new": "The monthly series is illustrative and ends at the team-reported figure of 350K monthly users."
+    },
+    {
+      "slide": "mau",
+      "old": "URnetwork reports an existing user base. The launch deposit rate is zero, so app usage does not yet require operators to buy UR (SN25).",
+      "new": "Although URnetwork reports an existing user base, its zero launch deposit rate means app usage does not yet require operators to buy UR (SN25)."
+    },
+    {
+      "slide": "sn25",
+      "old": "Mechanism design shown below. Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.",
+      "new": "Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share."
+    },
+    {
+      "slide": "operators",
+      "old": "Priced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.",
+      "new": "Although the launch rate is zero, priced deposits would lock UR (SN25) against traffic, with revenue-funded purchases expected in the design but not enforced."
+    },
+    {
+      "slide": "operators",
+      "old": "The bars assume deposits exceed miner emissions above the dotted line. Their heights are illustrative, not calibrated to a published rate.",
+      "new": "The illustrative bars show deposits exceeding miner emissions above the dotted line, without assigning a calibrated deposit rate."
+    },
+    {
+      "slide": "operators",
+      "old": "The reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase.",
+      "new": "Deposits lock UR (SN25) in a reserve with no outbound transfer path, but operators can fund them from existing holdings rather than new market purchases."
+    },
+    {
+      "slide": "bull",
+      "old": "The 15 October 2026 snapshot puts UR (SN25) at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.",
+      "new": "The 15 October 2026 comparison places UR (SN25) at $8.4M, Helium at $85M and Grass at $486M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation."
+    },
+    {
+      "slide": "bull",
+      "old": "If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.",
+      "new": "If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced."
+    },
+    {
+      "slide": "value",
+      "old": "TAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.",
+      "new": "While TAO inflows and sector interest support UR (SN25) today, priced operator deposits would add demand by locking tokens against network traffic."
+    },
+    {
+      "slide": "pipeline",
+      "old": "ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR (SN25) revenue.",
+      "new": "With ur.io already live and enterprise and AI programmes still in research, the peer figures illustrate market scale rather than forecast UR (SN25) revenue."
+    },
+    {
+      "slide": "watch",
+      "old": "End-2027 market-cap ranges are illustrative scenarios, not outputs from a cash-flow or deposit valuation model. The axis is logarithmic, in USD.",
+      "new": "The end-2027 market-cap ranges illustrate scenarios on a logarithmic USD scale rather than outputs from a cash-flow or deposit valuation model."
+    },
+    {
+      "slide": "watch",
+      "old": "Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions.",
+      "new": "Track monthly operator deposits against miner emissions: a first non-zero deposit would show that the mechanism is active, while the scenario ranges would remain assumptions."
+    },
+    {
+      "slide": "catalysts",
+      "old": "Scheduled milestones come first. Launch triggers and recurring operating indicators follow.",
+      "new": "Scheduled milestones test delivery, while deposits and burns show whether adoption reaches the token."
+    }
+  ],
+  "layout_change": "Removed the New pill from UR (SN25), which made its heading taller than the other project headings. The shared header layout now determines all five positions.",
+  "verification": {
+    "passed": true,
+    "slides": 24,
+    "prose_revisions": 42,
+    "structure": "unchanged except removal of the UR New pill",
+    "fonts_palette_geometry_and_images": "unchanged",
+    "native_and_embedded_export_text": "matches editable source",
+    "json": "valid",
+    "research_values_quotes_and_qualifications": "preserved; semantic review model-based",
+    "writing_pass": "connected prose; model-based review and second pass, not an automated authorship detector"
+  }
+}

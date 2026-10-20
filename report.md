@@ -11,7 +11,7 @@ Slide 17: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholder
 
 
 Executive summary
-1 Companies now need confidentiality to transact on-chain Stablecoins put $306B on public ledgers. Payroll and OTC deployments now test confidential settlement. $306B stablecoins on public ledgers 2 Privacy tokens use different routes to value capture Zcash is held as money. Venice connects revenue to VVV buybacks. Nym and UR (SN25), the two network-privacy tokens compared here, total $30.6M. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K of user funds. Umbra’s fees reach its DAO treasury. UR (SN25)’s operator-deposit rate remains zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users. UR (SN25) demand depends on introducing a non-zero operator-deposit rate. 350K monthly users (team-reported)
+1 Companies now need confidentiality to transact on-chain With $306B of stablecoins on public ledgers, payroll and OTC deployments are testing how companies can settle transactions confidentially. $306B stablecoins on public ledgers 2 Privacy tokens use different routes to value capture Zcash is held as money and Venice funds VVV buybacks from revenue, while Nym and UR (SN25) together account for $30.6M in market value. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K in user funds, while Umbra directs fees to its DAO and UR (SN25) keeps its operator-deposit rate at zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users, but usage-linked demand for UR (SN25) depends on a non-zero operator-deposit rate. 350K monthly users (team-reported)
 Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027
 
 [View slide 1](https://kdotpham.github.io/khala-privacy-reviewed/#summary)
@@ -19,7 +19,7 @@ Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 Novem
 ## Slide 2: Privacy is becoming necessary for corporate payments
 
 
-Corporate payments are moving onto public ledgers. Buterin and Durov argue for privacy in the networks people already use.
+As corporate payments move onto public ledgers, Buterin and Durov argue for privacy in the networks people already use.
 In this section
 Stablecoins on public ledgers 3
 Buterin and Durov 4
@@ -32,7 +32,7 @@ Where markets pay for privacy 7
 ## Slide 3: Public ledgers expose the activity behind $306B of stablecoins
 
 
-That exceeds crypto ETFs, DeFi and tokenised assets combined. Public transfers and balances can expose counterparty relationships.
+Stablecoin supply exceeds crypto ETFs, DeFi and tokenised assets combined, exposing payment flows and counterparty relationships on public ledgers.
 Public payments can reveal a company’s counterparties, payment amounts and treasury balances.
 Tether and Circle account for 84% of supply; their public transfers can be monitored.
 Public payroll and supplier payments can expose information companies normally keep confidential.
@@ -74,9 +74,9 @@ Ethereum
 Why it matters
 Control over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.
 Where it belongs
-In the protocol itself, covering payments, application activity, chain reads and network-level anonymity.
+Privacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.
 Current gap
-Largely a roadmap, with adoption dependent on wallets and applications implementing it.
+Much of the proposal remains a roadmap that wallets and applications would need to implement.
 Pavel Durov
 Founder and CEO
 Telegram, over 1B monthly users
@@ -84,10 +84,10 @@ Telegram, over 1B monthly users
 Why it matters
 Encryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.
 Where it belongs
-In the product, with no backdoors, even at the cost of withdrawing from a market.
+The product should exclude backdoors, even if that means withdrawing from a market.
 Current gap
 Telegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.
-Implication Both argue for privacy in systems people already use. Wallet and application adoption will determine how widely it reaches users.
+Implication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users.
 
 [View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#founders)
 
@@ -144,8 +144,8 @@ Encrypting amounts is not sufficient on its own, because the network connection 
 ## Slide 7: Privacy demand alone does not set token value
 
 
-Zcash and Venice show different routes to token demand. Network capacity peers add context. Market caps are a 15 October 2026 snapshot on a logarithmic USD scale.
-Grass and Helium provide market-cap benchmarks for networks that sell capacity. Their valuations do not establish a fair value for UR (SN25).
+Zcash and Venice show different routes to token demand, with network-capacity peers adding context to the 15 October 2026 market-cap comparison on a logarithmic USD scale.
+Although Grass and Helium provide benchmarks for networks that sell capacity, their valuations do not establish a fair value for UR (SN25).
 The network-privacy comparison includes Nym and UR (SN25).
 
 ### Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.
@@ -169,7 +169,7 @@ Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Transac
 ## Slide 8: Token designs differ in how usage reaches holders
 
 
-What each privacy network sells, who pays for it, and how much of that value reaches the token.
+Each privacy network sells a different service, so what users pay does not necessarily become value for tokenholders.
 In this section
 Privacy token comparison 9
 Zcash 10
@@ -183,10 +183,10 @@ Venice 14
 ## Slide 9: Privacy tokens capture value differently
 
 
-Nullmask brings shielded activity to existing wallets. Aztec and Umbra serve Ethereum and Solana applications. Venice sells private AI access. UR (SN25) supplies connectivity.
-Zcash remains the established benchmark on the next slide. These five products use different adoption measures and connect usage to tokens differently.
+Nullmask, Aztec and Umbra address private onchain activity, while Venice offers private AI access and UR (SN25) supplies connectivity.
+Adoption figures cover live products, historical wallets, account counts and reported monthly users, so they are not directly comparable.
 
-|  | Nullmask Wallets | Aztec Wallet Azguard | Umbra Wallet Phantom | Venice Token access | UR (SN25) New Access URnetwork app |
+|  | Nullmask Wallets | Aztec Wallet Azguard | Umbra Wallet Phantom | Venice Token access | UR (SN25) Access URnetwork app |
 | --- | --- | --- | --- | --- | --- |
 | What it produces | Private transfers and swaps. Deposits and withdrawals are public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
 | Reported adoption | Live pools Ethereum and Base; supported assets only | 100K+ legacy Connect wallets; retired product | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
@@ -229,7 +229,7 @@ Zcash remains the established benchmark on the next slide. These five products u
 
 
 The shielded share of ZEC supply rose through 2025, then fell in the first half of 2026.
-At the mid-October snapshot, ZEC’s market value is roughly twice Monero’s. Most activity still settles transparently.
+Although ZEC’s market value is roughly twice Monero’s at the mid-October snapshot, most activity still settles transparently.
 The valuation assumes wider private use than the current activity demonstrates.
 Q2 2026 network fees
 Transparent ~$92K Shielded ~$18K
@@ -254,11 +254,11 @@ Chart labels in display order: ~8% · Start of 2025 · ~23% · Dec 2025 · 31.0%
 
 **Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV retain the 2026-10-19 observation date. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
 
-Users keep their wallets. Private transfers hide activity from public observers; the operator can read it. MASK rewards are reported separately from service fees.
+Nullmask lets users hide transfers from public observers through their existing wallets, but the operator can read their activity and reports MASK rewards separately from service fees.
 What it sells Private transfers and swaps through shielded pools, using your existing wallet. Ethereum Base
-MASK rewards and burns The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees.
-Evidence of demand Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet.
-What has to be true Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity.
+MASK rewards and burns The dashboard reports ZEC holder payouts and MASK burns separately from service fees, without documenting an automatic distribution of those fees to holders.
+Evidence of demand Nullmask’s 0.5% deposit and withdrawal fees are one part of reported revenue, which also includes ZEC rewards paid to the developer wallet.
+What has to be true The product needs repeat paying usage to grow, with Solana and private perpetuals still on the roadmap and operator visibility remaining a trust assumption.
 
 ### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
 
@@ -276,16 +276,16 @@ Chart labels in display order: Deposits and withdrawals remain public · Existin
 | MASK market cap: $27.7M | Circulating market cap $27.74M; observed 19 October 2026. This is a newer snapshot than the existing 15 October peer comparisons. | https://defillama.com/protocol/nullmask |
 | MASK fully diluted value: $45.8M | Fully diluted value $45.83M; observed 19 October 2026. Market cap and FDV are not interchangeable. | https://defillama.com/protocol/nullmask |
 | What it sells | Private transfers and swaps through shielded pools. Official documentation names MetaMask and Rabby as wallet examples and Ethereum and Base as networks. Compatibility does not mean a wallet partnership. | https://nullmask.io/docs/getting-started; https://nullmask.io/docs/networks |
-| MASK rewards and burns | The dashboard reports ZEC holder payouts and MASK burns. It does not document automatic sharing of product fees. | https://app.nullmask.io/analytics |
-| Evidence of demand | Nullmask charges 0.5% on deposits and withdrawals. Its revenue total also includes ZEC rewards paid to the developer wallet. | https://app.nullmask.io/analytics |
-| What has to be true | Repeat paying usage supports the product. Solana and private perpetuals are roadmap targets; the operator can read private activity. | https://nullmask.io/docs/project-roadmap |
+| MASK rewards and burns | The dashboard reports ZEC holder payouts and MASK burns separately from service fees, without documenting an automatic distribution of those fees to holders. | https://app.nullmask.io/analytics |
+| Evidence of demand | Nullmask’s 0.5% deposit and withdrawal fees are one part of reported revenue, which also includes ZEC rewards paid to the developer wallet. | https://app.nullmask.io/analytics |
+| What has to be true | The product needs repeat paying usage to grow, with Solana and private perpetuals still on the roadmap and operator visibility remaining a trust assumption. | https://nullmask.io/docs/project-roadmap |
 
 [View slide 11](https://kdotpham.github.io/khala-privacy-reviewed/#nullmask)
 
 ## Slide 12: Aztec has $12M staked against $58K in user funds
 
 
-Aztec disclosed a critical proving bug on 7 August. The chart compares staking, valuation and user funds in USD on a logarithmic scale.
+User funds remain small relative to staking and valuation on the logarithmic USD chart, while Aztec’s 7 August proving-bug disclosure adds a security concern.
 What it sells Private smart contracts on Ethereum: confidential balances, state and execution, written in Noir.
 How value reaches the token Fees are paid in AZTEC, congestion fees burn, and sequencers must stake 200,000 AZTEC to produce blocks.
 What has to be true v6 closes the proving bug disclosed on 7 August, and apps bring user funds well above today’s $58K.
@@ -315,7 +315,7 @@ Chart labels in display order: $10K · $100K · $1M · $10M · $100M · $1B · F
 
 Umbra sells private balances, transfers and swaps on Solana, and its token governs a treasury rather than collecting fees.
 What it sells A private wallet for Solana assets with screening and viewing keys; Nimbus, its network for other apps, is coming soon.
-How value reaches the token Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets. There is no automatic buyback or dividend.
+How value reaches the token Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend.
 Why the vesting matters Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price.
 What has to be true Nimbus brings other apps onto Umbra and deposits grow well beyond today’s $187K.
 
@@ -332,7 +332,7 @@ Chart labels in display order: $0.30 · Sale price · $2.48 · Peak · $0.17 · 
 | Low: $0.17 | All-time low | DefiLlama; MetaDAO |
 | Today: $0.37 | 15 October 2026 | DefiLlama; MetaDAO |
 | What it sells | A private wallet for Solana assets with screening and viewing keys; Nimbus, its network for other apps, is coming soon. |  |
-| How value reaches the token | Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets. There is no automatic buyback or dividend. |  |
+| How value reaches the token | Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend. |  |
 | Why the vesting matters | Team and adviser tokens unlock only when fully diluted value reaches 2x, 4x, 8x, 16x and 32x the $0.30 sale price. |  |
 | What has to be true | Nimbus brings other apps onto Umbra and deposits grow well beyond today’s $187K. |  |
 
@@ -341,10 +341,10 @@ Chart labels in display order: $0.30 · Sale price · $2.48 · Peak · $0.17 · 
 ## Slide 14: Venice converts part of customer revenue into VVV buybacks
 
 
-Venice sells private AI chat and API access. Paying users fund VVV buybacks, while annual issuance has been cut from 14M to 2M tokens.
+Venice uses revenue from private AI chat and API access to fund VVV buybacks, alongside a reduction in annual issuance from 14M to 2M tokens.
 New VVV issued per year
-What it sells Private AI chat, images and API access on open-source models. Prompts are encrypted on the device and not stored on Venice’s servers.
-How value reaches the token Staked VVV earns a daily share of inference capacity and mints DIEM, worth $1 of API credit a day. $5 of every $100 of credit purchases buys and burns VVV.
+What it sells Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers.
+How value reaches the token Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns.
 Evidence of demand 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly.
 What has to be true Revenue keeps growing so buybacks outpace the remaining issuance, and holdings become less concentrated than today’s top wallets.
 
@@ -360,8 +360,8 @@ Chart labels in display order: 14M · At launch · 3M · Before Sep 2026 · 2.5M
 | Before Sep 2026: 3M VVV a year | Annual issuance before 1 September 2026 | Decrypt, 21 September 2026; Phemex, 19 August 2026 |
 | From 1 Sep 2026: 2.5M VVV a year | Annual issuance from 1 September 2026 | Decrypt, 21 September 2026; Phemex, 19 August 2026 |
 | From 1 Oct 2026: 2M VVV a year | Annual issuance from 1 October 2026 | Decrypt, 21 September 2026; Phemex, 19 August 2026 |
-| What it sells | Private AI chat, images and API access on open-source models. Prompts are encrypted on the device and not stored on Venice’s servers. |  |
-| How value reaches the token | Staked VVV earns a daily share of inference capacity and mints DIEM, worth $1 of API credit a day. $5 of every $100 of credit purchases buys and burns VVV. |  |
+| What it sells | Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers. |  |
+| How value reaches the token | Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns. |  |
 | Evidence of demand | 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly. |  |
 | What has to be true | Revenue keeps growing so buybacks outpace the remaining issuance, and holdings become less concentrated than today’s top wallets. |  |
 
@@ -370,7 +370,7 @@ Chart labels in display order: 14M · At launch · 3M · Before Sep 2026 · 2.5M
 ## Slide 15: UR (SN25) has users, but priced deposits have yet to begin
 
 
-An established user base, with a mechanism for converting usage into token demand that is built but not yet switched on.
+URnetwork has an established user base, but converting its traffic into token demand depends on introducing priced operator deposits.
 In this section
 Where privacy leaks 16
 URnetwork users 17
@@ -388,10 +388,10 @@ Catalysts across the coverage universe 24
 
 **Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested.**
 
-A 2025 controlled study linked wallet addresses to IPs with 95–98% success after 3–4 observations. This is an experimental result, not a measure of all wallet users.
+In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95–98% success after 3–4 observations, a result specific to the study’s setup.
 Swap boundaries: reused refund addresses can link activity
 RPC traffic: address-to-IP linking in controlled tests
-Researcher-controlled routers observed encrypted RPC traffic. UR (SN25) was not tested; this study does not establish its protection.
+Because researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection.
 
 ### Swap route into shielded ZEC and where it leaked
 
@@ -421,9 +421,9 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask
 
 **SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported.**
 
-Illustrative monthly series; 350K monthly users is the team-reported endpoint.
+The monthly series is illustrative and ends at the team-reported figure of 350K monthly users.
 126,717 providers across 103 countries
-URnetwork reports an existing user base. The launch deposit rate is zero, so app usage does not yet require operators to buy UR (SN25).
+Although URnetwork reports an existing user base, its zero launch deposit rate means app usage does not yet require operators to buy UR (SN25).
 The bars show the chart layout, not measured monthly growth.
 SAMPLE DATA · NOT FOR POSTING
 
@@ -450,7 +450,7 @@ Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K 
 
 **Design is distinct from launch: the documented launch has a UR-run operator and sole validator. The 200-fleet figure is a design cap.**
 
-Mechanism design shown below. Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.
+Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.
 126,717 Providers on URnetwork (team-reported)
 103 Countries covered (team-reported)
 Up to 200 Top-level fleet capacity in the design; not a live count
@@ -476,9 +476,9 @@ Chart labels in display order: Customers · Privacy apps and VPN users · Networ
 ## Slide 19: Priced deposits could create demand for UR (SN25)
 
 
-Priced deposits would lock UR (SN25) against operator traffic. Purchases from revenue are expected in the design, but not enforced; the launch rate is zero.
-The bars assume deposits exceed miner emissions above the dotted line. Their heights are illustrative, not calibrated to a published rate.
-The reserve has no outbound transfer path. Deposits lock tokens, but operators may use existing holdings; each deposit need not create a new market purchase.
+Although the launch rate is zero, priced deposits would lock UR (SN25) against traffic, with revenue-funded purchases expected in the design but not enforced.
+The illustrative bars show deposits exceeding miner emissions above the dotted line, without assigning a calibrated deposit rate.
+Deposits lock UR (SN25) in a reserve with no outbound transfer path, but operators can fund them from existing holdings rather than new market purchases.
 
 ### UR (SN25) demand by number of operators
 
@@ -504,10 +504,10 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 ## Slide 20: UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s
 
 
-The 15 October 2026 snapshot puts UR (SN25) at $8.4M, Helium at $85M and Grass at $486M. These are market-cap comparisons on a logarithmic USD scale, without a valuation model.
+The 15 October 2026 comparison places UR (SN25) at $8.4M, Helium at $85M and Grass at $486M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.
 A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.
 A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.
-Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying.
+Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.
 What UR (SN25) would be worth at its peers’ market caps
 
 ### UR (SN25) market cap against peers
@@ -520,7 +520,7 @@ Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M
 | --- | --- | --- |
 | A wide valuation gap | Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times. |  |
 | A product already in market | URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch. |  |
-| Demand linked to usage | If a non-zero rate is adopted, usage-based deposits would lock tokens. Market purchases from revenue are expected rather than enforced; growing traffic does not guarantee new buying. | https://github.com/urfoundation/sn |
+| Demand linked to usage | If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced. | https://github.com/urfoundation/sn |
 | UR (SN25) today: ~$8.4M | UR (SN25) market cap, mid-October 2026. | CoinGecko and MEXC, 15 October 2026 |
 | Nym: ~$22.2M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko and MEXC, 15 October 2026 |
 | Helium: ~$85M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko and MEXC, 15 October 2026 |
@@ -531,7 +531,7 @@ Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M
 ## Slide 21: Operator deposits could link UR (SN25) demand to usage
 
 
-TAO inflows and sector interest support UR (SN25) today. Priced operator deposits would add demand by locking UR (SN25) against network traffic.
+While TAO inflows and sector interest support UR (SN25) today, priced operator deposits would add demand by locking tokens against network traffic.
 How value can reach UR (SN25)
 1
 TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.
@@ -570,7 +570,7 @@ Chart labels in display order: paid by token issuance · paid by customers · ne
 ## Slide 22: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
 
 
-ur.io is live. Enterprise and AI programmes remain research projects. The peer figures illustrate market scale, not forecast UR (SN25) revenue.
+With ur.io already live and enterprise and AI programmes still in research, the peer figures illustrate market scale rather than forecast UR (SN25) revenue.
 Operators can share the miner fleet, although additional traffic still creates operating costs.
 AI agents are routinely blocked by bot controls and data-centre IP detection, and residential routes are what let them reach the open web.
 If these programmes become paying operators, their traffic could create UR (SN25) demand once deposits are priced.
@@ -599,8 +599,8 @@ If these programmes become paying operators, their traffic could create UR (SN25
 
 **End-2027 scenario ranges are illustrative assumptions, not forecasts or outputs from a valuation model.**
 
-End-2027 market-cap ranges are illustrative scenarios, not outputs from a cash-flow or deposit valuation model. The axis is logarithmic, in USD.
-The number to watch Track monthly operator deposits relative to miner emissions. The first non-zero deposit confirms that the mechanism is active. Scenario ranges remain assumptions.
+The end-2027 market-cap ranges illustrate scenarios on a logarithmic USD scale rather than outputs from a cash-flow or deposit valuation model.
+The number to watch Track monthly operator deposits against miner emissions: a first non-zero deposit would show that the mechanism is active, while the scenario ranges would remain assumptions.
 
 | Scenario | What has to happen | $1M $10M $100M $1B 15 Oct 2026 $8.4M | Market-cap multiple |
 | --- | --- | --- | --- |
@@ -621,7 +621,7 @@ The number to watch Track monthly operator deposits relative to miner emissions.
 ## Slide 24: Dated events and operating signals will test the privacy thesis
 
 
-Scheduled milestones come first. Launch triggers and recurring operating indicators follow.
+Scheduled milestones test delivery, while deposits and burns show whether adoption reaches the token.
 
 | Timing or trigger | Token | Event | Why it matters |
 | --- | --- | --- | --- |
