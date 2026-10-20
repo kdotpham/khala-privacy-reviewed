@@ -1,0 +1,37 @@
+{
+  "build": "2026-10-20-privacy-angle-v18",
+  "date": "2026-10-20",
+  "requested_by": "Kevin (MBB), relaying 0xSammy",
+  "changes": [
+    "Slide 9: removed the 'Wallets', 'Wallet', 'Token access' and 'Access' labels under the project logos; wallet icons and app names remain with their hover notes.",
+    "Slide 9: Aztec replaced by Nockchain (NOCK) and Pearl (PRL); the comparison now has six columns ordered Nullmask, NOCK, Umbra, Venice, Pearl, UR (SN25). Existing cell copy shortened to fit; hover notes unchanged.",
+    "Aztec profile slide removed. New profile slides: Nockchain (12) and Pearl (15), each with a how-it-works diagram, dated market figures and four facts.",
+    "Executive summary row 3, its metric and the catalysts strip no longer cite Aztec. Section 2 divider, section 3 divider numbers, page numbers, catalysts slide and article grouping updated. The deck now has 25 slides.",
+    "Aztec still appears on slide 6 as a builder in the programmable-privacy use case, which is ecosystem context rather than coverage.",
+    "v17: removed the whole wallet/access strip under the slide 9 logos; NOCK adoption is now 9,549 wrapped NOCK holders on Base (Basescan, 20 Oct 2026); Pearl adoption is now ~320K GPU-equivalents mining (June 2026 study). Neither project publishes monthly active users or registered wallets. Pearl copy corrected to reflect its zero-knowledge mining privacy.",
+    "v18: NOCK and Pearl slides rewritten to lead with each project's privacy angle. NOCK: private money on a zero-knowledge chain, with the 2027 ZK opcode, privacy pool and private apps shown as the path. Pearl: private AI compute, where zero-knowledge proofs verify GPU work without revealing model weights or data. Slide 9 cells, intro and summary row 3 updated to match."
+  ],
+  "important_qualification": "NOCK transfers are not private today: Nockchain's FAQ answers 'Not currently' and its roadmap plans a privacy pool app for Q2 2027. Pearl's privacy is in its mining proofs: its whitepaper says the zero-knowledge proofs verify the work 'without ever revealing the actual contents' of the matrices, which can include model weights or sensitive user data. PRL transfers are not shielded.",
+  "ticker_note": "Pearl's token trades as PRL (CoinGecko, CoinDesk), not PEARL.",
+  "sources": [
+    "https://docs.nockchain.org/start-here/faq",
+    "https://docs.nockchain.org/usdnock-asset/overview",
+    "https://www.nockchain.org/roadmap",
+    "https://github.com/nockchain/nockchain (README and vision documents, commit of 19 October 2026)",
+    "https://www.coingecko.com/en/coins/nockchain (19 October 2026)",
+    "https://www.datawallet.com/crypto/nockchain-explained (secondary: launch, Zorp mining, audit status, peak price)",
+    "https://pearlresearch.ai and https://platform.pearlresearch.ai/docs",
+    "https://www.bankless.com/read/who-pays-for-proof-of-work-pearl-has-an-answer (16 October 2026)",
+    "https://www.coindesk.com/price/pearl-research (19 October 2026)",
+    "https://www.btcc.com/en-CA/academy/crypto-wiki/altcoin/what-is-pearl-prl (secondary: launch date, supply, block design)",
+    "Logos: NOCK from SmolDapp tokenAssets (Base token list); Pearl mark from pearl-research-labs/pearl desktop-wallet resources",
+    "https://basescan.org/token/0x9b5e262cf9bb04869ab40b19af91d2dc85761722 (20 October 2026)",
+    "https://pearlresearch.ai/research/int-whitepaper",
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims"
+  ],
+  "limitations": [
+    "Pool concentration (75-80% of blocks) and the inference-software study are secondary reporting cited by Bankless.",
+    "Zorp's mining capture and investor terms come from a secondary write-up citing Zorp disclosures.",
+    "Adoption row uses coins mined for NOCK and PRL because neither publishes a user count; these are not user metrics."
+  ]
+}

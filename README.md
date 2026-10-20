@@ -70,3 +70,7 @@ Rewrote the hero, executive summary and narrative slide copy as connected senten
 ## Slide review, 20 October 2026
 
 Build: `2026-10-20-slide-review-v15`. Section 1 now runs Buterin and Durov (3), policy (4), stablecoins (5) and use cases (6). The executive summary was rewritten with specific figures and implications, and its numbers sit on the heading baseline. Slide 4's timeline hovers explain each event. Slide 7's left-hand copy and slide 9's UR (SN25) pill were clarified. Aztec, Umbra and Venice (slides 12 to 14) now show how each product works and where its token is used, in place of price and issuance charts. Changes and primary sources are recorded in `slide-review-2026-10-20-v15.json`. Slide 17 remains SAMPLE DATA, NOT FOR POSTING.
+
+## Coverage update, 20 October 2026
+
+Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced in the coverage universe by Nockchain (NOCK) and Pearl (PRL). Slide 9 now compares six projects without the wallet/access strip, and new profile slides 12 (NOCK) and 15 (Pearl) replace the Aztec profile. NOCK transfers are not private yet (a privacy pool is planned for Q2 2027), and Pearl's privacy sits in its zero-knowledge mining proofs rather than in PRL transfers; the slides say so. The deck now has 25 slides. Details and sources are in `coverage-update-2026-10-20-v16.json`.

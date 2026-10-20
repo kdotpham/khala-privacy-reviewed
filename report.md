@@ -5,14 +5,14 @@ Publication date: 2026-11-02
 Market-cap snapshot: 2026-10-15
 Canonical report: https://kdotpham.github.io/khala-privacy-reviewed/
 
-Slide 17: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholders. Slide 23 scenarios are illustrative assumptions. Nullmask market values were observed 2026-10-19; other peer market caps retain the 2026-10-15 snapshot.
+Slide 18: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholders. Slide 24 scenarios are illustrative assumptions. Nullmask market values were observed 2026-10-19; other peer market caps retain the 2026-10-15 snapshot.
 
 ## Slide 1: Privacy now has paying customers, but few tokens capture that value
 
 
 Executive summary
-1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Aztec has $12M staked to secure $58K of user funds, Umbra’s fees sit in a DAO treasury with no automatic payout, and Nullmask reports token rewards separately from its service fees. $58K user funds behind $12M of Aztec stake 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)
-Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027
+1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)
+Catalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027
 
 [View slide 1](https://kdotpham.github.io/khala-privacy-reviewed/#summary)
 
@@ -174,53 +174,53 @@ In this section
 Privacy token comparison 9
 Zcash 10
 Nullmask ($MASK) 11
-Aztec 12
+Nockchain (NOCK) 12
 Umbra 13
 Venice 14
+Pearl (PRL) 15
 
 [View slide 8](https://kdotpham.github.io/khala-privacy-reviewed/#act2)
 
 ## Slide 9: Privacy tokens capture value differently
 
 
-Nullmask, Aztec and Umbra address private onchain activity, while Venice offers private AI access and UR (SN25) supplies connectivity.
-Adoption figures cover live products, historical wallets, account counts and reported monthly users, so they are not directly comparable.
+Nullmask and Umbra hide payments today and NOCK plans to, Venice and Pearl keep AI use and AI compute private, and UR (SN25) supplies private connectivity.
+Adoption figures mix live products, account counts, holder counts, mining capacity and reported monthly users, so they are not directly comparable.
 
-|  | Nullmask Wallets | Aztec Wallet Azguard | Umbra Wallet Phantom | Venice Token access | UR (SN25) Access URnetwork app |
-| --- | --- | --- | --- | --- | --- |
-| What it produces | Private transfers and swaps. Deposits and withdrawals are public. | Ethereum L2 for private contracts, balances and execution. | Private Solana balances, transfers and swaps. Deposits and withdrawals stay public. | Private AI chat, images and APIs. Prompts are not stored on its servers. | Bandwidth and routing. Providers carry traffic and validators measure performance. |
-| Reported adoption | Live pools Ethereum and Base; supported assets only | 100K+ legacy Connect wallets; retired product | 3,428 existing encrypted accounts on Solana | ~21.9K wallet profiles indexed by VeniceStats | 350K+ monthly app users; team-reported, off-chain |
-| Who pays for it | Users pay 0.5% on deposits and withdrawals, plus network fees. | Users or apps pay fees. Emissions also pay operators. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or VVV staked for inference. | Customers pay operators. Subnet revenue is separate. |
-| Does value reach the token | Reported rewards Dashboard lists MASK burns and ZEC rewards separately from service fees. | Fee + stake AZTEC pays fees and supports staking. Congestion fees burn. | Governance UMBRA governs its treasury. There is no automatic buyback or dividend. | Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV. | Operator deposits Operators lock tokens against traffic; the launch rate is zero. |
+|  | Nullmask | NOCK | Umbra | Venice | Pearl | UR (SN25) |
+| --- | --- | --- | --- | --- | --- | --- |
+| What it produces | Private transfers and swaps. Deposits and withdrawals are public. | Money on a zero-knowledge chain. Private transfers are planned for 2027. | Private Solana balances, transfers and swaps. | Private AI chat, images and APIs. Prompts are not stored. | Private AI compute: ZK proofs verify GPU work without revealing models or data. | Bandwidth and routing, measured by validators. |
+| Reported adoption | Live pools Ethereum and Base | 9,549 wrapped NOCK holders on Base | 3,428 encrypted accounts on Solana | ~21.9K wallets indexed by VeniceStats | ~320K GPU-equivalents mining; study, June 2026 | 350K+ monthly app users; team-reported |
+| Who pays for it | Users pay 0.5% on deposits and withdrawals. | Users pay size-based fees, all to miners. | Users pay fees and tips. Protocol fees reach the DAO. | Subscriptions, API credits or staked DIEM. | Inference customers pay credits, not PRL. | Customers pay operators. Subnet revenue is separate. |
+| Does value reach the token | Reported rewards MASK burns and ZEC rewards are reported apart from fees. | Monetary asset Miners take 80% of issuance and all fees; holders own capped money. | Governance UMBRA governs the treasury. No buyback or dividend. | Stake + burn Part of credit revenue buys and burns VVV. | Mining reward No mechanism links inference revenue to PRL. | Operator deposits Operators lock tokens against traffic; the launch rate is zero. |
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Wallet access | Nullmask names MetaMask and Rabby as supported wallet examples. Compatibility does not imply a commercial partnership or wallet-wide privacy. Checked 19 October 2026. | https://nullmask.io/docs/getting-started |
-| Wallet access | Aztec documents Azguard as the available browser extension wallet for Aztec apps. The Aztec CLI wallet is also documented for advanced users. Do not confuse legacy Aztec Connect support with current private-wallet compatibility. Checked 19 October 2026. | https://docs.aztec.network/participate/basics/wallets |
-| Wallet access | Phantom is advertised in Umbra’s live Connect wallet chooser. This is a verified example, not an exhaustive compatibility list. No wallet was connected and no registration or transaction was performed. Checked 19 October 2026. | https://v2.umbraprivacy.com/ |
-| Wallet access | Venice’s official DIEM guide names MetaMask and Coinbase Wallet on Base for acquiring VVV/DIEM and using token access. These are access/payment wallets, not a claim of private wallet transactions. Checked 19 October 2026. | https://learn.venice.ai/guides/how-to-use-venices-diem-token-for-daily-ai-credits |
-| App access | URnetwork is the consumer VPN app supplied by UR (SN25). Wallet integrations are not interchangeable with network privacy. No external-wallet compatibility claim is made here. Checked 19 October 2026. | https://ur.io/ |
 | Nullmask ($MASK) | Private balances and transfers inside shielded pools; swaps conceal the user, but assets and amounts stay public. Nullmask can read account history. | https://nullmask.io/docs/privacy |
-| Aztec | Ethereum L2 for private smart contracts: confidential balances, state and execution |  |
+| NOCK | Nockchain miners produce zero-knowledge proofs instead of hashes. Its own FAQ says the mining proof does not hide transaction values or chain state, and its roadmap plans a privacy pool app for Q2 2027 and private DeFi foundations for Q3 2027. | https://docs.nockchain.org/start-here/faq; https://www.nockchain.org/roadmap |
 | Umbra | Private balances, transfers and swaps for Solana assets; deposits and withdrawals stay public |  |
 | Venice | Private AI chat, images and API access on open-source models; prompts are not stored on its servers |  |
+| Pearl (PRL) | Pearl miners run the matrix maths used in AI inference, so the same GPU work can serve a customer and compete for PRL block rewards. Its zero-knowledge mining proofs are designed to verify the work without revealing the matrices, which can hold model weights or user data. PRL transfers themselves are not shielded, and private, verifiable inference for customers is being developed with Attestable. | Bankless, 16 October 2026; pearlresearch.ai; BTCC, Pearl guide |
 | UR (SN25) | Bandwidth and routing marketplace: independent providers carry traffic, validators score performance |  |
 | Nullmask ($MASK) | Official documentation lists ETH and USDT on Ethereum, and ETH and USDC on Base. This cell describes product availability, not a monthly user count. Checked 20 October 2026. | https://nullmask.io/docs/networks |
-| Aztec | Aztec reports over 100,000 active wallets for the retired Aztec Connect product. This historical count is not current-network adoption. |  |
+| NOCK | 9,549 addresses hold wrapped NOCK on Base (Basescan, 20 October 2026). Nockchain’s own explorer does not publish a readable address or holder total, so native-chain holders are not included; this is a holder count, not monthly activity. | https://basescan.org/token/0x9b5e262cf9bb04869ab40b19af91d2dc85761722 |
 | Umbra | 3,428 encrypted user accounts on Solana |  |
 | Venice | ~21.9K wallets indexed by VeniceStats |  |
+| Pearl (PRL) | A June 2026 study estimated the mining network at the equivalent of 320,000 RTX 3090-class GPUs drawing 112 MW, and found the dominant mining software it examined was not serving customer inference. Pearl publishes no wallet, holder or user count. | Tom’s Hardware, June 2026; Datawallet, 2 October 2026 |
 | UR (SN25) | 350K+ monthly URnetwork app users (team-reported, off-chain) |  |
 | Nullmask ($MASK) | Deposit and withdrawal fees are 0.5%; swaps have no Nullmask protocol fee, although DEX and network fees still apply. Fees checked 19 October 2026. | https://nullmask.io/docs/fees |
-| Aztec | Users pay fees or apps sponsor them; operator rewards are partly token emissions |  |
+| NOCK | Fees scale with the encoded size of a transaction and go entirely to the miner. Third-party analysis describes fee revenue as negligible next to issuance. | https://docs.nockchain.org/usdnock-asset/overview; Datawallet |
 | Umbra | Users pay protocol fees and relayer tips; protocol revenue accrues to the DAO treasury |  |
 | Venice | Users pay subscriptions or API credits, or stake $VVV for a daily share of inference |  |
+| Pearl (PRL) | Inference customers pay per token from prepaid credits. A PRL-based compute marketplace is described in the whitepaper, with no launch date announced. | https://platform.pearlresearch.ai/docs; Bankless, 16 October 2026 |
 | UR (SN25) | Customers pay operators; URnetwork's UR Pro subscription is operator revenue, not automatically subnet revenue |  |
 | Nullmask ($MASK) | The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders. | https://app.nullmask.io/analytics |
-| Aztec | $AZTEC funds fees, staking and governance; congestion fees burn, the rest pays operators |  |
+| NOCK | NOCK is valued as a capped monetary asset. Miners receive 80% of new issuance and all fees, and a protocol fund receives 20%; no mechanism routes revenue to holders. | https://docs.nockchain.org/usdnock-asset/overview |
 | Umbra | $UMBRA governs the treasury via MetaDAO markets; no automatic buyback or dividend |  |
 | Venice | $VVV is staked for inference capacity, and a share of credit purchases buys back and burns it |  |
+| Pearl (PRL) | PRL pays block rewards and transfer fees. No mechanism links inference revenue to the token, so its value rests on demand to hold it. | BTCC, Pearl guide; Bankless, 16 October 2026 |
 | UR (SN25) | Operators that sell privacy on the network are designed to deposit UR (SN25) against the traffic they expect, locking tokens while usage grows. The deposit rate was set at zero for launch, and the documentation expects any market purchases for deposits to happen off-chain rather than being enforced, so the link from usage to token demand is designed but not yet active. | UR price.yml and README, checked 20 October 2026 |
 
 [View slide 9](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
@@ -282,40 +282,39 @@ Chart labels in display order: Deposits and withdrawals remain public · Existin
 
 [View slide 11](https://kdotpham.github.io/khala-privacy-reviewed/#nullmask)
 
-## Slide 12: Aztec’s private rollup is live, but $12M of stake secures only $58K of user funds
+## Slide 12: NOCK is a bet on private money from a zero-knowledge chain, with privacy due in 2027
 
 
-Each transaction is proved on the user’s device and settled on Ethereum by staked sequencers and provers, so AZTEC is needed both to operate the network and to pay its fees, yet only $58K of user funds have arrived and v5 carries a critical proving bug disclosed on 7 August.
-What it sells Private smart contracts on Ethereum. Apps written in Noir can keep balances, logic and state hidden while still calling public contracts, so one app can mix private and public steps.
-How value reaches the token Users must convert AZTEC into Fee Juice to transact, and the congestion share of each fee is burned. Each sequencer seat needs 200,000 AZTEC, so more usage and more operators both pull on the token.
-What has to be true v6 must fix the critical proving bug disclosed on 7 August, which L2BEAT says puts funds and contract state at risk, and apps must bring user funds far above $58K for fees to matter next to rewards.
-Supply risk Only 29% of the 10.35B supply circulates, the Foundation unlocks on 13 November, governance can mint up to 20% of supply a year, and rewards of 400 AZTEC per slot add to circulating supply.
+Nockchain already secures every block with zero-knowledge proofs and plans to use the same proving system to make NOCK transfers and apps private; until the privacy pool ships in 2027, every balance and transfer is public.
+What it sells Private, programmable money on a chain built around zero-knowledge proofs. Mining already produces the proofs; the 2027 roadmap applies them to private transfers and apps.
+How value reaches the token NOCK is capped money with no premine or sale. Miners take 80% of issuance and all fees, so holders own a monetary asset whose privacy premium depends on the roadmap.
+Supply risk About 55% of the cap is mined, much of it in the first ten months. Zorp mined at launch, owing 35% of that capture to seed investors, and the code has no third-party audit.
+What has to be true The ZK opcode, privacy pool and private apps must ship on schedule in 2027, and people must then hold and move NOCK privately rather than only mine and trade it.
 
-### How a private Aztec transaction moves from the user’s device through sequencers and provers to Ethereum, and where the AZTEC token is used
+### Nockchain today, where zero-knowledge proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
 
-Chart labels in display order: How a private transaction reaches Ethereum · Your device · Runs private code · and builds a proof · Sequencers · Committee of 48 · orders each block · Provers · Prove each epoch · of blocks together · Ethereum · Verifier contract · finalises the state · Observers see how many private changes a transaction makes and which public calls · it triggers; the sender, recipient, amount and private calls stay hidden. · Where AZTEC is used · Pay fees · AZTEC converts 1:1 into · Fee Juice, one way; the · congestion share is burned · Stake to sequence · 200,000 AZTEC per seat; · 586.9M staked by · 3,136 sequencers · Earn rewards · 400 AZTEC per slot plus · fees; 70% to sequencers, · 30% to provers · $12M · staked by sequencers · $58K · user funds secured · $60M · market cap · $207M FDV
+Chart labels in display order: Today: zero-knowledge proofs secure the chain · Miners · Produce a zero-knowledge · proof for every block · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · 2027: the same proofs are meant to make NOCK private · ZK verification · Native opcode to · verify proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · $45M · market cap, 19 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Your device | The Private Execution Environment (PXE) in the user’s wallet runs private functions locally and proves they ran correctly with a zero-knowledge proof. Only the proof, new note commitments and nullifiers leave the device. | Aztec documentation, transaction lifecycle |
-| Sequencers | Each epoch a 48-member committee is sampled from the staked sequencer set. Sequencers check the private proofs, run any public functions and propose blocks. Joining the set requires 200,000 AZTEC. | L2BEAT, 16 October 2026; Aztec documentation |
-| Provers | Proving is permissionless. Provers produce one validity proof for an epoch of blocks and post it to Ethereum, earning 30% of block rewards and of unburned fees. | Aztec documentation, economics and network |
-| Ethereum settlement | A verifier contract on Ethereum checks each epoch proof. Once it verifies, the state change is final and inherits Ethereum’s security. | Aztec documentation; L2BEAT, 16 October 2026 |
-| What observers can see | Aztec documentation says the only information a private transaction leaks is how many private state updates it makes and which public functions it calls. Senders, recipients, amounts and private calls stay hidden. | Aztec documentation, transactions |
-| Fees | Fees are paid in Fee Juice, created by depositing AZTEC one-for-one; it cannot be bridged back. Each fee is mana used times the mana price. The congestion part of each fee is burned, and the rest goes 70% to the sequencer and 30% to provers. | Aztec documentation, fees and economics |
-| Staking | Running a sequencer, or delegating to one, requires 200,000 AZTEC. On 16 October 2026, 586.9M AZTEC (about $12M) was staked across 3,136 sequencers. Stake can be slashed and is used to vote on upgrades. | L2BEAT, 16 October 2026; Aztec token page |
-| Rewards | The current checkpoint reward is 400 AZTEC per slot, split 280 to sequencers and 120 to provers, and governance can change it. Rewards are minted in advance to a distributor contract, so they add to circulating supply. | Aztec documentation, economics |
-| Staked by sequencers: $12M | 586.9M AZTEC at $0.020, staked by 3,136 sequencers | CoinDesk, 14 October 2026; L2BEAT, 16 October 2026 |
-| User funds secured: $58K | Value secured on the rollup, per L2BEAT. Most of it carries additional bridge trust assumptions. | L2BEAT, 16 October 2026 |
-| Market cap: $60M | 2.99B of 10.35B AZTEC circulating (29%) at $0.020; fully diluted value $207M | CoinDesk, 14 October 2026; Tokenomist |
-| What it sells | Private smart contracts on Ethereum. Apps written in Noir can keep balances, logic and state hidden while still calling public contracts, so one app can mix private and public steps. | Aztec documentation |
-| How value reaches the token | Users must convert AZTEC into Fee Juice to transact, and the congestion share of each fee is burned. Each sequencer seat needs 200,000 AZTEC, so more usage and more operators both pull on the token. | Aztec documentation; L2BEAT |
-| What has to be true | v6 must fix the critical proving bug disclosed on 7 August, which L2BEAT says puts funds and contract state at risk, and apps must bring user funds far above $58K for fees to matter next to rewards. | Aztec, 7 August 2026; L2BEAT |
-| Supply risk | Only 29% of the 10.35B supply circulates, the Foundation unlocks on 13 November, governance can mint up to 20% of supply a year, and rewards of 400 AZTEC per slot add to circulating supply. | Tokenomist; L2BEAT; Aztec documentation |
+| Miners | Instead of hashing, each miner runs a fixed Nock program and produces a compact STARK proof. Nockchain says this already makes it the largest proving network in operation, and the same proof format is meant to carry private application proofs later. | Nockchain documentation, checked 20 October 2026; nockchain.org |
+| Block reward | Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner. | Nockchain documentation, tokenomics |
+| Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base. | https://docs.nockchain.org/start-here/faq |
+| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one. | Nockchain README and vision documents |
+| ZK verification opcode | A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps. | https://www.nockchain.org/roadmap |
+| Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately. | https://www.nockchain.org/roadmap |
+| Private NockApps | The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs. | Nockchain README; https://www.nockchain.org/roadmap |
+| Market cap: $45.0M | Price $0.019; fully diluted value $81.9M; 24-hour volume about $0.7M | CoinGecko, 19 October 2026 |
+| Holders: 9,549 | Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form | Basescan, 20 October 2026 |
+| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live | https://www.nockchain.org/roadmap |
+| What it sells | Private, programmable money on a chain built around zero-knowledge proofs. Mining already produces the proofs; the 2027 roadmap applies them to private transfers and apps. | Nockchain README and roadmap |
+| How value reaches the token | NOCK is capped money with no premine or sale. Miners take 80% of issuance and all fees, so holders own a monetary asset whose privacy premium depends on the roadmap. | Nockchain documentation, tokenomics |
+| Supply risk | About 55% of the cap is mined, much of it in the first ten months. Zorp mined at launch, owing 35% of that capture to seed investors, and the code has no third-party audit. | Datawallet, citing Zorp disclosures |
+| What has to be true | The ZK opcode, privacy pool and private apps must ship on schedule in 2027, and people must then hold and move NOCK privately rather than only mine and trade it. | Nockchain roadmap |
 
-[View slide 12](https://kdotpham.github.io/khala-privacy-reviewed/#aztec)
+[View slide 12](https://kdotpham.github.io/khala-privacy-reviewed/#nock)
 
 ## Slide 13: Umbra’s fees reach a treasury that UMBRA holders govern, with no automatic payout
 
@@ -385,24 +384,59 @@ Chart labels in display order: Customer side · Customers · Pro plans, credit �
 
 [View slide 14](https://kdotpham.github.io/khala-privacy-reviewed/#venice)
 
-## Slide 15: UR (SN25) has users, but priced deposits have yet to begin
+## Slide 15: Pearl verifies AI work without exposing models or data, but PRL gets no revenue
+
+
+Each winning piece of GPU work is wrapped in a zero-knowledge proof, so the network verifies AI computation without seeing the model weights or data inside it; customers still pay in credits rather than PRL, and PRL transfers are public.
+What it sells Private AI compute: models can run on a decentralised GPU network while zero-knowledge proofs confirm the work without exposing weights or data. It is privacy for AI infrastructure, beside Venice’s privacy for users.
+How value reaches the token PRL pays block rewards and fees. Customers pay for inference with prepaid credits and nothing routes that revenue to PRL, so its value rests on demand to hold it.
+Supply and mining risk Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75–80% of blocks, and three forks this summer patched mining exploits.
+What has to be true Private, verifiable inference must reach paying customers, and paid demand must replace the unrequested work a June study found on most mining rigs.
+
+### How Pearl verifies AI computation with zero-knowledge proofs without revealing models or data, and where the PRL token sits
+
+Chart labels in display order: Private AI compute: verified without being seen · Model owner · Weights and data · stay confidential · GPU miner · Runs the matrix · maths of inference · ZK proof · Proves the work, · reveals no inputs · Pearl chain · Verifies the proof, · pays PRL rewards · Private: the models and data inside the work. Public: PRL transfers. Private prompts and · answers for paying customers, end to end, are still being built with Attestable. · Where PRL sits · Block rewards · About 1M PRL a day, · decaying, no halvings · Customers · Pay prepaid credits, · not PRL · Planned · Private, verifiable inference; · PRL compute market · $500M · market cap, 19 Oct 2026 · ~320K · GPU-equivalents mining · 13% · of the 2.1B cap mined
+
+### Chart details and interactive notes
+
+| Metric or element | Detail | Source supplied with the slide |
+| --- | --- | --- |
+| Model owner | The matrices used in Pearl’s work can include “proprietary data, model weights, or sensitive user-derived information”, according to its whitepaper. The design aims to keep them confidential while the work is verified publicly. | Pearl whitepaper, pearlresearch.ai/research/int-whitepaper |
+| GPU miner | Mining is matrix multiplication, the core of AI inference, so a miner can serve a customer’s request and use the same work as a mining attempt. Only NVIDIA GPUs are supported today. | Bankless, 16 October 2026; BTCC |
+| Zero-knowledge proof | Winning work is wrapped in a zkSNARK so “the full protocol can be executed and verified without ever revealing the actual contents” of the input matrices. The proof does reveal matrix shapes, commitments and mining parameters. | Pearl whitepaper, pearlresearch.ai/research/int-whitepaper |
+| Pearl chain | A Bitcoin-derived chain launched in April 2026. Each block carries a zero-knowledge certificate of the work and pays a block reward that decays smoothly instead of halving. | BTCC; Bankless, 16 October 2026 |
+| What is and is not private | Private: the matrices used in the mining work, which can hold model weights or user data. Public: PRL balances and transfers, plus the proof’s shapes, commitments and parameters. End-to-end private inference for paying customers, including their prompts and answers, is still being built with Attestable. | Pearl whitepaper, pearlresearch.ai/research/int-whitepaper; Bankless, 16 October 2026 |
+| Block rewards | Block rewards started near 3,230 PRL and decay smoothly; about half of the 2.1B cap is expected by the end of 2029. Inflation is very high in year one and falls to roughly 30% by year three. | BTCC; Bankless, 16 October 2026 |
+| Customers | Inference customers pay per token from prepaid credits, so customer revenue does not reach PRL today. Launch prices were up to about 75% below a major provider’s standard rates. | https://platform.pearlresearch.ai/docs; Bankless, 16 October 2026 |
+| Planned | A proof-of-inference layer is being built with Attestable to make customer inference private and verifiable, and the whitepaper describes a PRL-based compute marketplace with no launch date. Neither is live. | Bankless, 16 October 2026 |
+| Market cap: $500.3M | Price $1.86; fully diluted value $3.90B; 24-hour volume $1.8M | CoinDesk, 19 October 2026 |
+| Mining capacity: about 320K GPU-equivalents | A June 2026 study estimated the network at the equivalent of 320,000 RTX 3090-class GPUs drawing 112 MW, and found the dominant mining software it examined was not serving customer inference | Tom’s Hardware, June 2026 |
+| Mined supply: 269M PRL | About 13% of the cap, all issued through block rewards since April 2026, with no presale or insider allocation | CoinDesk, 19 October 2026; BTCC |
+| What it sells | Private AI compute: models can run on a decentralised GPU network while zero-knowledge proofs confirm the work without exposing weights or data. It is privacy for AI infrastructure, beside Venice’s privacy for users. | Pearl whitepaper; Bankless, 16 October 2026 |
+| How value reaches the token | PRL pays block rewards and fees. Customers pay for inference with prepaid credits and nothing routes that revenue to PRL, so its value rests on demand to hold it. | BTCC; Bankless, 16 October 2026 |
+| Supply and mining risk | Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75–80% of blocks, and three forks this summer patched mining exploits. | CoinDesk; Bankless, 16 October 2026 |
+| What has to be true | Private, verifiable inference must reach paying customers, and paid demand must replace the unrequested work a June study found on most mining rigs. | Bankless; Tom’s Hardware, June 2026 |
+
+[View slide 15](https://kdotpham.github.io/khala-privacy-reviewed/#pearl)
+
+## Slide 16: UR (SN25) has users, but priced deposits have yet to begin
 
 
 URnetwork has an established user base, but converting its traffic into token demand depends on introducing priced operator deposits.
 In this section
-Where privacy leaks 16
-URnetwork users 17
-How UR (SN25) works 18
-Operators as UR (SN25) buyers 19
-The bull case 20
-How value reaches UR (SN25) 21
-UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 22
-What to watch 23
-Catalysts across the coverage universe 24
+Where privacy leaks 17
+URnetwork users 18
+How UR (SN25) works 19
+Operators as UR (SN25) buyers 20
+The bull case 21
+How value reaches UR (SN25) 22
+UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 23
+What to watch 24
+Catalysts across the coverage universe 25
 
-[View slide 15](https://kdotpham.github.io/khala-privacy-reviewed/#act3)
+[View slide 16](https://kdotpham.github.io/khala-privacy-reviewed/#act3)
 
-## Slide 16: Wallet privacy can fail at network connections and cross-chain swaps
+## Slide 17: Wallet privacy can fail at network connections and cross-chain swaps
 
 **Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested.**
 
@@ -433,9 +467,9 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask
 | Bitcoin testnet: 97.70% | Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
 | Solana testnet: 96.58% | Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1 |
 
-[View slide 16](https://kdotpham.github.io/khala-privacy-reviewed/#edges)
+[View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#edges)
 
-## Slide 17: UR (SN25) reports 350K monthly users
+## Slide 18: UR (SN25) reports 350K monthly users
 
 **SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported.**
 
@@ -462,9 +496,9 @@ Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K 
 | Oct 1 | 330K monthly active users | SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series. |
 | Oct 15 | 350K monthly active users | SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series. |
 
-[View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#mau)
+[View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#mau)
 
-## Slide 18: UR (SN25) uses validator scores to reward routing capacity
+## Slide 19: UR (SN25) uses validator scores to reward routing capacity
 
 **Design is distinct from launch: the documented launch has a UR-run operator and sole validator. The 200-fleet figure is a design cap.**
 
@@ -489,9 +523,9 @@ Chart labels in display order: Customers · Privacy apps and VPN users · Networ
 | UR (SN25) emissions | 18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout. | https://github.com/urfoundation/sn#emission--yuma-consensus |
 | Validators | Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool. | https://github.com/urfoundation/sn/blob/main/VALIDATOR.md |
 
-[View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#sn25)
+[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#sn25)
 
-## Slide 19: Priced deposits could create demand for UR (SN25)
+## Slide 20: Priced deposits could create demand for UR (SN25)
 
 
 Although the launch rate is zero, priced deposits would lock UR (SN25) against traffic, with revenue-funded purchases expected in the design but not enforced.
@@ -517,9 +551,9 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 | Operator 5 | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
 | Operator N | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
 
-[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
+[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
 
-## Slide 20: UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s
+## Slide 21: UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s
 
 
 The 15 October 2026 comparison places UR (SN25) at $8.4M, Helium at $85M and Grass at $486M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.
@@ -544,9 +578,9 @@ Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M
 | Helium: ~$85M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko and MEXC, 15 October 2026 |
 | Grass: ~$486M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). | CoinGecko and MEXC, 15 October 2026 |
 
-[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
+[View slide 21](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
-## Slide 21: Operator deposits could link UR (SN25) demand to usage
+## Slide 22: Operator deposits could link UR (SN25) demand to usage
 
 
 While TAO inflows and sector interest support UR (SN25) today, priced operator deposits would add demand by locking tokens against network traffic.
@@ -583,9 +617,9 @@ Chart labels in display order: paid by token issuance · paid by customers · ne
 | Operator deposits | Priced deposits lock tokens against traffic; purchases from revenue are expected off-chain, not enforced. The current reserve has no outbound transfer path. | https://github.com/urfoundation/sn |
 | Reserve governance | The existing reserve has no outbound transfer function. Any different future reserve model would require a separate architecture; it is not a present spending right. | https://github.com/urfoundation/sn |
 
-[View slide 21](https://kdotpham.github.io/khala-privacy-reviewed/#value)
+[View slide 22](https://kdotpham.github.io/khala-privacy-reviewed/#value)
 
-## Slide 22: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
+## Slide 23: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
 
 
 With ur.io already live and enterprise and AI programmes still in research, the peer figures illustrate market scale rather than forecast UR (SN25) revenue.
@@ -611,9 +645,9 @@ If these programmes become paying operators, their traffic could create UR (SN25
 | Project Stargate | Residential routes that let agents browse, retrieve and index the open web |  |
 | Third-party operators | Any business can bill users and data on the same network |  |
 
-[View slide 22](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
+[View slide 23](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
 
-## Slide 23: Operator deposits distinguish the illustrative UR (SN25) scenarios
+## Slide 24: Operator deposits distinguish the illustrative UR (SN25) scenarios
 
 **End-2027 scenario ranges are illustrative assumptions, not forecasts or outputs from a valuation model.**
 
@@ -634,36 +668,36 @@ The number to watch Track monthly operator deposits against miner emissions: a f
 | Base: $15M to $30M market cap | Deposits switch on in 2027, and two to four operators pay small amounts. Signal to watch: number of operators with non-zero deposits. | Khala Research, illustrative |
 | Bear: $2M to $5M market cap | The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). Signal to watch: net tao flow into sn25, negative three months running. | Khala Research, illustrative |
 
-[View slide 23](https://kdotpham.github.io/khala-privacy-reviewed/#watch)
+[View slide 24](https://kdotpham.github.io/khala-privacy-reviewed/#watch)
 
-## Slide 24: Dated events and operating signals will test the privacy thesis
+## Slide 25: Dated events and operating signals will test the privacy thesis
 
 
 Scheduled milestones test delivery, while deposits and burns show whether adoption reaches the token.
 
 | Timing or trigger | Token | Event | Why it matters |
 | --- | --- | --- | --- |
-| 13 Nov 2026 | Aztec | Foundation token unlock | Adds supply while user funds secured are still under $100K |
-| Late 2026 | Aztec | Version 6 proving-system update | Aztec asked teams to pause new deployments pending guidance |
 | 26 Apr 2027 | Coverage universe | Roman Storm retrial on laundering and sanctions counts | Could clarify liability for developers of privacy tools |
+| Q2 2027 | NOCK | Privacy pool app | First private NOCK transfers; the privacy case depends on it |
 | Coming soon | Umbra | Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |
 | When priced | UR (SN25) | First operator deposit | Links traffic to token locking; the launch rate is zero |
 | Quarterly | Zcash | Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |
 | Ongoing | Venice | Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |
 | Q4 targets / ongoing | Nullmask | Wallet distribution, product fees and MASK burns | Tests repeat usage, token value capture and delivered integrations |
+| Not dated | Pearl | PRL compute market and proof of inference | Would give inference revenue a route to PRL |
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Aztec: Foundation token unlock | Adds supply while user funds secured are still under $100K |  |
-| Aztec: Version 6 proving-system update | Aztec asked teams to pause new deployments pending guidance |  |
 | Coverage universe: Roman Storm retrial on laundering and sanctions counts | Could clarify liability for developers of privacy tools |  |
+| Nockchain: Privacy pool app | Nockchain plans a ShieldedCSV-based privacy pool for Q2 2027, after forced data availability and bridge withdrawals in Q1 2027. It would be the first time NOCK transfers can be private. | https://www.nockchain.org/roadmap |
 | Umbra: Nimbus developer network and SDK | First sign that other apps will route fees to Umbra |  |
 | UR (SN25): First operator deposit | Links traffic to token locking; the launch rate is zero |  |
 | Zcash: Shielded share and US ETF holdings | Shows whether demand to hold is turning into private use |  |
 | Venice: Burn volumes and the Venice V2 video rollout | Shows whether revenue growth is reaching VVV holders |  |
 | Nullmask: Product fees, MASK burns and delivery | The dashboard reports service fees, developer-wallet ZEC rewards, holder payouts and burns as distinct metrics. Solana and private perpetuals remain roadmap targets. | https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap |
+| Pearl: PRL compute market and proof of inference | The whitepaper describes a PRL-based compute marketplace with no launch date, and a proof-of-inference layer is being built with Attestable. Either would give inference demand a route to PRL. | Bankless, 16 October 2026 |
 
-[View slide 24](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
+[View slide 25](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
 
