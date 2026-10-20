@@ -1,0 +1,39 @@
+{
+  "build": "2026-10-20-slide-review-v15",
+  "date": "2026-10-20",
+  "requested_by": "Kevin (MBB)",
+  "scope": "Targeted feedback on slides 1, 4, 5, 7, 9, 12, 13 and 14, plus section 1 ordering. Other slides unchanged apart from page numbers.",
+  "changes": [
+    {"slide": 1, "change": "Numbers 1 to 4 now use the heading typeface and size, so each sits on its heading's first baseline. Title and all four rows rewritten with specific figures and an implication; row 2 metric changed from $30.6M to the ~1,000x gap."},
+    {"slide": "2-6", "change": "Section 1 reordered: Buterin and Durov (3) and policy (4) now precede stablecoins (5) and use cases (6). Divider list and page numbers updated."},
+    {"slide": 3, "change": "Dek names Telegram."},
+    {"slide": 4, "change": "'Treasury lifts the sanctions' now reads 'US Treasury lifts the sanctions'. Every timeline hover explains what the event was and why it matters (Tornado Cash, Fifth Circuit ruling, delisting and the Storm case, Buterin and Durov, GENIUS Act, USAD and the Privacy Cluster, a16z, Grayscale ZCSH)."},
+    {"slide": 7, "change": "Replaced the malformed dek and the Nym/UR scope note with three statements: private money is worth about $31B, Grass and Helium are reference points rather than a fair value, and network privacy is worth $30.6M, about 1,000x less."},
+    {"slide": 9, "change": "UR (SN25) pill renamed from 'Conditional' to 'Operator deposits', with a hover explaining the zero launch rate and off-chain purchases."},
+    {"slide": 12, "change": "Aztec: market-cap bar chart replaced by a labelled diagram of the transaction flow (device, sequencer committee, provers, Ethereum), what observers can see, and where AZTEC is used (fees via Fee Juice with congestion burn, 200,000 AZTEC sequencer stake, 400 AZTEC per slot rewards split 70/30). Key figures kept as a row beneath. New title and fuller fact copy."},
+    {"slide": 13, "change": "Umbra: unlabelled price chart replaced by a diagram of deposit, private balance and send/withdraw with public and hidden fields, plus the fee path from protocol fee to governance-set treasury to UMBRA holders via MetaDAO. Price history moved into the market-cap hover."},
+    {"slide": 14, "change": "Venice: issuance chart replaced by a diagram of the customer side (payment routes, proxy, model privacy modes), the buy-and-burn link and the holder side (stake VVV, lock sVVV, mint and stake DIEM). Issuance cut kept as a headline figure."}
+  ],
+  "sources_checked": [
+    {"claim": "Aztec transaction lifecycle and leakage", "source": "https://docs.aztec.network/aztec/concepts/transactions"},
+    {"claim": "Fee Juice 1:1 one-way, fee composition", "source": "https://docs.aztec.network/participate/basics/fees"},
+    {"claim": "Congestion cost burned; 400 AZTEC per slot; 70/30 sequencer/prover split", "source": "https://docs.aztec.network/participate/token/economics"},
+    {"claim": "200K AZTEC to sequence; 48-member committee; 20% annual mint cap; v5 critical vulnerability", "source": "https://l2beat.com/scaling/projects/aztecnetwork"},
+    {"claim": "Umbra deposit/transfer/withdraw visibility", "source": "https://docs.umbraprivacy.com/privacy/visibility.md"},
+    {"claim": "Umbra protocol fees to governance-set treasury payout account; 5% cap on default rates", "source": "https://docs.umbraprivacy.com/operations/fee-collection ; https://docs.umbraprivacy.com/fees/fee-model.md"},
+    {"claim": "Umbra wallet public launch on Arcium, March 2026, with viewing keys, screening and geo-blocking", "source": "https://www.theblock.co/post/394892/"},
+    {"claim": "VVV staking, sVVV, DIEM mint and $1/day credit, spend order", "source": "https://docs.venice.ai/overview/vvv-diem"},
+    {"claim": "$5 per $100 credit burn from 17 July 2026; DIEM target to 40,000; emissions to 2M from 1 October 2026", "source": "https://venice.ai/blog/tokenomics-update-credit-burns-and-diem-supply-expansion"},
+    {"claim": "Venice privacy modes and no prompt logging", "source": "https://docs.venice.ai/overview/privacy.md"},
+    {"claim": "OFAC: more than $7B laundered including $455M by Lazarus", "source": "https://www.acams.org/en/news/ofac-blacklists-cryptocurrency-mixer-tornado-cash"},
+    {"claim": "Storm conviction and 26 April 2027 retrial", "source": "https://cointelegraph.com/news/roman-storm-retrial-delayed-april-2027"},
+    {"claim": "EF Privacy Cluster, 47 people, 9 October 2025", "source": "https://www.theblock.co/post/373951/ethereum-foundation-creates-privacy-cluster"}
+  ],
+  "limitations": [
+    "Umbra's fee cap and treasury mechanics come from its protocol documentation, which describes the Nimbus shielded pool; the documentation does not say whether every parameter applies unchanged to the current wallet.",
+    "L2BEAT's live Aztec page has moved since the 16 October snapshot (3,129 sequencers and 486.22M AZTEC staked when checked on 20 October). The deck keeps its dated 16 October figures.",
+    "The Venice burn page could not be fetched, so no cumulative burn total is stated.",
+    "Market data elsewhere in the deck was not refreshed. Slide 17 remains SAMPLE DATA, NOT FOR POSTING."
+  ],
+  "verification": "npm run generate and npm run verify passed (24 slides, 15 charts). Changed slides rendered at 1600x720 in light and dark mode with an automated overflow check; hover notes tested on slides 4, 12 and 14. Avoid AI Writing gate passed on the changed prose at threshold 0."
+}

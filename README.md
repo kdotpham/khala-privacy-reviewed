@@ -66,3 +66,7 @@ The Avoid AI Writing review used extracted prose and a model-based second pass. 
 ## Connected prose and comparison alignment, 20 October 2026
 
 Rewrote the hero, executive summary and narrative slide copy as connected sentences while preserving the research findings, dated figures, quotes and material qualifications. Removed the next-slide commentary from slide 9 and the New pill that increased the UR header height. Chart labels and metrics remain concise. The copy review and export checks are in `continuous-copy-review-2026-10-20.json`.
+
+## Slide review, 20 October 2026
+
+Build: `2026-10-20-slide-review-v15`. Section 1 now runs Buterin and Durov (3), policy (4), stablecoins (5) and use cases (6). The executive summary was rewritten with specific figures and implications, and its numbers sit on the heading baseline. Slide 4's timeline hovers explain each event. Slide 7's left-hand copy and slide 9's UR (SN25) pill were clarified. Aztec, Umbra and Venice (slides 12 to 14) now show how each product works and where its token is used, in place of price and issuance charts. Changes and primary sources are recorded in `slide-review-2026-10-20-v15.json`. Slide 17 remains SAMPLE DATA, NOT FOR POSTING.

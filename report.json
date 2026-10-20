@@ -47,18 +47,18 @@
     {
       "slide_number": 1,
       "id": "summary",
-      "title": "Privacy products are growing, but token value capture remains uneven",
+      "title": "Privacy now has paying customers, but few tokens capture that value",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#summary",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
         "Executive summary",
-        "Privacy products are growing, but token value capture remains uneven",
-        "1 Companies now need confidentiality to transact on-chain With $306B of stablecoins on public ledgers, payroll and OTC deployments are testing how companies can settle transactions confidentially. $306B stablecoins on public ledgers 2 Privacy tokens use different routes to value capture Zcash is held as money and Venice funds VVV buybacks from revenue, while Nym and UR (SN25) together account for $30.6M in market value. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K in user funds, while Umbra directs fees to its DAO and UR (SN25) keeps its operator-deposit rate at zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users, but usage-linked demand for UR (SN25) depends on a non-zero operator-deposit rate. 350K monthly users (team-reported)",
+        "Privacy now has paying customers, but few tokens capture that value",
+        "1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Aztec has $12M staked to secure $58K of user funds, Umbra’s fees sit in a DAO treasury with no automatic payout, and Nullmask reports token rewards separately from its service fees. $58K user funds behind $12M of Aztec stake 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)",
         "Catalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027"
       ],
-      "text": "Executive summary\nPrivacy products are growing, but token value capture remains uneven\n1 Companies now need confidentiality to transact on-chain With $306B of stablecoins on public ledgers, payroll and OTC deployments are testing how companies can settle transactions confidentially. $306B stablecoins on public ledgers 2 Privacy tokens use different routes to value capture Zcash is held as money and Venice funds VVV buybacks from revenue, while Nym and UR (SN25) together account for $30.6M in market value. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet connect usage to value Aztec secures $58K in user funds, while Umbra directs fees to its DAO and UR (SN25) keeps its operator-deposit rate at zero. $58K user funds secured on Aztec 4 UR (SN25) has users, with token demand still conditional URnetwork reports 350K monthly users, but usage-linked demand for UR (SN25) depends on a non-zero operator-deposit rate. 350K monthly users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
+      "text": "Executive summary\nPrivacy now has paying customers, but few tokens capture that value\n1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Aztec has $12M staked to secure $58K of user funds, Umbra’s fees sit in a DAO treasury with no automatic payout, and Nullmask reports token rewards separately from its service fees. $58K user funds behind $12M of Aztec stake 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) Aztec v6 and the 13 November unlock Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -73,21 +73,205 @@
       "warnings": [],
       "paragraphs": [
         "Privacy is becoming necessary for corporate payments",
-        "As corporate payments move onto public ledgers, Buterin and Durov argue for privacy in the networks people already use.",
+        "Buterin and Durov argue for privacy in the networks people already use, US policy has turned in its favour, and corporate payments on public ledgers now give it paying customers.",
         "In this section",
-        "Stablecoins on public ledgers 3",
-        "Buterin and Durov 4",
-        "Policy has turned 5",
+        "Buterin and Durov 3",
+        "Policy has turned 4",
+        "Stablecoins on public ledgers 5",
         "Payroll and trading 6",
         "Where markets pay for privacy 7"
       ],
-      "text": "Privacy is becoming necessary for corporate payments\nAs corporate payments move onto public ledgers, Buterin and Durov argue for privacy in the networks people already use.\nIn this section\nStablecoins on public ledgers 3\nButerin and Durov 4\nPolicy has turned 5\nPayroll and trading 6\nWhere markets pay for privacy 7",
+      "text": "Privacy is becoming necessary for corporate payments\nButerin and Durov argue for privacy in the networks people already use, US policy has turned in its favour, and corporate payments on public ledgers now give it paying customers.\nIn this section\nButerin and Durov 3\nPolicy has turned 4\nStablecoins on public ledgers 5\nPayroll and trading 6\nWhere markets pay for privacy 7",
       "charts": [],
       "tables": [],
       "hover_details": []
     },
     {
       "slide_number": 3,
+      "id": "founders",
+      "title": "Buterin and Durov both place privacy in core infrastructure",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#founders",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [],
+      "paragraphs": [
+        "Buterin and Durov both place privacy in core infrastructure",
+        "The founders of Ethereum and Telegram, a messaging app with over a billion monthly users, reach the same conclusion from different starting points.",
+        "Vitalik Buterin",
+        "Co-founder",
+        "Ethereum",
+        "“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025",
+        "Why it matters",
+        "Control over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.",
+        "Where it belongs",
+        "Privacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.",
+        "Current gap",
+        "Much of the proposal remains a roadmap that wallets and applications would need to implement.",
+        "Pavel Durov",
+        "Founder and CEO",
+        "Telegram, over 1B monthly users",
+        "“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025",
+        "Why it matters",
+        "Encryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.",
+        "Where it belongs",
+        "The product should exclude backdoors, even if that means withdrawing from a market.",
+        "Current gap",
+        "Telegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.",
+        "Implication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users."
+      ],
+      "text": "Buterin and Durov both place privacy in core infrastructure\nThe founders of Ethereum and Telegram, a messaging app with over a billion monthly users, reach the same conclusion from different starting points.\nVitalik Buterin\nCo-founder\nEthereum\n“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025\nWhy it matters\nControl over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.\nWhere it belongs\nPrivacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.\nCurrent gap\nMuch of the proposal remains a roadmap that wallets and applications would need to implement.\nPavel Durov\nFounder and CEO\nTelegram, over 1B monthly users\n“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025\nWhy it matters\nEncryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.\nWhere it belongs\nThe product should exclude backdoors, even if that means withdrawing from a market.\nCurrent gap\nTelegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.\nImplication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users.",
+      "charts": [],
+      "tables": [],
+      "hover_details": []
+    },
+    {
+      "slide_number": 4,
+      "id": "policy",
+      "title": "US policy has shifted toward privacy, while developer liability remains open",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#policy",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [],
+      "paragraphs": [
+        "US policy has shifted toward privacy, while developer liability remains open",
+        "Sanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved."
+      ],
+      "text": "US policy has shifted toward privacy, while developer liability remains open\nSanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved.",
+      "charts": [
+        {
+          "description": "From enforcement to infrastructure",
+          "labels": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "Tornado Cash under sanctions for 31 months",
+            "the 19 months since, in detail below",
+            "Aug 2022",
+            "US Treasury sanctions Tornado Cash",
+            "Nov 2024",
+            "Fifth Circuit rules its immutable contracts are not property",
+            "Mar 2025",
+            "US Treasury lifts the sanctions",
+            "Apr 2025",
+            "Buterin publishes an L1 privacy",
+            "roadmap; Durov pledges no backdoors",
+            "Jul 2025",
+            "GENIUS Act sets a federal stablecoin",
+            "framework",
+            "Oct 2025",
+            "Paxos Labs and Aleo announce USAD;",
+            "Ethereum Foundation forms a Privacy",
+            "Cluster",
+            "Jan 2026",
+            "a16z names privacy crypto's most",
+            "important moat",
+            "Aug 2026",
+            "Grayscale's Zcash ETF lists, $463M",
+            "in two weeks",
+            "Policy",
+            "Builders and capital"
+          ],
+          "details": [
+            {
+              "label": "31 months under sanctions",
+              "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from on-chain privacy tools.",
+              "source": "US Treasury; Van Loon v. Treasury"
+            },
+            {
+              "label": "US Treasury sanctions Tornado Cash",
+              "description": "Tornado Cash is an Ethereum mixer: users deposit into a shared pool and withdraw to a fresh address, breaking the public link between sender and recipient. On 8 August 2022 the US Treasury’s sanctions office (OFAC) blacklisted its smart contracts, saying it had laundered more than $7B since 2019, including $455M stolen by North Korea’s Lazarus Group.",
+              "source": "US Treasury OFAC, 8 August 2022"
+            },
+            {
+              "label": "Court rules code is not property",
+              "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It was the first appellate ruling to put ownerless privacy code outside sanctions law.",
+              "source": "US Court of Appeals for the Fifth Circuit, 26 November 2024"
+            },
+            {
+              "label": "US Treasury lifts the sanctions",
+              "description": "The US Treasury removed Tornado Cash from the sanctions list on 21 March 2025, so US users could interact with it again. Developer liability is still open: in August 2025 a jury convicted developer Roman Storm of conspiring to run an unlicensed money-transmitting business and deadlocked on laundering and sanctions charges, which face retrial on 26 April 2027.",
+              "source": "US Treasury, 21 March 2025; Cointelegraph"
+            },
+            {
+              "label": "Buterin and Durov",
+              "description": "On 11 April 2025 Buterin proposed making privacy part of Ethereum’s core design, covering payments, app activity, chain reads and network-level anonymity. On 21 April Durov said Telegram would leave a market rather than build encryption backdoors for authorities. Two founders with very large user bases put privacy at the centre of their products.",
+              "source": "Buterin, 11 April 2025; Durov’s Telegram channel, 21 April 2025"
+            },
+            {
+              "label": "GENIUS Act",
+              "description": "The Guiding and Establishing National Innovation for US Stablecoins Act, signed on 18 July 2025, is the first US federal law for payment stablecoins, setting rules for reserves, licensing and redemption. It gives banks and payment companies a legal route onto public chains, bringing payroll and supplier flows that companies normally keep confidential.",
+              "source": "GENIUS Act, signed 18 July 2025"
+            },
+            {
+              "label": "USAD and the Privacy Cluster",
+              "description": "On 1 October 2025 Paxos Labs and Aleo announced USAD, a US dollar stablecoin whose balances and transfers are private by default. On 9 October the Ethereum Foundation formed a Privacy Cluster of 47 researchers, engineers and cryptographers to make privacy a first-class property of Ethereum.",
+              "source": "Paxos Labs and Aleo, 1 October 2025; The Block, 9 October 2025"
+            },
+            {
+              "label": "a16z: privacy is crypto’s moat",
+              "description": "a16z crypto’s Ali Yahya argued that privacy will be the strongest moat for blockchains: “bridging tokens is easy, bridging secrets is hard”. A chain that holds users’ private state is harder to leave than one that holds only public balances, which favours privacy networks that gain users early.",
+              "source": "a16z crypto, January 2026"
+            },
+            {
+              "label": "Grayscale’s Zcash ETF lists",
+              "description": "Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin.",
+              "source": "Grayscale; NYSE Arca, 25 August to 7 September 2026"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "hover_details": [
+        {
+          "label": "31 months under sanctions",
+          "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from on-chain privacy tools.",
+          "source": "US Treasury; Van Loon v. Treasury"
+        },
+        {
+          "label": "US Treasury sanctions Tornado Cash",
+          "description": "Tornado Cash is an Ethereum mixer: users deposit into a shared pool and withdraw to a fresh address, breaking the public link between sender and recipient. On 8 August 2022 the US Treasury’s sanctions office (OFAC) blacklisted its smart contracts, saying it had laundered more than $7B since 2019, including $455M stolen by North Korea’s Lazarus Group.",
+          "source": "US Treasury OFAC, 8 August 2022"
+        },
+        {
+          "label": "Court rules code is not property",
+          "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It was the first appellate ruling to put ownerless privacy code outside sanctions law.",
+          "source": "US Court of Appeals for the Fifth Circuit, 26 November 2024"
+        },
+        {
+          "label": "US Treasury lifts the sanctions",
+          "description": "The US Treasury removed Tornado Cash from the sanctions list on 21 March 2025, so US users could interact with it again. Developer liability is still open: in August 2025 a jury convicted developer Roman Storm of conspiring to run an unlicensed money-transmitting business and deadlocked on laundering and sanctions charges, which face retrial on 26 April 2027.",
+          "source": "US Treasury, 21 March 2025; Cointelegraph"
+        },
+        {
+          "label": "Buterin and Durov",
+          "description": "On 11 April 2025 Buterin proposed making privacy part of Ethereum’s core design, covering payments, app activity, chain reads and network-level anonymity. On 21 April Durov said Telegram would leave a market rather than build encryption backdoors for authorities. Two founders with very large user bases put privacy at the centre of their products.",
+          "source": "Buterin, 11 April 2025; Durov’s Telegram channel, 21 April 2025"
+        },
+        {
+          "label": "GENIUS Act",
+          "description": "The Guiding and Establishing National Innovation for US Stablecoins Act, signed on 18 July 2025, is the first US federal law for payment stablecoins, setting rules for reserves, licensing and redemption. It gives banks and payment companies a legal route onto public chains, bringing payroll and supplier flows that companies normally keep confidential.",
+          "source": "GENIUS Act, signed 18 July 2025"
+        },
+        {
+          "label": "USAD and the Privacy Cluster",
+          "description": "On 1 October 2025 Paxos Labs and Aleo announced USAD, a US dollar stablecoin whose balances and transfers are private by default. On 9 October the Ethereum Foundation formed a Privacy Cluster of 47 researchers, engineers and cryptographers to make privacy a first-class property of Ethereum.",
+          "source": "Paxos Labs and Aleo, 1 October 2025; The Block, 9 October 2025"
+        },
+        {
+          "label": "a16z: privacy is crypto’s moat",
+          "description": "a16z crypto’s Ali Yahya argued that privacy will be the strongest moat for blockchains: “bridging tokens is easy, bridging secrets is hard”. A chain that holds users’ private state is harder to leave than one that holds only public balances, which favours privacy networks that gain users early.",
+          "source": "a16z crypto, January 2026"
+        },
+        {
+          "label": "Grayscale’s Zcash ETF lists",
+          "description": "Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin.",
+          "source": "Grayscale; NYSE Arca, 25 August to 7 September 2026"
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
       "id": "capital",
       "title": "Public ledgers expose the activity behind $306B of stablecoins",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#capital",
@@ -275,190 +459,6 @@
       ]
     },
     {
-      "slide_number": 4,
-      "id": "founders",
-      "title": "Buterin and Durov both place privacy in core infrastructure",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#founders",
-      "kind": "content",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "Buterin and Durov both place privacy in core infrastructure",
-        "The founders of Ethereum and of a messaging app with over a billion users reach the same conclusion from different starting points.",
-        "Vitalik Buterin",
-        "Co-founder",
-        "Ethereum",
-        "“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025",
-        "Why it matters",
-        "Control over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.",
-        "Where it belongs",
-        "Privacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.",
-        "Current gap",
-        "Much of the proposal remains a roadmap that wallets and applications would need to implement.",
-        "Pavel Durov",
-        "Founder and CEO",
-        "Telegram, over 1B monthly users",
-        "“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025",
-        "Why it matters",
-        "Encryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.",
-        "Where it belongs",
-        "The product should exclude backdoors, even if that means withdrawing from a market.",
-        "Current gap",
-        "Telegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.",
-        "Implication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users."
-      ],
-      "text": "Buterin and Durov both place privacy in core infrastructure\nThe founders of Ethereum and of a messaging app with over a billion users reach the same conclusion from different starting points.\nVitalik Buterin\nCo-founder\nEthereum\n“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025\nWhy it matters\nControl over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.\nWhere it belongs\nPrivacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.\nCurrent gap\nMuch of the proposal remains a roadmap that wallets and applications would need to implement.\nPavel Durov\nFounder and CEO\nTelegram, over 1B monthly users\n“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025\nWhy it matters\nEncryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.\nWhere it belongs\nThe product should exclude backdoors, even if that means withdrawing from a market.\nCurrent gap\nTelegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.\nImplication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users.",
-      "charts": [],
-      "tables": [],
-      "hover_details": []
-    },
-    {
-      "slide_number": 5,
-      "id": "policy",
-      "title": "US policy has shifted toward privacy, while developer liability remains open",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#policy",
-      "kind": "content",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "US policy has shifted toward privacy, while developer liability remains open",
-        "Sanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved."
-      ],
-      "text": "US policy has shifted toward privacy, while developer liability remains open\nSanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved.",
-      "charts": [
-        {
-          "description": "From enforcement to infrastructure",
-          "labels": [
-            "2023",
-            "2024",
-            "2025",
-            "2026",
-            "Tornado Cash under sanctions for 31 months",
-            "the 19 months since, in detail below",
-            "Aug 2022",
-            "US Treasury sanctions Tornado Cash",
-            "Nov 2024",
-            "Fifth Circuit rules its immutable contracts are not property",
-            "Mar 2025",
-            "Treasury lifts the sanctions",
-            "Apr 2025",
-            "Buterin publishes an L1 privacy",
-            "roadmap; Durov pledges no backdoors",
-            "Jul 2025",
-            "GENIUS Act sets a federal stablecoin",
-            "framework",
-            "Oct 2025",
-            "Paxos Labs and Aleo announce USAD;",
-            "Ethereum Foundation forms a Privacy",
-            "Cluster",
-            "Jan 2026",
-            "a16z names privacy crypto's most",
-            "important moat",
-            "Aug 2026",
-            "Grayscale's Zcash ETF lists, $463M",
-            "in two weeks",
-            "Policy",
-            "Builders and capital"
-          ],
-          "details": [
-            {
-              "label": "31 months under sanctions",
-              "description": "From 8 August 2022 to March 2025, Tornado Cash was on the OFAC sanctions list.",
-              "source": "US Treasury"
-            },
-            {
-              "label": "Aug 2022",
-              "description": "OFAC added Tornado Cash's smart contracts to the sanctions list on 8 August 2022.",
-              "source": ""
-            },
-            {
-              "label": "Nov 2024",
-              "description": "Van Loon v. Department of the Treasury, decided 26 November 2024.",
-              "source": ""
-            },
-            {
-              "label": "Mar 2025",
-              "description": "Treasury removed Tornado Cash from the sanctions list in March 2025.",
-              "source": ""
-            },
-            {
-              "label": "Apr 2025",
-              "description": "Buterin's roadmap was posted on 11 April 2025; Durov's statement followed on 21 April 2025.",
-              "source": ""
-            },
-            {
-              "label": "Jul 2025",
-              "description": "Federal framework for payment stablecoins, July 2025.",
-              "source": ""
-            },
-            {
-              "label": "Oct 2025",
-              "description": "USAD was announced on 1 October 2025; the Privacy Cluster in October 2025.",
-              "source": ""
-            },
-            {
-              "label": "Jan 2026",
-              "description": "Ali Yahya, a16z crypto: “bridging tokens is easy, bridging secrets is hard”.",
-              "source": ""
-            },
-            {
-              "label": "Aug 2026",
-              "description": "ZCSH began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September 2026.",
-              "source": ""
-            }
-          ]
-        }
-      ],
-      "tables": [],
-      "hover_details": [
-        {
-          "label": "31 months under sanctions",
-          "description": "From 8 August 2022 to March 2025, Tornado Cash was on the OFAC sanctions list.",
-          "source": "US Treasury"
-        },
-        {
-          "label": "Aug 2022",
-          "description": "OFAC added Tornado Cash's smart contracts to the sanctions list on 8 August 2022.",
-          "source": ""
-        },
-        {
-          "label": "Nov 2024",
-          "description": "Van Loon v. Department of the Treasury, decided 26 November 2024.",
-          "source": ""
-        },
-        {
-          "label": "Mar 2025",
-          "description": "Treasury removed Tornado Cash from the sanctions list in March 2025.",
-          "source": ""
-        },
-        {
-          "label": "Apr 2025",
-          "description": "Buterin's roadmap was posted on 11 April 2025; Durov's statement followed on 21 April 2025.",
-          "source": ""
-        },
-        {
-          "label": "Jul 2025",
-          "description": "Federal framework for payment stablecoins, July 2025.",
-          "source": ""
-        },
-        {
-          "label": "Oct 2025",
-          "description": "USAD was announced on 1 October 2025; the Privacy Cluster in October 2025.",
-          "source": ""
-        },
-        {
-          "label": "Jan 2026",
-          "description": "Ali Yahya, a16z crypto: “bridging tokens is easy, bridging secrets is hard”.",
-          "source": ""
-        },
-        {
-          "label": "Aug 2026",
-          "description": "ZCSH began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September 2026.",
-          "source": ""
-        }
-      ]
-    },
-    {
       "slide_number": 6,
       "id": "usecases",
       "title": "Payroll and trading are the first commercial tests of confidentiality",
@@ -552,11 +552,11 @@
       "warnings": [],
       "paragraphs": [
         "Privacy demand alone does not set token value",
-        "Zcash and Venice show different routes to token demand, with network-capacity peers adding context to the 15 October 2026 market-cap comparison on a logarithmic USD scale.",
-        "Although Grass and Helium provide benchmarks for networks that sell capacity, their valuations do not establish a fair value for UR (SN25).",
-        "The network-privacy comparison includes Nym and UR (SN25)."
+        "Investors value privacy most when it is held as money: Zcash and Monero are worth about $31B together, and Venice reaches $1.1B because customer revenue buys back its token.",
+        "Grass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.",
+        "Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M combined, about 1,000 times less than transaction privacy, even though wallet privacy can fail at the network connection."
       ],
-      "text": "Privacy demand alone does not set token value\nZcash and Venice show different routes to token demand, with network-capacity peers adding context to the 15 October 2026 market-cap comparison on a logarithmic USD scale.\nAlthough Grass and Helium provide benchmarks for networks that sell capacity, their valuations do not establish a fair value for UR (SN25).\nThe network-privacy comparison includes Nym and UR (SN25).",
+      "text": "Privacy demand alone does not set token value\nInvestors value privacy most when it is held as money: Zcash and Monero are worth about $31B together, and Venice reaches $1.1B because customer revenue buys back its token.\nGrass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.\nNym and UR (SN25), which hide who is talking to whom, are worth $30.6M combined, about 1,000 times less than transaction privacy, even though wallet privacy can fail at the network connection.",
       "charts": [
         {
           "description": "Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.",
@@ -744,7 +744,7 @@
               "Fee + stake AZTEC pays fees and supports staking. Congestion fees burn.",
               "Governance UMBRA governs its treasury. There is no automatic buyback or dividend.",
               "Stake + burn VVV enables inference. Part of credit revenue buys and burns VVV.",
-              "Conditional Deposits can lock tokens. The launch rate is zero; new buying is not guaranteed."
+              "Operator deposits Operators lock tokens against traffic; the launch rate is zero."
             ]
           ]
         }
@@ -872,8 +872,8 @@
         },
         {
           "label": "UR (SN25)",
-          "description": "UR (SN25) alpha funds emissions and locked operator deposits, which can be zero; buys not enforced",
-          "source": ""
+          "description": "Operators that sell privacy on the network are designed to deposit UR (SN25) against the traffic they expect, locking tokens while usage grows. The deposit rate was set at zero for launch, and the documentation expects any market purchases for deposits to happen off-chain rather than being enforced, so the link from usage to token demand is designed but not yet active.",
+          "source": "UR price.yml and README, checked 20 October 2026"
         }
       ]
     },
@@ -1109,59 +1109,114 @@
     {
       "slide_number": 12,
       "id": "aztec",
-      "title": "Aztec has $12M staked against $58K in user funds",
+      "title": "Aztec’s private rollup is live, but $12M of stake secures only $58K of user funds",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#aztec",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Aztec has $12M staked against $58K in user funds",
-        "User funds remain small relative to staking and valuation on the logarithmic USD chart, while Aztec’s 7 August proving-bug disclosure adds a security concern.",
-        "What it sells Private smart contracts on Ethereum: confidential balances, state and execution, written in Noir.",
-        "How value reaches the token Fees are paid in AZTEC, congestion fees burn, and sequencers must stake 200,000 AZTEC to produce blocks.",
-        "What has to be true v6 closes the proving bug disclosed on 7 August, and apps bring user funds well above today’s $58K.",
-        "Supply risk Only 29% is circulating, the Foundation unlocks on 13 November, and governance can mint up to 20% of supply a year."
+        "Aztec’s private rollup is live, but $12M of stake secures only $58K of user funds",
+        "Each transaction is proved on the user’s device and settled on Ethereum by staked sequencers and provers, so AZTEC is needed both to operate the network and to pay its fees, yet only $58K of user funds have arrived and v5 carries a critical proving bug disclosed on 7 August.",
+        "What it sells Private smart contracts on Ethereum. Apps written in Noir can keep balances, logic and state hidden while still calling public contracts, so one app can mix private and public steps.",
+        "How value reaches the token Users must convert AZTEC into Fee Juice to transact, and the congestion share of each fee is burned. Each sequencer seat needs 200,000 AZTEC, so more usage and more operators both pull on the token.",
+        "What has to be true v6 must fix the critical proving bug disclosed on 7 August, which L2BEAT says puts funds and contract state at risk, and apps must bring user funds far above $58K for fees to matter next to rewards.",
+        "Supply risk Only 29% of the 10.35B supply circulates, the Foundation unlocks on 13 November, governance can mint up to 20% of supply a year, and rewards of 400 AZTEC per slot add to circulating supply."
       ],
-      "text": "Aztec has $12M staked against $58K in user funds\nUser funds remain small relative to staking and valuation on the logarithmic USD chart, while Aztec’s 7 August proving-bug disclosure adds a security concern.\nWhat it sells Private smart contracts on Ethereum: confidential balances, state and execution, written in Noir.\nHow value reaches the token Fees are paid in AZTEC, congestion fees burn, and sequencers must stake 200,000 AZTEC to produce blocks.\nWhat has to be true v6 closes the proving bug disclosed on 7 August, and apps bring user funds well above today’s $58K.\nSupply risk Only 29% is circulating, the Foundation unlocks on 13 November, and governance can mint up to 20% of supply a year.",
+      "text": "Aztec’s private rollup is live, but $12M of stake secures only $58K of user funds\nEach transaction is proved on the user’s device and settled on Ethereum by staked sequencers and provers, so AZTEC is needed both to operate the network and to pay its fees, yet only $58K of user funds have arrived and v5 carries a critical proving bug disclosed on 7 August.\nWhat it sells Private smart contracts on Ethereum. Apps written in Noir can keep balances, logic and state hidden while still calling public contracts, so one app can mix private and public steps.\nHow value reaches the token Users must convert AZTEC into Fee Juice to transact, and the congestion share of each fee is burned. Each sequencer seat needs 200,000 AZTEC, so more usage and more operators both pull on the token.\nWhat has to be true v6 must fix the critical proving bug disclosed on 7 August, which L2BEAT says puts funds and contract state at risk, and apps must bring user funds far above $58K for fees to matter next to rewards.\nSupply risk Only 29% of the 10.35B supply circulates, the Foundation unlocks on 13 November, governance can mint up to 20% of supply a year, and rewards of 400 AZTEC per slot add to circulating supply.",
       "charts": [
         {
-          "description": "Aztec value staked versus value secured",
+          "description": "How a private Aztec transaction moves from the user’s device through sequencers and provers to Ethereum, and where the AZTEC token is used",
           "labels": [
-            "$10K",
-            "$100K",
-            "$1M",
-            "$10M",
-            "$100M",
-            "$1B",
-            "Fully diluted value",
-            "$207M",
-            "Market cap",
-            "$60M",
-            "Staked by sequencers",
+            "How a private transaction reaches Ethereum",
+            "Your device",
+            "Runs private code",
+            "and builds a proof",
+            "Sequencers",
+            "Committee of 48",
+            "orders each block",
+            "Provers",
+            "Prove each epoch",
+            "of blocks together",
+            "Ethereum",
+            "Verifier contract",
+            "finalises the state",
+            "Observers see how many private changes a transaction makes and which public calls",
+            "it triggers; the sender, recipient, amount and private calls stay hidden.",
+            "Where AZTEC is used",
+            "Pay fees",
+            "AZTEC converts 1:1 into",
+            "Fee Juice, one way; the",
+            "congestion share is burned",
+            "Stake to sequence",
+            "200,000 AZTEC per seat;",
+            "586.9M staked by",
+            "3,136 sequencers",
+            "Earn rewards",
+            "400 AZTEC per slot plus",
+            "fees; 70% to sequencers,",
+            "30% to provers",
             "$12M",
-            "User funds secured",
-            "$58K"
+            "staked by sequencers",
+            "$58K",
+            "user funds secured",
+            "$60M",
+            "market cap · $207M FDV"
           ],
           "details": [
             {
-              "label": "Fully diluted value: $207M",
-              "description": "All 10.35B AZTEC at $0.020",
-              "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+              "label": "Your device",
+              "description": "The Private Execution Environment (PXE) in the user’s wallet runs private functions locally and proves they ran correctly with a zero-knowledge proof. Only the proof, new note commitments and nullifiers leave the device.",
+              "source": "Aztec documentation, transaction lifecycle"
             },
             {
-              "label": "Market cap: $60M",
-              "description": "2.99B AZTEC circulating (29%)",
-              "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+              "label": "Sequencers",
+              "description": "Each epoch a 48-member committee is sampled from the staked sequencer set. Sequencers check the private proofs, run any public functions and propose blocks. Joining the set requires 200,000 AZTEC.",
+              "source": "L2BEAT, 16 October 2026; Aztec documentation"
+            },
+            {
+              "label": "Provers",
+              "description": "Proving is permissionless. Provers produce one validity proof for an epoch of blocks and post it to Ethereum, earning 30% of block rewards and of unburned fees.",
+              "source": "Aztec documentation, economics and network"
+            },
+            {
+              "label": "Ethereum settlement",
+              "description": "A verifier contract on Ethereum checks each epoch proof. Once it verifies, the state change is final and inherits Ethereum’s security.",
+              "source": "Aztec documentation; L2BEAT, 16 October 2026"
+            },
+            {
+              "label": "What observers can see",
+              "description": "Aztec documentation says the only information a private transaction leaks is how many private state updates it makes and which public functions it calls. Senders, recipients, amounts and private calls stay hidden.",
+              "source": "Aztec documentation, transactions"
+            },
+            {
+              "label": "Fees",
+              "description": "Fees are paid in Fee Juice, created by depositing AZTEC one-for-one; it cannot be bridged back. Each fee is mana used times the mana price. The congestion part of each fee is burned, and the rest goes 70% to the sequencer and 30% to provers.",
+              "source": "Aztec documentation, fees and economics"
+            },
+            {
+              "label": "Staking",
+              "description": "Running a sequencer, or delegating to one, requires 200,000 AZTEC. On 16 October 2026, 586.9M AZTEC (about $12M) was staked across 3,136 sequencers. Stake can be slashed and is used to vote on upgrades.",
+              "source": "L2BEAT, 16 October 2026; Aztec token page"
+            },
+            {
+              "label": "Rewards",
+              "description": "The current checkpoint reward is 400 AZTEC per slot, split 280 to sequencers and 120 to provers, and governance can change it. Rewards are minted in advance to a distributor contract, so they add to circulating supply.",
+              "source": "Aztec documentation, economics"
             },
             {
               "label": "Staked by sequencers: $12M",
-              "description": "586.9M AZTEC staked by 3,136 sequencers",
-              "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+              "description": "586.9M AZTEC at $0.020, staked by 3,136 sequencers",
+              "source": "CoinDesk, 14 October 2026; L2BEAT, 16 October 2026"
             },
             {
               "label": "User funds secured: $58K",
-              "description": "Value secured on the rollup, per L2BEAT",
-              "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+              "description": "Value secured on the rollup, per L2BEAT. Most of it carries additional bridge trust assumptions.",
+              "source": "L2BEAT, 16 October 2026"
+            },
+            {
+              "label": "Market cap: $60M",
+              "description": "2.99B of 10.35B AZTEC circulating (29%) at $0.020; fully diluted value $207M",
+              "source": "CoinDesk, 14 October 2026; Tokenomist"
             }
           ]
         }
@@ -1169,97 +1224,190 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "Fully diluted value: $207M",
-          "description": "All 10.35B AZTEC at $0.020",
-          "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+          "label": "Your device",
+          "description": "The Private Execution Environment (PXE) in the user’s wallet runs private functions locally and proves they ran correctly with a zero-knowledge proof. Only the proof, new note commitments and nullifiers leave the device.",
+          "source": "Aztec documentation, transaction lifecycle"
         },
         {
-          "label": "Market cap: $60M",
-          "description": "2.99B AZTEC circulating (29%)",
-          "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+          "label": "Sequencers",
+          "description": "Each epoch a 48-member committee is sampled from the staked sequencer set. Sequencers check the private proofs, run any public functions and propose blocks. Joining the set requires 200,000 AZTEC.",
+          "source": "L2BEAT, 16 October 2026; Aztec documentation"
+        },
+        {
+          "label": "Provers",
+          "description": "Proving is permissionless. Provers produce one validity proof for an epoch of blocks and post it to Ethereum, earning 30% of block rewards and of unburned fees.",
+          "source": "Aztec documentation, economics and network"
+        },
+        {
+          "label": "Ethereum settlement",
+          "description": "A verifier contract on Ethereum checks each epoch proof. Once it verifies, the state change is final and inherits Ethereum’s security.",
+          "source": "Aztec documentation; L2BEAT, 16 October 2026"
+        },
+        {
+          "label": "What observers can see",
+          "description": "Aztec documentation says the only information a private transaction leaks is how many private state updates it makes and which public functions it calls. Senders, recipients, amounts and private calls stay hidden.",
+          "source": "Aztec documentation, transactions"
+        },
+        {
+          "label": "Fees",
+          "description": "Fees are paid in Fee Juice, created by depositing AZTEC one-for-one; it cannot be bridged back. Each fee is mana used times the mana price. The congestion part of each fee is burned, and the rest goes 70% to the sequencer and 30% to provers.",
+          "source": "Aztec documentation, fees and economics"
+        },
+        {
+          "label": "Staking",
+          "description": "Running a sequencer, or delegating to one, requires 200,000 AZTEC. On 16 October 2026, 586.9M AZTEC (about $12M) was staked across 3,136 sequencers. Stake can be slashed and is used to vote on upgrades.",
+          "source": "L2BEAT, 16 October 2026; Aztec token page"
+        },
+        {
+          "label": "Rewards",
+          "description": "The current checkpoint reward is 400 AZTEC per slot, split 280 to sequencers and 120 to provers, and governance can change it. Rewards are minted in advance to a distributor contract, so they add to circulating supply.",
+          "source": "Aztec documentation, economics"
         },
         {
           "label": "Staked by sequencers: $12M",
-          "description": "586.9M AZTEC staked by 3,136 sequencers",
-          "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+          "description": "586.9M AZTEC at $0.020, staked by 3,136 sequencers",
+          "source": "CoinDesk, 14 October 2026; L2BEAT, 16 October 2026"
         },
         {
           "label": "User funds secured: $58K",
-          "description": "Value secured on the rollup, per L2BEAT",
-          "source": "CoinDesk, Tokenomist, L2BEAT; 14 to 16 October 2026"
+          "description": "Value secured on the rollup, per L2BEAT. Most of it carries additional bridge trust assumptions.",
+          "source": "L2BEAT, 16 October 2026"
+        },
+        {
+          "label": "Market cap: $60M",
+          "description": "2.99B of 10.35B AZTEC circulating (29%) at $0.020; fully diluted value $207M",
+          "source": "CoinDesk, 14 October 2026; Tokenomist"
         },
         {
           "label": "What it sells",
-          "description": "Private smart contracts on Ethereum: confidential balances, state and execution, written in Noir.",
-          "source": ""
+          "description": "Private smart contracts on Ethereum. Apps written in Noir can keep balances, logic and state hidden while still calling public contracts, so one app can mix private and public steps.",
+          "source": "Aztec documentation"
         },
         {
           "label": "How value reaches the token",
-          "description": "Fees are paid in AZTEC, congestion fees burn, and sequencers must stake 200,000 AZTEC to produce blocks.",
-          "source": ""
+          "description": "Users must convert AZTEC into Fee Juice to transact, and the congestion share of each fee is burned. Each sequencer seat needs 200,000 AZTEC, so more usage and more operators both pull on the token.",
+          "source": "Aztec documentation; L2BEAT"
         },
         {
           "label": "What has to be true",
-          "description": "v6 closes the proving bug disclosed on 7 August, and apps bring user funds well above today’s $58K.",
-          "source": ""
+          "description": "v6 must fix the critical proving bug disclosed on 7 August, which L2BEAT says puts funds and contract state at risk, and apps must bring user funds far above $58K for fees to matter next to rewards.",
+          "source": "Aztec, 7 August 2026; L2BEAT"
         },
         {
           "label": "Supply risk",
-          "description": "Only 29% is circulating, the Foundation unlocks on 13 November, and governance can mint up to 20% of supply a year.",
-          "source": ""
+          "description": "Only 29% of the 10.35B supply circulates, the Foundation unlocks on 13 November, governance can mint up to 20% of supply a year, and rewards of 400 AZTEC per slot add to circulating supply.",
+          "source": "Tokenomist; L2BEAT; Aztec documentation"
         }
       ]
     },
     {
       "slide_number": 13,
       "id": "umbra",
-      "title": "Umbra’s fees reach its treasury, with no automatic payout to holders",
+      "title": "Umbra’s fees reach a treasury that UMBRA holders govern, with no automatic payout",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#umbra",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Umbra’s fees reach its treasury, with no automatic payout to holders",
-        "Umbra sells private balances, transfers and swaps on Solana, and its token governs a treasury rather than collecting fees.",
-        "What it sells A private wallet for Solana assets with screening and viewing keys; Nimbus, its network for other apps, is coming soon.",
-        "How value reaches the token Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend.",
-        "Why the vesting matters Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price.",
-        "What has to be true Nimbus brings other apps onto Umbra and deposits grow well beyond today’s $187K."
+        "Umbra’s fees reach a treasury that UMBRA holders govern, with no automatic payout",
+        "Umbra hides who paid whom, and how much, on Solana, and each private transaction pays a protocol fee into a treasury that only a governance vote can direct, so UMBRA holders decide how fee income is spent but receive none of it automatically.",
+        "What it sells A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. It opened to the public in March 2026 with viewing keys, risk screening and geo-blocking for compliance.",
+        "How value reaches the token Fees go to a treasury account that only a timelocked vote can set, and UMBRA holders steer it through MetaDAO markets. There is no automatic buyback or dividend, so value depends on how the DAO spends.",
+        "Why the vesting matters Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price, so insider supply arrives only after the price has multiplied.",
+        "What has to be true Nimbus, the shielded pool Umbra is building for other apps, has to launch and lift deposits well beyond $187K, because treasury income grows only with the value moving through the pool."
       ],
-      "text": "Umbra’s fees reach its treasury, with no automatic payout to holders\nUmbra sells private balances, transfers and swaps on Solana, and its token governs a treasury rather than collecting fees.\nWhat it sells A private wallet for Solana assets with screening and viewing keys; Nimbus, its network for other apps, is coming soon.\nHow value reaches the token Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend.\nWhy the vesting matters Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price.\nWhat has to be true Nimbus brings other apps onto Umbra and deposits grow well beyond today’s $187K.",
+      "text": "Umbra’s fees reach a treasury that UMBRA holders govern, with no automatic payout\nUmbra hides who paid whom, and how much, on Solana, and each private transaction pays a protocol fee into a treasury that only a governance vote can direct, so UMBRA holders decide how fee income is spent but receive none of it automatically.\nWhat it sells A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. It opened to the public in March 2026 with viewing keys, risk screening and geo-blocking for compliance.\nHow value reaches the token Fees go to a treasury account that only a timelocked vote can set, and UMBRA holders steer it through MetaDAO markets. There is no automatic buyback or dividend, so value depends on how the DAO spends.\nWhy the vesting matters Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price, so insider supply arrives only after the price has multiplied.\nWhat has to be true Nimbus, the shielded pool Umbra is building for other apps, has to launch and lift deposits well beyond $187K, because treasury income grows only with the value moving through the pool.",
       "charts": [
         {
-          "description": "Umbra price against its sale price",
+          "description": "How a private payment moves through Umbra on Solana, what stays public, and where protocol fees and control go",
           "labels": [
-            "$0.30",
-            "Sale price",
-            "$2.48",
-            "Peak",
-            "$0.17",
-            "Low",
-            "$0.37",
-            "15 Oct 2026"
+            "How a private payment moves through Umbra",
+            "Solana wallet",
+            "Deposits SOL or",
+            "tokens into Umbra",
+            "Private balance",
+            "Encrypted on Solana",
+            "using Arcium",
+            "Recipient",
+            "Another Umbra user,",
+            "or any Solana address",
+            "deposit",
+            "send",
+            "Public",
+            "wallet, token, amount",
+            "Hidden",
+            "balances, senders, amounts",
+            "Public on withdrawal",
+            "destination and amount",
+            "Where fees and control go",
+            "Protocol fee",
+            "Paid on each private",
+            "transaction",
+            "DAO treasury",
+            "Payout account set",
+            "only by a vote",
+            "UMBRA holders",
+            "Steer the treasury via",
+            "MetaDAO markets",
+            "fees",
+            "govern",
+            "$187K",
+            "deposits, 15 Oct 2026",
+            "3,428",
+            "encrypted accounts",
+            "$5.2M",
+            "market cap, 15 Oct 2026"
           ],
           "details": [
             {
-              "label": "Sale price: $0.30",
-              "description": "MetaDAO sale, October 2025: $3M accepted from $155M committed",
-              "source": "DefiLlama; MetaDAO"
+              "label": "Deposit",
+              "description": "Moving tokens from a Solana wallet into Umbra is public: anyone can see the wallet, the token and the amount.",
+              "source": "Umbra documentation, checked 20 October 2026"
             },
             {
-              "label": "Peak: $2.48",
-              "description": "All-time high, 12 October 2025",
-              "source": "DefiLlama; MetaDAO"
+              "label": "Private balance",
+              "description": "Inside Umbra, balances are held privately. The public record shows only the program’s total holdings. The wallet runs on Arcium’s encrypted execution network on Solana.",
+              "source": "The Block, 27 March 2026; Umbra documentation, checked 20 October 2026"
             },
             {
-              "label": "Low: $0.17",
-              "description": "All-time low",
-              "source": "DefiLlama; MetaDAO"
+              "label": "Send or withdraw",
+              "description": "A private send hides the sender, recipient, amount and token; a relayer submits it. A withdrawal to any Solana address shows the destination, token and amount, but not which balance paid for it.",
+              "source": "Umbra documentation, checked 20 October 2026"
             },
             {
-              "label": "Today: $0.37",
-              "description": "15 October 2026",
-              "source": "DefiLlama; MetaDAO"
+              "label": "What stays private",
+              "description": "Deposits are public and linked to the depositing wallet. Transfers inside Umbra hide sender, recipient, amount and token. Withdrawals show destination, token and amount, so withdrawing the exact amount just deposited can still link the two.",
+              "source": "Umbra documentation, checked 20 October 2026"
+            },
+            {
+              "label": "Protocol fee",
+              "description": "Each private transaction commits a protocol fee in the token used. Governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip.",
+              "source": "Umbra documentation, fee model and fee collection"
+            },
+            {
+              "label": "Treasury",
+              "description": "Protocol fees are paid to a treasury payout account that only a timelocked governance proposal can set. Nothing in the documentation buys back UMBRA or pays fees to holders.",
+              "source": "Umbra documentation, fee collection"
+            },
+            {
+              "label": "UMBRA holders",
+              "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees.",
+              "source": "MetaDAO; CoinDesk"
+            },
+            {
+              "label": "Deposits: $187K",
+              "description": "Value deposited in Umbra",
+              "source": "DefiLlama, 15 October 2026"
+            },
+            {
+              "label": "Encrypted accounts: 3,428",
+              "description": "Existing encrypted user accounts on Solana, a cumulative count rather than monthly users",
+              "source": "Solana chain data, 17 October 2026"
+            },
+            {
+              "label": "Market cap: $5.2M",
+              "description": "Price $0.37 on 15 October 2026 against a $0.30 MetaDAO sale price in October 2025; range since $0.17 to $2.48; fully diluted value $10.2M",
+              "source": "DefiLlama; MetaDAO; The Block, 10 October 2025"
             }
           ]
         }
@@ -1267,98 +1415,178 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "Sale price: $0.30",
-          "description": "MetaDAO sale, October 2025: $3M accepted from $155M committed",
-          "source": "DefiLlama; MetaDAO"
+          "label": "Deposit",
+          "description": "Moving tokens from a Solana wallet into Umbra is public: anyone can see the wallet, the token and the amount.",
+          "source": "Umbra documentation, checked 20 October 2026"
         },
         {
-          "label": "Peak: $2.48",
-          "description": "All-time high, 12 October 2025",
-          "source": "DefiLlama; MetaDAO"
+          "label": "Private balance",
+          "description": "Inside Umbra, balances are held privately. The public record shows only the program’s total holdings. The wallet runs on Arcium’s encrypted execution network on Solana.",
+          "source": "The Block, 27 March 2026; Umbra documentation, checked 20 October 2026"
         },
         {
-          "label": "Low: $0.17",
-          "description": "All-time low",
-          "source": "DefiLlama; MetaDAO"
+          "label": "Send or withdraw",
+          "description": "A private send hides the sender, recipient, amount and token; a relayer submits it. A withdrawal to any Solana address shows the destination, token and amount, but not which balance paid for it.",
+          "source": "Umbra documentation, checked 20 October 2026"
         },
         {
-          "label": "Today: $0.37",
-          "description": "15 October 2026",
-          "source": "DefiLlama; MetaDAO"
+          "label": "What stays private",
+          "description": "Deposits are public and linked to the depositing wallet. Transfers inside Umbra hide sender, recipient, amount and token. Withdrawals show destination, token and amount, so withdrawing the exact amount just deposited can still link the two.",
+          "source": "Umbra documentation, checked 20 October 2026"
+        },
+        {
+          "label": "Protocol fee",
+          "description": "Each private transaction commits a protocol fee in the token used. Governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip.",
+          "source": "Umbra documentation, fee model and fee collection"
+        },
+        {
+          "label": "Treasury",
+          "description": "Protocol fees are paid to a treasury payout account that only a timelocked governance proposal can set. Nothing in the documentation buys back UMBRA or pays fees to holders.",
+          "source": "Umbra documentation, fee collection"
+        },
+        {
+          "label": "UMBRA holders",
+          "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees.",
+          "source": "MetaDAO; CoinDesk"
+        },
+        {
+          "label": "Deposits: $187K",
+          "description": "Value deposited in Umbra",
+          "source": "DefiLlama, 15 October 2026"
+        },
+        {
+          "label": "Encrypted accounts: 3,428",
+          "description": "Existing encrypted user accounts on Solana, a cumulative count rather than monthly users",
+          "source": "Solana chain data, 17 October 2026"
+        },
+        {
+          "label": "Market cap: $5.2M",
+          "description": "Price $0.37 on 15 October 2026 against a $0.30 MetaDAO sale price in October 2025; range since $0.17 to $2.48; fully diluted value $10.2M",
+          "source": "DefiLlama; MetaDAO; The Block, 10 October 2025"
         },
         {
           "label": "What it sells",
-          "description": "A private wallet for Solana assets with screening and viewing keys; Nimbus, its network for other apps, is coming soon.",
-          "source": ""
+          "description": "A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. It opened to the public in March 2026 with viewing keys, risk screening and geo-blocking for compliance.",
+          "source": "The Block, 27 March 2026"
         },
         {
           "label": "How value reaches the token",
-          "description": "Fees go to a DAO treasury that UMBRA holders steer through MetaDAO markets, giving them governance control without an automatic buyback or dividend.",
-          "source": ""
+          "description": "Fees go to a treasury account that only a timelocked vote can set, and UMBRA holders steer it through MetaDAO markets. There is no automatic buyback or dividend, so value depends on how the DAO spends.",
+          "source": "Umbra documentation; MetaDAO"
         },
         {
           "label": "Why the vesting matters",
-          "description": "Team and adviser tokens unlock only when fully diluted value reaches 2x, 4x, 8x, 16x and 32x the $0.30 sale price.",
-          "source": ""
+          "description": "Team and adviser tokens unlock only when fully diluted value reaches 2×, 4×, 8×, 16× and 32× the $0.30 sale price, so insider supply arrives only after the price has multiplied.",
+          "source": "Blockworks token transparency filing, 29 September 2026"
         },
         {
           "label": "What has to be true",
-          "description": "Nimbus brings other apps onto Umbra and deposits grow well beyond today’s $187K.",
-          "source": ""
+          "description": "Nimbus, the shielded pool Umbra is building for other apps, has to launch and lift deposits well beyond $187K, because treasury income grows only with the value moving through the pool.",
+          "source": "Umbra documentation; DefiLlama"
         }
       ]
     },
     {
       "slide_number": 14,
       "id": "venice",
-      "title": "Venice converts part of customer revenue into VVV buybacks",
+      "title": "Venice turns AI revenue into VVV burns while cutting issuance to 2M a year",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#venice",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Venice converts part of customer revenue into VVV buybacks",
-        "Venice uses revenue from private AI chat and API access to fund VVV buybacks, alongside a reduction in annual issuance from 14M to 2M tokens.",
-        "New VVV issued per year",
-        "What it sells Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers.",
-        "How value reaches the token Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns.",
+        "Venice turns AI revenue into VVV burns while cutting issuance to 2M a year",
+        "Customers pay for private AI through subscriptions, purchased credits or staked DIEM, part of that spending buys and burns VVV, and holders stake VVV to earn emissions and mint DIEM for daily API credit.",
+        "What it sells Private AI chat, images and API access to open-source and third-party models. Venice says it does not store prompts or replies, and users pick per model between private, anonymised, TEE and encrypted modes.",
+        "How value reaches the token Staked VVV earns emissions and can be locked to mint DIEM, each worth $1 of API use a day when staked. Since 17 July 2026, $5 of every $100 of credits bought has bought and burned VVV, alongside subscription burns.",
         "Evidence of demand 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly.",
-        "What has to be true Revenue keeps growing so buybacks outpace the remaining issuance, and holdings become less concentrated than today’s top wallets."
+        "What has to be true Burns need to outpace the 2M VVV still issued each year. API calls paid with DIEM are not credit purchases, so the burn depends on paid credits and subscriptions continuing to grow."
       ],
-      "text": "Venice converts part of customer revenue into VVV buybacks\nVenice uses revenue from private AI chat and API access to fund VVV buybacks, alongside a reduction in annual issuance from 14M to 2M tokens.\nNew VVV issued per year\nWhat it sells Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers.\nHow value reaches the token Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns.\nEvidence of demand 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly.\nWhat has to be true Revenue keeps growing so buybacks outpace the remaining issuance, and holdings become less concentrated than today’s top wallets.",
+      "text": "Venice turns AI revenue into VVV burns while cutting issuance to 2M a year\nCustomers pay for private AI through subscriptions, purchased credits or staked DIEM, part of that spending buys and burns VVV, and holders stake VVV to earn emissions and mint DIEM for daily API credit.\nWhat it sells Private AI chat, images and API access to open-source and third-party models. Venice says it does not store prompts or replies, and users pick per model between private, anonymised, TEE and encrypted modes.\nHow value reaches the token Staked VVV earns emissions and can be locked to mint DIEM, each worth $1 of API use a day when staked. Since 17 July 2026, $5 of every $100 of credits bought has bought and burned VVV, alongside subscription burns.\nEvidence of demand 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly.\nWhat has to be true Burns need to outpace the 2M VVV still issued each year. API calls paid with DIEM are not credit purchases, so the burn depends on paid credits and subscriptions continuing to grow.",
       "charts": [
         {
-          "description": "VVV annual issuance",
+          "description": "How Venice customers pay for private AI, how part of that revenue buys and burns VVV, and how VVV staking mints DIEM for API credit",
           "labels": [
-            "14M",
-            "At launch",
-            "3M",
-            "Before Sep 2026",
-            "2.5M",
-            "From 1 Sep 2026",
-            "2M",
-            "From 1 Oct 2026"
+            "Customer side",
+            "Customers",
+            "Pro plans, credit",
+            "purchases or DIEM",
+            "Venice proxy",
+            "Routes each request;",
+            "does not log prompts",
+            "Model providers",
+            "Private, anonymised,",
+            "TEE or E2EE modes",
+            "Buy and burn",
+            "$5 of every $100 of credits bought, plus subscription burns,",
+            "buys VVV on the market and burns it",
+            "Holder side, on Base",
+            "Stake VVV",
+            "sVVV earns 2M VVV",
+            "a year in emissions",
+            "Lock sVVV",
+            "Mints DIEM; the rate",
+            "rises with supply",
+            "Stake DIEM",
+            "$1 of API credit",
+            "per DIEM, every day",
+            "14M → 2M",
+            "new VVV a year, launch to Oct 2026",
+            "$100M",
+            "revenue run rate (company)",
+            "$1.1B",
+            "market cap, mid-Oct 2026"
           ],
           "details": [
             {
-              "label": "At launch: 14M VVV a year",
-              "description": "January 2025",
-              "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+              "label": "Customers",
+              "description": "Users pay through Pro, Pro+ and Max subscriptions, by buying API credits, or with staked DIEM, which covers $1 of API use per day. API keys spend DIEM first, then credits, then US dollars.",
+              "source": "Venice documentation, VVV and DIEM"
             },
             {
-              "label": "Before Sep 2026: 3M VVV a year",
-              "description": "Annual issuance before 1 September 2026",
-              "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+              "label": "Venice proxy",
+              "description": "Requests pass through Venice’s proxy over encrypted connections. Venice says it does not store or log prompt and response content for normal inference, though it keeps billing and account metadata.",
+              "source": "Venice documentation, privacy"
             },
             {
-              "label": "From 1 Sep 2026: 2.5M VVV a year",
-              "description": "Annual issuance from 1 September 2026",
-              "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+              "label": "Model providers",
+              "description": "Anonymised models hide the user from the provider, who can still read prompts. Private models keep no data after the request. TEE models run in attested hardware enclaves, and E2EE models receive only ciphertext that the enclave decrypts.",
+              "source": "Venice documentation, privacy"
             },
             {
-              "label": "From 1 Oct 2026: 2M VVV a year",
-              "description": "Annual issuance from 1 October 2026",
-              "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+              "label": "Buy and burn",
+              "description": "Since 17 July 2026, $5 of every $100 of credits bought through Venice has funded buying and burning VVV, shown separately from burns funded by Pro, Pro+ and Max subscriptions. DIEM-funded API calls are not credit purchases.",
+              "source": "Venice, 17 July and 5 August 2026"
+            },
+            {
+              "label": "Stake VVV",
+              "description": "Staking VVV returns sVVV, a receipt that earns emissions. Annual issuance fell to 2.5M VVV on 1 September and to 2M VVV on 1 October 2026. Unstaking has a seven-day cooldown.",
+              "source": "Venice documentation; Venice, 17 July and 5 August 2026"
+            },
+            {
+              "label": "Mint DIEM",
+              "description": "Locking sVVV at the current mint rate mints DIEM, a tradeable token on Base. The mint rate rises as DIEM supply approaches its target, which increased from 38,000 to 40,000 by 14 September 2026. Burning DIEM unlocks the sVVV.",
+              "source": "Venice documentation; Venice, 17 July 2026"
+            },
+            {
+              "label": "Stake DIEM",
+              "description": "Each staked DIEM provides $1 of Venice API credit that refreshes daily at 00:00 UTC and does not roll over.",
+              "source": "Venice documentation, VVV and DIEM"
+            },
+            {
+              "label": "Issuance: 14M to 2M VVV a year",
+              "description": "14M a year at launch in January 2025; 3M before September 2026; 2.5M from 1 September; 2M from 1 October 2026",
+              "source": "Decrypt, 21 September 2026; Venice, 5 August 2026"
+            },
+            {
+              "label": "Revenue: $100M annualised",
+              "description": "Company-reported run rate and 3.5M registered users, August 2026",
+              "source": "Erik Voorhees via Phemex, August 2026"
+            },
+            {
+              "label": "Market cap: about $1.1B",
+              "description": "Price about $23",
+              "source": "CoinGecko, mid-October 2026"
             }
           ]
         }
@@ -1366,44 +1594,74 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "At launch: 14M VVV a year",
-          "description": "January 2025",
-          "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+          "label": "Customers",
+          "description": "Users pay through Pro, Pro+ and Max subscriptions, by buying API credits, or with staked DIEM, which covers $1 of API use per day. API keys spend DIEM first, then credits, then US dollars.",
+          "source": "Venice documentation, VVV and DIEM"
         },
         {
-          "label": "Before Sep 2026: 3M VVV a year",
-          "description": "Annual issuance before 1 September 2026",
-          "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+          "label": "Venice proxy",
+          "description": "Requests pass through Venice’s proxy over encrypted connections. Venice says it does not store or log prompt and response content for normal inference, though it keeps billing and account metadata.",
+          "source": "Venice documentation, privacy"
         },
         {
-          "label": "From 1 Sep 2026: 2.5M VVV a year",
-          "description": "Annual issuance from 1 September 2026",
-          "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+          "label": "Model providers",
+          "description": "Anonymised models hide the user from the provider, who can still read prompts. Private models keep no data after the request. TEE models run in attested hardware enclaves, and E2EE models receive only ciphertext that the enclave decrypts.",
+          "source": "Venice documentation, privacy"
         },
         {
-          "label": "From 1 Oct 2026: 2M VVV a year",
-          "description": "Annual issuance from 1 October 2026",
-          "source": "Decrypt, 21 September 2026; Phemex, 19 August 2026"
+          "label": "Buy and burn",
+          "description": "Since 17 July 2026, $5 of every $100 of credits bought through Venice has funded buying and burning VVV, shown separately from burns funded by Pro, Pro+ and Max subscriptions. DIEM-funded API calls are not credit purchases.",
+          "source": "Venice, 17 July and 5 August 2026"
+        },
+        {
+          "label": "Stake VVV",
+          "description": "Staking VVV returns sVVV, a receipt that earns emissions. Annual issuance fell to 2.5M VVV on 1 September and to 2M VVV on 1 October 2026. Unstaking has a seven-day cooldown.",
+          "source": "Venice documentation; Venice, 17 July and 5 August 2026"
+        },
+        {
+          "label": "Mint DIEM",
+          "description": "Locking sVVV at the current mint rate mints DIEM, a tradeable token on Base. The mint rate rises as DIEM supply approaches its target, which increased from 38,000 to 40,000 by 14 September 2026. Burning DIEM unlocks the sVVV.",
+          "source": "Venice documentation; Venice, 17 July 2026"
+        },
+        {
+          "label": "Stake DIEM",
+          "description": "Each staked DIEM provides $1 of Venice API credit that refreshes daily at 00:00 UTC and does not roll over.",
+          "source": "Venice documentation, VVV and DIEM"
+        },
+        {
+          "label": "Issuance: 14M to 2M VVV a year",
+          "description": "14M a year at launch in January 2025; 3M before September 2026; 2.5M from 1 September; 2M from 1 October 2026",
+          "source": "Decrypt, 21 September 2026; Venice, 5 August 2026"
+        },
+        {
+          "label": "Revenue: $100M annualised",
+          "description": "Company-reported run rate and 3.5M registered users, August 2026",
+          "source": "Erik Voorhees via Phemex, August 2026"
+        },
+        {
+          "label": "Market cap: about $1.1B",
+          "description": "Price about $23",
+          "source": "CoinGecko, mid-October 2026"
         },
         {
           "label": "What it sells",
-          "description": "Venice offers private AI chat, images and API access through open-source models, with prompts encrypted on the device and kept off its servers.",
-          "source": ""
+          "description": "Private AI chat, images and API access to open-source and third-party models. Venice says it does not store prompts or replies, and users pick per model between private, anonymised, TEE and encrypted modes.",
+          "source": "Venice documentation, privacy"
         },
         {
           "label": "How value reaches the token",
-          "description": "Staking VVV enables inference access and DIEM minting, with each staked DIEM providing $1 in daily API credits and $5 of every $100 in credit purchases funding VVV buybacks and burns.",
-          "source": ""
+          "description": "Staked VVV earns emissions and can be locked to mint DIEM, each worth $1 of API use a day when staked. Since 17 July 2026, $5 of every $100 of credits bought has bought and burned VVV, alongside subscription burns.",
+          "source": "Venice documentation; Venice, 17 July and 5 August 2026"
         },
         {
           "label": "Evidence of demand",
           "description": "3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026), after a $65M Series A at a $1B valuation led by Dragonfly.",
-          "source": ""
+          "source": "Erik Voorhees via Phemex, August 2026; TechCrunch via AI Weekly, 1 July 2026"
         },
         {
           "label": "What has to be true",
-          "description": "Revenue keeps growing so buybacks outpace the remaining issuance, and holdings become less concentrated than today’s top wallets.",
-          "source": ""
+          "description": "Burns need to outpace the 2M VVV still issued each year. API calls paid with DIEM are not credit purchases, so the burn depends on paid credits and subscriptions continuing to grow.",
+          "source": "Venice, 17 July and 5 August 2026"
         }
       ]
     },
