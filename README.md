@@ -78,3 +78,5 @@ Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced 
 ## PNG downloads, 21 October 2026
 
 Build: `2026-10-21-slide9-synthesis-v19-png`. Each slide and expanded view has a PNG download, and the article includes Download all PNGs. PNGs are rendered at 3200 × 1440 with embedded fonts and artwork in the selected light or dark theme; the bulk download is a ZIP of all 25 slides. The source implementation is `base-assets/png-downloads.js`; the generator embeds it in the single-file GitHub version. SVG and HTML downloads remain available.
+
+The checked PNGs are also included in this release’s `khala-slides.zip` under `png/`, alongside the HTML and SVG exports. After a content rebuild, use Download all PNGs to regenerate current PNGs. Validation is recorded in `png-export-review-2026-10-21.json`.

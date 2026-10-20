@@ -1,0 +1,217 @@
+{
+  "all_pngs_valid": true,
+  "resolution": [
+    3200,
+    1440
+  ],
+  "files": [
+    {
+      "file": "khala-1-summary.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 671709
+    },
+    {
+      "file": "khala-2-act1.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 296367
+    },
+    {
+      "file": "khala-3-founders.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 573246
+    },
+    {
+      "file": "khala-4-policy.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 418129
+    },
+    {
+      "file": "khala-5-capital.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 552272
+    },
+    {
+      "file": "khala-6-usecases.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 618725
+    },
+    {
+      "file": "khala-7-priced.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 462304
+    },
+    {
+      "file": "khala-8-act2.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 267753
+    },
+    {
+      "file": "khala-9-tokens.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 604716
+    },
+    {
+      "file": "khala-10-zcash.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 308447
+    },
+    {
+      "file": "khala-11-nullmask.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 567362
+    },
+    {
+      "file": "khala-12-nock.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 673653
+    },
+    {
+      "file": "khala-13-umbra.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 684856
+    },
+    {
+      "file": "khala-14-venice.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 647693
+    },
+    {
+      "file": "khala-15-pearl.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 649918
+    },
+    {
+      "file": "khala-16-act3.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 353071
+    },
+    {
+      "file": "khala-17-edges.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 473201
+    },
+    {
+      "file": "khala-18-mau.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 354036
+    },
+    {
+      "file": "khala-19-sn25.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 439500
+    },
+    {
+      "file": "khala-20-operators.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 398206
+    },
+    {
+      "file": "khala-21-bull.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 503726
+    },
+    {
+      "file": "khala-22-value.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 537136
+    },
+    {
+      "file": "khala-23-pipeline.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 655417
+    },
+    {
+      "file": "khala-24-watch.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 421791
+    },
+    {
+      "file": "khala-25-catalysts.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 471958
+    }
+  ],
+  "build": "2026-10-21-slide9-synthesis-v19-png",
+  "slide_content_and_geometry": "unchanged from supplied v19",
+  "theme_check": "slide 9 light and dark PNGs rendered and inspected",
+  "controls": "25 inline PNG controls and expanded modal download verified",
+  "visual_review": "all 25 light PNGs reviewed in contact sheets; slide 9 viewed at full size",
+  "scripts": "all six executable inline scripts pass node --check",
+  "bulk_zip": "25 PNG entries, CRC integrity passed",
+  "combined_download": "25 HTML, 25 SVG and 25 PNG files"
+}
