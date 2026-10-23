@@ -79,6 +79,6 @@ Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced 
 
 Build: `2026-10-20-slide-by-slide-v20`. Section dividers removed (22 slides). Slide 1 row 2 reworded around network privacy; slide 3 explains developer liability and uses distinct legend markers; slide 4 is now a stablecoin payments sizing funnel (McKinsey and Artemis via KuCoin, plus Khala fee-pool calculations); slide 5 adds traction evidence and trims logos; slide 6 retitled; slide 7 applies Lemz's notes (Venice description, rounding, Fixed supply and Trading rewards pills; Nullmask holder ZEC comes from StonkFun trading fees, not product fees). Slide 18 (UR monthly users) remains SAMPLE DATA, NOT FOR POSTING.
 
-## Deployment: 23 October 2026, v2
+## Deployment: 23 October 2026, v3
 
-Publishes the supplied v2 deck to both GitHub Pages sites, preserving individual, expanded and bulk PNG downloads at 3200 × 1440 in the selected theme. HTML and SVG slide exports and the editable source are included. Earlier notes above describe historical builds.
+Publishes the supplied v3 deck to both GitHub Pages sites, preserving individual, expanded and bulk PNG downloads at 3200 × 1440 in the selected theme. HTML and SVG slide exports and the editable source are included. Earlier notes above describe historical builds.

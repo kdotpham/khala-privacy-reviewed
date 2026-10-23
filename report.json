@@ -55,10 +55,10 @@
       "paragraphs": [
         "Executive summary",
         "Privacy now has paying customers, but few tokens capture that value",
-        "1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $32B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $32M combined, yet a private wallet still exposes that IP address every time it connects. $32M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $7.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)",
+        "1 Companies now need confidentiality to transact onchain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $32B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $32M combined, yet a private wallet still exposes that IP address every time it connects. $32M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $7.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)",
         "Catalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027"
       ],
-      "text": "Executive summary\nPrivacy now has paying customers, but few tokens capture that value\n1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $32B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $32M combined, yet a private wallet still exposes that IP address every time it connects. $32M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $7.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
+      "text": "Executive summary\nPrivacy now has paying customers, but few tokens capture that value\n1 Companies now need confidentiality to transact onchain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $32B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $32M combined, yet a private wallet still exposes that IP address every time it connects. $32M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $7.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -154,7 +154,7 @@
           "details": [
             {
               "label": "31 months under sanctions",
-              "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from on-chain privacy tools.",
+              "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from onchain privacy tools.",
               "source": "US Treasury; Van Loon v. Treasury"
             },
             {
@@ -164,7 +164,7 @@
             },
             {
               "label": "Court rules code is not property",
-              "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It was the first appellate ruling to put ownerless privacy code outside sanctions law.",
+              "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It put ownerless privacy code outside sanctions law at the appellate level.",
               "source": "US Court of Appeals for the Fifth Circuit, 26 November 2024"
             },
             {
@@ -209,7 +209,7 @@
       "hover_details": [
         {
           "label": "31 months under sanctions",
-          "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from on-chain privacy tools.",
+          "description": "Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from onchain privacy tools.",
           "source": "US Treasury; Van Loon v. Treasury"
         },
         {
@@ -219,7 +219,7 @@
         },
         {
           "label": "Court rules code is not property",
-          "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It was the first appellate ruling to put ownerless privacy code outside sanctions law.",
+          "description": "In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It put ownerless privacy code outside sanctions law at the appellate level.",
           "source": "US Court of Appeals for the Fifth Circuit, 26 November 2024"
         },
         {
@@ -270,9 +270,9 @@
       "paragraphs": [
         "Privacy spend is led by VPNs and AI, but payments and trading lead deployments",
         "VPNs ($54B) and confidential computing ($24B) take most privacy spend, but trading and payments lead company deployments.",
-        "* Company or team-reported. Privacy infrastructure sells into all four rows: Zama became the first fully homomorphic encryption company valued at $1B in June 2025, in a round led by Pantera, and Multicoin backs Fhenix."
+        "* Company or team-reported. Privacy infrastructure sells into all four rows: Zama, which builds fully homomorphic encryption, reached a $1B valuation in June 2025 in a round led by Pantera, and Multicoin backs Fhenix."
       ],
-      "text": "Privacy spend is led by VPNs and AI, but payments and trading lead deployments\nVPNs ($54B) and confidential computing ($24B) take most privacy spend, but trading and payments lead company deployments.\n* Company or team-reported. Privacy infrastructure sells into all four rows: Zama became the first fully homomorphic encryption company valued at $1B in June 2025, in a round led by Pantera, and Multicoin backs Fhenix.",
+      "text": "Privacy spend is led by VPNs and AI, but payments and trading lead deployments\nVPNs ($54B) and confidential computing ($24B) take most privacy spend, but trading and payments lead company deployments.\n* Company or team-reported. Privacy infrastructure sells into all four rows: Zama, which builds fully homomorphic encryption, reached a $1B valuation in June 2025 in a round led by Pantera, and Multicoin backs Fhenix.",
       "charts": [],
       "tables": [
         {
@@ -286,7 +286,7 @@
             ],
             [
               "Trading and tokenised assets",
-              "$2.7T traded on-chain each year",
+              "$2.7T traded onchain each year",
               "Orders, positions and holdings",
               "$1.6B shielded through Railgun in 2025, a record $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
               "Railgun Zama Renegade Pantera investor"
@@ -318,7 +318,7 @@
       "hover_details": [
         {
           "label": "Trading and tokenised assets",
-          "description": "Railgun, the main private trading protocol on Ethereum, shielded a record $1.6B in 2025 and about $4B since 2021, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an on-chain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of on-chain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030.",
+          "description": "Railgun, the main private trading protocol on Ethereum, shielded a record $1.6B in 2025 and about $4B since 2021, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an onchain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of onchain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030.",
           "source": "DL News, 21 October 2025; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026"
         },
         {
@@ -348,12 +348,12 @@
       "warnings": [],
       "paragraphs": [
         "Stablecoin payments could pay about $2B a year for privacy, over half of it from businesses",
-        "Of about $62T moved by stablecoins in 2025, 93% was bots and intermediary hops, and within the $4.2T of real activity, trading and exchange flows are seven times larger than payments, but payments are where users will pay a meaningful fee for privacy.",
+        "Of about $62T moved by stablecoins in 2025, 93% was bots and intermediary hops, and within the $4.2T of real activity, trading and exchange flows are seven times larger than payments, but payments are where a 0.5% privacy fee is plausible.",
         "Businesses are the larger prize at about $1.1B a year, but consumer transfers are where stablecoins are already used most, so consumer privacy wallets may find paying users first.",
         "The $2.7T of trading and exchange flows is a second, lower-fee market, where privacy hides positions from copy-traders and front-running bots, and which Umbra’s private swaps already serve.",
         "These fees go to whoever processes private stablecoin flows, so Zcash and Monero holders only benefit if that activity moves onto their chains."
       ],
-      "text": "Stablecoin payments could pay about $2B a year for privacy, over half of it from businesses\nOf about $62T moved by stablecoins in 2025, 93% was bots and intermediary hops, and within the $4.2T of real activity, trading and exchange flows are seven times larger than payments, but payments are where users will pay a meaningful fee for privacy.\nBusinesses are the larger prize at about $1.1B a year, but consumer transfers are where stablecoins are already used most, so consumer privacy wallets may find paying users first.\nThe $2.7T of trading and exchange flows is a second, lower-fee market, where privacy hides positions from copy-traders and front-running bots, and which Umbra’s private swaps already serve.\nThese fees go to whoever processes private stablecoin flows, so Zcash and Monero holders only benefit if that activity moves onto their chains.",
+      "text": "Stablecoin payments could pay about $2B a year for privacy, over half of it from businesses\nOf about $62T moved by stablecoins in 2025, 93% was bots and intermediary hops, and within the $4.2T of real activity, trading and exchange flows are seven times larger than payments, but payments are where a 0.5% privacy fee is plausible.\nBusinesses are the larger prize at about $1.1B a year, but consumer transfers are where stablecoins are already used most, so consumer privacy wallets may find paying users first.\nThe $2.7T of trading and exchange flows is a second, lower-fee market, where privacy hides positions from copy-traders and front-running bots, and which Umbra’s private swaps already serve.\nThese fees go to whoever processes private stablecoin flows, so Zcash and Monero holders only benefit if that activity moves onto their chains.",
       "charts": [
         {
           "description": "Where 2025 stablecoin transfer volume goes, from $62T of transfers to $4.2T of economic activity to $390B of payments, and the privacy fee pool by payment segment",
@@ -402,7 +402,7 @@
             },
             {
               "label": "Trading and investment: about $1.6T",
-              "description": "Stablecoins used to buy and sell crypto on-chain, including about $100B of decentralised exchange flow. Traders want privacy to hide positions from copy-traders and front-running bots, but pay fees of hundredths of a percent rather than 0.5%.",
+              "description": "Stablecoins used to buy and sell crypto onchain, including about $100B of decentralised exchange flow. Traders want privacy to hide positions from copy-traders and front-running bots, but pay fees of hundredths of a percent rather than 0.5%.",
               "source": "Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025"
             },
             {
@@ -467,7 +467,7 @@
         },
         {
           "label": "Trading and investment: about $1.6T",
-          "description": "Stablecoins used to buy and sell crypto on-chain, including about $100B of decentralised exchange flow. Traders want privacy to hide positions from copy-traders and front-running bots, but pay fees of hundredths of a percent rather than 0.5%.",
+          "description": "Stablecoins used to buy and sell crypto onchain, including about $100B of decentralised exchange flow. Traders want privacy to hide positions from copy-traders and front-running bots, but pay fees of hundredths of a percent rather than 0.5%.",
           "source": "Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025"
         },
         {
@@ -524,9 +524,9 @@
         "Investors price privacy as money, not by what customers spend on it",
         "Zcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.",
         "Venice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.",
-        "Whether connectivity tokens can tie customer fees to holders the same way is what the UR (SN25) section tests."
+        "Customer spending only reaches holders when fees are tied to the token."
       ],
-      "text": "Investors price privacy as money, not by what customers spend on it\nZcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.\nVenice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.\nWhether connectivity tokens can tie customer fees to holders the same way is what the UR (SN25) section tests.",
+      "text": "Investors price privacy as money, not by what customers spend on it\nZcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.\nVenice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.\nCustomer spending only reaches holders when fees are tied to the token.",
       "charts": [
         {
           "description": "Market capitalisation of privacy tokens grouped by use case, logarithmic USD scale, CoinGecko 23 October 2026",
@@ -576,7 +576,7 @@
             },
             {
               "label": "Pearl: ~$733M",
-              "description": "Layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
+              "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
               "source": "CoinGecko, 23 October 2026"
             },
             {
@@ -621,7 +621,7 @@
         },
         {
           "label": "Pearl: ~$733M",
-          "description": "Layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
+          "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
           "source": "CoinGecko, 23 October 2026"
         },
         {
@@ -659,9 +659,9 @@
         "Direct Venice burns VVV with 5% of every credit purchase.",
         "Indirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.",
         "Not yet linked Nullmask pays holders from MASK trading, not product fees, and UR (SN25) deposits launched at a zero rate.",
-        "UR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced."
+        "UR (SN25) is the gap to watch: the most users here, 350K a month (team-reported), behind a deposit link that is built but unpriced."
       ],
-      "text": "Privacy tokens capture value differently\nDirect Venice burns VVV with 5% of every credit purchase.\nIndirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.\nNot yet linked Nullmask pays holders from MASK trading, not product fees, and UR (SN25) deposits launched at a zero rate.\nUR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced.",
+      "text": "Privacy tokens capture value differently\nDirect Venice burns VVV with 5% of every credit purchase.\nIndirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.\nNot yet linked Nullmask pays holders from MASK trading, not product fees, and UR (SN25) deposits launched at a zero rate.\nUR (SN25) is the gap to watch: the most users here, 350K a month (team-reported), behind a deposit link that is built but unpriced.",
       "charts": [],
       "tables": [
         {
@@ -772,7 +772,7 @@
         },
         {
           "label": "UR (SN25)",
-          "description": "350K+ monthly URnetwork app users (team-reported, off-chain)",
+          "description": "350K+ monthly URnetwork app users (team-reported, offchain)",
           "source": ""
         },
         {
@@ -832,7 +832,7 @@
         },
         {
           "label": "UR (SN25)",
-          "description": "Operators that sell privacy on the network are designed to deposit UR (SN25) against the traffic they expect, locking tokens while usage grows. The deposit rate was set at zero for launch, and the documentation expects any market purchases for deposits to happen off-chain rather than being enforced, so the link from usage to token demand is designed but not yet active.",
+          "description": "Operators that sell privacy on the network are designed to deposit UR (SN25) against the traffic they expect, locking tokens while usage grows. The deposit rate was set at zero for launch, and the documentation expects any market purchases for deposits to happen offchain rather than being enforced, so the link from usage to token demand is designed but not yet active.",
           "source": "UR price.yml and README, checked 20 October 2026"
         }
       ]
@@ -1622,10 +1622,10 @@
         "Each winning piece of GPU work is wrapped in a zero-knowledge proof, so the network verifies AI computation without seeing the model weights or data inside it; customers still pay in credits rather than PRL, and PRL transfers are public.",
         "What it sells Private AI compute: models can run on a decentralised GPU network while zero-knowledge proofs confirm the work without exposing weights or data. It is privacy for AI infrastructure, beside Venice’s privacy for users.",
         "How value reaches the token PRL pays block rewards and fees. Customers pay for inference with prepaid credits and nothing routes that revenue to PRL, so its value rests on demand to hold it.",
-        "Supply and mining risk Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75–80% of blocks, and three forks this summer patched mining exploits.",
+        "Supply and mining risk Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75-80% of blocks, and three forks this summer patched mining exploits.",
         "What has to be true Private, verifiable inference must reach paying customers, and paid demand must replace the unrequested work a June study found on most mining rigs."
       ],
-      "text": "Pearl verifies AI work without exposing models or data, but PRL gets no revenue\nEach winning piece of GPU work is wrapped in a zero-knowledge proof, so the network verifies AI computation without seeing the model weights or data inside it; customers still pay in credits rather than PRL, and PRL transfers are public.\nWhat it sells Private AI compute: models can run on a decentralised GPU network while zero-knowledge proofs confirm the work without exposing weights or data. It is privacy for AI infrastructure, beside Venice’s privacy for users.\nHow value reaches the token PRL pays block rewards and fees. Customers pay for inference with prepaid credits and nothing routes that revenue to PRL, so its value rests on demand to hold it.\nSupply and mining risk Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75–80% of blocks, and three forks this summer patched mining exploits.\nWhat has to be true Private, verifiable inference must reach paying customers, and paid demand must replace the unrequested work a June study found on most mining rigs.",
+      "text": "Pearl verifies AI work without exposing models or data, but PRL gets no revenue\nEach winning piece of GPU work is wrapped in a zero-knowledge proof, so the network verifies AI computation without seeing the model weights or data inside it; customers still pay in credits rather than PRL, and PRL transfers are public.\nWhat it sells Private AI compute: models can run on a decentralised GPU network while zero-knowledge proofs confirm the work without exposing weights or data. It is privacy for AI infrastructure, beside Venice’s privacy for users.\nHow value reaches the token PRL pays block rewards and fees. Customers pay for inference with prepaid credits and nothing routes that revenue to PRL, so its value rests on demand to hold it.\nSupply and mining risk Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75-80% of blocks, and three forks this summer patched mining exploits.\nWhat has to be true Private, verifiable inference must reach paying customers, and paid demand must replace the unrequested work a June study found on most mining rigs.",
       "charts": [
         {
           "description": "How Pearl verifies AI computation with zero-knowledge proofs without revealing models or data, and where the PRL token sits",
@@ -1790,7 +1790,7 @@
         },
         {
           "label": "Supply and mining risk",
-          "description": "Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75–80% of blocks, and three forks this summer patched mining exploits.",
+          "description": "Only 13% of supply is mined and inflation stays near 30% in year three. Two pools reportedly find 75-80% of blocks, and three forks this summer patched mining exploits.",
           "source": "CoinDesk; Bankless, 16 October 2026"
         },
         {
@@ -1812,12 +1812,12 @@
       ],
       "paragraphs": [
         "Wallet privacy can fail at network connections and cross-chain swaps",
-        "In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95–98% success after 3–4 observations, a result specific to the study’s setup.",
+        "In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95-98% success after 3-4 observations, a result specific to the study’s setup.",
         "Swap boundaries: reused refund addresses can link activity",
         "RPC traffic: address-to-IP linking in controlled tests",
         "Because researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection."
       ],
-      "text": "Wallet privacy can fail at network connections and cross-chain swaps\nIn a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95–98% success after 3–4 observations, a result specific to the study’s setup.\nSwap boundaries: reused refund addresses can link activity\nRPC traffic: address-to-IP linking in controlled tests\nBecause researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection.",
+      "text": "Wallet privacy can fail at network connections and cross-chain swaps\nIn a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95-98% success after 3-4 observations, a result specific to the study’s setup.\nSwap boundaries: reused refund addresses can link activity\nRPC traffic: address-to-IP linking in controlled tests\nBecause researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection.",
       "charts": [
         {
           "description": "Swap route into shielded ZEC and where it leaked",
@@ -1887,22 +1887,22 @@
             {
               "label": "Ethereum mainnet: 95.33%",
               "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
             },
             {
               "label": "Ethereum testnet: 96.80%",
               "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
             },
             {
               "label": "Bitcoin testnet: 97.70%",
               "description": "Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
             },
             {
               "label": "Solana testnet: 96.58%",
               "description": "Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+              "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
             }
           ]
         }
@@ -1937,22 +1937,22 @@
         {
           "label": "Ethereum mainnet: 95.33%",
           "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
         },
         {
           "label": "Ethereum testnet: 96.80%",
           "description": "MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
         },
         {
           "label": "Bitcoin testnet: 97.70%",
           "description": "Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
         },
         {
           "label": "Solana testnet: 96.58%",
           "description": "Torus · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers.",
-          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8–10; https://arxiv.org/html/2508.21440v1"
+          "source": "Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1"
         }
       ]
     },
@@ -2001,42 +2001,42 @@
             {
               "label": "Apr 1",
               "description": "120K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "May 1",
               "description": "150K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Jun 1",
               "description": "185K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Jul 1",
               "description": "220K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Aug 1",
               "description": "265K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Sep 1",
               "description": "300K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Oct 1",
               "description": "330K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             },
             {
               "label": "Oct 15",
               "description": "350K monthly active users",
-              "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
             }
           ]
         }
@@ -2046,42 +2046,42 @@
         {
           "label": "Apr 1",
           "description": "120K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "May 1",
           "description": "150K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Jun 1",
           "description": "185K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Jul 1",
           "description": "220K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Aug 1",
           "description": "265K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Sep 1",
           "description": "300K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Oct 1",
           "description": "330K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         },
         {
           "label": "Oct 15",
           "description": "350K monthly active users",
-          "source": "SAMPLE DATA — NOT FOR POSTING. Placeholder monthly series."
+          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
         }
       ]
     },
@@ -2569,7 +2569,7 @@
         },
         {
           "label": "Operator deposits",
-          "description": "Priced deposits lock tokens against traffic; purchases from revenue are expected off-chain, not enforced. The current reserve has no outbound transfer path.",
+          "description": "Priced deposits lock tokens against traffic; purchases from revenue are expected offchain, not enforced. The current reserve has no outbound transfer path.",
           "source": "https://github.com/urfoundation/sn"
         },
         {
