@@ -8,7 +8,7 @@ Both GitHub Pages sites publish this release:
 
 Release metadata: November 2, 2026 · Privacy · 15 min read.
 
-This review build contains 24 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
+This release contains 22 interactive slide compositions, a black photographic cover, functioning article/deck navigation, synchronized dark mode, restored hover details and graphic effects, and downloadable SVG/HTML exports.
 
 Jack's latest pass limits slide 7's network-privacy comparison to Nym and UR (SN25). Their combined market cap is $30.6M at the supplied snapshot; the summary and valuation-gap text use that same scope. Slide footers have a dedicated clear area behind the logo in light and dark modes.
 
@@ -83,4 +83,4 @@ Build: `2026-10-20-slide-by-slide-v20`. Section dividers removed (22 slides). Sl
 
 ## Deployment, 23 October 2026
 
-Published the supplied 22-slide update to both sites. Restored individual and bulk PNG downloads at 3200 × 1440, including the expanded viewer and dark mode. The slide archive includes PNG, HTML and SVG exports. Earlier build descriptions above are historical.
+Published the supplied 22-slide update to both sites. Restored individual and bulk PNG downloads at 3200 × 1440, including the expanded viewer and dark mode. The slide archive includes HTML and SVG exports; individual PNGs and the full PNG ZIP are generated in the selected theme from the live slides. Earlier build descriptions above are historical.
