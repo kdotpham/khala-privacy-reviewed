@@ -2,7 +2,9 @@
 
 Live site: https://kdotpham.github.io/khala-privacy-reviewed/
 
-The original khala-privacy repository and live site remain unchanged.
+Both GitHub Pages sites publish this release:
+- https://kdotpham.github.io/khala-privacy/
+- https://kdotpham.github.io/khala-privacy-reviewed/
 
 Release metadata: November 2, 2026 · Privacy · 15 min read.
 
@@ -75,8 +77,10 @@ Build: `2026-10-20-slide-review-v15`. Section 1 now runs Buterin and Durov (3), 
 
 Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced in the coverage universe by Nockchain (NOCK) and Pearl (PRL). Slide 9 now compares six projects without the wallet/access strip, and new profile slides 12 (NOCK) and 15 (Pearl) replace the Aztec profile. NOCK transfers are not private yet (a privacy pool is planned for Q2 2027), and Pearl's privacy sits in its zero-knowledge mining proofs rather than in PRL transfers; the slides say so. The deck now has 25 slides. Details and sources are in `coverage-update-2026-10-20-v16.json`.
 
-## PNG downloads, 21 October 2026
+## Slide-by-slide review, 21 October 2026
 
-Build: `2026-10-21-slide9-synthesis-v19-png`. Each slide and expanded view has a PNG download, and the article includes Download all PNGs. PNGs are rendered at 3200 × 1440 with embedded fonts and artwork in the selected light or dark theme; the bulk download is a ZIP of all 25 slides. The source implementation is `base-assets/png-downloads.js`; the generator embeds it in the single-file GitHub version. SVG and HTML downloads remain available.
+Build: `2026-10-20-slide-by-slide-v20`. Section dividers removed (22 slides). Slide 1 row 2 reworded around network privacy; slide 3 explains developer liability and uses distinct legend markers; slide 4 is now a stablecoin payments sizing funnel (McKinsey and Artemis via KuCoin, plus Khala fee-pool calculations); slide 5 adds traction evidence and trims logos; slide 6 retitled; slide 7 applies Lemz's notes (Venice description, rounding, Fixed supply and Trading rewards pills; Nullmask holder ZEC comes from StonkFun trading fees, not product fees). Slide 18 (UR monthly users) remains SAMPLE DATA, NOT FOR POSTING.
 
-The checked PNGs are also included in this release’s `khala-slides.zip` under `png/`, alongside the HTML and SVG exports. After a content rebuild, use Download all PNGs to regenerate current PNGs. Validation is recorded in `png-export-review-2026-10-21.json`.
+## Deployment, 23 October 2026
+
+Published the supplied 22-slide update to both sites. Restored individual and bulk PNG downloads at 3200 × 1440, including the expanded viewer and dark mode. The slide archive includes PNG, HTML and SVG exports. Earlier build descriptions above are historical.

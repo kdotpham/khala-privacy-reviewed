@@ -18,7 +18,7 @@
   "market_data_as_of": "2026-10-15",
   "research_status": "Targeted primary-source audit on 2026-10-20 covers Nullmask fees, reward accounting and delivery status; Nockchain privacy status, issuance and roadmap; Pearl mining and inference payments; wallet RPC experiments; refund release history; and UR (SN25) launch pricing. Market values retain their stated historical observation dates. This is not a transaction-level audit of every metric.",
   "sample_data_slide_numbers": [
-    18
+    15
   ],
   "market_data_overrides": {
     "nullmask": "2026-10-19"
@@ -42,7 +42,7 @@
     "Nym",
     "UR (SN25)"
   ],
-  "slide_count": 25,
+  "slide_count": 22,
   "slides": [
     {
       "slide_number": 1,
@@ -55,39 +55,16 @@
       "paragraphs": [
         "Executive summary",
         "Privacy now has paying customers, but few tokens capture that value",
-        "1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)",
+        "1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $31B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $30.6M combined, yet a private wallet still exposes that IP address every time it connects. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)",
         "Catalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027"
       ],
-      "text": "Executive summary\nPrivacy now has paying customers, but few tokens capture that value\n1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Markets pay for private money and barely price network privacy Zcash and Monero are worth about $31B as private money, and Venice $1.1B on revenue-funded burns. Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M together, about 1,000× less, although wallet privacy can fail at the network connection. ~1,000× gap between transaction and network privacy value 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
+      "text": "Executive summary\nPrivacy now has paying customers, but few tokens capture that value\n1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $31B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $30.6M combined, yet a private wallet still exposes that IP address every time it connects. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)\nCatalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027",
       "charts": [],
       "tables": [],
       "hover_details": []
     },
     {
       "slide_number": 2,
-      "id": "act1",
-      "title": "Privacy is becoming necessary for corporate payments",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#act1",
-      "kind": "section_divider",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "Privacy is becoming necessary for corporate payments",
-        "Buterin and Durov argue for privacy in the networks people already use, US policy has turned in its favour, and corporate payments on public ledgers now give it paying customers.",
-        "In this section",
-        "Buterin and Durov 3",
-        "Policy has turned 4",
-        "Stablecoins on public ledgers 5",
-        "Payroll and trading 6",
-        "Where markets pay for privacy 7"
-      ],
-      "text": "Privacy is becoming necessary for corporate payments\nButerin and Durov argue for privacy in the networks people already use, US policy has turned in its favour, and corporate payments on public ledgers now give it paying customers.\nIn this section\nButerin and Durov 3\nPolicy has turned 4\nStablecoins on public ledgers 5\nPayroll and trading 6\nWhere markets pay for privacy 7",
-      "charts": [],
-      "tables": [],
-      "hover_details": []
-    },
-    {
-      "slide_number": 3,
       "id": "founders",
       "title": "Buterin and Durov both place privacy in core infrastructure",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#founders",
@@ -125,7 +102,7 @@
       "hover_details": []
     },
     {
-      "slide_number": 4,
+      "slide_number": 3,
       "id": "policy",
       "title": "US policy has shifted toward privacy, while developer liability remains open",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#policy",
@@ -134,9 +111,9 @@
       "warnings": [],
       "paragraphs": [
         "US policy has shifted toward privacy, while developer liability remains open",
-        "Sanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved."
+        "Sanctions were lifted and capital followed, but it is still unsettled whether developers can be prosecuted for how others use their privacy code: Tornado Cash developer Roman Storm was convicted in August 2025 and faces retrial on laundering and sanctions charges in April 2027."
       ],
-      "text": "US policy has shifted toward privacy, while developer liability remains open\nSanctions were lifted, builders returned and institutional capital followed, although developer liability remains unresolved.",
+      "text": "US policy has shifted toward privacy, while developer liability remains open\nSanctions were lifted and capital followed, but it is still unsettled whether developers can be prosecuted for how others use their privacy code: Tornado Cash developer Roman Storm was convicted in August 2025 and faces retrial on laundering and sanctions charges in April 2027.",
       "charts": [
         {
           "description": "From enforcement to infrastructure",
@@ -271,115 +248,71 @@
       ]
     },
     {
-      "slide_number": 5,
+      "slide_number": 4,
       "id": "capital",
-      "title": "Public ledgers expose the activity behind $306B of stablecoins",
+      "title": "Business stablecoin payments could pay up to ~$1.1B a year for privacy",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#capital",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Public ledgers expose the activity behind $306B of stablecoins",
-        "Stablecoin supply exceeds crypto ETFs, DeFi and tokenised assets combined, exposing payment flows and counterparty relationships on public ledgers.",
-        "Public payments can reveal a company’s counterparties, payment amounts and treasury balances.",
-        "Tether and Circle account for 84% of supply; their public transfers can be monitored.",
-        "Public payroll and supplier payments can expose information companies normally keep confidential.",
+        "Business stablecoin payments could pay up to ~$1.1B a year for privacy",
+        "Only about 1% of the ~$35T moved by stablecoins each year is genuine payments, but 58% of those payments are business-to-business, the payroll and supplier flows companies most need to hide from competitors.",
+        "At 10% adoption, business payments would pay about $110M a year in privacy fees, the revenue pool that fee-based protocols such as Nullmask and Umbra compete for.",
+        "Zcash and Monero are priced as private money, not on fees, so their $31B is a separate bet from this payments market.",
+        "Stablecoin supply reached $306B in October 2026.",
         "“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026"
       ],
-      "text": "Public ledgers expose the activity behind $306B of stablecoins\nStablecoin supply exceeds crypto ETFs, DeFi and tokenised assets combined, exposing payment flows and counterparty relationships on public ledgers.\nPublic payments can reveal a company’s counterparties, payment amounts and treasury balances.\nTether and Circle account for 84% of supply; their public transfers can be monitored.\nPublic payroll and supplier payments can expose information companies normally keep confidential.\n“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026",
+      "text": "Business stablecoin payments could pay up to ~$1.1B a year for privacy\nOnly about 1% of the ~$35T moved by stablecoins each year is genuine payments, but 58% of those payments are business-to-business, the payroll and supplier flows companies most need to hide from competitors.\nAt 10% adoption, business payments would pay about $110M a year in privacy fees, the revenue pool that fee-based protocols such as Nullmask and Umbra compete for.\nZcash and Monero are priced as private money, not on fees, so their $31B is a separate bet from this payments market.\nStablecoin supply reached $306B in October 2026.\n“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026",
       "charts": [
         {
-          "description": "Capital in selected onchain financial products, by component",
+          "description": "Stablecoin payments sizing: raw volume, genuine payments, business payments and the implied privacy fee pool, log scale",
           "labels": [
-            "Stablecoin supply",
-            "USDT 60%",
-            "USDC 24%",
-            "Others 16%",
-            "USDT $184.0B · USDC $73.1B · Others $49.0B",
-            "$306B Mid-Oct 2026",
-            "ETFs, DeFi and tokenised assets combined, $254B",
-            "US spot crypto ETFs",
-            "Bitcoin 86%",
-            "Bitcoin $105.8B · Ether $15.7B · Solana $1.7B",
-            "$123B Oct 2026",
-            "Value locked in DeFi",
-            "Others 41%",
-            "Lido $24.3B · Aave $18.6B · Morpho $11.2B · Others $37.3B",
-            "$91B Mid-Oct 2026",
-            "Tokenised real-world assets",
-            "Treasuries $14.9B · Credit $8.2B · Gold and commodities $5.2B · Other $10.9B",
-            "$39B 14 Oct 2026"
+            "$10M",
+            "$1B",
+            "$100B",
+            "$10T",
+            "Raw stablecoin transfer volume",
+            "Everything moved on-chain in a year",
+            "~$35T",
+            "Genuine end-user payments",
+            "About 1% of raw volume",
+            "~$390B",
+            "Business-to-business payments",
+            "58% of payments, up 733% a year",
+            "~$226B",
+            "Privacy fee pool, full adoption",
+            "Every business payment pays 0.5%",
+            "~$1.1B",
+            "Privacy fee pool, 10% adoption",
+            "One in ten business payments",
+            "~$110M"
           ],
           "details": [
             {
-              "label": "USDT: $184.0B",
-              "description": "Tether. 60% of stablecoin supply.",
-              "source": "DefiLlama, 15 October 2026"
+              "label": "Raw stablecoin volume: about $35T a year",
+              "description": "Annualised on-chain stablecoin transfer volume, which is dominated by trading, exchange transfers and automated activity.",
+              "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026)"
             },
             {
-              "label": "USDC: $73.1B",
-              "description": "Circle. 24% of stablecoin supply.",
-              "source": "DefiLlama, 15 October 2026"
+              "label": "Genuine payments: about $390B a year",
+              "description": "The share of stablecoin volume that represents real end-user payments after removing trading, bots and exchange rebalancing, roughly 1% of the total. Allium separately reports $482B of payments in January to September 2026, up 45%.",
+              "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026); Allium, State of Stablecoins and Payments, Q3 2026"
             },
             {
-              "label": "Others: $49.0B",
-              "description": "USDS, USDe, DAI, USD1 and others. 16% of stablecoin supply.",
-              "source": "DefiLlama, 15 October 2026"
+              "label": "Business payments: about $226B a year",
+              "description": "Business-to-business transactions are about 58% of genuine stablecoin payments and grew 733% year on year. These are the payroll, supplier and treasury flows companies normally keep confidential.",
+              "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026)"
             },
             {
-              "label": "Bitcoin: $105.8B",
-              "description": "US spot bitcoin ETFs. 86% of us spot crypto etfs.",
-              "source": "The Block, 10 October 2026"
+              "label": "Fee pool at full adoption: about $1.1B a year",
+              "description": "Khala calculation: $226B of business payments multiplied by a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals. An upper bound, not a forecast.",
+              "source": "Source: Khala calculation from the McKinsey and Artemis business-payments figure; fee rate from Nullmask’s published fee schedule (nullmask.io/docs/fees)"
             },
             {
-              "label": "Ether: $15.7B",
-              "description": "US spot ether ETFs. 13% of us spot crypto etfs.",
-              "source": "The Block, 10 October 2026"
-            },
-            {
-              "label": "Solana: $1.7B",
-              "description": "US spot Solana ETFs. 1% of us spot crypto etfs.",
-              "source": "The Block, 10 October 2026"
-            },
-            {
-              "label": "Lido: $24.3B",
-              "description": "Liquid staking. 27% of value locked in defi.",
-              "source": "DefiLlama, 15 October 2026"
-            },
-            {
-              "label": "Aave: $18.6B",
-              "description": "Lending. 20% of value locked in defi.",
-              "source": "DefiLlama, 15 October 2026"
-            },
-            {
-              "label": "Morpho: $11.2B",
-              "description": "Lending. 12% of value locked in defi.",
-              "source": "DefiLlama, 15 October 2026"
-            },
-            {
-              "label": "Others: $37.3B",
-              "description": "All other protocols. 41% of value locked in defi.",
-              "source": "DefiLlama, 15 October 2026"
-            },
-            {
-              "label": "Treasuries: $14.9B",
-              "description": "Tokenised US Treasury funds. 38% of tokenised real-world assets.",
-              "source": "rwa.xyz, distributed value, 14 October 2026"
-            },
-            {
-              "label": "Credit: $8.2B",
-              "description": "Private credit and other non-sovereign debt. 21% of tokenised real-world assets.",
-              "source": "rwa.xyz, distributed value, 14 October 2026"
-            },
-            {
-              "label": "Gold and commodities: $5.2B",
-              "description": "Mostly XAUT and PAXG. 13% of tokenised real-world assets.",
-              "source": "rwa.xyz, distributed value, 14 October 2026"
-            },
-            {
-              "label": "Other: $10.9B",
-              "description": "Equities, funds, real estate and alternatives. 28% of tokenised real-world assets.",
-              "source": "rwa.xyz, distributed value, 14 October 2026"
+              "label": "Fee pool at 10% adoption: about $110M a year",
+              "description": "Khala calculation: one in ten business payments paying a 0.5% privacy fee. Illustrative.",
+              "source": "Source: Khala calculation, illustrative adoption assumption"
             }
           ]
         }
@@ -387,79 +320,34 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "USDT: $184.0B",
-          "description": "Tether. 60% of stablecoin supply.",
-          "source": "DefiLlama, 15 October 2026"
+          "label": "Raw stablecoin volume: about $35T a year",
+          "description": "Annualised on-chain stablecoin transfer volume, which is dominated by trading, exchange transfers and automated activity.",
+          "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026)"
         },
         {
-          "label": "USDC: $73.1B",
-          "description": "Circle. 24% of stablecoin supply.",
-          "source": "DefiLlama, 15 October 2026"
+          "label": "Genuine payments: about $390B a year",
+          "description": "The share of stablecoin volume that represents real end-user payments after removing trading, bots and exchange rebalancing, roughly 1% of the total. Allium separately reports $482B of payments in January to September 2026, up 45%.",
+          "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026); Allium, State of Stablecoins and Payments, Q3 2026"
         },
         {
-          "label": "Others: $49.0B",
-          "description": "USDS, USDe, DAI, USD1 and others. 16% of stablecoin supply.",
-          "source": "DefiLlama, 15 October 2026"
+          "label": "Business payments: about $226B a year",
+          "description": "Business-to-business transactions are about 58% of genuine stablecoin payments and grew 733% year on year. These are the payroll, supplier and treasury flows companies normally keep confidential.",
+          "source": "Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026)"
         },
         {
-          "label": "Bitcoin: $105.8B",
-          "description": "US spot bitcoin ETFs. 86% of us spot crypto etfs.",
-          "source": "The Block, 10 October 2026"
+          "label": "Fee pool at full adoption: about $1.1B a year",
+          "description": "Khala calculation: $226B of business payments multiplied by a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals. An upper bound, not a forecast.",
+          "source": "Source: Khala calculation from the McKinsey and Artemis business-payments figure; fee rate from Nullmask’s published fee schedule (nullmask.io/docs/fees)"
         },
         {
-          "label": "Ether: $15.7B",
-          "description": "US spot ether ETFs. 13% of us spot crypto etfs.",
-          "source": "The Block, 10 October 2026"
-        },
-        {
-          "label": "Solana: $1.7B",
-          "description": "US spot Solana ETFs. 1% of us spot crypto etfs.",
-          "source": "The Block, 10 October 2026"
-        },
-        {
-          "label": "Lido: $24.3B",
-          "description": "Liquid staking. 27% of value locked in defi.",
-          "source": "DefiLlama, 15 October 2026"
-        },
-        {
-          "label": "Aave: $18.6B",
-          "description": "Lending. 20% of value locked in defi.",
-          "source": "DefiLlama, 15 October 2026"
-        },
-        {
-          "label": "Morpho: $11.2B",
-          "description": "Lending. 12% of value locked in defi.",
-          "source": "DefiLlama, 15 October 2026"
-        },
-        {
-          "label": "Others: $37.3B",
-          "description": "All other protocols. 41% of value locked in defi.",
-          "source": "DefiLlama, 15 October 2026"
-        },
-        {
-          "label": "Treasuries: $14.9B",
-          "description": "Tokenised US Treasury funds. 38% of tokenised real-world assets.",
-          "source": "rwa.xyz, distributed value, 14 October 2026"
-        },
-        {
-          "label": "Credit: $8.2B",
-          "description": "Private credit and other non-sovereign debt. 21% of tokenised real-world assets.",
-          "source": "rwa.xyz, distributed value, 14 October 2026"
-        },
-        {
-          "label": "Gold and commodities: $5.2B",
-          "description": "Mostly XAUT and PAXG. 13% of tokenised real-world assets.",
-          "source": "rwa.xyz, distributed value, 14 October 2026"
-        },
-        {
-          "label": "Other: $10.9B",
-          "description": "Equities, funds, real estate and alternatives. 28% of tokenised real-world assets.",
-          "source": "rwa.xyz, distributed value, 14 October 2026"
+          "label": "Fee pool at 10% adoption: about $110M a year",
+          "description": "Khala calculation: one in ten business payments paying a 0.5% privacy fee. Illustrative.",
+          "source": "Source: Khala calculation, illustrative adoption assumption"
         }
       ]
     },
     {
-      "slide_number": 6,
+      "slide_number": 5,
       "id": "usecases",
       "title": "Payroll and trading are the first commercial tests of confidentiality",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#usecases",
@@ -468,9 +356,9 @@
       "warnings": [],
       "paragraphs": [
         "Payroll and trading are the first commercial tests of confidentiality",
-        "Encrypting amounts is not sufficient on its own, because the network connection can still reveal who is transacting."
+        "Payroll and OTC trading have the first live company deployments, while private AI and private connectivity already have the most users."
       ],
-      "text": "Payroll and trading are the first commercial tests of confidentiality\nEncrypting amounts is not sufficient on its own, because the network connection can still reveal who is transacting.",
+      "text": "Payroll and trading are the first commercial tests of confidentiality\nPayroll and OTC trading have the first live company deployments, while private AI and private connectivity already have the most users.",
       "charts": [],
       "tables": [
         {
@@ -485,7 +373,7 @@
               "Payments and payroll Company-reported deployments",
               "Salaries, supplier invoices and treasury movements",
               "Bron paid salaries in confidential USDT on Ethereum mainnet through Zama, January 2026",
-              "Zcash Monero Umbra Zama Bron Aleo"
+              "Nullmask Umbra Zama Bron"
             ],
             [
               "Trading and tokenised assets Company-reported deployments",
@@ -494,22 +382,22 @@
               "Zama Dfns Pantera investor"
             ],
             [
-              "Private computation and AI NEAR AI live; others building",
+              "Private computation and AI Venice and NEAR AI live",
               "Customer data and model inputs",
-              "NEAR AI Cloud runs confidential inference with an attestation per request; secure-hardware and MPC networks are building",
-              "Venice NEAR AI Seismic a16z investor Nillion Hack VC investor"
+              "Venice reports 3.5M registered users and a $100M revenue run rate (company-reported); NEAR AI Cloud attests each confidential inference request",
+              "Venice Pearl NEAR AI Nillion"
             ],
             [
               "Private connectivity URnetwork live; others building",
-              "IP addresses and who is talking to whom",
-              "URnetwork’s VPN reports about 350K monthly users (team-reported); NymVPN runs on the Nym mixnet",
-              "UR (SN25) Nym Orchid Sentinel Mysterium"
+              "IP addresses and browsing traffic",
+              "URnetwork reports about 350K monthly users and 126,717 IP providers (team-reported); NymVPN runs on the Nym mixnet",
+              "UR (SN25) Nym Mysterium"
             ],
             [
               "Programmable privacy Building",
               "Hidden inputs for sealed-bid auctions, private ballots and strategy games",
               "Reusable tools, so each application does not need its own cryptography",
-              "Fhenix Zama Multicoin investor Aztec Noir"
+              "Fhenix Zama Multicoin investor"
             ]
           ]
         }
@@ -527,12 +415,12 @@
         },
         {
           "label": "Private computation and AI",
-          "description": "NEAR AI Cloud runs confidential inference with an attestation per request; secure-hardware and MPC networks are building",
-          "source": "NEAR AI, 3 December 2025"
+          "description": "Venice reports 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026). NEAR AI Cloud runs confidential inference with an attestation per request. Pearl verifies AI computation with zero-knowledge proofs.",
+          "source": "Erik Voorhees via Phemex, August 2026; NEAR AI, 3 December 2025; Pearl whitepaper"
         },
         {
           "label": "Private connectivity",
-          "description": "URnetwork’s VPN reports about 350K monthly users (team-reported); NymVPN runs on the Nym mixnet",
+          "description": "URnetwork’s VPN reports about 350K monthly users and 126,717 IP providers (team-reported). NymVPN runs on the Nym mixnet.",
           "source": "URnetwork; Nym"
         },
         {
@@ -543,20 +431,20 @@
       ]
     },
     {
-      "slide_number": 7,
+      "slide_number": 6,
       "id": "priced",
-      "title": "Privacy demand alone does not set token value",
+      "title": "Investors pay for private money, not yet for private infrastructure",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#priced",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Privacy demand alone does not set token value",
-        "Investors value privacy most when it is held as money: Zcash and Monero are worth about $31B together, and Venice reaches $1.1B because customer revenue buys back its token.",
+        "Investors pay for private money, not yet for private infrastructure",
+        "Zcash and Monero are worth about $31B as private money, and Venice reaches $1.1B because customer revenue buys back its token.",
         "Grass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.",
-        "Nym and UR (SN25), which hide who is talking to whom, are worth $30.6M combined, about 1,000 times less than transaction privacy, even though wallet privacy can fail at the network connection."
+        "Nym and UR (SN25), which hide users’ IP addresses and internet traffic, are worth $30.6M combined, about 0.1% of the value of Zcash and Monero."
       ],
-      "text": "Privacy demand alone does not set token value\nInvestors value privacy most when it is held as money: Zcash and Monero are worth about $31B together, and Venice reaches $1.1B because customer revenue buys back its token.\nGrass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.\nNym and UR (SN25), which hide who is talking to whom, are worth $30.6M combined, about 1,000 times less than transaction privacy, even though wallet privacy can fail at the network connection.",
+      "text": "Investors pay for private money, not yet for private infrastructure\nZcash and Monero are worth about $31B as private money, and Venice reaches $1.1B because customer revenue buys back its token.\nGrass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.\nNym and UR (SN25), which hide users’ IP addresses and internet traffic, are worth $30.6M combined, about 0.1% of the value of Zcash and Monero.",
       "charts": [
         {
           "description": "Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.",
@@ -665,32 +553,7 @@
       ]
     },
     {
-      "slide_number": 8,
-      "id": "act2",
-      "title": "Token designs differ in how usage reaches holders",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#act2",
-      "kind": "section_divider",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "Token designs differ in how usage reaches holders",
-        "Each privacy network sells a different service, so what users pay does not necessarily become value for tokenholders.",
-        "In this section",
-        "Privacy token comparison 9",
-        "Zcash 10",
-        "Nullmask ($MASK) 11",
-        "Nockchain (NOCK) 12",
-        "Umbra 13",
-        "Venice 14",
-        "Pearl (PRL) 15"
-      ],
-      "text": "Token designs differ in how usage reaches holders\nEach privacy network sells a different service, so what users pay does not necessarily become value for tokenholders.\nIn this section\nPrivacy token comparison 9\nZcash 10\nNullmask ($MASK) 11\nNockchain (NOCK) 12\nUmbra 13\nVenice 14\nPearl (PRL) 15",
-      "charts": [],
-      "tables": [],
-      "hover_details": []
-    },
-    {
-      "slide_number": 9,
+      "slide_number": 7,
       "id": "tokens",
       "title": "Privacy tokens capture value differently",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#tokens",
@@ -701,10 +564,10 @@
         "Privacy tokens capture value differently",
         "Direct Venice burns VVV with 5% of every credit purchase.",
         "Indirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.",
-        "Not yet linked Nullmask documents no fee sharing, and UR (SN25) deposits launched at a zero rate.",
+        "Not yet linked Nullmask pays holders from MASK trading, not product fees, and UR (SN25) deposits launched at a zero rate.",
         "UR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced."
       ],
-      "text": "Privacy tokens capture value differently\nDirect Venice burns VVV with 5% of every credit purchase.\nIndirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.\nNot yet linked Nullmask documents no fee sharing, and UR (SN25) deposits launched at a zero rate.\nUR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced.",
+      "text": "Privacy tokens capture value differently\nDirect Venice burns VVV with 5% of every credit purchase.\nIndirect Umbra’s fees fund a DAO treasury, and NOCK and Pearl pay miners, not holders.\nNot yet linked Nullmask pays holders from MASK trading, not product fees, and UR (SN25) deposits launched at a zero rate.\nUR (SN25) is the gap to watch: the most users here, 350K a month, behind a deposit link that is built but unpriced.",
       "charts": [],
       "tables": [
         {
@@ -720,7 +583,7 @@
             ],
             [
               "What it produces",
-              "Private AI chat, images and APIs. Prompts are not stored.",
+              "Private AI chat, images, video and audio, on self-hosted and third-party models.",
               "Private Solana balances, transfers and swaps.",
               "Money on a zero-knowledge chain. Private transfers are planned for 2027.",
               "Private AI compute: ZK proofs verify GPU work without revealing models or data.",
@@ -730,8 +593,8 @@
             [
               "Reported adoption",
               "~21.9K wallets indexed by VeniceStats",
-              "3,428 encrypted accounts on Solana",
-              "9,549 wrapped NOCK holders on Base",
+              "3.4K encrypted accounts on Solana",
+              "9.5K wrapped NOCK holders on Base",
               "~320K GPU-equivalents mining; study, June 2026",
               "Live pools Ethereum and Base",
               "350K+ monthly app users; team-reported"
@@ -749,9 +612,9 @@
               "Does value reach the token",
               "Stake + burn Part of credit revenue buys and burns VVV.",
               "Governance UMBRA governs the treasury. No buyback or dividend.",
-              "Monetary asset Miners take 80% of issuance and all fees; holders own capped money.",
+              "Fixed supply Miners take 80% of issuance and all fees; supply is capped at 4.29B.",
               "Mining reward No mechanism links inference revenue to PRL.",
-              "Reported rewards MASK burns and ZEC rewards are reported apart from fees.",
+              "Trading rewards Holders earn ZEC from MASK trading fees, not from product fees.",
               "Operator deposits Operators lock tokens against traffic; the launch rate is zero."
             ]
           ]
@@ -760,8 +623,8 @@
       "hover_details": [
         {
           "label": "Venice",
-          "description": "Private AI chat, images and API access on open-source models; prompts are not stored on its servers",
-          "source": ""
+          "description": "A full-stack private AI aggregator: chat, image, video, audio and music generation plus an API. Its Private tier runs self-hosted open-source models with zero data retention; its Anonymised tier routes to third-party models such as Claude, OpenAI and Google with identifying metadata removed.",
+          "source": "venice.ai, checked 21 October 2026"
         },
         {
           "label": "Umbra",
@@ -869,9 +732,9 @@
           "source": "BTCC, Pearl guide; Bankless, 16 October 2026"
         },
         {
-          "label": "Nullmask ($MASK)",
-          "description": "The pool contract collects product fees. The dashboard adds those fees to developer-wallet ZEC rewards in its revenue total; MASK holder rewards and burns are separate metrics. These disclosures do not establish an automatic product-fee payout to holders.",
-          "source": "https://app.nullmask.io/analytics"
+          "label": "Nullmask (MASK)",
+          "description": "MASK launched on StonkFun, a Solana launchpad where reward tokens collect fees on trades of the token, convert them into the paired asset and pay holders pro rata. MASK holders, including the Nullmask team wallet, receive ZEC this way. Nullmask’s 0.5% deposit and withdrawal fees go to its protocol contract, and no source links them to the ZEC payouts or MASK burns, so holder income depends on trading in MASK rather than use of the product.",
+          "source": "DefiLlama adapter PR 9855 (Nullmask team wallet and StonkFun rewards distributor); Datawallet and Blocmates, StonkFun explainers; app.nullmask.io/analytics"
         },
         {
           "label": "UR (SN25)",
@@ -881,7 +744,7 @@
       ]
     },
     {
-      "slide_number": 10,
+      "slide_number": 8,
       "id": "zcash",
       "title": "Zcash prices in future private use",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#zcash",
@@ -964,7 +827,7 @@
       ]
     },
     {
-      "slide_number": 11,
+      "slide_number": 9,
       "id": "nullmask",
       "title": "Nullmask brings private transfers and swaps to existing wallets",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#nullmask",
@@ -1110,7 +973,7 @@
       ]
     },
     {
-      "slide_number": 12,
+      "slide_number": 10,
       "id": "nock",
       "title": "NOCK is a bet on private money from a zero-knowledge chain, with privacy due in 2027",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#nock",
@@ -1288,7 +1151,7 @@
       ]
     },
     {
-      "slide_number": 13,
+      "slide_number": 11,
       "id": "umbra",
       "title": "Umbra’s fees reach a treasury that UMBRA holders govern, with no automatic payout",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#umbra",
@@ -1474,7 +1337,7 @@
       ]
     },
     {
-      "slide_number": 14,
+      "slide_number": 12,
       "id": "venice",
       "title": "Venice turns AI revenue into VVV burns while cutting issuance to 2M a year",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#venice",
@@ -1653,7 +1516,7 @@
       ]
     },
     {
-      "slide_number": 15,
+      "slide_number": 13,
       "id": "pearl",
       "title": "Pearl verifies AI work without exposing models or data, but PRL gets no revenue",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pearl",
@@ -1844,34 +1707,7 @@
       ]
     },
     {
-      "slide_number": 16,
-      "id": "act3",
-      "title": "UR (SN25) has users, but priced deposits have yet to begin",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#act3",
-      "kind": "section_divider",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "UR (SN25) has users, but priced deposits have yet to begin",
-        "URnetwork has an established user base, but converting its traffic into token demand depends on introducing priced operator deposits.",
-        "In this section",
-        "Where privacy leaks 17",
-        "URnetwork users 18",
-        "How UR (SN25) works 19",
-        "Operators as UR (SN25) buyers 20",
-        "The bull case 21",
-        "How value reaches UR (SN25) 22",
-        "UR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 23",
-        "What to watch 24",
-        "Catalysts across the coverage universe 25"
-      ],
-      "text": "UR (SN25) has users, but priced deposits have yet to begin\nURnetwork has an established user base, but converting its traffic into token demand depends on introducing priced operator deposits.\nIn this section\nWhere privacy leaks 17\nURnetwork users 18\nHow UR (SN25) works 19\nOperators as UR (SN25) buyers 20\nThe bull case 21\nHow value reaches UR (SN25) 22\nUR (SN25) can host operators in billion-dollar enterprise and AI-agent markets 23\nWhat to watch 24\nCatalysts across the coverage universe 25",
-      "charts": [],
-      "tables": [],
-      "hover_details": []
-    },
-    {
-      "slide_number": 17,
+      "slide_number": 14,
       "id": "edges",
       "title": "Wallet privacy can fail at network connections and cross-chain swaps",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#edges",
@@ -2027,7 +1863,7 @@
       ]
     },
     {
-      "slide_number": 18,
+      "slide_number": 15,
       "id": "mau",
       "title": "UR (SN25) reports 350K monthly users",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
@@ -2156,7 +1992,7 @@
       ]
     },
     {
-      "slide_number": 19,
+      "slide_number": 16,
       "id": "sn25",
       "title": "UR (SN25) uses validator scores to reward routing capacity",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sn25",
@@ -2266,7 +2102,7 @@
       ]
     },
     {
-      "slide_number": 20,
+      "slide_number": 17,
       "id": "operators",
       "title": "Priced deposits could create demand for UR (SN25)",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#operators",
@@ -2414,7 +2250,7 @@
       ]
     },
     {
-      "slide_number": 21,
+      "slide_number": 18,
       "id": "bull",
       "title": "UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
@@ -2514,7 +2350,7 @@
       ]
     },
     {
-      "slide_number": 22,
+      "slide_number": 19,
       "id": "value",
       "title": "Operator deposits could link UR (SN25) demand to usage",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#value",
@@ -2650,7 +2486,7 @@
       ]
     },
     {
-      "slide_number": 23,
+      "slide_number": 20,
       "id": "pipeline",
       "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
@@ -2737,7 +2573,7 @@
       ]
     },
     {
-      "slide_number": 24,
+      "slide_number": 21,
       "id": "watch",
       "title": "Operator deposits distinguish the illustrative UR (SN25) scenarios",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#watch",
@@ -2802,7 +2638,7 @@
       ]
     },
     {
-      "slide_number": 25,
+      "slide_number": 22,
       "id": "catalysts",
       "title": "Dated events and operating signals will test the privacy thesis",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#catalysts",
