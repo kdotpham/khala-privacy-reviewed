@@ -2,9 +2,7 @@
 
 Live site: https://kdotpham.github.io/khala-privacy-reviewed/
 
-Both GitHub Pages sites publish this release:
-- https://kdotpham.github.io/khala-privacy/
-- https://kdotpham.github.io/khala-privacy-reviewed/
+Both khala-privacy and khala-privacy-reviewed publish this release.
 
 Release metadata: November 2, 2026 · Privacy · 15 min read.
 
@@ -81,6 +79,6 @@ Build: `2026-10-20-coverage-update-v16`. At 0xSammy's request Aztec is replaced 
 
 Build: `2026-10-20-slide-by-slide-v20`. Section dividers removed (22 slides). Slide 1 row 2 reworded around network privacy; slide 3 explains developer liability and uses distinct legend markers; slide 4 is now a stablecoin payments sizing funnel (McKinsey and Artemis via KuCoin, plus Khala fee-pool calculations); slide 5 adds traction evidence and trims logos; slide 6 retitled; slide 7 applies Lemz's notes (Venice description, rounding, Fixed supply and Trading rewards pills; Nullmask holder ZEC comes from StonkFun trading fees, not product fees). Slide 18 (UR monthly users) remains SAMPLE DATA, NOT FOR POSTING.
 
-## Deployment, 23 October 2026
+## Deployment: 23 October 2026, v2
 
-Published the supplied 22-slide update to both sites. Restored individual and bulk PNG downloads at 3200 × 1440, including the expanded viewer and dark mode. The slide archive includes HTML and SVG exports; individual PNGs and the full PNG ZIP are generated in the selected theme from the live slides. Earlier build descriptions above are historical.
+Publishes the supplied v2 deck to both GitHub Pages sites, preserving individual, expanded and bulk PNG downloads at 3200 × 1440 in the selected theme. HTML and SVG slide exports and the editable source are included. Earlier notes above describe historical builds.

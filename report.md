@@ -11,47 +11,47 @@ Slide 15: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholder
 
 
 Executive summary
-1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $31B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $30.6M combined, yet a private wallet still exposes that IP address every time it connects. $30.6M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $8.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)
+1 Companies now need confidentiality to transact on-chain Stablecoins hold $306B on public ledgers, more than ETFs, DeFi and tokenised assets combined, so payroll and supplier payments expose who was paid and how much. Bron’s private payroll and GSR’s private OTC trade show companies paying to hide it. $306B stablecoins on public ledgers 2 Network privacy has not been priced yet Zcash and Monero, which hide payments, are worth about $32B. Nym and UR (SN25), which route traffic so websites and networks cannot see a user’s IP address, are worth $32M combined, yet a private wallet still exposes that IP address every time it connects. $32M Nym and UR (SN25) combined market cap 3 Most privacy tokens do not yet turn usage into holder value Venice burns VVV with 5% of credit purchases, but Umbra’s fees sit in a DAO treasury with no payout, Nullmask reports token rewards apart from fees, and NOCK and Pearl are priced on privacy plans rather than fees. 5% of Venice credit purchases buys and burns VVV 4 UR (SN25) has users, but its deposits are not yet priced URnetwork reports 350K monthly app users and 126,717 providers (team-reported), while UR (SN25) is valued at $7.4M. Operator deposits launched at a zero rate, and pricing them would make operators lock tokens against expected traffic. 350K monthly app users (team-reported)
 Catalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra’s Nimbus network launch Storm retrial, 26 April 2027
 
 [View slide 1](https://kdotpham.github.io/khala-privacy-reviewed/#summary)
 
-## Slide 2: Buterin and Durov both place privacy in core infrastructure
+## Slide 2: Ethereum’s and Telegram’s founders want privacy built into the apps people already use
 
 
-The founders of Ethereum and Telegram, a messaging app with over a billion monthly users, reach the same conclusion from different starting points.
+Buterin wants privacy built into Ethereum itself and Durov would rather pull Telegram’s billion monthly users out of a market than weaken its encryption.
 Vitalik Buterin
 Co-founder
 Ethereum
 “Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025
-Why it matters
+Why privacy matters
 Control over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.
-Where it belongs
-Privacy belongs in the protocol, covering payments, application activity, chain reads and network-level anonymity.
-Current gap
-Much of the proposal remains a roadmap that wallets and applications would need to implement.
+What he proposes
+Build privacy into Ethereum itself, covering payments, app activity, what users look up and their network identity.
+What is missing today
+Ethereum transactions are still public by default, and most of the plan needs wallets and apps to build it.
 Pavel Durov
 Founder and CEO
 Telegram, over 1B monthly users
 “Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025
-Why it matters
+Why privacy matters
 Encryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.
-Where it belongs
-The product should exclude backdoors, even if that means withdrawing from a market.
-Current gap
-Telegram’s default Cloud Chats are not end-to-end encrypted; only Secret Chats are.
-Implication Both argue for privacy in systems people already use, making wallet and application adoption central to how widely it reaches users.
+What he proposes
+Keep Telegram’s encryption free of government backdoors, even if Telegram has to leave a country to do it.
+What is missing today
+Telegram’s default chats are not end-to-end encrypted; only its opt-in Secret Chats are.
+Implication Privacy that plugs into existing wallets and apps has the clearest path to users, which favours tools like Nullmask and Venice over standalone privacy chains.
 
 [View slide 2](https://kdotpham.github.io/khala-privacy-reviewed/#founders)
 
-## Slide 3: US policy has shifted toward privacy, while developer liability remains open
+## Slide 3: Privacy investment is accelerating as US policy turns supportive
 
 
-Sanctions were lifted and capital followed, but it is still unsettled whether developers can be prosecuted for how others use their privacy code: Tornado Cash developer Roman Storm was convicted in August 2025 and faces retrial on laundering and sanctions charges in April 2027.
+Since Tornado Cash sanctions were lifted, Venice has raised at a $1B valuation and a Zcash ETF has gathered $463M, though whether developers can be prosecuted for how others use their code is unsettled until Roman Storm’s retrial in April 2027.
 
 ### From enforcement to infrastructure
 
-Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash under sanctions for 31 months · the 19 months since, in detail below · Aug 2022 · US Treasury sanctions Tornado Cash · Nov 2024 · Fifth Circuit rules its immutable contracts are not property · Mar 2025 · US Treasury lifts the sanctions · Apr 2025 · Buterin publishes an L1 privacy · roadmap; Durov pledges no backdoors · Jul 2025 · GENIUS Act sets a federal stablecoin · framework · Oct 2025 · Paxos Labs and Aleo announce USAD; · Ethereum Foundation forms a Privacy · Cluster · Jan 2026 · a16z names privacy crypto's most · important moat · Aug 2026 · Grayscale's Zcash ETF lists, $463M · in two weeks · Policy · Builders and capital
+Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash under sanctions for 31 months · Aug 2022 · US Treasury sanctions Tornado Cash · Nov 2024 · Fifth Circuit rules its immutable contracts are not property · Mar 2025 · US Treasury lifts the sanctions · Apr 2025 · Buterin publishes an L1 privacy · roadmap; Durov pledges no backdoors · Jul 2025 · GENIUS Act sets a federal stablecoin · framework · Oct 2025 · Paxos Labs and Aleo announce USAD; · Ethereum Foundation forms a Privacy · Cluster · Jan 2026 · a16z names privacy crypto's most · important moat · Sep 2026 · ZEC tops $20B and · its ETF holds $463M · Jul 2026 · Venice raises $65M at a $1B · valuation, led by Dragonfly · Policy · Builders and capital
 
 ### Chart details and interactive notes
 
@@ -65,82 +65,89 @@ Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash unde
 | GENIUS Act | The Guiding and Establishing National Innovation for US Stablecoins Act, signed on 18 July 2025, is the first US federal law for payment stablecoins, setting rules for reserves, licensing and redemption. It gives banks and payment companies a legal route onto public chains, bringing payroll and supplier flows that companies normally keep confidential. | GENIUS Act, signed 18 July 2025 |
 | USAD and the Privacy Cluster | On 1 October 2025 Paxos Labs and Aleo announced USAD, a US dollar stablecoin whose balances and transfers are private by default. On 9 October the Ethereum Foundation formed a Privacy Cluster of 47 researchers, engineers and cryptographers to make privacy a first-class property of Ethereum. | Paxos Labs and Aleo, 1 October 2025; The Block, 9 October 2025 |
 | a16z: privacy is crypto’s moat | a16z crypto’s Ali Yahya argued that privacy will be the strongest moat for blockchains: “bridging tokens is easy, bridging secrets is hard”. A chain that holds users’ private state is harder to leave than one that holds only public balances, which favours privacy networks that gain users early. | a16z crypto, January 2026 |
-| Grayscale’s Zcash ETF lists | Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin. | Grayscale; NYSE Arca, 25 August to 7 September 2026 |
+| ZEC passes $20B as its ETF fills | Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin. On that same day ZEC reached $1,249, taking its market value to about $20.4B and making it the ninth-largest crypto asset, ahead of Hyperliquid. | Grayscale; NYSE Arca, 25 August to 7 September 2026; Bitcoin.com News and Cointelegraph, 7 September 2026, citing CoinGecko |
+| Venice Series A | Venice, the private AI platform behind VVV, raised a $65M Series A at a $1B valuation led by Dragonfly. It reported 3.5M registered users and a $100M annualised revenue run rate in August 2026 (company-reported). | TechCrunch via AI Weekly, 1 July 2026; Erik Voorhees via Phemex, August 2026 |
 
 [View slide 3](https://kdotpham.github.io/khala-privacy-reviewed/#policy)
 
-## Slide 4: Business stablecoin payments could pay up to ~$1.1B a year for privacy
+## Slide 4: Privacy spend is led by VPNs and AI, but payments and trading lead deployments
 
 
-Only about 1% of the ~$35T moved by stablecoins each year is genuine payments, but 58% of those payments are business-to-business, the payroll and supplier flows companies most need to hide from competitors.
-At 10% adoption, business payments would pay about $110M a year in privacy fees, the revenue pool that fee-based protocols such as Nullmask and Umbra compete for.
-Zcash and Monero are priced as private money, not on fees, so their $31B is a separate bet from this payments market.
-Stablecoin supply reached $306B in October 2026.
-“For users that prioritize privacy, this could become a ‘must-have’ feature.” Zach Pandl, Head of Research, Grayscale, on AI and financial privacy, September 2026
+VPNs ($54B) and confidential computing ($24B) take most privacy spend, but trading and payments lead company deployments.
+* Company or team-reported. Privacy infrastructure sells into all four rows: Zama became the first fully homomorphic encryption company valued at $1B in June 2025, in a round led by Pantera, and Multicoin backs Fhenix.
 
-### Stablecoin payments sizing: raw volume, genuine payments, business payments and the implied privacy fee pool, log scale
-
-Chart labels in display order: $10M · $1B · $100B · $10T · Raw stablecoin transfer volume · Everything moved on-chain in a year · ~$35T · Genuine end-user payments · About 1% of raw volume · ~$390B · Business-to-business payments · 58% of payments, up 733% a year · ~$226B · Privacy fee pool, full adoption · Every business payment pays 0.5% · ~$1.1B · Privacy fee pool, 10% adoption · One in ten business payments · ~$110M
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Raw stablecoin volume: about $35T a year | Annualised on-chain stablecoin transfer volume, which is dominated by trading, exchange transfers and automated activity. | Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026) |
-| Genuine payments: about $390B a year | The share of stablecoin volume that represents real end-user payments after removing trading, bots and exchange rebalancing, roughly 1% of the total. Allium separately reports $482B of payments in January to September 2026, up 45%. | Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026); Allium, State of Stablecoins and Payments, Q3 2026 |
-| Business payments: about $226B a year | Business-to-business transactions are about 58% of genuine stablecoin payments and grew 733% year on year. These are the payroll, supplier and treasury flows companies normally keep confidential. | Source: McKinsey and Artemis stablecoin payments report, February 2026, using December 2025 data (as reported by KuCoin News, 7 April 2026) |
-| Fee pool at full adoption: about $1.1B a year | Khala calculation: $226B of business payments multiplied by a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals. An upper bound, not a forecast. | Source: Khala calculation from the McKinsey and Artemis business-payments figure; fee rate from Nullmask’s published fee schedule (nullmask.io/docs/fees) |
-| Fee pool at 10% adoption: about $110M a year | Khala calculation: one in ten business payments paying a 0.5% privacy fee. Illustrative. | Source: Khala calculation, illustrative adoption assumption |
-
-[View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#capital)
-
-## Slide 5: Payroll and trading are the first commercial tests of confidentiality
-
-
-Payroll and OTC trading have the first live company deployments, while private AI and private connectivity already have the most users.
-
-| Use case | What must stay private | Evidence so far | Who is building or backing it |
-| --- | --- | --- | --- |
-| Payments and payroll Company-reported deployments | Salaries, supplier invoices and treasury movements | Bron paid salaries in confidential USDT on Ethereum mainnet through Zama, January 2026 | Nullmask Umbra Zama Bron |
-| Trading and tokenised assets Company-reported deployments | Orders, positions and holdings | GSR executed a confidential OTC trade on the Zama protocol, March 2026; Dfns added confidential tokens to its wallet platform | Zama Dfns Pantera investor |
-| Private computation and AI Venice and NEAR AI live | Customer data and model inputs | Venice reports 3.5M registered users and a $100M revenue run rate (company-reported); NEAR AI Cloud attests each confidential inference request | Venice Pearl NEAR AI Nillion |
-| Private connectivity URnetwork live; others building | IP addresses and browsing traffic | URnetwork reports about 350K monthly users and 126,717 IP providers (team-reported); NymVPN runs on the Nym mixnet | UR (SN25) Nym Mysterium |
-| Programmable privacy Building | Hidden inputs for sealed-bid auctions, private ballots and strategy games | Reusable tools, so each application does not need its own cryptography | Fhenix Zama Multicoin investor |
+| Use case | Market size | What must stay private | Evidence so far | Who is building or backing it |
+| --- | --- | --- | --- | --- |
+| Trading and tokenised assets | $2.7T traded on-chain each year | Orders, positions and holdings | $1.6B shielded through Railgun in 2025, a record $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date | Railgun Zama Renegade Pantera investor |
+| Payments and payroll | $390B paid in stablecoins each year, ~$2B in privacy fees | Salaries, supplier invoices and treasury movements | 30% of ZEC supply shielded, up from 11% a year ago $50M via Nullmask in three weeks* $1B+ of payroll through Toku, now on private USAD* | Zcash Monero Nullmask Paxos (USAD) Toku Umbra |
+| Private connectivity | $54B spent on VPNs, 2025 | IP addresses and browsing traffic | About 3.3M people use Tor every day About 350K monthly URnetwork users* 126,717 IP providers on URnetwork* | Tor UR (SN25) Nym Mysterium |
+| Private computation and AI | $24B spent on confidential computing, 2025 | Customer data and model inputs | 3.5M registered Venice users* $100M Venice revenue run rate* 1.34B tokens of confidential AI on Phala in one day* | Venice Phala NEAR AI Pearl |
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Payments and payroll | Bron paid salaries in confidential USDT on Ethereum mainnet through Zama, January 2026 | Zama and Bron, 16 January 2026 |
-| Trading and tokenised assets | GSR executed a confidential OTC trade on the Zama protocol, March 2026; Dfns added confidential tokens to its wallet platform | GSR, 12 March 2026 |
-| Private computation and AI | Venice reports 3.5M registered users and a $100M annualised revenue run rate (company-reported, August 2026). NEAR AI Cloud runs confidential inference with an attestation per request. Pearl verifies AI computation with zero-knowledge proofs. | Erik Voorhees via Phemex, August 2026; NEAR AI, 3 December 2025; Pearl whitepaper |
-| Private connectivity | URnetwork’s VPN reports about 350K monthly users and 126,717 IP providers (team-reported). NymVPN runs on the Nym mixnet. | URnetwork; Nym |
-| Programmable privacy | Reusable tools, so each application does not need its own cryptography | a16z; Multicoin |
+| Trading and tokenised assets | Railgun, the main private trading protocol on Ethereum, shielded a record $1.6B in 2025 and about $4B since 2021, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an on-chain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of on-chain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030. | DL News, 21 October 2025; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026 |
+| Payments and payroll | About 30% of all ZEC is now held in Zcash’s shielded pool, up from about 11% a year earlier. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026, and Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5). | Delphi Digital via BIT Research, September 2026; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026 |
+| Private connectivity | Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, according to the Tor Project’s own measurements. URnetwork reports 126,717 IP providers sharing bandwidth, and NymVPN runs on about 750 mixnet nodes. Both offer decentralised alternatives in which no single company sees both who a user is and what they visit. URnetwork reports about 350K monthly users of its VPN. Market size: the global VPN market was about $54.1B in 2025 and is forecast to reach about $156B by 2034, and about 6 billion people were online in 2025. | Tor Metrics, 15 September to 20 October 2026; URnetwork; Nym town hall, 13 March 2026; IMARC Group; ITU, Facts and Figures 2025 |
+| Private computation and AI | Venice reported 3.5M registered users and a $100M annualised revenue run rate in August 2026. In June 2026 Apple extended Private Cloud Compute, which processes Apple Intelligence requests without Apple or the host being able to read them, to Google Cloud on NVIDIA Blackwell GPUs with confidential computing. Phala, which runs AI models inside secure hardware enclaves, processed more than 1.34B language-model tokens of confidential inference in a single day in 2025 and had more than 1,000 teams running production workloads. Market size: confidential computing, which keeps data encrypted while it is processed, was about $24B in 2025, and Gartner predicts that by 2029 more than 75% of operations processed on untrusted infrastructure will be secured this way. Gartner forecasts worldwide AI spending of about $2.7T in 2026. | Erik Voorhees via Phemex, August 2026; DatacenterDynamics, 10 June 2026; Fortune Business Insights; Gartner, 20 October 2025 and 16 September 2026; Phala 2025 report |
 
-[View slide 5](https://kdotpham.github.io/khala-privacy-reviewed/#usecases)
+[View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#usecases)
 
-## Slide 6: Investors pay for private money, not yet for private infrastructure
+## Slide 5: Stablecoin payments could pay about $2B a year for privacy, over half of it from businesses
 
 
-Zcash and Monero are worth about $31B as private money, and Venice reaches $1.1B because customer revenue buys back its token.
-Grass and Helium, at $486M and $85M, show what networks that sell bandwidth and coverage can be worth once customers pay, which makes them reference points for UR (SN25) without setting its fair value.
-Nym and UR (SN25), which hide users’ IP addresses and internet traffic, are worth $30.6M combined, about 0.1% of the value of Zcash and Monero.
+Of about $62T moved by stablecoins in 2025, 93% was bots and intermediary hops, and within the $4.2T of real activity, trading and exchange flows are seven times larger than payments, but payments are where users will pay a meaningful fee for privacy.
+Businesses are the larger prize at about $1.1B a year, but consumer transfers are where stablecoins are already used most, so consumer privacy wallets may find paying users first.
+The $2.7T of trading and exchange flows is a second, lower-fee market, where privacy hides positions from copy-traders and front-running bots, and which Umbra’s private swaps already serve.
+These fees go to whoever processes private stablecoin flows, so Zcash and Monero holders only benefit if that activity moves onto their chains.
 
-### Market capitalisation by privacy category, logarithmic USD scale. Network privacy includes Nym and UR (SN25) only.
+### Where 2025 stablecoin transfer volume goes, from $62T of transfers to $4.2T of economic activity to $390B of payments, and the privacy fee pool by payment segment
 
-Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Transaction privacy · Zcash · $20.8B · Monero · $10.2B · Private AI · Venice · $1.1B · Paid network capacity · Grass · $486M · Helium · $85.0M · Network privacy · Nym · $22.2M · UR (SN25) · $8.4M
+Chart labels in display order: All stablecoin transfers in 2025: about $62T · Bots and internal transfers $50T · Hops $7.5T · Economic activity: about $4.2T · Trading and investment $1.6T · Exchange flows $1.1T · Unclassified $0.95T · Payments: about $390B · Payments by segment · Privacy fees at 0.5% · Business to business · $226B · ~$1.1B · Consumer to consumer · $77B · ~$385M · Consumer to business · $76B · ~$380M · Business to consumer · $11B · ~$55M · All payments · $390B · ~$2.0B
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| ZEC: ~$20.8B | Zcash. | CoinGecko and MEXC, 15 October 2026 |
-| XMR: ~$10.2B | Monero. | CoinGecko and MEXC, 15 October 2026 |
-| Venice: ~$1.1B | Private AI inference; revenue funds VVV buybacks and burns. CoinGecko, mid-October 2026. | CoinGecko and MEXC, 15 October 2026 |
-| Grass: ~$486M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). | CoinGecko and MEXC, 15 October 2026 |
-| Helium: ~$85.0M | Carriers and subscribers pay for coverage; about $50K of data credits burned a day (Blockworks, June 2026). | CoinGecko and MEXC, 15 October 2026 |
-| NYM: ~$22.2M | Nym mixnet. | CoinGecko and MEXC, 15 October 2026 |
-| UR (SN25): ~$8.4M | Bittensor subnet 25; market cap from MEXC. | CoinGecko and MEXC, 15 October 2026 |
+| Bots and internal transfers: about $50T | Automated trading bots, MEV, smart-contract plumbing and wallets moving money to themselves. About 81% of all stablecoin transfers, with no buyer paying a seller. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Intermediary hops: about $7.5T | The same dollar passing through routers, bridges and contracts on the way to its destination, counted again at each step. About 12% of transfers. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Economic activity: about $4.2T | What remains after removing bots, internal transfers and intermediary hops, about 7% of all transfers. It covers trading, exchange flows and payments. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Trading and investment: about $1.6T | Stablecoins used to buy and sell crypto on-chain, including about $100B of decentralised exchange flow. Traders want privacy to hide positions from copy-traders and front-running bots, but pay fees of hundredths of a percent rather than 0.5%. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Exchange flows: about $1.1T | About $700B settled inside centralised exchanges and $400B of deposits and withdrawals between exchanges and personal wallets. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Unclassified: about $0.95T | Economic transfers BCG could not assign to a category. Some is likely payments, which is why BCG calls its payment figures lower bounds. | Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Payments: about $390B | Transfers between separate parties paying for goods, services, wages or remittances. McKinsey and Artemis put 2025 at $390B, within BCG’s $350B to $550B range. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data; Source: BCG, Stablecoin Payments: The Truth Behind the Numbers, January 2026, using Allium data for 2025 |
+| Business to business: $226B in 2025 | 58% of genuine stablecoin payments and up 733% in a year, yet only 0.01% of global business payments. These are the flows companies least want competitors to see. Fee pool is a Khala calculation at a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals, and is an upper bound rather than a forecast. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data |
+| Consumer to consumer: $77B in 2025 | Stablecoins already carry 0.37% of global person-to-person payments, the highest share of any segment and about 37 times their share of business payments. Fee pool is a Khala calculation at a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals, and is an upper bound rather than a forecast. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data |
+| Consumer to business: $76B in 2025 | Stablecoins carry 0.11% of global consumer-to-merchant payments. A public wallet lets any merchant see a shopper’s balance and history. Fee pool is a Khala calculation at a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals, and is an upper bound rather than a forecast. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data |
+| Business to consumer: $11B in 2025 | The smallest segment at 0.01% of global business-to-consumer payments. Fee pool is a Khala calculation at a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals, and is an upper bound rather than a forecast. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data |
+| Privacy fees on all payments: about $2B a year | A 0.5% privacy fee on every genuine stablecoin payment would come to about $2B a year, of which businesses would pay about $1.1B. Trading and exchange flows are excluded because traders pay far lower fees. The fee pool is a Khala calculation at a 0.5% privacy fee, the rate Nullmask charges on deposits and withdrawals, and is an upper bound rather than a forecast. | Source: McKinsey, Stablecoins find their niche, 26 May 2026, using Artemis Analytics and the McKinsey Global Payments Map, 2025 data |
+
+[View slide 5](https://kdotpham.github.io/khala-privacy-reviewed/#capital)
+
+## Slide 6: Investors price privacy as money, not by what customers spend on it
+
+
+Zcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.
+Venice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.
+Whether connectivity tokens can tie customer fees to holders the same way is what the UR (SN25) section tests.
+
+### Market capitalisation of privacy tokens grouped by use case, logarithmic USD scale, CoinGecko 23 October 2026
+
+Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Payments and payroll · Zcash · $20.9B · Monero · $11.4B · Private computation and AI · Venice · $1.3B · Pearl · $733M · Trading and tokenised assets · Zama · $194M · Railgun · $148M · Private connectivity · Nym · $25M · UR (SN25) · $7.4M
+
+### Chart details and interactive notes
+
+| Metric or element | Detail | Source supplied with the slide |
+| --- | --- | --- |
+| Zcash: ~$20.8B | Private money with an optional shielded pool, now holding about 30% of supply. Holders do not receive fees; the value is a bet on ZEC as private money. | CoinGecko, 23 October 2026 |
+| Monero: ~$11.4B | Private by default for every transfer. Like Zcash, holders do not receive fees. | CoinGecko, 23 October 2026 |
+| Venice: ~$1.3B | Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns. | CoinGecko, 23 October 2026 |
+| Pearl: ~$733M | Layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates. | CoinGecko, 23 October 2026 |
+| Zama: ~$194M | Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates. | CoinGecko, 23 October 2026 |
+| Railgun: ~$148M | Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers. | CoinGecko, 23 October 2026; DL News, 21 October 2025 |
+| Nym: ~$25M | Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic. | CoinGecko, 23 October 2026 |
+| UR (SN25): ~$7.4M | Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported). | CoinGecko, 23 October 2026 |
 
 [View slide 6](https://kdotpham.github.io/khala-privacy-reviewed/#priced)
 
@@ -454,7 +461,7 @@ Launch documentation describes one UR-run operator and validator, with provider 
 126,717 Providers on URnetwork (team-reported)
 103 Countries covered (team-reported)
 Up to 200 Top-level fleet capacity in the design; not a live count
-$8.4M UR (SN25) market cap, mid-October 2026
+$7.4M UR (SN25) market cap, 23 October 2026
 
 ### How UR (SN25) works
 
@@ -501,30 +508,30 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 
 [View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
 
-## Slide 18: UR (SN25) would be worth 10× at Helium’s market cap and 58× at Grass’s
+## Slide 18: UR (SN25) would be worth 11× at Helium’s market cap and 61× at Grass’s
 
 
-The 15 October 2026 comparison places UR (SN25) at $8.4M, Helium at $85M and Grass at $486M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.
-A wide valuation gap Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times.
+The 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $452M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.
+A wide valuation gap Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times.
 A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.
 Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.
 What UR (SN25) would be worth at its peers’ market caps
 
 ### UR (SN25) market cap against peers
 
-Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $8.4M · Nym · $22.2M · 2.6x · Helium · $85M · 10x · Grass · $486M · 58x
+Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $7.4M · Nym · $24.7M · 3.3x · Helium · $82M · 11x · Grass · $452M · 61x
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| A wide valuation gap | Transaction-privacy assets are valued at about $31B, against $30.6M for Nym and UR (SN25), a gap of around 1,000 times. |  |
+| A wide valuation gap | Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times. |  |
 | A product already in market | URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch. |  |
 | Demand linked to usage | If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced. | https://github.com/urfoundation/sn |
-| UR (SN25) today: ~$8.4M | UR (SN25) market cap, mid-October 2026. | CoinGecko and MEXC, 15 October 2026 |
-| Nym: ~$22.2M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko and MEXC, 15 October 2026 |
-| Helium: ~$85M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko and MEXC, 15 October 2026 |
-| Grass: ~$486M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). | CoinGecko and MEXC, 15 October 2026 |
+| UR (SN25) today: ~$7.4M | UR (SN25) market cap, 23 October 2026. | CoinGecko, 23 October 2026 |
+| Nym: ~$24.7M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko, 23 October 2026 |
+| Helium: ~$82M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko, 23 October 2026 |
+| Grass: ~$452M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). | CoinGecko, 23 October 2026 |
 
 [View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
@@ -602,7 +609,7 @@ If these programmes become paying operators, their traffic could create UR (SN25
 The end-2027 market-cap ranges illustrate scenarios on a logarithmic USD scale rather than outputs from a cash-flow or deposit valuation model.
 The number to watch Track monthly operator deposits against miner emissions: a first non-zero deposit would show that the mechanism is active, while the scenario ranges would remain assumptions.
 
-| Scenario | What has to happen | $1M $10M $100M $1B 15 Oct 2026 $8.4M | Market-cap multiple |
+| Scenario | What has to happen | $1M $10M $100M $1B 23 Oct 2026 $7.4M | Market-cap multiple |
 | --- | --- | --- | --- |
 | Bull | Wallets and privacy apps buy capacity, and operator deposits reach a quarter of miner emissions. | $100M to $250M | 12× to 30× |
 | Base | Deposits switch on in 2027, and two to four operators pay small amounts. | $15M to $30M | 1.8× to 3.6× |
