@@ -149,7 +149,11 @@
             "Venice raises $65M at a $1B",
             "valuation, led by Dragonfly",
             "Policy",
-            "Builders and capital"
+            "Builders and capital",
+            "Jun 2026",
+            "Sui opens confidential",
+            "stablecoin transfers in",
+            "public beta"
           ],
           "details": [
             {
@@ -201,6 +205,11 @@
               "label": "Venice Series A",
               "description": "Venice, the private AI platform behind VVV, raised a $65M Series A at a $1B valuation led by Dragonfly. It reported 3.5M registered users and a $100M annualised revenue run rate in August 2026 (company-reported).",
               "source": "TechCrunch via AI Weekly, 1 July 2026; Erik Voorhees via Phemex, August 2026"
+            },
+            {
+              "label": "Sui confidential transfers enter public beta",
+              "description": "On 8 June 2026 the Sui Foundation opened confidential transfers in public beta on Devnet. Balances and amounts are hidden onchain while sender and receiver stay visible; issuers opt their tokens in and set who can access data for compliance. Bridge is exploring it for stablecoin payments, and TRM Labs and Merkle Science for monitoring. Testnet is targeted for later in 2026, with no mainnet date.",
+              "source": "Sui Foundation blog, 8 June 2026"
             }
           ]
         }
@@ -256,6 +265,11 @@
           "label": "Venice Series A",
           "description": "Venice, the private AI platform behind VVV, raised a $65M Series A at a $1B valuation led by Dragonfly. It reported 3.5M registered users and a $100M annualised revenue run rate in August 2026 (company-reported).",
           "source": "TechCrunch via AI Weekly, 1 July 2026; Erik Voorhees via Phemex, August 2026"
+        },
+        {
+          "label": "Sui confidential transfers enter public beta",
+          "description": "On 8 June 2026 the Sui Foundation opened confidential transfers in public beta on Devnet. Balances and amounts are hidden onchain while sender and receiver stay visible; issuers opt their tokens in and set who can access data for compliance. Bridge is exploring it for stablecoin payments, and TRM Labs and Merkle Science for monitoring. Testnet is targeted for later in 2026, with no mainnet date.",
+          "source": "Sui Foundation blog, 8 June 2026"
         }
       ]
     },
@@ -288,28 +302,28 @@
               "Trading and tokenised assets",
               "$2.7T traded onchain each year",
               "Orders, positions and holdings",
-              "$1.6B shielded through Railgun in 2025, a record $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
+              "~$4B shielded through Railgun, 2× Oct 2024* $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
               "Railgun Zama Renegade Pantera investor"
             ],
             [
               "Payments and payroll",
               "$390B paid in stablecoins each year, ~$2B in privacy fees",
               "Salaries, supplier invoices and treasury movements",
-              "30% of ZEC supply shielded, up from 11% a year ago $50M via Nullmask in three weeks* $1B+ of payroll through Toku, now on private USAD*",
-              "Zcash Monero Nullmask Paxos (USAD) Toku Umbra"
+              "29% of ZEC supply shielded, up from 18% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD*",
+              "Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra"
             ],
             [
               "Private connectivity",
               "$54B spent on VPNs, 2025",
               "IP addresses and browsing traffic",
-              "About 3.3M people use Tor every day About 350K monthly URnetwork users* 126,717 IP providers on URnetwork*",
+              "3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users* 126,717 IP providers on URnetwork*",
               "Tor UR (SN25) Nym Mysterium"
             ],
             [
               "Private computation and AI",
               "$24B spent on confidential computing, 2025",
               "Customer data and model inputs",
-              "3.5M registered Venice users* $100M Venice revenue run rate* 1.34B tokens of confidential AI on Phala in one day*",
+              "3.5M Venice users, up from 2M in February* $100M Venice run rate, up from $70M in July* 1.34B tokens of confidential AI on Phala in one day*",
               "Venice Phala NEAR AI Pearl"
             ]
           ]
@@ -318,23 +332,23 @@
       "hover_details": [
         {
           "label": "Trading and tokenised assets",
-          "description": "Railgun, the main private trading protocol on Ethereum, shielded a record $1.6B in 2025 and about $4B since 2021, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an onchain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of onchain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030.",
-          "source": "DL News, 21 October 2025; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026"
+          "description": "Railgun, the main private trading protocol on Ethereum, has shielded about $4B since 2021, double the $2B it had reached in October 2024 (team-reported), with $1.6B of that in 2025, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an onchain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of onchain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030.",
+          "source": "DL News, 21 October 2025; RAILGUN, 2024 year in review; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026"
         },
         {
           "label": "Payments and payroll",
-          "description": "About 30% of all ZEC is now held in Zcash’s shielded pool, up from about 11% a year earlier. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026, and Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5).",
-          "source": "Delphi Digital via BIT Research, September 2026; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026"
+          "description": "About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against 18% in October 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5).",
+          "source": "ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 report; The Block, 11 November 2025; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026"
         },
         {
           "label": "Private connectivity",
-          "description": "Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, according to the Tor Project’s own measurements. URnetwork reports 126,717 IP providers sharing bandwidth, and NymVPN runs on about 750 mixnet nodes. Both offer decentralised alternatives in which no single company sees both who a user is and what they visit. URnetwork reports about 350K monthly users of its VPN. Market size: the global VPN market was about $54.1B in 2025 and is forecast to reach about $156B by 2034, and about 6 billion people were online in 2025.",
+          "description": "Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, against about 1.95M in the same weeks of 2024, according to the Tor Project’s own measurements. Late-2025 readings, which spiked above 15M, are excluded as an outlier. URnetwork reports 126,717 IP providers sharing bandwidth, and NymVPN runs on about 750 mixnet nodes. Both offer decentralised alternatives in which no single company sees both who a user is and what they visit. URnetwork reports about 350K monthly users of its VPN. Market size: the global VPN market was about $54.1B in 2025 and is forecast to reach about $156B by 2034, and about 6 billion people were online in 2025.",
           "source": "Tor Metrics, 15 September to 20 October 2026; URnetwork; Nym town hall, 13 March 2026; IMARC Group; ITU, Facts and Figures 2025"
         },
         {
           "label": "Private computation and AI",
-          "description": "Venice reported 3.5M registered users and a $100M annualised revenue run rate in August 2026. In June 2026 Apple extended Private Cloud Compute, which processes Apple Intelligence requests without Apple or the host being able to read them, to Google Cloud on NVIDIA Blackwell GPUs with confidential computing. Phala, which runs AI models inside secure hardware enclaves, processed more than 1.34B language-model tokens of confidential inference in a single day in 2025 and had more than 1,000 teams running production workloads. Market size: confidential computing, which keeps data encrypted while it is processed, was about $24B in 2025, and Gartner predicts that by 2029 more than 75% of operations processed on untrusted infrastructure will be secured this way. Gartner forecasts worldwide AI spending of about $2.7T in 2026.",
-          "source": "Erik Voorhees via Phemex, August 2026; DatacenterDynamics, 10 June 2026; Fortune Business Insights; Gartner, 20 October 2025 and 16 September 2026; Phala 2025 report"
+          "description": "Venice reported 3.5M users at its July 2026 Series A, up from 2M in February, and a $100M annualised revenue run rate in August, up from about $70M at the raise (company-reported). In June 2026 Apple extended Private Cloud Compute, which processes Apple Intelligence requests without Apple or the host being able to read them, to Google Cloud on NVIDIA Blackwell GPUs with confidential computing. Phala, which runs AI models inside secure hardware enclaves, processed more than 1.34B language-model tokens of confidential inference in a single day in 2025 and had more than 1,000 teams running production workloads. Market size: confidential computing, which keeps data encrypted while it is processed, was about $24B in 2025, and Gartner predicts that by 2029 more than 75% of operations processed on untrusted infrastructure will be secured this way. Gartner forecasts worldwide AI spending of about $2.7T in 2026.",
+          "source": "Cointelegraph, 2 July 2026; Crypto Briefing, 17 August 2026; Seczine, February 2026; DatacenterDynamics, 10 June 2026; Fortune Business Insights; Gartner, 20 October 2025 and 16 September 2026; Phala 2025 report"
         }
       ]
     },
@@ -515,21 +529,20 @@
     {
       "slide_number": 6,
       "id": "priced",
-      "title": "Investors price privacy as money, not by what customers spend on it",
+      "title": "Privacy tokens trade on belief, not fees: Zcash is worth $20.9B on about $1M a year",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#priced",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Investors price privacy as money, not by what customers spend on it",
-        "Zcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.",
-        "Venice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.",
-        "Customer spending only reaches holders when fees are tied to the token."
+        "Privacy tokens trade on belief, not fees: Zcash is worth $20.9B on about $1M a year",
+        "Zcash and Monero collect about $3M a year in fees, all paid to miners, yet are worth $32B, while Venice earns over $100M a year and is worth $1.3B.",
+        "Even Venice passes only about a tenth of its revenue to holders, through VVV buybacks worth about $12M a year, and it still issues more tokens than it burns."
       ],
-      "text": "Investors price privacy as money, not by what customers spend on it\nZcash and Monero are worth $32B as private money, while Nym and UR (SN25) are worth $32M even though companies and consumers spend $54B a year on VPNs.\nVenice shows the alternative: its $1.3B value rests on about $100M a year of customer revenue (company-reported) that buys back its token.\nCustomer spending only reaches holders when fees are tied to the token.",
+      "text": "Privacy tokens trade on belief, not fees: Zcash is worth $20.9B on about $1M a year\nZcash and Monero collect about $3M a year in fees, all paid to miners, yet are worth $32B, while Venice earns over $100M a year and is worth $1.3B.\nEven Venice passes only about a tenth of its revenue to holders, through VVV buybacks worth about $12M a year, and it still issues more tokens than it burns.",
       "charts": [
         {
-          "description": "Market capitalisation of privacy tokens grouped by use case, logarithmic USD scale, CoinGecko 23 October 2026",
+          "description": "Market capitalisation of privacy tokens by use case, logarithmic USD scale, 23 to 24 October 2026",
           "labels": [
             "1M",
             "10M",
@@ -561,43 +574,43 @@
           "details": [
             {
               "label": "Zcash: ~$20.8B",
-              "description": "Private money with an optional shielded pool, now holding about 30% of supply. Holders do not receive fees; the value is a bet on ZEC as private money.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Private money with optional shielded pools, which hold about 29% of supply. Holders do not receive fees; the value is a bet on ZEC as private money. Fees: about $1.1M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "Monero: ~$11.4B",
-              "description": "Private by default for every transfer. Like Zcash, holders do not receive fees.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Private by default for every transfer. Like Zcash, holders do not receive fees. Fees: about $1.6M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "Venice: ~$1.3B",
-              "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns. Revenue: about $123M a year by Tokenomist’s onchain count, and above $150M by the CEO’s claim of 14 October 2026; VVV buybacks and burns ran at about $985K in the last 30 days (DefiLlama), about $12M a year.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "Pearl: ~$733M",
-              "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates. Fees: not disclosed. About 1M PRL, roughly $1.9M, is issued to miners each day as a subsidy, and Pearl’s inference revenue is not published.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "Zama: ~$194M",
-              "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates. Fees: not tracked by DefiLlama.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "Railgun: ~$148M",
-              "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers.",
-              "source": "CoinGecko, 23 October 2026; DL News, 21 October 2025"
+              "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers. CoinMarketCap shows $39.5M on 15M circulating tokens; CoinGecko’s 60M supply is used as the more conservative figure. Fees: about $4.2M over the last 12 months (DefiLlama), paid to a treasury that pays RAIL stakers who vote.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DL News, 21 October 2025; DefiLlama, 24 October 2026"
             },
             {
               "label": "Nym: ~$25M",
-              "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic.",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic. Fees: not disclosed. NymVPN does not publish subscription revenue, and node operators are paid mainly from NYM reward pools.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
               "label": "UR (SN25): ~$7.4M",
-              "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported).",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported). Fees to the subnet: zero, because operator deposits launched at a zero rate.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             }
           ]
         }
@@ -606,43 +619,43 @@
       "hover_details": [
         {
           "label": "Zcash: ~$20.8B",
-          "description": "Private money with an optional shielded pool, now holding about 30% of supply. Holders do not receive fees; the value is a bet on ZEC as private money.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Private money with optional shielded pools, which hold about 29% of supply. Holders do not receive fees; the value is a bet on ZEC as private money. Fees: about $1.1M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "Monero: ~$11.4B",
-          "description": "Private by default for every transfer. Like Zcash, holders do not receive fees.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Private by default for every transfer. Like Zcash, holders do not receive fees. Fees: about $1.6M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "Venice: ~$1.3B",
-          "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns. Revenue: about $123M a year by Tokenomist’s onchain count, and above $150M by the CEO’s claim of 14 October 2026; VVV buybacks and burns ran at about $985K in the last 30 days (DefiLlama), about $12M a year.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "Pearl: ~$733M",
-          "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates. Fees: not disclosed. About 1M PRL, roughly $1.9M, is issued to miners each day as a subsidy, and Pearl’s inference revenue is not published.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "Zama: ~$194M",
-          "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates. Fees: not tracked by DefiLlama.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "Railgun: ~$148M",
-          "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers.",
-          "source": "CoinGecko, 23 October 2026; DL News, 21 October 2025"
+          "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers. CoinMarketCap shows $39.5M on 15M circulating tokens; CoinGecko’s 60M supply is used as the more conservative figure. Fees: about $4.2M over the last 12 months (DefiLlama), paid to a treasury that pays RAIL stakers who vote.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DL News, 21 October 2025; DefiLlama, 24 October 2026"
         },
         {
           "label": "Nym: ~$25M",
-          "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic.",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic. Fees: not disclosed. NymVPN does not publish subscription revenue, and node operators are paid mainly from NYM reward pools.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
           "label": "UR (SN25): ~$7.4M",
-          "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported).",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported). Fees to the subnet: zero, because operator deposits launched at a zero rate.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         }
       ]
     },
@@ -2346,20 +2359,20 @@
     {
       "slide_number": 18,
       "id": "bull",
-      "title": "UR (SN25) would be worth 11× at Helium’s market cap and 61× at Grass’s",
+      "title": "UR (SN25) would be worth 11× at Helium’s market cap and 21× to 61× at Grass’s",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "UR (SN25) would be worth 11× at Helium’s market cap and 61× at Grass’s",
-        "The 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $452M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.",
+        "UR (SN25) would be worth 11× at Helium’s market cap and 21× to 61× at Grass’s",
+        "The 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $157M to $452M, depending on the circulating supply used, on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.",
         "A wide valuation gap Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times.",
         "A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
         "Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.",
         "What UR (SN25) would be worth at its peers’ market caps"
       ],
-      "text": "UR (SN25) would be worth 11× at Helium’s market cap and 61× at Grass’s\nThe 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $452M on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.\nA wide valuation gap Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times.\nA product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.\nDemand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.\nWhat UR (SN25) would be worth at its peers’ market caps",
+      "text": "UR (SN25) would be worth 11× at Helium’s market cap and 21× to 61× at Grass’s\nThe 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $157M to $452M, depending on the circulating supply used, on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.\nA wide valuation gap Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times.\nA product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.\nDemand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.\nWhat UR (SN25) would be worth at its peers’ market caps",
       "charts": [
         {
           "description": "UR (SN25) market cap against peers",
@@ -2384,22 +2397,22 @@
             {
               "label": "UR (SN25) today: ~$7.4M",
               "description": "UR (SN25) market cap, 23 October 2026.",
-              "source": "CoinGecko, 23 October 2026"
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026"
             },
             {
               "label": "Nym: ~$24.7M",
               "description": "Mixnet with its own VPN; rewards moving to gateways that serve users.",
-              "source": "CoinGecko, 23 October 2026"
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026"
             },
             {
               "label": "Helium: ~$82M",
               "description": "Carriers and subscribers pay for coverage; about $50K a day of data credits burned.",
-              "source": "CoinGecko, 23 October 2026"
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026"
             },
             {
               "label": "Grass: ~$452M",
-              "description": "Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported).",
-              "source": "CoinGecko, 23 October 2026"
+              "description": "Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). CoinMarketCap shows $157M on 244M circulating tokens; CoinGecko’s 699M supply is used as the more conservative figure, which would put UR (SN25) at 21× rather than 61×.",
+              "source": "CoinGecko and CoinMarketCap, 23 October 2026"
             }
           ]
         }
@@ -2424,22 +2437,22 @@
         {
           "label": "UR (SN25) today: ~$7.4M",
           "description": "UR (SN25) market cap, 23 October 2026.",
-          "source": "CoinGecko, 23 October 2026"
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026"
         },
         {
           "label": "Nym: ~$24.7M",
           "description": "Mixnet with its own VPN; rewards moving to gateways that serve users.",
-          "source": "CoinGecko, 23 October 2026"
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026"
         },
         {
           "label": "Helium: ~$82M",
           "description": "Carriers and subscribers pay for coverage; about $50K a day of data credits burned.",
-          "source": "CoinGecko, 23 October 2026"
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026"
         },
         {
           "label": "Grass: ~$452M",
-          "description": "Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported).",
-          "source": "CoinGecko, 23 October 2026"
+          "description": "Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). CoinMarketCap shows $157M on 244M circulating tokens; CoinGecko’s 699M supply is used as the more conservative figure, which would put UR (SN25) at 21× rather than 61×.",
+          "source": "CoinGecko and CoinMarketCap, 23 October 2026"
         }
       ]
     },
