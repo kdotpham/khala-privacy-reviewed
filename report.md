@@ -80,7 +80,7 @@ VPNs ($54B) and confidential computing ($24B) take most privacy spend, but tradi
 | Use case | Market size | What must stay private | Evidence so far | Who is building or backing it |
 | --- | --- | --- | --- | --- |
 | Trading and tokenised assets | $2.7T traded onchain each year | Orders, positions and holdings | ~$4B shielded through Railgun, 2× Oct 2024* $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date | Railgun Zama Renegade Pantera investor |
-| Payments and payroll | $390B paid in stablecoins each year, ~$2B in privacy fees | Salaries, supplier invoices and treasury movements | 29% of ZEC supply shielded, up from 18% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD* | Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra |
+| Payments and payroll | $390B paid in stablecoins each year, ~$2B in privacy fees | Salaries, supplier invoices and treasury movements | 29% of ZEC supply shielded, up from ~24% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD* | Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra |
 | Private connectivity | $54B spent on VPNs, 2025 | IP addresses and browsing traffic | 3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users* 126,717 IP providers on URnetwork* | Tor UR (SN25) Nym Mysterium |
 | Private computation and AI | $24B spent on confidential computing, 2025 | Customer data and model inputs | 3.5M Venice users, up from 2M in February* $100M Venice run rate, up from $70M in July* 1.34B tokens of confidential AI on Phala in one day* | Venice Phala NEAR AI Pearl |
 
@@ -89,7 +89,7 @@ VPNs ($54B) and confidential computing ($24B) take most privacy spend, but tradi
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
 | Trading and tokenised assets | Railgun, the main private trading protocol on Ethereum, has shielded about $4B since 2021, double the $2B it had reached in October 2024 (team-reported), with $1.6B of that in 2025, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an onchain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of onchain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030. | DL News, 21 October 2025; RAILGUN, 2024 year in review; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026 |
-| Payments and payroll | About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against 18% in October 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5). | ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 report; The Block, 11 November 2025; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026 |
+| Payments and payroll | About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against about 24% at the end of September 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5). | ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 and Q4 2025 reports; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026 |
 | Private connectivity | Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, against about 1.95M in the same weeks of 2024, according to the Tor Project’s own measurements. Late-2025 readings, which spiked above 15M, are excluded as an outlier. URnetwork reports 126,717 IP providers sharing bandwidth, and NymVPN runs on about 750 mixnet nodes. Both offer decentralised alternatives in which no single company sees both who a user is and what they visit. URnetwork reports about 350K monthly users of its VPN. Market size: the global VPN market was about $54.1B in 2025 and is forecast to reach about $156B by 2034, and about 6 billion people were online in 2025. | Tor Metrics, 15 September to 20 October 2026; URnetwork; Nym town hall, 13 March 2026; IMARC Group; ITU, Facts and Figures 2025 |
 | Private computation and AI | Venice reported 3.5M users at its July 2026 Series A, up from 2M in February, and a $100M annualised revenue run rate in August, up from about $70M at the raise (company-reported). In June 2026 Apple extended Private Cloud Compute, which processes Apple Intelligence requests without Apple or the host being able to read them, to Google Cloud on NVIDIA Blackwell GPUs with confidential computing. Phala, which runs AI models inside secure hardware enclaves, processed more than 1.34B language-model tokens of confidential inference in a single day in 2025 and had more than 1,000 teams running production workloads. Market size: confidential computing, which keeps data encrypted while it is processed, was about $24B in 2025, and Gartner predicts that by 2029 more than 75% of operations processed on untrusted infrastructure will be secured this way. Gartner forecasts worldwide AI spending of about $2.7T in 2026. | Cointelegraph, 2 July 2026; Crypto Briefing, 17 August 2026; Seczine, February 2026; DatacenterDynamics, 10 June 2026; Fortune Business Insights; Gartner, 20 October 2025 and 16 September 2026; Phala 2025 report |
 
@@ -198,28 +198,28 @@ Outside Venice, prices rest on demand to hold the token, not on customer fees.
 
 [View slide 7](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
 
-## Slide 8: Zcash prices in future private use
+## Slide 8: Zcash’s $20.9B price is a bet that Q3’s jump in private use will last
 
 
-The shielded share of ZEC supply rose through 2025, then fell in the first half of 2026.
-Although ZEC’s market value is roughly twice Monero’s at the mid-October snapshot, most activity still settles transparently.
-The valuation assumes wider private use than the current activity demonstrates.
-Q2 2026 network fees
-Transparent ~$92K Shielded ~$18K
+Shielded pools have held about 30% of ZEC for a year, and in Q3 2026 more than half of transactions used them, the highest share in five quarters.
+Holding privately is still a minority habit, with about 70% of ZEC in transparent addresses, yet at $20.9B ZEC is worth about 1.8 times Monero, so its price assumes private use keeps growing.
+Q3 2026 network fees: ~$204K
+Transparent 60% Shielded 28%
 
-### Share of ZEC supply held in shielded pools
+### Shielded share of ZEC supply and of transactions, quarter-end, Q3 2025 to Q3 2026
 
-Chart labels in display order: ~8% · Start of 2025 · ~23% · Dec 2025 · 31.0% · End Q1 2026 · 26.3% · End Q2 2026
+Chart labels in display order: 0% · 20% · 40% · 60% · Q3 2025 · Q4 2025 · Q1 2026 · Q2 2026 · Q3 2026 · ~24% · 39.2% · 30.8% · 18.9% · 31.0% · 21.2% · 26.3% · 27.4% · 29.1% · 52.7% · Transactions using shielded pools · ZEC supply held shielded
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Q2 2026 network fees | About $92K of about $110K came from transparent transfers. | Blockworks Advisory, funded by GenZcash |
-| Start of 2025 | About 8% of supply | The Block, 26 December 2025 |
-| Dec 2025 | About 23% of supply | The Block, 26 December 2025 |
-| End Q1 2026 | 31.0%, about 5.16M ZEC | Blockworks Advisory, funded by GenZcash |
-| End Q2 2026 | 26.3%, or 4.42M ZEC | Blockworks Advisory, funded by GenZcash |
+| Q3 2026 network fees | Network fees were about $204K in Q3 2026, up about 85% from $110K in Q2. Transparent transfers paid 60.1% of fee value, down from 83.6%, and shielded transfers 27.6%; the report leaves 12.3% unattributed. All fees go to miners. | Blockworks Zcash Q3 2026 report, 16 October 2026, funded by GenZcash |
+| Q3 2025 | Shielded share of supply: About 3.81M ZEC at the end of Q3 2025, roughly 24% of supply. Khala estimate from Blockworks’ ZEC count and about 16.1M ZEC in circulation. Shielded share of transactions: 39.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q4 2025 | Shielded share of supply: 30.8%, about 5.07M ZEC. Shielded share of transactions: 18.9% of non-coinbase transactions, by the Q4 report’s privacy section; its summary gives 16.7%. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q1 2026 | Shielded share of supply: 31.0%, about 5.16M ZEC. Shielded share of transactions: 21.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q2 2026 | Shielded share of supply: 26.3%, about 4.42M ZEC, after 745K ZEC left shielded pools in June. Shielded share of transactions: 27.4% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q3 2026 | Shielded share of supply: 29.1%, about 4.94M ZEC. ZecStats’ independent onchain count was 29.2% on 22 October 2026. Shielded share of transactions: 52.7% of non-coinbase transactions, from 710K transactions in the quarter. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash; ZecStats, 22 October 2026 |
 
 [View slide 8](https://kdotpham.github.io/khala-privacy-reviewed/#zcash)
 

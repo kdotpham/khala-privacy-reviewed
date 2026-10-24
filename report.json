@@ -309,7 +309,7 @@
               "Payments and payroll",
               "$390B paid in stablecoins each year, ~$2B in privacy fees",
               "Salaries, supplier invoices and treasury movements",
-              "29% of ZEC supply shielded, up from 18% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD*",
+              "29% of ZEC supply shielded, up from ~24% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD*",
               "Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra"
             ],
             [
@@ -337,8 +337,8 @@
         },
         {
           "label": "Payments and payroll",
-          "description": "About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against 18% in October 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5).",
-          "source": "ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 report; The Block, 11 November 2025; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026"
+          "description": "About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against about 24% at the end of September 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5).",
+          "source": "ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 and Q4 2025 reports; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026"
         },
         {
           "label": "Private connectivity",
@@ -854,53 +854,70 @@
     {
       "slide_number": 8,
       "id": "zcash",
-      "title": "Zcash prices in future private use",
+      "title": "Zcash’s $20.9B price is a bet that Q3’s jump in private use will last",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#zcash",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Zcash prices in future private use",
-        "The shielded share of ZEC supply rose through 2025, then fell in the first half of 2026.",
-        "Although ZEC’s market value is roughly twice Monero’s at the mid-October snapshot, most activity still settles transparently.",
-        "The valuation assumes wider private use than the current activity demonstrates.",
-        "Q2 2026 network fees",
-        "Transparent ~$92K Shielded ~$18K"
+        "Zcash’s $20.9B price is a bet that Q3’s jump in private use will last",
+        "Shielded pools have held about 30% of ZEC for a year, and in Q3 2026 more than half of transactions used them, the highest share in five quarters.",
+        "Holding privately is still a minority habit, with about 70% of ZEC in transparent addresses, yet at $20.9B ZEC is worth about 1.8 times Monero, so its price assumes private use keeps growing.",
+        "Q3 2026 network fees: ~$204K",
+        "Transparent 60% Shielded 28%"
       ],
-      "text": "Zcash prices in future private use\nThe shielded share of ZEC supply rose through 2025, then fell in the first half of 2026.\nAlthough ZEC’s market value is roughly twice Monero’s at the mid-October snapshot, most activity still settles transparently.\nThe valuation assumes wider private use than the current activity demonstrates.\nQ2 2026 network fees\nTransparent ~$92K Shielded ~$18K",
+      "text": "Zcash’s $20.9B price is a bet that Q3’s jump in private use will last\nShielded pools have held about 30% of ZEC for a year, and in Q3 2026 more than half of transactions used them, the highest share in five quarters.\nHolding privately is still a minority habit, with about 70% of ZEC in transparent addresses, yet at $20.9B ZEC is worth about 1.8 times Monero, so its price assumes private use keeps growing.\nQ3 2026 network fees: ~$204K\nTransparent 60% Shielded 28%",
       "charts": [
         {
-          "description": "Share of ZEC supply held in shielded pools",
+          "description": "Shielded share of ZEC supply and of transactions, quarter-end, Q3 2025 to Q3 2026",
           "labels": [
-            "~8%",
-            "Start of 2025",
-            "~23%",
-            "Dec 2025",
+            "0%",
+            "20%",
+            "40%",
+            "60%",
+            "Q3 2025",
+            "Q4 2025",
+            "Q1 2026",
+            "Q2 2026",
+            "Q3 2026",
+            "~24%",
+            "39.2%",
+            "30.8%",
+            "18.9%",
             "31.0%",
-            "End Q1 2026",
+            "21.2%",
             "26.3%",
-            "End Q2 2026"
+            "27.4%",
+            "29.1%",
+            "52.7%",
+            "Transactions using shielded pools",
+            "ZEC supply held shielded"
           ],
           "details": [
             {
-              "label": "Start of 2025",
-              "description": "About 8% of supply",
-              "source": "The Block, 26 December 2025"
+              "label": "Q3 2025",
+              "description": "Shielded share of supply: About 3.81M ZEC at the end of Q3 2025, roughly 24% of supply. Khala estimate from Blockworks’ ZEC count and about 16.1M ZEC in circulation. Shielded share of transactions: 39.2% of non-coinbase transactions.",
+              "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
             },
             {
-              "label": "Dec 2025",
-              "description": "About 23% of supply",
-              "source": "The Block, 26 December 2025"
+              "label": "Q4 2025",
+              "description": "Shielded share of supply: 30.8%, about 5.07M ZEC. Shielded share of transactions: 18.9% of non-coinbase transactions, by the Q4 report’s privacy section; its summary gives 16.7%.",
+              "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
             },
             {
-              "label": "End Q1 2026",
-              "description": "31.0%, about 5.16M ZEC",
-              "source": "Blockworks Advisory, funded by GenZcash"
+              "label": "Q1 2026",
+              "description": "Shielded share of supply: 31.0%, about 5.16M ZEC. Shielded share of transactions: 21.2% of non-coinbase transactions.",
+              "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
             },
             {
-              "label": "End Q2 2026",
-              "description": "26.3%, or 4.42M ZEC",
-              "source": "Blockworks Advisory, funded by GenZcash"
+              "label": "Q2 2026",
+              "description": "Shielded share of supply: 26.3%, about 4.42M ZEC, after 745K ZEC left shielded pools in June. Shielded share of transactions: 27.4% of non-coinbase transactions.",
+              "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
+            },
+            {
+              "label": "Q3 2026",
+              "description": "Shielded share of supply: 29.1%, about 4.94M ZEC. ZecStats’ independent onchain count was 29.2% on 22 October 2026. Shielded share of transactions: 52.7% of non-coinbase transactions, from 710K transactions in the quarter.",
+              "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash; ZecStats, 22 October 2026"
             }
           ]
         }
@@ -908,29 +925,34 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "Q2 2026 network fees",
-          "description": "About $92K of about $110K came from transparent transfers.",
-          "source": "Blockworks Advisory, funded by GenZcash"
+          "label": "Q3 2026 network fees",
+          "description": "Network fees were about $204K in Q3 2026, up about 85% from $110K in Q2. Transparent transfers paid 60.1% of fee value, down from 83.6%, and shielded transfers 27.6%; the report leaves 12.3% unattributed. All fees go to miners.",
+          "source": "Blockworks Zcash Q3 2026 report, 16 October 2026, funded by GenZcash"
         },
         {
-          "label": "Start of 2025",
-          "description": "About 8% of supply",
-          "source": "The Block, 26 December 2025"
+          "label": "Q3 2025",
+          "description": "Shielded share of supply: About 3.81M ZEC at the end of Q3 2025, roughly 24% of supply. Khala estimate from Blockworks’ ZEC count and about 16.1M ZEC in circulation. Shielded share of transactions: 39.2% of non-coinbase transactions.",
+          "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
         },
         {
-          "label": "Dec 2025",
-          "description": "About 23% of supply",
-          "source": "The Block, 26 December 2025"
+          "label": "Q4 2025",
+          "description": "Shielded share of supply: 30.8%, about 5.07M ZEC. Shielded share of transactions: 18.9% of non-coinbase transactions, by the Q4 report’s privacy section; its summary gives 16.7%.",
+          "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
         },
         {
-          "label": "End Q1 2026",
-          "description": "31.0%, about 5.16M ZEC",
-          "source": "Blockworks Advisory, funded by GenZcash"
+          "label": "Q1 2026",
+          "description": "Shielded share of supply: 31.0%, about 5.16M ZEC. Shielded share of transactions: 21.2% of non-coinbase transactions.",
+          "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
         },
         {
-          "label": "End Q2 2026",
-          "description": "26.3%, or 4.42M ZEC",
-          "source": "Blockworks Advisory, funded by GenZcash"
+          "label": "Q2 2026",
+          "description": "Shielded share of supply: 26.3%, about 4.42M ZEC, after 745K ZEC left shielded pools in June. Shielded share of transactions: 27.4% of non-coinbase transactions.",
+          "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash"
+        },
+        {
+          "label": "Q3 2026",
+          "description": "Shielded share of supply: 29.1%, about 4.94M ZEC. ZecStats’ independent onchain count was 29.2% on 22 October 2026. Shielded share of transactions: 52.7% of non-coinbase transactions, from 710K transactions in the quarter.",
+          "source": "Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash; ZecStats, 22 October 2026"
         }
       ]
     },
