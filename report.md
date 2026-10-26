@@ -2,10 +2,10 @@
 
 Authors: 0xSammy; Jack Ai-Leung
 Publication date: 2026-11-02
-Market-cap snapshot: 2026-10-15
+Market-cap snapshot: 2026-10-26
 Canonical report: https://kdotpham.github.io/khala-privacy-reviewed/
 
-Slide 15: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholders. Slide 21 scenarios are illustrative assumptions. Nullmask market values were observed 2026-10-19; other peer market caps retain the 2026-10-15 snapshot.
+Slide 15: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholders. Market caps are CoinGecko observations from 26 October 2026.
 
 ## Slide 1: Demand for privacy is growing, but most of the value still sits in privacy coins
 
@@ -89,10 +89,10 @@ VPNs ($54B) and confidential computing ($24B) take most privacy spend, but tradi
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Trading and tokenised assets | Railgun, the main private trading protocol on Ethereum, has shielded about $4B since 2021, double the $2B it had reached in October 2024 (team-reported), with $1.6B of that in 2025, and the Ethereum Foundation’s Kohaku wallet toolkit integrates it. GSR executed a confidential OTC trade on the Zama protocol in March 2026, and Zama’s own token sale shielded more than $121M on Ethereum. Renegade, an onchain dark pool that hides orders until they match, has handled about $340M of volume across Arbitrum and Base since launch. Market size: about $1.6T of onchain trading and investment and $1.1T of exchange flows in 2025. Tokenised real-world assets, excluding stablecoins, were about $46B in September 2026 and McKinsey’s base case is about $2T by 2030. | DL News, 21 October 2025; RAILGUN, 2024 year in review; GSR, 12 March 2026; The Block, February 2026; BCG and Allium, January 2026; Token Terminal via Crypto Briefing, 1 October 2026; McKinsey, From ripples to waves, June 2024; DefiLlama, Renegade, October 2026 |
-| Payments and payroll | About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against about 24% at the end of September 2025. Nullmask, which adds privacy to existing wallets, reported $50M of private volume in its first three weeks. Tether made USDT available on Zama’s confidentiality layer in September 2026. Sui opened confidential transfers in public beta in June 2026, letting stablecoin issuers hide balances and amounts while setting who can access data for compliance; Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. Bron paid salaries in confidential USDT on Ethereum mainnet through Zama in January 2026. Toku, a token payroll provider that has processed more than $1B of payroll, launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. Market size: $390B of genuine stablecoin payments in 2025, worth about $2B a year at a 0.5% privacy fee (Khala calculation, slide 5). | ZecStats onchain pool balances, 22 October 2026; Blockworks Zcash Q3 2026 and Q4 2025 reports; Pinion Newswire, 19 October 2026; Tether, 15 September 2026; Sui Foundation, 8 June 2026; Zama and Bron, 16 January 2026; McKinsey and Artemis, 2025 data; Aleo, USAD case study, 21 July 2026 |
-| Private connectivity | Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, against about 1.95M in the same weeks of 2024, according to the Tor Project’s own measurements. Late-2025 readings, which spiked above 15M, are excluded as an outlier. URnetwork reports 126,717 IP providers sharing bandwidth, and NymVPN runs on about 750 mixnet nodes. Both offer decentralised alternatives in which no single company sees both who a user is and what they visit. URnetwork reports about 350K monthly users of its VPN. Market size: the global VPN market was about $54.1B in 2025 and is forecast to reach about $156B by 2034, and about 6 billion people were online in 2025. | Tor Metrics, 15 September to 20 October 2026; URnetwork; Nym town hall, 13 March 2026; IMARC Group; ITU, Facts and Figures 2025 |
-| Private computation and AI | Venice reported 3.5M users at its July 2026 Series A, up from 2M in February, and a $100M annualised revenue run rate in August, up from about $70M at the raise (company-reported). In June 2026 Apple extended Private Cloud Compute, which processes Apple Intelligence requests without Apple or the host being able to read them, to Google Cloud on NVIDIA Blackwell GPUs with confidential computing. Phala, which runs AI models inside secure hardware enclaves, processed more than 1.34B language-model tokens of confidential inference in a single day in 2025 and had more than 1,000 teams running production workloads. Market size: confidential computing, which keeps data encrypted while it is processed, was about $24B in 2025, and Gartner predicts that by 2029 more than 75% of operations processed on untrusted infrastructure will be secured this way. Gartner forecasts worldwide AI spending of about $2.7T in 2026. | Cointelegraph, 2 July 2026; Crypto Briefing, 17 August 2026; Seczine, February 2026; DatacenterDynamics, 10 June 2026; Fortune Business Insights; Gartner, 20 October 2025 and 16 September 2026; Phala 2025 report |
+| Trading and tokenised assets | Railgun has shielded about $4B on Ethereum since 2021, double its October 2024 total (team-reported). GSR ran a confidential OTC trade on Zama in March 2026, and Renegade’s dark pool has handled about $340M. Market: about $2.7T of onchain trading a year, and McKinsey sees tokenised assets reaching about $2T by 2030. | DL News; RAILGUN; GSR, 12 March 2026; DefiLlama; BCG and Allium; McKinsey, 2024 |
+| Payments and payroll | About 29% of ZEC sits in Zcash’s shielded pools, up from about 24% a year earlier. Tether offers USDT on Zama’s confidentiality layer, Sui opened confidential stablecoin transfers in June 2026, and Toku launched private stablecoin payroll. Market: about $390B of stablecoin payments a year. | ZecStats, 22 October 2026; Blockworks; Tether; Sui Foundation; Aleo, USAD case study; McKinsey and Artemis |
+| Private connectivity | Tor averaged about 3.3M daily users from mid-September to mid-October 2026, up from 1.95M two years earlier. URnetwork reports about 350K monthly users and 126,717 bandwidth providers, and NymVPN runs on about 750 nodes. Market: about $54B spent on VPNs in 2025. | Tor Metrics; URnetwork; Nym, 13 March 2026; IMARC Group |
+| Private computation and AI | Venice grew from 2M to 3.5M users in 2026, with revenue above $100M a year (company-reported). Apple extended Private Cloud Compute to Google Cloud in June 2026, and Phala processed 1.34B tokens of confidential AI in a single day. Market: about $24B spent on confidential computing in 2025. | Cointelegraph; Venice; DatacenterDynamics, 10 June 2026; Phala 2025 report; Fortune Business Insights |
 
 [View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#usecases)
 
@@ -229,7 +229,7 @@ Chart labels in display order: 0% · 20% · 40% · 60% · Q3 2025 · Q4 2025 · 
 
 ## Slide 9: Nullmask adds privacy to existing wallets, with 32K transactions in three weeks
 
-**Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV retain the 2026-10-19 observation date. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
+**Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV observed 2026-10-26. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
 
 Users keep MetaMask or Rabby and move funds into shielded pools on Ethereum and Base, hiding transfers from outside observers, although Nullmask’s servers hold the keys that read their balances.
 What it does Private transfers and swaps from a shielded balance, with no Nullmask fee on either. Deposits and withdrawals cost 0.5% each and stay public. Ethereum Base
@@ -397,7 +397,7 @@ Chart labels in display order: How mining works: like Bitcoin, but the work is A
 
 ## Slide 14: Wallet privacy can fail at network connections and cross-chain swaps
 
-**Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; UR (SN25) was not tested.**
+**Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; three of four tests ran on testnets.**
 
 In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95-98% success after 3-4 observations, a result specific to the study’s setup.
 Swap boundaries: reused refund addresses can link activity
@@ -539,46 +539,7 @@ Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $7.4M
 
 [View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
-## Slide 19: Operator deposits could link UR (SN25) demand to usage
-
-
-While TAO inflows and sector interest support UR (SN25) today, priced operator deposits would add demand by locking tokens against network traffic.
-How value can reach UR (SN25)
-1
-TAO inflows Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand.
-Live since November 2025
-2
-Sector re-rating UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category.
-Live
-3
-Operator deposits Priced deposits lock tokens against traffic; fresh market purchases are expected, not enforced.
-Rate set to zero at launch
-4
-Reserve governance The current reserve has no outbound transfer path; a different future architecture is not a present holder right.
-Current reserve design
-
-### Who pays and where value accrues
-
-Chart labels in display order: paid by token issuance · paid by customers · network · token · issuer · or app · Emissions subsidy · durable only if demand arrives · Customer-paid fees · durable: Zama, Railgun · Weakest · neither side captures it · Issuer economics · captured by issuers: USAD, Bron · UR (SN25) today · operator deposits · UR (SN25) if operators pay
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Emissions subsidy | Supply is paid in newly issued tokens. Value holds only if paying demand follows. |  |
-| Customer-paid fees | Customers pay per transfer or computation, and the fees reach the network token. |  |
-| Weakest | Issuance pays for supply and the value accrues to apps or issuers. |  |
-| Issuer economics | Customers pay, but reserve yield and fees accrue to issuers and distributors. |  |
-| UR (SN25) today | Bittensor emissions pay for supply and value reaches UR (SN25) through TAO inflows; no customer fees reach the token yet. |  |
-| UR (SN25) if operators pay | Priced deposits would lock tokens against traffic; new market buying is expected, not enforced. |  |
-| TAO inflows | Bittensor sets each subnet's emissions by its net TAO inflows over about three months, so staking into UR (SN25) lifts emissions and alpha demand. | UR (SN25) litepaper; FalconX |
-| Sector re-rating | UR (SN25) trades as Bittensor's privacy exposure while capital rotates into the category. | UR (SN25) litepaper; FalconX |
-| Operator deposits | Priced deposits lock tokens against traffic; purchases from revenue are expected offchain, not enforced. The current reserve has no outbound transfer path. | https://github.com/urfoundation/sn |
-| Reserve governance | The existing reserve has no outbound transfer function. Any different future reserve model would require a separate architecture; it is not a present spending right. | https://github.com/urfoundation/sn |
-
-[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#value)
-
-## Slide 20: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
+## Slide 19: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
 
 
 With ur.io already live and enterprise and AI programmes still in research, the peer figures illustrate market scale rather than forecast UR (SN25) revenue.
@@ -604,32 +565,9 @@ If these programmes become paying operators, their traffic could create UR (SN25
 | Project Stargate | Residential routes that let agents browse, retrieve and index the open web |  |
 | Third-party operators | Any business can bill users and data on the same network |  |
 
-[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
+[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
 
-## Slide 21: Operator deposits distinguish the illustrative UR (SN25) scenarios
-
-**End-2027 scenario ranges are illustrative assumptions, not forecasts or outputs from a valuation model.**
-
-The end-2027 market-cap ranges illustrate scenarios on a logarithmic USD scale rather than outputs from a cash-flow or deposit valuation model.
-The number to watch Track monthly operator deposits against miner emissions: a first non-zero deposit would show that the mechanism is active, while the scenario ranges would remain assumptions.
-
-| Scenario | What has to happen | $1M $10M $100M $1B 23 Oct 2026 $7.4M | Market-cap multiple |
-| --- | --- | --- | --- |
-| Bull | Wallets and privacy apps buy capacity, and operator deposits reach a quarter of miner emissions. | $100M to $250M | 12× to 30× |
-| Base | Deposits switch on in 2027, and two to four operators pay small amounts. | $15M to $30M | 1.8× to 3.6× |
-| Bear | The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). | $2M to $5M | 0.24× to 0.60× |
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Bull: $100M to $250M market cap | Wallets and privacy apps buy capacity, and operator deposits reach a quarter of miner emissions. Signal to watch: monthly deposits as a share of miner emissions. | Khala Research, illustrative |
-| Base: $15M to $30M market cap | Deposits switch on in 2027, and two to four operators pay small amounts. Signal to watch: number of operators with non-zero deposits. | Khala Research, illustrative |
-| Bear: $2M to $5M market cap | The deposit rate stays at zero, there is still one operator, and TAO flows out of UR (SN25). Signal to watch: net tao flow into sn25, negative three months running. | Khala Research, illustrative |
-
-[View slide 21](https://kdotpham.github.io/khala-privacy-reviewed/#watch)
-
-## Slide 22: Dated events and operating signals will test the privacy thesis
+## Slide 20: Dated events and operating signals will test the privacy thesis
 
 
 Scheduled milestones test delivery, while deposits and burns show whether adoption reaches the token.
@@ -658,5 +596,5 @@ Scheduled milestones test delivery, while deposits and burns show whether adopti
 | Nullmask: Product fees, MASK burns and delivery | The dashboard reports service fees, developer-wallet ZEC rewards, holder payouts and burns as distinct metrics. Solana and private perpetuals remain roadmap targets. | https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap |
 | Pearl: PRL compute market and proof of inference | The whitepaper describes a PRL-based compute marketplace with no launch date, and a proof-of-inference layer is being built with Attestable. Either would give inference demand a route to PRL. | Bankless, 16 October 2026 |
 
-[View slide 22](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
+[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
 
