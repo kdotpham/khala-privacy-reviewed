@@ -18,7 +18,7 @@
   "market_data_as_of": "2026-10-26",
   "research_status": "Targeted primary-source audit on 2026-10-20 covers Nullmask fees, reward accounting and delivery status; Nockchain privacy status, issuance and roadmap; Pearl mining and inference payments; wallet RPC experiments; refund release history; and UR (SN25) launch pricing. Market values retain their stated historical observation dates. This is not a transaction-level audit of every metric.",
   "sample_data_slide_numbers": [
-    16
+    17
   ],
   "market_data_overrides": {},
   "coverage_universe": [
@@ -40,7 +40,7 @@
     "Nym",
     "UR (SN25)"
   ],
-  "slide_count": 20,
+  "slide_count": 21,
   "slides": [
     {
       "slide_number": 1,
@@ -53,11 +53,11 @@
       "paragraphs": [
         "Executive summary",
         "Demand for privacy is growing, but most of the value still sits in privacy coins",
-        "1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
-        "Catalysts to watch Pearl listing on Coinbase First private NOCK transfers, Q2 2027 UR (SN25) operators start locking tokens Venice investor unlock, July 2027",
-        "Disclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 26 October 2026."
+        "1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
+        "Covered in this report Zcash Monero Venice Umbra NOCK Pearl Nullmask Zama Railgun Nym UR (SN25)",
+        "Market data as of 26 October 2026. Disclosures are at the end of this report."
       ],
-      "text": "Executive summary\nDemand for privacy is growing, but most of the value still sits in privacy coins\n1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCatalysts to watch Pearl listing on Coinbase First private NOCK transfers, Q2 2027 UR (SN25) operators start locking tokens Venice investor unlock, July 2027\nDisclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 26 October 2026.",
+      "text": "Executive summary\nDemand for privacy is growing, but most of the value still sits in privacy coins\n1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCovered in this report Zcash Monero Venice Umbra NOCK Pearl Nullmask Zama Railgun Nym UR (SN25)\nMarket data as of 26 October 2026. Disclosures are at the end of this report.",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -72,11 +72,11 @@
       "warnings": [],
       "paragraphs": [
         "Ethereum’s and Telegram’s founders want privacy built into the apps people already use",
-        "Buterin wants privacy built into Ethereum itself and Durov would rather pull Telegram’s billion monthly users out of a market than weaken its encryption.",
+        "Buterin wants privacy built into Ethereum itself, and Durov would rather leave a market than weaken Telegram’s encryption.",
         "Vitalik Buterin",
         "Co-founder",
         "Ethereum",
-        "“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025",
+        "“Privacy is not about standing apart. It’s about standing together.” “Why I support privacy”, Buterin’s blog, 14 April 2025",
         "Why privacy matters",
         "Control over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.",
         "What he proposes",
@@ -86,16 +86,16 @@
         "Pavel Durov",
         "Founder and CEO",
         "Telegram, over 1B monthly users",
-        "“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025",
+        "“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Post on Durov’s Telegram channel, 21 April 2025",
         "Why privacy matters",
         "Encryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.",
         "What he proposes",
         "Keep Telegram’s encryption free of government backdoors, even if Telegram has to leave a country to do it.",
         "What is missing today",
         "Telegram’s default chats are not end-to-end encrypted; only its opt-in Secret Chats are.",
-        "Implication Privacy that plugs into existing wallets and apps has the clearest path to users, which favours tools like Nullmask and Venice over standalone privacy chains."
+        "Implication Privacy that plugs into the wallets and apps people already use has the clearest path to mainstream adoption."
       ],
-      "text": "Ethereum’s and Telegram’s founders want privacy built into the apps people already use\nButerin wants privacy built into Ethereum itself and Durov would rather pull Telegram’s billion monthly users out of a market than weaken its encryption.\nVitalik Buterin\nCo-founder\nEthereum\n“Privacy is not about standing apart. It’s about standing together.” Why I support privacy, 14 April 2025\nWhy privacy matters\nControl over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.\nWhat he proposes\nBuild privacy into Ethereum itself, covering payments, app activity, what users look up and their network identity.\nWhat is missing today\nEthereum transactions are still public by default, and most of the plan needs wallets and apps to build it.\nPavel Durov\nFounder and CEO\nTelegram, over 1B monthly users\n“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Telegram channel, 21 April 2025\nWhy privacy matters\nEncryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.\nWhat he proposes\nKeep Telegram’s encryption free of government backdoors, even if Telegram has to leave a country to do it.\nWhat is missing today\nTelegram’s default chats are not end-to-end encrypted; only its opt-in Secret Chats are.\nImplication Privacy that plugs into existing wallets and apps has the clearest path to users, which favours tools like Nullmask and Venice over standalone privacy chains.",
+      "text": "Ethereum’s and Telegram’s founders want privacy built into the apps people already use\nButerin wants privacy built into Ethereum itself, and Durov would rather leave a market than weaken Telegram’s encryption.\nVitalik Buterin\nCo-founder\nEthereum\n“Privacy is not about standing apart. It’s about standing together.” “Why I support privacy”, Buterin’s blog, 14 April 2025\nWhy privacy matters\nControl over information is power, so privacy protects decentralisation, personal freedom and institutions such as the secret ballot.\nWhat he proposes\nBuild privacy into Ethereum itself, covering payments, app activity, what users look up and their network identity.\nWhat is missing today\nEthereum transactions are still public by default, and most of the plan needs wallets and apps to build it.\nPavel Durov\nFounder and CEO\nTelegram, over 1B monthly users\n“Telegram would rather exit a market than undermine encryption with backdoors and violate basic human rights.” Post on Durov’s Telegram channel, 21 April 2025\nWhy privacy matters\nEncryption protects everyday communication and personal safety, and any access built for authorities is also available to attackers.\nWhat he proposes\nKeep Telegram’s encryption free of government backdoors, even if Telegram has to leave a country to do it.\nWhat is missing today\nTelegram’s default chats are not end-to-end encrypted; only its opt-in Secret Chats are.\nImplication Privacy that plugs into the wallets and apps people already use has the clearest path to mainstream adoption.",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -298,7 +298,7 @@
               "$2.7T traded onchain each year",
               "Orders, positions and holdings",
               "~$4B shielded through Railgun, 2× Oct 2024 $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
-              "Railgun Zama Renegade Pantera investor"
+              "Railgun Zama Renegade"
             ],
             [
               "Payments and payroll",
@@ -311,7 +311,7 @@
               "Private connectivity",
               "$54B spent on VPNs, 2025",
               "IP addresses and browsing traffic",
-              "3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users 126,717 IP providers on URnetwork",
+              "3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users 92,204 IP providers on URnetwork",
               "Tor UR (SN25) Nym Mysterium"
             ],
             [
@@ -367,7 +367,7 @@
         },
         {
           "label": "Private connectivity",
-          "description": "Tor averaged about 3.3M daily users from mid-September to mid-October 2026, up from 1.95M two years earlier. URnetwork reports about 350K monthly users and 126,717 bandwidth providers, and NymVPN runs on about 750 nodes. Market: about $54B spent on VPNs in 2025.",
+          "description": "Tor averaged about 3.3M daily users from mid-September to mid-October 2026, up from 1.95M two years earlier. URnetwork reports about 350K monthly users and lists 92,204 bandwidth providers, and NymVPN runs on about 750 nodes. Market: about $54B spent on VPNs in 2025.",
           "source": "Tor Metrics; URnetwork; Nym, 13 March 2026; IMARC Group"
         },
         {
@@ -382,8 +382,8 @@
         },
         {
           "label": "URnetwork providers",
-          "description": "URnetwork reports 126,717 IP providers sharing bandwidth (team-reported), so no single company sees both who a user is and what they visit.",
-          "source": "URnetwork"
+          "description": "URnetwork lists 92,204 IP providers sharing bandwidth in 101 countries, so no single company sees both who a user is and what they visit.",
+          "source": "ur.io, checked 26 October 2026"
         },
         {
           "label": "Private computation and AI",
@@ -409,6 +409,173 @@
     },
     {
       "slide_number": 5,
+      "id": "sui",
+      "title": "Sui is building private stablecoin payments that issuers and auditors can still see into",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sui",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [],
+      "paragraphs": [
+        "Sui is building private stablecoin payments that issuers and auditors can still see into",
+        "Sui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.",
+        "What it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.",
+        "Where it stands In public beta on Sui’s Devnet since June 2026, with mainnet targeted for Q4 2026. The code is open source but not yet audited.",
+        "Who is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.",
+        "What to watch Whether it reaches mainnet on schedule, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today."
+      ],
+      "text": "Sui is building private stablecoin payments that issuers and auditors can still see into\nSui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.\nWhat it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.\nWhere it stands In public beta on Sui’s Devnet since June 2026, with mainnet targeted for Q4 2026. The code is open source but not yet audited.\nWho is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.\nWhat to watch Whether it reaches mainnet on schedule, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today.",
+      "charts": [
+        {
+          "description": "What public, Sui confidential and Zcash shielded transfers reveal, and where Sui confidential transfers stand",
+          "labels": [
+            "What each kind of transfer reveals",
+            "Public stablecoin",
+            "e.g. USDC today",
+            "Sui confidential",
+            "public beta",
+            "Zcash shielded",
+            "for comparison",
+            "Amount sent",
+            "Everyone",
+            "Parties and auditor",
+            "Parties only",
+            "Balance held",
+            "Everyone",
+            "Owner only",
+            "Owner only",
+            "Who paid whom",
+            "Everyone",
+            "Everyone",
+            "Hidden",
+            "Issuer can freeze",
+            "Yes",
+            "Yes",
+            "No",
+            "Outside view",
+            "Anyone",
+            "Auditor set by issuer",
+            "Only if user shares",
+            "visible to everyone",
+            "visible only to chosen parties",
+            "hidden from everyone",
+            "Where it stands",
+            "Jun 2026",
+            "Public beta on Devnet",
+            "Later 2026",
+            "Testnet planned",
+            "Q4 2026",
+            "Mainnet targeted"
+          ],
+          "details": [
+            {
+              "label": "Amount sent",
+              "description": "On Sui, each confidential transfer carries a copy of the amount that only the issuer’s chosen auditor can decrypt, with an onchain proof that it matches. Zcash shielded amounts are visible only to the parties, or to anyone they share a viewing key with.",
+              "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers"
+            },
+            {
+              "label": "Balance held",
+              "description": "Sui balances are encrypted onchain and only the account holder can decrypt them; auditors read individual transfers, not standing balances.",
+              "source": "MystenLabs/confidential-transfers"
+            },
+            {
+              "label": "Who paid whom",
+              "description": "Sui keeps sender and receiver addresses public, so it offers confidentiality rather than anonymity. Zcash’s shielded pool hides both parties.",
+              "source": "Sui Foundation, 8 June 2026; BeInCrypto, 8 June 2026"
+            },
+            {
+              "label": "Issuer can freeze",
+              "description": "Issuers of confidential tokens on Sui keep their freeze and seize powers. Zcash has no issuer.",
+              "source": "BeInCrypto, 8 June 2026"
+            },
+            {
+              "label": "Outside view",
+              "description": "On Sui, each token has one active auditor key set by its issuer, and compliance firms such as TRM Labs and Merkle Science are testing integrations. On Zcash, outsiders see shielded activity only if a user shares a viewing key.",
+              "source": "MystenLabs/confidential-transfers; Sui Foundation, 8 June 2026"
+            },
+            {
+              "label": "Public beta",
+              "description": "Confidential transfers opened as a public beta on Sui’s Devnet on 8 June 2026. The open-source code is marked unaudited and a work in progress.",
+              "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers"
+            },
+            {
+              "label": "Testnet",
+              "description": "Sui targeted a testnet launch for later in 2026.",
+              "source": "Sui Foundation, 8 June 2026"
+            },
+            {
+              "label": "Mainnet",
+              "description": "Sui community channels said in September 2026 that confidential transfers are planned for mainnet in Q4 2026; Sui has not announced a date.",
+              "source": "Sui community post via KuCoin, 24 September 2026"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "hover_details": [
+        {
+          "label": "Amount sent",
+          "description": "On Sui, each confidential transfer carries a copy of the amount that only the issuer’s chosen auditor can decrypt, with an onchain proof that it matches. Zcash shielded amounts are visible only to the parties, or to anyone they share a viewing key with.",
+          "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers"
+        },
+        {
+          "label": "Balance held",
+          "description": "Sui balances are encrypted onchain and only the account holder can decrypt them; auditors read individual transfers, not standing balances.",
+          "source": "MystenLabs/confidential-transfers"
+        },
+        {
+          "label": "Who paid whom",
+          "description": "Sui keeps sender and receiver addresses public, so it offers confidentiality rather than anonymity. Zcash’s shielded pool hides both parties.",
+          "source": "Sui Foundation, 8 June 2026; BeInCrypto, 8 June 2026"
+        },
+        {
+          "label": "Issuer can freeze",
+          "description": "Issuers of confidential tokens on Sui keep their freeze and seize powers. Zcash has no issuer.",
+          "source": "BeInCrypto, 8 June 2026"
+        },
+        {
+          "label": "Outside view",
+          "description": "On Sui, each token has one active auditor key set by its issuer, and compliance firms such as TRM Labs and Merkle Science are testing integrations. On Zcash, outsiders see shielded activity only if a user shares a viewing key.",
+          "source": "MystenLabs/confidential-transfers; Sui Foundation, 8 June 2026"
+        },
+        {
+          "label": "Public beta",
+          "description": "Confidential transfers opened as a public beta on Sui’s Devnet on 8 June 2026. The open-source code is marked unaudited and a work in progress.",
+          "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers"
+        },
+        {
+          "label": "Testnet",
+          "description": "Sui targeted a testnet launch for later in 2026.",
+          "source": "Sui Foundation, 8 June 2026"
+        },
+        {
+          "label": "Mainnet",
+          "description": "Sui community channels said in September 2026 that confidential transfers are planned for mainnet in Q4 2026; Sui has not announced a date.",
+          "source": "Sui community post via KuCoin, 24 September 2026"
+        },
+        {
+          "label": "What it does",
+          "description": "Amounts use twisted ElGamal encryption with zero-knowledge proofs, and supply checks sit in the protocol, separate from the privacy proof. Public and confidential transfers run side by side.",
+          "source": "MystenLabs/confidential-transfers; Sui Foundation, 8 June 2026; BeInCrypto, 5 June 2026"
+        },
+        {
+          "label": "Where it stands",
+          "description": "Testnet was targeted for later in 2026. The repository says the code is a work in progress, unaudited and not for production use.",
+          "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers; KuCoin, 24 September 2026"
+        },
+        {
+          "label": "Who is building with it",
+          "description": "Gasless transfers cover seven stablecoins including USDC, USDsui and AUSD, with Fireblocks integrated at launch. Sui reports over $1 trillion of stablecoin transfer volume since August 2025.",
+          "source": "Sui Foundation, 8 June 2026; Sui release via Decrypt, 20 May 2026"
+        },
+        {
+          "label": "What to watch",
+          "description": "Stablecoin supply on Sui was about $473M on DefiLlama, led by USDC at about $292M. Sui also had three mainnet outages in late May 2026, so reliability will matter to payment users.",
+          "source": "DefiLlama, 27 October 2026; BeInCrypto, 8 June 2026"
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
       "id": "capital",
       "title": "Stablecoin payments could pay about $2B a year for privacy, over half of it from businesses",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#capital",
@@ -582,7 +749,7 @@
       ]
     },
     {
-      "slide_number": 6,
+      "slide_number": 7,
       "id": "priced",
       "title": "Privacy as money is worth $32B, about 14 times all other privacy tokens combined",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#priced",
@@ -591,10 +758,11 @@
       "warnings": [],
       "paragraphs": [
         "Privacy as money is worth $32B, about 14 times all other privacy tokens combined",
-        "Zcash and Monero, held as private money, are worth about $32B together, while the nine other tokens covered here, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.",
-        "Like Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token."
+        "Zcash and Monero, held as private money, are worth about $32B together, while the nine other tokens in this report, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.",
+        "Like Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token.",
+        "CoinGecko’s privacy coins category, the market’s usual benchmark, is worth about $32.1B, and Zcash and Monero make up 98% of it."
       ],
-      "text": "Privacy as money is worth $32B, about 14 times all other privacy tokens combined\nZcash and Monero, held as private money, are worth about $32B together, while the nine other tokens covered here, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.\nLike Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token.",
+      "text": "Privacy as money is worth $32B, about 14 times all other privacy tokens combined\nZcash and Monero, held as private money, are worth about $32B together, while the nine other tokens in this report, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.\nLike Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token.\nCoinGecko’s privacy coins category, the market’s usual benchmark, is worth about $32.1B, and Zcash and Monero make up 98% of it.",
       "charts": [
         {
           "description": "Market capitalisation of eleven privacy tokens grouped by use case, logarithmic USD scale, CoinGecko 26 October 2026",
@@ -752,7 +920,7 @@
       ]
     },
     {
-      "slide_number": 7,
+      "slide_number": 8,
       "id": "zcash",
       "title": "Zcash’s $20.9B price is a bet that Q3’s jump in private use will last",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#zcash",
@@ -857,7 +1025,7 @@
       ]
     },
     {
-      "slide_number": 8,
+      "slide_number": 9,
       "id": "tokens",
       "title": "Privacy tokens capture value in four ways",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#tokens",
@@ -1049,7 +1217,7 @@
       ]
     },
     {
-      "slide_number": 9,
+      "slide_number": 10,
       "id": "venice",
       "title": "Venice is a ChatGPT-style app that keeps no chat history, and funds VVV buybacks",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#venice",
@@ -1226,7 +1394,7 @@
       ]
     },
     {
-      "slide_number": 10,
+      "slide_number": 11,
       "id": "umbra",
       "title": "Umbra brings private transfers and swaps to Solana, built on Arcium",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#umbra",
@@ -1412,7 +1580,7 @@
       ]
     },
     {
-      "slide_number": 11,
+      "slide_number": 12,
       "id": "nock",
       "title": "Nockchain mines with zero-knowledge proofs and plans private NOCK transfers for 2027",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#nock",
@@ -1590,7 +1758,7 @@
       ]
     },
     {
-      "slide_number": 12,
+      "slide_number": 13,
       "id": "pearl",
       "title": "Pearl turns mining into AI computing, with proofs that keep the work’s data hidden",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pearl",
@@ -1787,7 +1955,7 @@
       ]
     },
     {
-      "slide_number": 13,
+      "slide_number": 14,
       "id": "nullmask",
       "title": "Nullmask adds privacy to existing wallets, with 32K transactions in three weeks",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#nullmask",
@@ -1933,7 +2101,7 @@
       ]
     },
     {
-      "slide_number": 14,
+      "slide_number": 15,
       "id": "edges",
       "title": "Privacy tools leak in three places: the connection, entry and exit, and the operator",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#edges",
@@ -2092,7 +2260,7 @@
       ]
     },
     {
-      "slide_number": 15,
+      "slide_number": 16,
       "id": "urnet",
       "title": "URnetwork is a privacy network, and its VPN is the first app built on it",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#urnet",
@@ -2227,7 +2395,7 @@
       ]
     },
     {
-      "slide_number": 16,
+      "slide_number": 17,
       "id": "mau",
       "title": "UR (SN25) reports 350K monthly users",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
@@ -2356,7 +2524,7 @@
       ]
     },
     {
-      "slide_number": 17,
+      "slide_number": 18,
       "id": "operators",
       "title": "Priced deposits could create demand for UR (SN25)",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#operators",
@@ -2504,7 +2672,7 @@
       ]
     },
     {
-      "slide_number": 18,
+      "slide_number": 19,
       "id": "pipeline",
       "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
@@ -2591,7 +2759,7 @@
       ]
     },
     {
-      "slide_number": 19,
+      "slide_number": 20,
       "id": "bull",
       "title": "The most valuable connectivity networks are the ones with paying customers",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
@@ -2747,7 +2915,7 @@
       ]
     },
     {
-      "slide_number": 20,
+      "slide_number": 21,
       "id": "catalysts",
       "title": "Dated events and operating signals will test the privacy thesis",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#catalysts",
