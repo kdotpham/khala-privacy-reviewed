@@ -18,7 +18,7 @@
   "market_data_as_of": "2026-10-26",
   "research_status": "Targeted primary-source audit on 2026-10-20 covers Nullmask fees, reward accounting and delivery status; Nockchain privacy status, issuance and roadmap; Pearl mining and inference payments; wallet RPC experiments; refund release history; and UR (SN25) launch pricing. Market values retain their stated historical observation dates. This is not a transaction-level audit of every metric.",
   "sample_data_slide_numbers": [
-    15
+    16
   ],
   "market_data_overrides": {},
   "coverage_universe": [
@@ -2093,6 +2093,141 @@
     },
     {
       "slide_number": 15,
+      "id": "urnet",
+      "title": "URnetwork is a privacy network, and its VPN is the first app built on it",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#urnet",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [],
+      "paragraphs": [
+        "URnetwork is a privacy network, and its VPN is the first app built on it",
+        "Ordinary people lend their devices to carry encrypted traffic, apps such as the ur.io VPN sell access to that network, and the UR (SN25) subnet on Bittensor tests it and rewards the people who run it.",
+        "What it does A peer-to-peer network that relays encrypted traffic through community devices, so no single company or node sees the whole path. The ur.io VPN, free with paid plans, is the first app selling access to it.",
+        "Traction About 350K monthly users (team-reported) and 92,204 providers in 101 countries listed on its site today.",
+        "The UR (SN25) token The token of Bittensor subnet 25, worth about $9.7M. Its emissions pay providers and validators, and operators are designed to deposit UR against the traffic they sell.",
+        "What to watch Whether a second app goes live on the network, whether operator deposits are switched on so that usage creates demand for the token, and whether paid users grow."
+      ],
+      "text": "URnetwork is a privacy network, and its VPN is the first app built on it\nOrdinary people lend their devices to carry encrypted traffic, apps such as the ur.io VPN sell access to that network, and the UR (SN25) subnet on Bittensor tests it and rewards the people who run it.\nWhat it does A peer-to-peer network that relays encrypted traffic through community devices, so no single company or node sees the whole path. The ur.io VPN, free with paid plans, is the first app selling access to it.\nTraction About 350K monthly users (team-reported) and 92,204 providers in 101 countries listed on its site today.\nThe UR (SN25) token The token of Bittensor subnet 25, worth about $9.7M. Its emissions pay providers and validators, and operators are designed to deposit UR against the traffic they sell.\nWhat to watch Whether a second app goes live on the network, whether operator deposits are switched on so that usage creates demand for the token, and whether paid users grow.",
+      "charts": [
+        {
+          "description": "How URnetwork routes traffic through community devices, and who does what",
+          "labels": [
+            "How your traffic moves",
+            "You",
+            "App on phone,",
+            "desktop or browser",
+            "Website",
+            "Sees a provider’s IP,",
+            "not yours",
+            "Encrypted traffic hops through community devices; no single node sees the whole path",
+            "One network, many apps",
+            "Apps",
+            "the operators",
+            "ur.io VPN",
+            "live, free and paid plans",
+            "Three research apps",
+            "enterprise, agents, search",
+            "Outside operators",
+            "open to join, none yet",
+            "Network",
+            "the miners",
+            "Community devices relay encrypted traffic for every app",
+            "92,204 providers in 101 countries",
+            "UR (SN25)",
+            "the reward layer",
+            "Validators test each route’s speed and reliability; emissions pay providers",
+            "Bittensor subnet 25"
+          ],
+          "details": [
+            {
+              "label": "Community providers",
+              "description": "Providers are people and businesses who install URnetwork and share spare bandwidth; their devices relay encrypted traffic. URnetwork’s site lists 92,204 providers in 101 countries.",
+              "source": "ur.io, checked 26 October 2026"
+            },
+            {
+              "label": "Your device",
+              "description": "Users install URnetwork’s app on a phone, computer or browser. Traffic is encrypted on the device before it leaves.",
+              "source": "ur.io, checked 26 October 2026"
+            },
+            {
+              "label": "Exit",
+              "description": "Traffic leaves the last provider for the open internet, so the site sees that provider’s IP address rather than the user’s.",
+              "source": "ur.io, checked 26 October 2026"
+            },
+            {
+              "label": "Apps, the operators",
+              "description": "Operators sell access to the network. ur.io, the consumer VPN, is the only one live today. The team is researching enterprise access, agent identity and an open web index on the same network, and the subnet is designed so that outside businesses can plug in too.",
+              "source": "ur.io; ur.xyz; UR team materials, August 2026"
+            },
+            {
+              "label": "Network, the miners",
+              "description": "People and businesses install URnetwork and share spare bandwidth; their devices relay encrypted traffic for whichever app the user came through. URnetwork’s site lists 92,204 providers in 101 countries.",
+              "source": "ur.io, checked 26 October 2026"
+            },
+            {
+              "label": "UR (SN25), the reward layer",
+              "description": "Validators send test traffic through the network and score speed, reliability and coverage, and Bittensor emissions are split according to those scores. Operators are designed to deposit UR against the traffic they sell, but the rate is set at zero for now.",
+              "source": "ur.xyz; UR price.yml and README, 20 October 2026"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "hover_details": [
+        {
+          "label": "Community providers",
+          "description": "Providers are people and businesses who install URnetwork and share spare bandwidth; their devices relay encrypted traffic. URnetwork’s site lists 92,204 providers in 101 countries.",
+          "source": "ur.io, checked 26 October 2026"
+        },
+        {
+          "label": "Your device",
+          "description": "Users install URnetwork’s app on a phone, computer or browser. Traffic is encrypted on the device before it leaves.",
+          "source": "ur.io, checked 26 October 2026"
+        },
+        {
+          "label": "Exit",
+          "description": "Traffic leaves the last provider for the open internet, so the site sees that provider’s IP address rather than the user’s.",
+          "source": "ur.io, checked 26 October 2026"
+        },
+        {
+          "label": "Apps, the operators",
+          "description": "Operators sell access to the network. ur.io, the consumer VPN, is the only one live today. The team is researching enterprise access, agent identity and an open web index on the same network, and the subnet is designed so that outside businesses can plug in too.",
+          "source": "ur.io; ur.xyz; UR team materials, August 2026"
+        },
+        {
+          "label": "Network, the miners",
+          "description": "People and businesses install URnetwork and share spare bandwidth; their devices relay encrypted traffic for whichever app the user came through. URnetwork’s site lists 92,204 providers in 101 countries.",
+          "source": "ur.io, checked 26 October 2026"
+        },
+        {
+          "label": "UR (SN25), the reward layer",
+          "description": "Validators send test traffic through the network and score speed, reliability and coverage, and Bittensor emissions are split according to those scores. Operators are designed to deposit UR against the traffic they sell, but the rate is set at zero for now.",
+          "source": "ur.xyz; UR price.yml and README, 20 October 2026"
+        },
+        {
+          "label": "What it does",
+          "description": "The code is open source. BringYour, Inc. in San Francisco, founded by Brien Colwell and Stuart Kuentzel, runs it and raised a $2M seed round in 2024.",
+          "source": "ur.io, checked 26 October 2026; DePIN Hub profile"
+        },
+        {
+          "label": "Traction",
+          "description": "Monthly users are team-reported. The provider and country counts are shown live on ur.io and were read on 26 October 2026.",
+          "source": "URnetwork; ur.io, checked 26 October 2026"
+        },
+        {
+          "label": "The UR (SN25) token",
+          "description": "The deposit rate launched at zero, so VPN usage does not yet create demand for the token.",
+          "source": "ur.xyz; UR price.yml and README, 20 October 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "What to watch",
+          "description": "Pricing deposits would make operators lock UR against expected traffic; revenue-funded purchases are expected in the design but not enforced.",
+          "source": "UR (SN25) repository and README"
+        }
+      ]
+    },
+    {
+      "slide_number": 16,
       "id": "mau",
       "title": "UR (SN25) reports 350K monthly users",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
@@ -2217,116 +2352,6 @@
           "label": "Oct 15",
           "description": "350K monthly active users",
           "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        }
-      ]
-    },
-    {
-      "slide_number": 16,
-      "id": "sn25",
-      "title": "UR (SN25) uses validator scores to reward routing capacity",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sn25",
-      "kind": "content",
-      "data_status": "supplied_research",
-      "warnings": [
-        "Design is distinct from launch: the documented launch has a UR-run operator and sole validator. The 200-fleet figure is a design cap."
-      ],
-      "paragraphs": [
-        "UR (SN25) uses validator scores to reward routing capacity",
-        "Launch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.",
-        "126,717 Providers on URnetwork (team-reported)",
-        "103 Countries covered (team-reported)",
-        "Up to 200 Top-level fleet capacity in the design; not a live count",
-        "$7.4M UR (SN25) market cap, 23 October 2026"
-      ],
-      "text": "UR (SN25) uses validator scores to reward routing capacity\nLaunch documentation describes one UR-run operator and validator, with provider allocation starting at 10% of the native miner share.\n126,717 Providers on URnetwork (team-reported)\n103 Countries covered (team-reported)\nUp to 200 Top-level fleet capacity in the design; not a live count\n$7.4M UR (SN25) market cap, 23 October 2026",
-      "charts": [
-        {
-          "description": "How UR (SN25) works",
-          "labels": [
-            "Customers",
-            "Privacy apps and VPN users",
-            "Network operators",
-            "Sell privacy, co-sign paths",
-            "Miners",
-            "Route encrypted traffic",
-            "Subnet reserve",
-            "Operator deposits held here",
-            "UR (SN25) emissions",
-            "Miners 41% · validators 41% Owner 18%",
-            "Validators",
-            "Re-measure paths, score pools",
-            "pay",
-            "route",
-            "measure",
-            "weights",
-            "pay for measured capacity",
-            "operators deposit UR (SN25) against expected traffic"
-          ],
-          "details": [
-            {
-              "label": "Customers",
-              "description": "Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN.",
-              "source": "UR (SN25) litepaper"
-            },
-            {
-              "label": "Network operators",
-              "description": "Operators run privacy servers and a verification endpoint and decide how rewards split among their miners.",
-              "source": "UR (SN25) litepaper"
-            },
-            {
-              "label": "Miners",
-              "description": "Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets.",
-              "source": "https://github.com/urfoundation/sn#two-miner-tiers-in-parallel"
-            },
-            {
-              "label": "Subnet reserve",
-              "description": "Deposits are sized to measured traffic at a published rate. The launch price schedule sets the rate to zero.",
-              "source": "UR (SN25) litepaper"
-            },
-            {
-              "label": "UR (SN25) emissions",
-              "description": "18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout.",
-              "source": "https://github.com/urfoundation/sn#emission--yuma-consensus"
-            },
-            {
-              "label": "Validators",
-              "description": "Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool.",
-              "source": "https://github.com/urfoundation/sn/blob/main/VALIDATOR.md"
-            }
-          ]
-        }
-      ],
-      "tables": [],
-      "hover_details": [
-        {
-          "label": "Customers",
-          "description": "Customers buy privacy and connectivity from operators such as URnetwork's consumer VPN.",
-          "source": "UR (SN25) litepaper"
-        },
-        {
-          "label": "Network operators",
-          "description": "Operators run privacy servers and a verification endpoint and decide how rewards split among their miners.",
-          "source": "UR (SN25) litepaper"
-        },
-        {
-          "label": "Miners",
-          "description": "Pool providers and up to 200 top-level fleets are design tiers; 200 is a capacity limit, not a verified count of live fleets.",
-          "source": "https://github.com/urfoundation/sn#two-miner-tiers-in-parallel"
-        },
-        {
-          "label": "Subnet reserve",
-          "description": "Deposits are sized to measured traffic at a published rate. The launch price schedule sets the rate to zero.",
-          "source": "UR (SN25) litepaper"
-        },
-        {
-          "label": "UR (SN25) emissions",
-          "description": "18% owner / 41% native miner allocation / 41% validators describes the standard design. Launch provider weights start at 10% of the native miner allocation, with the remainder directed to the reserve; this is not a current 41% direct-provider payout.",
-          "source": "https://github.com/urfoundation/sn#emission--yuma-consensus"
-        },
-        {
-          "label": "Validators",
-          "description": "Independent validation is a design assumption. Launch documentation states that UR runs the sole operator and validator and scores its own pool.",
-          "source": "https://github.com/urfoundation/sn/blob/main/VALIDATOR.md"
         }
       ]
     },
@@ -2480,103 +2505,6 @@
     },
     {
       "slide_number": 18,
-      "id": "bull",
-      "title": "UR (SN25) is valued below larger connectivity networks that already earn revenue",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
-      "kind": "content",
-      "data_status": "supplied_research",
-      "warnings": [],
-      "paragraphs": [
-        "UR (SN25) is valued below larger connectivity networks that already earn revenue",
-        "On 26 October 2026, UR (SN25) was valued at $9.7M, against $23M for Nym, $77M for Helium and $490M for Grass, on a logarithmic scale that shows relative size rather than a valuation.",
-        "Where UR (SN25) sits At about $9.7M, UR (SN25) is valued below Nym ($23M) and well below Helium ($77M) and Grass ($490M), which report paying subscribers or revenue.",
-        "A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
-        "Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.",
-        "UR (SN25) and its peers by market cap"
-      ],
-      "text": "UR (SN25) is valued below larger connectivity networks that already earn revenue\nOn 26 October 2026, UR (SN25) was valued at $9.7M, against $23M for Nym, $77M for Helium and $490M for Grass, on a logarithmic scale that shows relative size rather than a valuation.\nWhere UR (SN25) sits At about $9.7M, UR (SN25) is valued below Nym ($23M) and well below Helium ($77M) and Grass ($490M), which report paying subscribers or revenue.\nA product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.\nDemand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.\nUR (SN25) and its peers by market cap",
-      "charts": [
-        {
-          "description": "UR (SN25) market cap against peers",
-          "labels": [
-            "$1M",
-            "$10M",
-            "$100M",
-            "$1B",
-            "UR (SN25)",
-            "$9.7M",
-            "Nym",
-            "$23M",
-            "Helium",
-            "$77M",
-            "Grass",
-            "$490M"
-          ],
-          "details": [
-            {
-              "label": "UR (SN25): ~$9.7M",
-              "description": "UR (SN25) market cap, 26 October 2026.",
-              "source": "CoinGecko, 26 October 2026"
-            },
-            {
-              "label": "Nym: ~$23M",
-              "description": "Mixnet with its own VPN; rewards moving to gateways that serve users.",
-              "source": "CoinGecko, 26 October 2026"
-            },
-            {
-              "label": "Helium: ~$77M",
-              "description": "Carriers and subscribers pay for coverage, and all mobile subscriber revenue is used to burn HNT.",
-              "source": "CoinGecko, 26 October 2026"
-            },
-            {
-              "label": "Grass: ~$490M",
-              "description": "Sells public web data gathered through home internet connections to AI firms; about $33M a year of revenue (team-reported, July 2026). CoinGecko’s figure uses about 699M circulating tokens.",
-              "source": "CoinGecko, 26 October 2026; Crypto Briefing, 3 July 2026"
-            }
-          ]
-        }
-      ],
-      "tables": [],
-      "hover_details": [
-        {
-          "label": "Where UR (SN25) sits",
-          "description": "At about $9.7M, UR (SN25) is valued below Nym ($23M) and well below Helium ($77M) and Grass ($490M), which report paying subscribers or revenue. Helium burns all its mobile subscriber revenue as HNT, and Grass reports about $33M a year of revenue from AI firms.",
-          "source": "CoinGecko, 26 October 2026; Crypto Briefing, 3 July 2026; BlockEden, 21 February 2026"
-        },
-        {
-          "label": "A product already in market",
-          "description": "URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.",
-          "source": ""
-        },
-        {
-          "label": "Demand linked to usage",
-          "description": "If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.",
-          "source": "https://github.com/urfoundation/sn"
-        },
-        {
-          "label": "UR (SN25): ~$9.7M",
-          "description": "UR (SN25) market cap, 26 October 2026.",
-          "source": "CoinGecko, 26 October 2026"
-        },
-        {
-          "label": "Nym: ~$23M",
-          "description": "Mixnet with its own VPN; rewards moving to gateways that serve users.",
-          "source": "CoinGecko, 26 October 2026"
-        },
-        {
-          "label": "Helium: ~$77M",
-          "description": "Carriers and subscribers pay for coverage, and all mobile subscriber revenue is used to burn HNT.",
-          "source": "CoinGecko, 26 October 2026"
-        },
-        {
-          "label": "Grass: ~$490M",
-          "description": "Sells public web data gathered through home internet connections to AI firms; about $33M a year of revenue (team-reported, July 2026). CoinGecko’s figure uses about 699M circulating tokens.",
-          "source": "CoinGecko, 26 October 2026; Crypto Briefing, 3 July 2026"
-        }
-      ]
-    },
-    {
-      "slide_number": 19,
       "id": "pipeline",
       "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
@@ -2659,6 +2587,162 @@
           "label": "Third-party operators",
           "description": "Any business can bill users and data on the same network",
           "source": ""
+        }
+      ]
+    },
+    {
+      "slide_number": 19,
+      "id": "bull",
+      "title": "The most valuable connectivity networks are the ones with paying customers",
+      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
+      "kind": "content",
+      "data_status": "supplied_research",
+      "warnings": [],
+      "paragraphs": [
+        "The most valuable connectivity networks are the ones with paying customers",
+        "Grass and Helium, which report revenue or paying subscribers, are worth $77M to $490M, while five privacy VPN networks, most of which publish no revenue, are worth $2M to $23M."
+      ],
+      "text": "The most valuable connectivity networks are the ones with paying customers\nGrass and Helium, which report revenue or paying subscribers, are worth $77M to $490M, while five privacy VPN networks, most of which publish no revenue, are worth $2M to $23M.",
+      "charts": [
+        {
+          "description": "Seven decentralised connectivity networks compared by product, usage, token link and market cap",
+          "labels": [
+            "Network",
+            "What it sells",
+            "Reported usage",
+            "How usage reaches the token",
+            "Market cap, log scale",
+            "Wider connectivity networks",
+            "Grass",
+            "Public web data gathered through home",
+            "internet connections, sold to AI firms",
+            "About $33M of revenue a year, paid by",
+            "AI companies (team-reported)",
+            "Sharing revenue with holders was put",
+            "to a vote in July 2026",
+            "$490M",
+            "Helium",
+            "Mobile and Wi-Fi coverage from community-run",
+            "hotspots",
+            "541K mobile subscribers by Nov 2025;",
+            "AT&T uses its Wi-Fi",
+            "All mobile subscriber revenue is",
+            "used to burn HNT",
+            "$77M",
+            "Privacy VPN networks",
+            "Nym",
+            "A mixnet that hides who is talking to whom,",
+            "plus NymVPN",
+            "About 750 mixnet nodes; NymVPN revenue",
+            "is not published",
+            "Node operators earn NYM from reward",
+            "pools",
+            "$23M",
+            "UR (SN25)",
+            "A privacy network on community devices; its",
+            "ur.io VPN is the first app",
+            "About 350K monthly users",
+            "(team-reported) and 92,204 providers",
+            "Operator deposits are planned, with",
+            "the rate set at zero",
+            "$9.7M",
+            "Orchid",
+            "A pay-as-you-go VPN marketplace with",
+            "multi-hop routing",
+            "User and provider numbers are not",
+            "published",
+            "Providers stake OXT as a deposit,",
+            "and users pay in OXT",
+            "$9.5M",
+            "Mysterium",
+            "A peer-to-peer VPN and residential proxy",
+            "network",
+            "User and node numbers are not",
+            "published",
+            "Users pay node operators in MYST",
+            "$2.5M",
+            "Sentinel",
+            "A bandwidth network behind several dVPN apps",
+            "1.4M+ app users and 1,500+ node",
+            "operators (team-reported)",
+            "Users pay node operators in P2P",
+            "$2.4M"
+          ],
+          "details": [
+            {
+              "label": "Grass",
+              "description": "Users share spare home bandwidth, which Grass uses to collect public web data for AI companies, paid in USDC. A July 2026 governance vote considered routing part of that revenue to GRASS holders.",
+              "source": "Crypto Briefing, 3 July 2026; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "Helium",
+              "description": "Since August 2025, HNT equal to all Helium Mobile subscriber revenue has been burned, and AT&T customers connect to over 62,000 Helium Wi-Fi hotspots. Subscriber figures come from a community analysis.",
+              "source": "BlockEden forum, 21 February 2026; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "Nym",
+              "description": "Nym’s mixnet mixes traffic so observers cannot link senders and receivers; NymVPN runs on it. Operators are paid mainly from NYM reward pools.",
+              "source": "Nym town hall, 13 March 2026; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "UR (SN25)",
+              "description": "URnetwork’s VPN routes traffic through independent providers scored by validators. Operators are designed to lock UR against expected traffic, but the deposit rate launched at zero.",
+              "source": "URnetwork; ur.io, checked 26 October 2026; UR price.yml and README, 20 October 2026; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "Orchid",
+              "description": "Orchid lets users chain several VPN providers so none sees the full picture, paying per use. Providers stake OXT as a security deposit, a design similar to UR’s planned operator deposits.",
+              "source": "Gemini Cryptopedia; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "Mysterium",
+              "description": "Users route traffic through nodes run by individuals and pay them in MYST in proportion to the bandwidth used.",
+              "source": "Kryptex, 16 April 2026; CoinGecko, 26 October 2026"
+            },
+            {
+              "label": "Sentinel",
+              "description": "Sentinel provides the network and SDK behind several VPN apps; wallets pay node operators directly onchain in P2P, formerly DVPN.",
+              "source": "sentinel.co, checked 26 October 2026; CoinGecko, 26 October 2026"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "hover_details": [
+        {
+          "label": "Grass",
+          "description": "Users share spare home bandwidth, which Grass uses to collect public web data for AI companies, paid in USDC. A July 2026 governance vote considered routing part of that revenue to GRASS holders.",
+          "source": "Crypto Briefing, 3 July 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "Helium",
+          "description": "Since August 2025, HNT equal to all Helium Mobile subscriber revenue has been burned, and AT&T customers connect to over 62,000 Helium Wi-Fi hotspots. Subscriber figures come from a community analysis.",
+          "source": "BlockEden forum, 21 February 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "Nym",
+          "description": "Nym’s mixnet mixes traffic so observers cannot link senders and receivers; NymVPN runs on it. Operators are paid mainly from NYM reward pools.",
+          "source": "Nym town hall, 13 March 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "UR (SN25)",
+          "description": "URnetwork’s VPN routes traffic through independent providers scored by validators. Operators are designed to lock UR against expected traffic, but the deposit rate launched at zero.",
+          "source": "URnetwork; ur.io, checked 26 October 2026; UR price.yml and README, 20 October 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "Orchid",
+          "description": "Orchid lets users chain several VPN providers so none sees the full picture, paying per use. Providers stake OXT as a security deposit, a design similar to UR’s planned operator deposits.",
+          "source": "Gemini Cryptopedia; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "Mysterium",
+          "description": "Users route traffic through nodes run by individuals and pay them in MYST in proportion to the bandwidth used.",
+          "source": "Kryptex, 16 April 2026; CoinGecko, 26 October 2026"
+        },
+        {
+          "label": "Sentinel",
+          "description": "Sentinel provides the network and SDK behind several VPN apps; wallets pay node operators directly onchain in P2P, formerly DVPN.",
+          "source": "sentinel.co, checked 26 October 2026; CoinGecko, 26 October 2026"
         }
       ]
     },

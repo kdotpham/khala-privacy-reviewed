@@ -11,6 +11,6 @@
 
 ## Data qualifications
 
-- Slide 15 monthly chart values are SAMPLE DATA, NOT FOR POSTING, and must not be treated as observed history.
+- Slide 16 monthly chart values are SAMPLE DATA, NOT FOR POSTING, and must not be treated as observed history.
 - Slide 14 was checked against the primary paper and UR (SN25) mechanism copy against official documentation on 2026-10-18. Nullmask product docs were checked 2026-10-19; its dashboard reports product fees, developer-wallet ZEC rewards, holder payouts and MASK burns separately, without documenting automatic product-fee sharing. Roadmap targets are distinguished from live products. The 2026-10-20 evidence audit also checks Nockchain privacy status and roadmap, Pearl mining and inference payments, the RPC study, refund release history and UR launch pricing. Market figures retain their stated historical observation dates.
 - The network-privacy comparison on slide 7 covers Nym and UR (SN25) only.
