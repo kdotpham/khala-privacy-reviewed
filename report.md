@@ -50,9 +50,9 @@ Implication Privacy that plugs into existing wallets and apps has the clearest p
 
 Since Tornado Cash sanctions were lifted, Venice has raised at a $1B valuation and a Zcash ETF has gathered $463M, though whether developers can be prosecuted for how others use their code is unsettled until Roman Storm’s retrial in April 2027.
 
-### From enforcement to infrastructure
+### From enforcement to infrastructure: privacy policy and builder milestones, 2022 to 2026
 
-Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash under sanctions for 31 months · Aug 2022 · US Treasury sanctions Tornado Cash · Nov 2024 · Fifth Circuit rules its immutable contracts are not property · Mar 2025 · US Treasury lifts the sanctions · Apr 2025 · Buterin publishes an L1 privacy · roadmap; Durov pledges no backdoors · Jul 2025 · GENIUS Act sets a federal stablecoin · framework · Oct 2025 · Paxos Labs and Aleo announce USAD; · Ethereum Foundation forms a Privacy · Cluster · Jan 2026 · a16z names privacy crypto's most · important moat · Sep 2026 · ZEC tops $20B and · its ETF holds $463M · Jul 2026 · Venice raises $65M at a $1B · valuation, led by Dragonfly · Policy · Builders and capital · Jun 2026 · Sui opens confidential · stablecoin transfers in · public beta
+Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash under sanctions for 31 months · Aug 2022 · US Treasury sanctions Tornado Cash · Nov 2024 · Court rules its code is not property · Apr 2025 · Buterin sets an Ethereum privacy · roadmap; Durov rejects backdoors · Oct 2025 · Paxos Labs and Aleo launch USAD; · Ethereum Foundation privacy team · Jan 2026 · a16z calls privacy · crypto’s strongest moat · Jun 2026 · Sui launches confidential · stablecoin transfers · Jul 2026 · Venice raises $65M at · a $1B valuation · Sep 2026 · ZEC passes $20B and · its ETF holds $463M · Mar 2025 · US Treasury lifts the sanctions · Jul 2025 · GENIUS Act sets federal stablecoin rules · Policy · Builders and capital
 
 ### Chart details and interactive notes
 
@@ -61,14 +61,14 @@ Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash unde
 | 31 months under sanctions | Tornado Cash stayed on the US sanctions list from 8 August 2022 until 21 March 2025. For that period any US person who used it risked breaking sanctions law, which pushed developers and companies away from onchain privacy tools. | US Treasury; Van Loon v. Treasury |
 | US Treasury sanctions Tornado Cash | Tornado Cash is an Ethereum mixer: users deposit into a shared pool and withdraw to a fresh address, breaking the public link between sender and recipient. On 8 August 2022 the US Treasury’s sanctions office (OFAC) blacklisted its smart contracts, saying it had laundered more than $7B since 2019, including $455M stolen by North Korea’s Lazarus Group. | US Treasury OFAC, 8 August 2022 |
 | Court rules code is not property | In Van Loon v. Department of the Treasury, decided 26 November 2024, the Fifth Circuit appeals court held that Tornado Cash’s immutable smart contracts are not property that can be sanctioned, because nobody owns or controls them. It put ownerless privacy code outside sanctions law at the appellate level. | US Court of Appeals for the Fifth Circuit, 26 November 2024 |
-| US Treasury lifts the sanctions | The US Treasury removed Tornado Cash from the sanctions list on 21 March 2025, so US users could interact with it again. Developer liability is still open: in August 2025 a jury convicted developer Roman Storm of conspiring to run an unlicensed money-transmitting business and deadlocked on laundering and sanctions charges, which face retrial on 26 April 2027. | US Treasury, 21 March 2025; Cointelegraph |
 | Buterin and Durov | On 11 April 2025 Buterin proposed making privacy part of Ethereum’s core design, covering payments, app activity, chain reads and network-level anonymity. On 21 April Durov said Telegram would leave a market rather than build encryption backdoors for authorities. Two founders with very large user bases put privacy at the centre of their products. | Buterin, 11 April 2025; Durov’s Telegram channel, 21 April 2025 |
-| GENIUS Act | The Guiding and Establishing National Innovation for US Stablecoins Act, signed on 18 July 2025, is the first US federal law for payment stablecoins, setting rules for reserves, licensing and redemption. It gives banks and payment companies a legal route onto public chains, bringing payroll and supplier flows that companies normally keep confidential. | GENIUS Act, signed 18 July 2025 |
 | USAD and the Privacy Cluster | On 1 October 2025 Paxos Labs and Aleo announced USAD, a US dollar stablecoin whose balances and transfers are private by default. On 9 October the Ethereum Foundation formed a Privacy Cluster of 47 researchers, engineers and cryptographers to make privacy a first-class property of Ethereum. | Paxos Labs and Aleo, 1 October 2025; The Block, 9 October 2025 |
 | a16z: privacy is crypto’s moat | a16z crypto’s Ali Yahya argued that privacy will be the strongest moat for blockchains: “bridging tokens is easy, bridging secrets is hard”. A chain that holds users’ private state is harder to leave than one that holds only public balances, which favours privacy networks that gain users early. | a16z crypto, January 2026 |
-| ZEC passes $20B as its ETF fills | Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin. On that same day ZEC reached $1,249, taking its market value to about $20.4B and making it the ninth-largest crypto asset, ahead of Hyperliquid. | Grayscale; NYSE Arca, 25 August to 7 September 2026; Bitcoin.com News and Cointelegraph, 7 September 2026, citing CoinGecko |
-| Venice Series A | Venice, the private AI platform behind VVV, raised a $65M Series A at a $1B valuation led by Dragonfly. It reported 3.5M registered users and a $100M annualised revenue run rate in August 2026 (company-reported). | TechCrunch via AI Weekly, 1 July 2026; Erik Voorhees via Phemex, August 2026 |
 | Sui confidential transfers enter public beta | On 8 June 2026 the Sui Foundation opened confidential transfers in public beta on Devnet. Balances and amounts are hidden onchain while sender and receiver stay visible; issuers opt their tokens in and set who can access data for compliance. Bridge is exploring it for stablecoin payments, and TRM Labs and Merkle Science for monitoring. Testnet is targeted for later in 2026, with no mainnet date. | Sui Foundation blog, 8 June 2026 |
+| Venice Series A | Venice, the private AI platform behind VVV, raised a $65M Series A at a $1B valuation led by Dragonfly. It reported 3.5M registered users and a $100M annualised revenue run rate in August 2026 (company-reported). | TechCrunch via AI Weekly, 1 July 2026; Erik Voorhees via Phemex, August 2026 |
+| ZEC passes $20B as its ETF fills | Grayscale’s Zcash ETF (ZCSH) began trading on NYSE Arca on 25 August 2026 and held $463.2M by 7 September, giving investors with ordinary brokerage accounts regulated exposure to a privacy coin. On that same day ZEC reached $1,249, taking its market value to about $20.4B and making it the ninth-largest crypto asset, ahead of Hyperliquid. | Grayscale; NYSE Arca, 25 August to 7 September 2026; Bitcoin.com News and Cointelegraph, 7 September 2026, citing CoinGecko |
+| US Treasury lifts the sanctions | The US Treasury removed Tornado Cash from the sanctions list on 21 March 2025, so US users could interact with it again. Developer liability is still open: in August 2025 a jury convicted developer Roman Storm of conspiring to run an unlicensed money-transmitting business and deadlocked on laundering and sanctions charges, which face retrial on 26 April 2027. | US Treasury, 21 March 2025; Cointelegraph |
+| GENIUS Act | The Guiding and Establishing National Innovation for US Stablecoins Act, signed on 18 July 2025, is the first US federal law for payment stablecoins, setting rules for reserves, licensing and redemption. It gives banks and payment companies a legal route onto public chains, bringing payroll and supplier flows that companies normally keep confidential. | GENIUS Act, signed 18 July 2025 |
 
 [View slide 3](https://kdotpham.github.io/khala-privacy-reviewed/#policy)
 
@@ -76,23 +76,34 @@ Chart labels in display order: 2023 · 2024 · 2025 · 2026 · Tornado Cash unde
 
 
 VPNs ($54B) and confidential computing ($24B) take most privacy spend, but trading and payments lead company deployments.
-* Company or team-reported. Privacy infrastructure sells into all four rows: Zama, which builds fully homomorphic encryption, reached a $1B valuation in June 2025 in a round led by Pantera, and Multicoin backs Fhenix.
 
 | Use case | Market size | What must stay private | Evidence so far | Who is building or backing it |
 | --- | --- | --- | --- | --- |
-| Trading and tokenised assets | $2.7T traded onchain each year | Orders, positions and holdings | ~$4B shielded through Railgun, 2× Oct 2024* $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date | Railgun Zama Renegade Pantera investor |
-| Payments and payroll | $390B paid in stablecoins each year, ~$2B in privacy fees | Salaries, supplier invoices and treasury movements | 29% of ZEC supply shielded, up from ~24% a year earlier Sui private stablecoin transfers in public beta $1B+ of payroll through Toku, now on private USAD* | Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra |
-| Private connectivity | $54B spent on VPNs, 2025 | IP addresses and browsing traffic | 3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users* 126,717 IP providers on URnetwork* | Tor UR (SN25) Nym Mysterium |
-| Private computation and AI | $24B spent on confidential computing, 2025 | Customer data and model inputs | 3.5M Venice users, up from 2M in February* $100M Venice run rate, up from $70M in July* 1.34B tokens of confidential AI on Phala in one day* | Venice Phala NEAR AI Pearl |
+| Trading and tokenised assets | $2.7T traded onchain each year | Orders, positions and holdings | ~$4B shielded through Railgun, 2× Oct 2024 $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date | Railgun Zama Renegade Pantera investor |
+| Payments and payroll | $390B paid in stablecoins each year, ~$2B in privacy fees | Salaries, supplier invoices and treasury movements | 29% of ZEC shielded, up from ~24% a year ago Sui launched confidential stablecoin transfers $1B+ of payroll through Toku, now on private USAD | Zcash Monero Nullmask Paxos (USAD) Toku Sui Umbra |
+| Private connectivity | $54B spent on VPNs, 2025 | IP addresses and browsing traffic | 3.3M daily Tor users, up 70% in two years About 350K monthly URnetwork users 126,717 IP providers on URnetwork | Tor UR (SN25) Nym Mysterium |
+| Private computation and AI | $24B spent on confidential computing, 2025 | Customer data and model inputs | 3.5M Venice users, up from 2M in February $100M Venice run rate, up from $70M in July 1.34B tokens of confidential AI on Phala in one day | Venice Phala NEAR AI Pearl |
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
 | Trading and tokenised assets | Railgun has shielded about $4B on Ethereum since 2021, double its October 2024 total (team-reported). GSR ran a confidential OTC trade on Zama in March 2026, and Renegade’s dark pool has handled about $340M. Market: about $2.7T of onchain trading a year, and McKinsey sees tokenised assets reaching about $2T by 2030. | DL News; RAILGUN; GSR, 12 March 2026; DefiLlama; BCG and Allium; McKinsey, 2024 |
+| Railgun | Railgun, the main private trading protocol on Ethereum, has shielded about $4B since 2021, double the $2B it had reached by October 2024 (team-reported), with $1.6B in 2025 alone. The Ethereum Foundation’s Kohaku wallet toolkit integrates it. | DL News, 21 October 2025; RAILGUN, 2024 year in review |
+| Zama token sale | Zama’s own token sale shielded more than $121M on Ethereum using its confidentiality layer. GSR also ran a confidential OTC trade on Zama in March 2026. | The Block, February 2026; GSR, 12 March 2026 |
+| Renegade | Renegade is an onchain dark pool that hides orders until they match. It has handled about $340M of volume across Arbitrum and Base since launch. | DefiLlama, Renegade, October 2026 |
 | Payments and payroll | About 29% of ZEC sits in Zcash’s shielded pools, up from about 24% a year earlier. Tether offers USDT on Zama’s confidentiality layer, Sui opened confidential stablecoin transfers in June 2026, and Toku launched private stablecoin payroll. Market: about $390B of stablecoin payments a year. | ZecStats, 22 October 2026; Blockworks; Tether; Sui Foundation; Aleo, USAD case study; McKinsey and Artemis |
+| Zcash shielded supply | About 29% of all ZEC sat in Zcash’s shielded pools on 22 October 2026, by onchain pool balances, against about 24% at the end of September 2025. | ZecStats, 22 October 2026; Blockworks Zcash Q3 2026 and Q4 2025 reports |
+| Sui confidential transfers | On 8 June 2026 Sui opened confidential transfers in public beta, hiding balances and amounts while letting stablecoin issuers set who can access data for compliance. Bridge is exploring it for payments, and TRM Labs and Merkle Science for monitoring. | Sui Foundation, 8 June 2026 |
+| Toku | Toku, a token payroll provider that has processed more than $1B of payroll (company-reported), launched private stablecoin payroll on Paxos Labs’ USAD in January 2026. | Aleo, USAD case study, 21 July 2026 |
 | Private connectivity | Tor averaged about 3.3M daily users from mid-September to mid-October 2026, up from 1.95M two years earlier. URnetwork reports about 350K monthly users and 126,717 bandwidth providers, and NymVPN runs on about 750 nodes. Market: about $54B spent on VPNs in 2025. | Tor Metrics; URnetwork; Nym, 13 March 2026; IMARC Group |
+| Tor | Tor averaged about 3.3M directly connecting users a day from mid-September to mid-October 2026, against about 1.95M in the same weeks of 2024. Late-2025 readings above 15M are excluded as an outlier. | Tor Metrics, 15 September to 20 October 2026 |
+| URnetwork users | URnetwork reports about 350K monthly users of its VPN app (team-reported). | URnetwork |
+| URnetwork providers | URnetwork reports 126,717 IP providers sharing bandwidth (team-reported), so no single company sees both who a user is and what they visit. | URnetwork |
 | Private computation and AI | Venice grew from 2M to 3.5M users in 2026, with revenue above $100M a year (company-reported). Apple extended Private Cloud Compute to Google Cloud in June 2026, and Phala processed 1.34B tokens of confidential AI in a single day. Market: about $24B spent on confidential computing in 2025. | Cointelegraph; Venice; DatacenterDynamics, 10 June 2026; Phala 2025 report; Fortune Business Insights |
+| Venice users | Venice reported 3.5M users at its July 2026 Series A, up from 2M in February (company-reported). | Cointelegraph, 2 July 2026; Seczine, February 2026 |
+| Venice revenue | Venice reported a $100M annualised revenue run rate in August 2026, up from about $70M at its July raise (company-reported); its CEO put it above $150M in October. | Crypto Briefing, 17 August 2026; Erik Voorhees, 14 October 2026 |
+| Phala | Phala runs AI models inside secure hardware enclaves. It processed more than 1.34B language-model tokens of confidential inference in a single day in 2025, with more than 1,000 teams running production workloads (company-reported). | Phala 2025 report |
 
 [View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#usecases)
 
@@ -155,7 +166,32 @@ Chart labels in display order: 1M · 10M · 100M · 1B · 10B · 100B · Log sca
 
 [View slide 6](https://kdotpham.github.io/khala-privacy-reviewed/#priced)
 
-## Slide 7: Privacy tokens capture value in four ways
+## Slide 7: Zcash’s $20.9B price is a bet that Q3’s jump in private use will last
+
+
+Shielded pools have held about 30% of ZEC for a year, and in Q3 2026 more than half of transactions used them, the highest share in five quarters.
+Holding privately is still a minority habit, with about 70% of ZEC in transparent addresses, yet at $20.9B ZEC is worth about 1.8 times Monero, so its price assumes private use keeps growing.
+Q3 2026 network fees: ~$204K
+Transparent 60% Shielded 28%
+
+### Shielded share of ZEC supply and of transactions, quarter-end, Q3 2025 to Q3 2026
+
+Chart labels in display order: 0% · 20% · 40% · 60% · Q3 2025 · Q4 2025 · Q1 2026 · Q2 2026 · Q3 2026 · ~24% · 39.2% · 30.8% · 18.9% · 31.0% · 21.2% · 26.3% · 27.4% · 29.1% · 52.7% · Transactions using shielded pools · ZEC supply held shielded
+
+### Chart details and interactive notes
+
+| Metric or element | Detail | Source supplied with the slide |
+| --- | --- | --- |
+| Q3 2026 network fees | Network fees were about $204K in Q3 2026, up about 85% from $110K in Q2. Transparent transfers paid 60.1% of fee value, down from 83.6%, and shielded transfers 27.6%; the report leaves 12.3% unattributed. All fees go to miners. | Blockworks Zcash Q3 2026 report, 16 October 2026, funded by GenZcash |
+| Q3 2025 | Shielded share of supply: About 3.81M ZEC at the end of Q3 2025, roughly 24% of supply. Khala estimate from Blockworks’ ZEC count and about 16.1M ZEC in circulation. Shielded share of transactions: 39.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q4 2025 | Shielded share of supply: 30.8%, about 5.07M ZEC. Shielded share of transactions: 18.9% of non-coinbase transactions, by the Q4 report’s privacy section; its summary gives 16.7%. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q1 2026 | Shielded share of supply: 31.0%, about 5.16M ZEC. Shielded share of transactions: 21.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q2 2026 | Shielded share of supply: 26.3%, about 4.42M ZEC, after 745K ZEC left shielded pools in June. Shielded share of transactions: 27.4% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
+| Q3 2026 | Shielded share of supply: 29.1%, about 4.94M ZEC. ZecStats’ independent onchain count was 29.2% on 22 October 2026. Shielded share of transactions: 52.7% of non-coinbase transactions, from 710K transactions in the quarter. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash; ZecStats, 22 October 2026 |
+
+[View slide 7](https://kdotpham.github.io/khala-privacy-reviewed/#zcash)
+
+## Slide 8: Privacy tokens capture value in four ways
 
 
 Buy and burn · Venice Part of revenue buys back and burns VVV, about $12M a year.
@@ -200,100 +236,42 @@ These designs can change by upgrade or vote, so the link is worth tracking as ea
 | Nullmask | MASK launched on StonkFun, where fees on trades of MASK are converted to ZEC and paid to holders pro rata. Nullmask’s 0.5% deposit and withdrawal fees go to its protocol contract, and no source links them to holder payouts. | DefiLlama adapter PR 9855; Datawallet and Blocmates, StonkFun explainers; app.nullmask.io/analytics |
 | UR (SN25) | Operators are designed to deposit UR (SN25) against expected traffic, but the deposit rate is zero, so customer fees do not yet create demand for the token. | UR price.yml and README, checked 20 October 2026 |
 
-[View slide 7](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
+[View slide 8](https://kdotpham.github.io/khala-privacy-reviewed/#tokens)
 
-## Slide 8: Zcash’s $20.9B price is a bet that Q3’s jump in private use will last
+## Slide 9: Venice is a ChatGPT-style app that keeps no chat history, and funds VVV buybacks
 
 
-Shielded pools have held about 30% of ZEC for a year, and in Q3 2026 more than half of transactions used them, the highest share in five quarters.
-Holding privately is still a minority habit, with about 70% of ZEC in transparent addresses, yet at $20.9B ZEC is worth about 1.8 times Monero, so its price assumes private use keeps growing.
-Q3 2026 network fees: ~$204K
-Transparent 60% Shielded 28%
+People pay a subscription or buy credits to use many AI models from one account without Venice storing their conversations, and part of every sale buys VVV on the market and burns it.
+What it does A ChatGPT-style chat app and API for text, images, video and code. It runs open-source models itself and passes requests to big-name models with the user’s identity removed.
+Traction 3.5M users and revenue of over $100M a year, which its CEO now puts above $150M and an onchain count at about $123M. Tokens it serves on OpenRouter nearly doubled from August to October.
+The tokens VVV is the main token and carries no claim on revenue or equity; about a tenth of revenue buys and burns it. DIEM is a second token, made by locking VVV, worth $1 of Venice AI a day.
+What to watch VVV supply still grows, because new issuance and team tokens vesting until January 2027 outpace burns, and up to 6.5M investor tokens unlock from July 2027.
 
-### Shielded share of ZEC supply and of transactions, quarter-end, Q3 2025 to Q3 2026
+### How Venice compares with ChatGPT and how its VVV and DIEM tokens work
 
-Chart labels in display order: 0% · 20% · 40% · 60% · Q3 2025 · Q4 2025 · Q1 2026 · Q2 2026 · Q3 2026 · ~24% · 39.2% · 30.8% · 18.9% · 31.0% · 21.2% · 26.3% · 27.4% · 29.1% · 52.7% · Transactions using shielded pools · ZEC supply held shielded
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Q3 2026 network fees | Network fees were about $204K in Q3 2026, up about 85% from $110K in Q2. Transparent transfers paid 60.1% of fee value, down from 83.6%, and shielded transfers 27.6%; the report leaves 12.3% unattributed. All fees go to miners. | Blockworks Zcash Q3 2026 report, 16 October 2026, funded by GenZcash |
-| Q3 2025 | Shielded share of supply: About 3.81M ZEC at the end of Q3 2025, roughly 24% of supply. Khala estimate from Blockworks’ ZEC count and about 16.1M ZEC in circulation. Shielded share of transactions: 39.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
-| Q4 2025 | Shielded share of supply: 30.8%, about 5.07M ZEC. Shielded share of transactions: 18.9% of non-coinbase transactions, by the Q4 report’s privacy section; its summary gives 16.7%. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
-| Q1 2026 | Shielded share of supply: 31.0%, about 5.16M ZEC. Shielded share of transactions: 21.2% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
-| Q2 2026 | Shielded share of supply: 26.3%, about 4.42M ZEC, after 745K ZEC left shielded pools in June. Shielded share of transactions: 27.4% of non-coinbase transactions. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash |
-| Q3 2026 | Shielded share of supply: 29.1%, about 4.94M ZEC. ZecStats’ independent onchain count was 29.2% on 22 October 2026. Shielded share of transactions: 52.7% of non-coinbase transactions, from 710K transactions in the quarter. | Blockworks Zcash token holder reports, Q4 2025 to Q3 2026, funded by GenZcash; ZecStats, 22 October 2026 |
-
-[View slide 8](https://kdotpham.github.io/khala-privacy-reviewed/#zcash)
-
-## Slide 9: Nullmask adds privacy to existing wallets, with 32K transactions in three weeks
-
-**Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV observed 2026-10-26. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
-
-Users keep MetaMask or Rabby and move funds into shielded pools on Ethereum and Base, hiding transfers from outside observers, although Nullmask’s servers hold the keys that read their balances.
-What it does Private transfers and swaps from a shielded balance, with no Nullmask fee on either. Deposits and withdrawals cost 0.5% each and stay public. Ethereum Base
-Traction in three weeks About 32K transactions to the pool contract since launch around 2 October, and more than $50M of private volume, company-reported. Only about $220K sits in the pools, so most money passes through rather than stays.
-The MASK token MASK has no documented role in the product yet. Holders earn ZEC from a fee on trading MASK itself on StonkFun, about $1.5M so far, and 2.15% of supply has been burned. The 0.5% product fees are kept by Nullmask.
-What to watch Whether use holds once launch incentives and points fade, whether the SDK, Solana and private perpetuals ship as planned in Q4 2026, and whether users accept an operator that holds their keys.
-
-### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
-
-Chart labels in display order: Deposits and withdrawals remain public · Existing wallet · MetaMask · Rabby · Wallet creates your keys · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · use · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · Nullmask’s servers hold the keys that read balances and history. · $19.0M · Market cap · 26 Oct 2026 · $31.3M · FDV · 26 Oct 2026
+Chart labels in display order: How Venice differs from ChatGPT · ChatGPT · Venice · Chat history · Saved to your OpenAI account · Kept on your device only · Your prompts · Kept by OpenAI, and can train · its models unless you opt out · Not kept by Venice; outside · model providers may keep theirs · AI models · OpenAI’s own models · Open models Venice runs, plus big · names with your identity removed · How the two tokens work · Customers pay · $18 to $200 a month, · or buy API credits · VVV is bought and burned · $2 of each $18 plan, · 5% of credits bought · About a tenth of revenue · roughly $12M a year, · October pace · VVV · Venice’s main token; no claim · on revenue or equity · Stake it: earn new VVV · stakers share 2M · new VVV a year · Lock it: get DIEM · a second token worth $1 · of Venice AI every day · from sales · stake · lock
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Supported wallets | Connecting a wallet and signing a free message creates the account keys, and the same wallet always gives the same keys. MetaMask and Rabby are named as examples, not partners. | Nullmask documentation, getting started, checked 24 October 2026 |
-| Shielded pool | Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount. | https://nullmask.io/docs/privacy |
-| Relayed transfers and swaps | Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it. | https://nullmask.io/docs/swap |
-| Withdrawal | The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit. | https://nullmask.io/docs/privacy |
-| Who can see the history? | Nullmask’s servers hold users’ account keys and can read private balances and history. The documentation says the product protects against outside observers, not the operator. | Nullmask documentation, privacy, checked 24 October 2026 |
-| MASK market cap: $19.0M | About 590M MASK in circulation at about $0.032. | CoinGecko, 26 October 2026 |
-| MASK fully diluted value: $31.3M | About 40% of supply is not yet circulating. | CoinGecko, 26 October 2026 |
-| What it does | Private transfers and swaps from a shielded balance. Deposits and withdrawals cost 0.5% each and are public; swaps and private transfers carry no Nullmask fee, only network and exchange fees. MetaMask and Rabby are named as supported wallets, which does not imply a partnership. | Nullmask documentation: fees, privacy, getting started and networks, checked 24 October 2026 |
-| Traction in three weeks | 20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October. | Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026 |
-| The MASK token | StonkFun is a Solana launchpad whose reward tokens convert trading fees into a chosen asset and pay holders pro rata; Nullmask chose ZEC, and its team wallet also receives ZEC as a holder. The product does not run on Zcash. Nullmask’s documentation has no token page and describes no staking, governance or fee-discount role for MASK; the roadmap says Solana support would bring the product to MASK’s home chain. 2.15% of supply has been burned. Not to be confused with Mask Network, an unrelated project that also trades as MASK. About 590M of roughly 980M MASK circulate, a market cap of about $19.0M and fully diluted value of about $31.3M. | Nullmask press release via The Block, 19 October 2026; DefiLlama adapter PR 9855; Datawallet and Blocmates, StonkFun explainers; CoinGecko, 26 October 2026 |
-| What to watch | Points Season One launched on 19 October 2026. The roadmap targets an SDK, Solana integration and private perpetuals for Q4 2026, and BNB Chain and Robinhood Chain support, a cross-chain bridge and direct withdrawals to ZEC wallets for October 2026. Nullmask’s documentation says it protects against outside observers, not the operator. | Nullmask documentation: roadmap and privacy, checked 24 October 2026; Nullmask press release via The Block, 19 October 2026 |
+| Chat history | ChatGPT saves conversations to the user’s account on OpenAI’s servers. Venice says conversation history stays on the user’s device and is never stored on its servers; Pro users can add an encrypted backup. | OpenAI data controls FAQ; venice.ai/privacy and pricing, checked 25 October 2026 |
+| Your prompts | In Venice’s default Private mode, prompts are not stored, enforced by contract rather than technology. In Anonymised mode the outside provider sees and may keep the prompt but not who sent it. TEE and end-to-end encrypted modes on Pro keep prompts sealed in verified hardware. | venice.ai/privacy, checked 25 October 2026; OpenAI data controls |
+| AI models | Venice runs open-source models itself and routes requests to third-party models such as OpenAI’s and Anthropic’s through its proxy with identifying details removed. | venice.ai/privacy, checked 25 October 2026 |
+| Customers pay | Subscriptions and API credit purchases are Venice’s revenue: over $100M a year by the company’s August figure, above $150M by its CEO on 14 October, and about $123M by Tokenomist’s onchain count. | Venice, August 2026; Erik Voorhees, 14 October 2026; Tokenomist, 20 October 2026 |
+| Buy and burn | Each plan funds a fixed burn ($2 of $18 Pro, $5 of $68 Pro+, $10 of $200 Max) and 5% of API credit purchases buys VVV on the market and burns it, plus occasional larger discretionary burns. In October this came to about a tenth of revenue. | Tokenomist, 20 October 2026; Venice, 17 July 2026 |
+| Burn size | About 30,700 VVV burned from 1 to 18 October, worth about $750K, about 10% to 12% of revenue on Tokenomist’s figures. | Tokenomist, 20 October 2026; DefiLlama |
+| VVV | VVV is Venice’s main token, on Base and, since 6 October 2026, Solana. It gives no claim on Venice’s revenue or equity. About 48.6M circulate of 81M outstanding. | Tokenomist, 20 October 2026; CoinGecko, 26 October 2026; Pluang, 6 October 2026 |
+| Staking | Staked VVV earns a share of new issuance, cut from 14M a year at launch to 2M from 1 October 2026, about 6% a year at current staking. Unstaking takes seven days. | Decrypt, 21 September 2026; Tokenomist, 20 October 2026; Venice documentation |
+| DIEM | Locking staked VVV creates DIEM, a separate tradeable token. Each staked DIEM gives $1 of Venice API use that refreshes daily, so a developer holding 100 DIEM gets $100 of AI a day without a monthly bill. | Venice documentation, VVV and DIEM; Venice, 17 July 2026 |
+| What it does | Users choose a privacy mode per model: Private, where Venice keeps nothing; Anonymised, where the outside provider sees the prompt but not the user; and TEE or end-to-end encrypted modes on Pro, sealed in verified hardware. Venice says it never stores conversation history on its servers. | venice.ai/privacy, checked 25 October 2026 |
+| Traction | 3.5M users reported at the July 2026 Series A ($65M at a $1B valuation, led by Dragonfly). Revenue: $100M run rate in August (company), above $150M (Erik Voorhees, 14 October), about $123M from burn-wallet payments (Tokenomist). OpenRouter tokens served rose from about 40B to 76B a day. | Cointelegraph, 2 July 2026; Venice, August 2026; Tokenomist, 20 October 2026 |
+| The tokens | VVV market cap about $1.21B and fully diluted value about $2.03B. A Venice-owned wallet holds about 20.75M VVV, roughly a quarter of supply, and a 4-of-6 multisig controls staking settings. | CoinGecko, 26 October 2026; Tokenomist, 20 October 2026 |
+| What to watch | From 1 to 18 October about 98,700 VVV were minted and 30,700 burned, so net supply rose about 3,800 VVV a day; team vesting adds about 10,300 VVV a day until late January 2027. Holding supply flat would take about a third of revenue. | Tokenomist, 20 October 2026 |
 
-[View slide 9](https://kdotpham.github.io/khala-privacy-reviewed/#nullmask)
+[View slide 9](https://kdotpham.github.io/khala-privacy-reviewed/#venice)
 
-## Slide 10: Nockchain mines with zero-knowledge proofs and plans private NOCK transfers for 2027
-
-
-Miners prove their work with zero-knowledge proofs, and since August can also mine with the maths behind AI, but NOCK balances and transfers stay public until a privacy pool ships, planned for Q2 2027.
-What it does Money on a chain whose miners produce zero-knowledge proofs instead of hashes. Since August, miners can also win blocks doing the matrix maths used in AI inference.
-Traction No private transfers or paying apps yet. AI mining was set to win 30% of blocks at launch, and its first inference customer is National Compute, a company founded by Nockchain’s founder.
-The NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, 80% to the miner and 20% to a community-run fund, and miners keep all fees.
-What to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.
-
-### Nockchain today, where zero-knowledge proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
-
-Chart labels in display order: Today: proofs and AI maths secure the chain · Miners · Produce a ZK proof, or · AI maths since August · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · 2027: the same proofs are meant to make NOCK private · ZK verification · Native opcode to · verify proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible integer matrix maths, proved with recursive STARK certificates. | Nockchain tokenomics documentation, checked 24 October 2026 |
-| Block reward | Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner. | Nockchain documentation, tokenomics |
-| Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base. | https://docs.nockchain.org/start-here/faq |
-| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one. | Nockchain README and vision documents |
-| ZK verification opcode | A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps. | https://www.nockchain.org/roadmap |
-| Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately. | https://www.nockchain.org/roadmap |
-| Private NockApps | The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs. | Nockchain README; https://www.nockchain.org/roadmap |
-| Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. | CoinGecko, 26 October 2026 |
-| Holders: 9,549 | Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form | Basescan, 20 October 2026 |
-| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live | https://www.nockchain.org/roadmap |
-| What it does | Each ZK miner runs a fixed Nock program and produces a compact STARK proof that nodes check without redoing the work. The Logos upgrade at block 126,000 in August 2026 added a second puzzle, AI proof of work, using Pearl-compatible integer matrix maths, with its own difficulty. | Nockchain FAQ and tokenomics documentation, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
-| Traction | Blocks were split 30% to the AI puzzle and 70% to ZK mining at activation; no measured split is published. National Compute also wrote the Logos proposal, so the upgrade and its first customer share an author. About 9,549 addresses hold wrapped NOCK on Base; native holder counts are not published in readable form. | Blockworks 0xResearch, 13 August 2026; KuCoin News, 14 August 2026; Basescan, 20 October 2026 |
-| The NOCK token | The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $44.5M and fully diluted value of about $80.7M. | Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 26 October 2026 |
-| What to watch | The roadmap targets a ZK verification opcode and forced data availability for Q1 2027, the privacy pool for Q2 2027 and private DeFi foundations for Q3 2027. Activation dates for Logos moved twice before launch. | nockchain.org roadmap, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
-
-[View slide 10](https://kdotpham.github.io/khala-privacy-reviewed/#nock)
-
-## Slide 11: Umbra brings private transfers and swaps to Solana, built on Arcium
+## Slide 10: Umbra brings private transfers and swaps to Solana, built on Arcium
 
 
 Users deposit Solana tokens into a private balance that hides who paid whom and how much, while protocol fees build a treasury that UMBRA holders direct through MetaDAO votes.
@@ -325,42 +303,43 @@ Chart labels in display order: How a private payment moves through Umbra · Sola
 | The UMBRA token | The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M. | The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026 |
 | What to watch | Umbra says several high-volume integrations are in discussion but has named none beyond Streamflow. Any buyback or distribution of fees would need a MetaDAO proposal. | The Block, 26 May 2026; Blockworks token transparency filing |
 
-[View slide 11](https://kdotpham.github.io/khala-privacy-reviewed/#umbra)
+[View slide 10](https://kdotpham.github.io/khala-privacy-reviewed/#umbra)
 
-## Slide 12: Venice is a ChatGPT-style app that keeps no chat history, and funds VVV buybacks
+## Slide 11: Nockchain mines with zero-knowledge proofs and plans private NOCK transfers for 2027
 
 
-People pay a subscription or buy credits to use many AI models from one account without Venice storing their conversations, and part of every sale buys VVV on the market and burns it.
-What it does A ChatGPT-style chat app and API for text, images, video and code. It runs open-source models itself and passes requests to big-name models with the user’s identity removed.
-Traction 3.5M users and revenue of over $100M a year, which its CEO now puts above $150M and an onchain count at about $123M. Tokens it serves on OpenRouter nearly doubled from August to October.
-The tokens VVV is the main token and carries no claim on revenue or equity; about a tenth of revenue buys and burns it. DIEM is a second token, made by locking VVV, worth $1 of Venice AI a day.
-What to watch VVV supply still grows, because new issuance and team tokens vesting until January 2027 outpace burns, and up to 6.5M investor tokens unlock from July 2027.
+Miners prove their work with zero-knowledge proofs, and since August can also mine with the maths behind AI, but NOCK balances and transfers stay public until a privacy pool ships, planned for Q2 2027.
+What it does Money on a chain whose miners produce zero-knowledge proofs instead of hashes. Since August, miners can also win blocks doing the matrix maths used in AI inference.
+Traction No private transfers or paying apps yet. AI mining was set to win 30% of blocks at launch, and its first inference customer is National Compute, a company founded by Nockchain’s founder.
+The NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, 80% to the miner and 20% to a community-run fund, and miners keep all fees.
+What to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.
 
-### How Venice compares with ChatGPT and how its VVV and DIEM tokens work
+### Nockchain today, where zero-knowledge proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
 
-Chart labels in display order: How Venice differs from ChatGPT · ChatGPT · Venice · Chat history · Saved to your OpenAI account · Kept on your device only · Your prompts · Kept by OpenAI, and can train · its models unless you opt out · Not kept by Venice; outside · model providers may keep theirs · AI models · OpenAI’s own models · Open models Venice runs, plus big · names with your identity removed · How the two tokens work · Customers pay · $18 to $200 a month, · or buy API credits · VVV is bought and burned · $2 of each $18 plan, · 5% of credits bought · About a tenth of revenue · roughly $12M a year, · October pace · VVV · Venice’s main token; no claim · on revenue or equity · Stake it: earn new VVV · stakers share 2M · new VVV a year · Lock it: get DIEM · a second token worth $1 · of Venice AI every day · from sales · stake · lock
+Chart labels in display order: Today: proofs and AI maths secure the chain · Miners · Produce a ZK proof, or · AI maths since August · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · 2027: the same proofs are meant to make NOCK private · ZK verification · Native opcode to · verify proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Chat history | ChatGPT saves conversations to the user’s account on OpenAI’s servers. Venice says conversation history stays on the user’s device and is never stored on its servers; Pro users can add an encrypted backup. | OpenAI data controls FAQ; venice.ai/privacy and pricing, checked 25 October 2026 |
-| Your prompts | In Venice’s default Private mode, prompts are not stored, enforced by contract rather than technology. In Anonymised mode the outside provider sees and may keep the prompt but not who sent it. TEE and end-to-end encrypted modes on Pro keep prompts sealed in verified hardware. | venice.ai/privacy, checked 25 October 2026; OpenAI data controls |
-| AI models | Venice runs open-source models itself and routes requests to third-party models such as OpenAI’s and Anthropic’s through its proxy with identifying details removed. | venice.ai/privacy, checked 25 October 2026 |
-| Customers pay | Subscriptions and API credit purchases are Venice’s revenue: over $100M a year by the company’s August figure, above $150M by its CEO on 14 October, and about $123M by Tokenomist’s onchain count. | Venice, August 2026; Erik Voorhees, 14 October 2026; Tokenomist, 20 October 2026 |
-| Buy and burn | Each plan funds a fixed burn ($2 of $18 Pro, $5 of $68 Pro+, $10 of $200 Max) and 5% of API credit purchases buys VVV on the market and burns it, plus occasional larger discretionary burns. In October this came to about a tenth of revenue. | Tokenomist, 20 October 2026; Venice, 17 July 2026 |
-| Burn size | About 30,700 VVV burned from 1 to 18 October, worth about $750K, about 10% to 12% of revenue on Tokenomist’s figures. | Tokenomist, 20 October 2026; DefiLlama |
-| VVV | VVV is Venice’s main token, on Base and, since 6 October 2026, Solana. It gives no claim on Venice’s revenue or equity. About 48.6M circulate of 81M outstanding. | Tokenomist, 20 October 2026; CoinGecko, 26 October 2026; Pluang, 6 October 2026 |
-| Staking | Staked VVV earns a share of new issuance, cut from 14M a year at launch to 2M from 1 October 2026, about 6% a year at current staking. Unstaking takes seven days. | Decrypt, 21 September 2026; Tokenomist, 20 October 2026; Venice documentation |
-| DIEM | Locking staked VVV creates DIEM, a separate tradeable token. Each staked DIEM gives $1 of Venice API use that refreshes daily, so a developer holding 100 DIEM gets $100 of AI a day without a monthly bill. | Venice documentation, VVV and DIEM; Venice, 17 July 2026 |
-| What it does | Users choose a privacy mode per model: Private, where Venice keeps nothing; Anonymised, where the outside provider sees the prompt but not the user; and TEE or end-to-end encrypted modes on Pro, sealed in verified hardware. Venice says it never stores conversation history on its servers. | venice.ai/privacy, checked 25 October 2026 |
-| Traction | 3.5M users reported at the July 2026 Series A ($65M at a $1B valuation, led by Dragonfly). Revenue: $100M run rate in August (company), above $150M (Erik Voorhees, 14 October), about $123M from burn-wallet payments (Tokenomist). OpenRouter tokens served rose from about 40B to 76B a day. | Cointelegraph, 2 July 2026; Venice, August 2026; Tokenomist, 20 October 2026 |
-| The tokens | VVV market cap about $1.21B and fully diluted value about $2.03B. A Venice-owned wallet holds about 20.75M VVV, roughly a quarter of supply, and a 4-of-6 multisig controls staking settings. | CoinGecko, 26 October 2026; Tokenomist, 20 October 2026 |
-| What to watch | From 1 to 18 October about 98,700 VVV were minted and 30,700 burned, so net supply rose about 3,800 VVV a day; team vesting adds about 10,300 VVV a day until late January 2027. Holding supply flat would take about a third of revenue. | Tokenomist, 20 October 2026 |
+| Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible integer matrix maths, proved with recursive STARK certificates. | Nockchain tokenomics documentation, checked 24 October 2026 |
+| Block reward | Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner. | Nockchain documentation, tokenomics |
+| Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base. | https://docs.nockchain.org/start-here/faq |
+| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one. | Nockchain README and vision documents |
+| ZK verification opcode | A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps. | https://www.nockchain.org/roadmap |
+| Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately. | https://www.nockchain.org/roadmap |
+| Private NockApps | The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs. | Nockchain README; https://www.nockchain.org/roadmap |
+| Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. | CoinGecko, 26 October 2026 |
+| Holders: 9,549 | Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form | Basescan, 20 October 2026 |
+| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live | https://www.nockchain.org/roadmap |
+| What it does | Each ZK miner runs a fixed Nock program and produces a compact STARK proof that nodes check without redoing the work. The Logos upgrade at block 126,000 in August 2026 added a second puzzle, AI proof of work, using Pearl-compatible integer matrix maths, with its own difficulty. | Nockchain FAQ and tokenomics documentation, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
+| Traction | Blocks were split 30% to the AI puzzle and 70% to ZK mining at activation; no measured split is published. National Compute also wrote the Logos proposal, so the upgrade and its first customer share an author. About 9,549 addresses hold wrapped NOCK on Base; native holder counts are not published in readable form. | Blockworks 0xResearch, 13 August 2026; KuCoin News, 14 August 2026; Basescan, 20 October 2026 |
+| The NOCK token | The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $44.5M and fully diluted value of about $80.7M. | Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 26 October 2026 |
+| What to watch | The roadmap targets a ZK verification opcode and forced data availability for Q1 2027, the privacy pool for Q2 2027 and private DeFi foundations for Q3 2027. Activation dates for Logos moved twice before launch. | nockchain.org roadmap, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
 
-[View slide 12](https://kdotpham.github.io/khala-privacy-reviewed/#venice)
+[View slide 11](https://kdotpham.github.io/khala-privacy-reviewed/#nock)
 
-## Slide 13: Pearl turns mining into AI computing, with proofs that keep the work’s data hidden
+## Slide 12: Pearl turns mining into AI computing, with proofs that keep the work’s data hidden
 
 
 Like Bitcoin, miners compete for block rewards, but their work is the maths AI models run on, and a zero-knowledge proof lets the network check it without seeing the data inside; PRL transfers stay public.
@@ -393,20 +372,52 @@ Chart labels in display order: How mining works: like Bitcoin, but the work is A
 | The PRL token | Market cap about $624M and fully diluted value about $3.7B. About 122M PRL, 36% of supply at the time, were issued in the first six days. Inflation is very high in year one and falls to roughly 30% by year three. | CoinGecko, 26 October 2026; KuCoin News, 13 October 2026; Bankless, 16 October 2026 |
 | What to watch | Kryptex and PearlPool reportedly control a majority of hashrate; Bankless put the two pools at 75-80% of blocks. Three hard forks this summer patched mining exploits and restricted which hardware can mine. | Bankless, 16 October 2026; TechFlow, 19 October 2026 |
 
-[View slide 13](https://kdotpham.github.io/khala-privacy-reviewed/#pearl)
+[View slide 12](https://kdotpham.github.io/khala-privacy-reviewed/#pearl)
 
-## Slide 14: Wallet privacy can fail at network connections and cross-chain swaps
+## Slide 13: Nullmask adds privacy to existing wallets, with 32K transactions in three weeks
+
+**Nullmask product documentation and reward-accounting disclosures checked 2026-10-20. Deposits and withdrawals are public; the operator can read private balances and history. Market cap/FDV observed 2026-10-26. Product fees and token rewards are separate reported metrics, not proof of automatic fee sharing. Solana and private perpetuals remain roadmap targets.**
+
+Users keep MetaMask or Rabby and move funds into shielded pools on Ethereum and Base, hiding transfers from outside observers, although Nullmask’s servers hold the keys that read their balances.
+What it does Private transfers and swaps from a shielded balance, with no Nullmask fee on either. Deposits and withdrawals cost 0.5% each and stay public. Ethereum Base
+Traction in three weeks About 32K transactions to the pool contract since launch around 2 October, and more than $50M of private volume, company-reported. Only about $220K sits in the pools, so most money passes through rather than stays.
+The MASK token MASK has no documented role in the product yet. Holders earn ZEC from a fee on trading MASK itself on StonkFun, about $1.5M so far, and 2.15% of supply has been burned. The 0.5% product fees are kept by Nullmask.
+What to watch Whether use holds once launch incentives and points fade, whether the SDK, Solana and private perpetuals ship as planned in Q4 2026, and whether users accept an operator that holds their keys.
+
+### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
+
+Chart labels in display order: Deposits and withdrawals remain public · Existing wallet · MetaMask · Rabby · Wallet creates your keys · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · use · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · Nullmask’s servers hold the keys that read balances and history. · $19.0M · Market cap · 26 Oct 2026 · $31.3M · FDV · 26 Oct 2026
+
+### Chart details and interactive notes
+
+| Metric or element | Detail | Source supplied with the slide |
+| --- | --- | --- |
+| Supported wallets | Connecting a wallet and signing a free message creates the account keys, and the same wallet always gives the same keys. MetaMask and Rabby are named as examples, not partners. | Nullmask documentation, getting started, checked 24 October 2026 |
+| Shielded pool | Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount. | https://nullmask.io/docs/privacy |
+| Relayed transfers and swaps | Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it. | https://nullmask.io/docs/swap |
+| Withdrawal | The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit. | https://nullmask.io/docs/privacy |
+| Who can see the history? | Nullmask’s servers hold users’ account keys and can read private balances and history. The documentation says the product protects against outside observers, not the operator. | Nullmask documentation, privacy, checked 24 October 2026 |
+| MASK market cap: $19.0M | About 590M MASK in circulation at about $0.032. | CoinGecko, 26 October 2026 |
+| MASK fully diluted value: $31.3M | About 40% of supply is not yet circulating. | CoinGecko, 26 October 2026 |
+| What it does | Private transfers and swaps from a shielded balance. Deposits and withdrawals cost 0.5% each and are public; swaps and private transfers carry no Nullmask fee, only network and exchange fees. MetaMask and Rabby are named as supported wallets, which does not imply a partnership. | Nullmask documentation: fees, privacy, getting started and networks, checked 24 October 2026 |
+| Traction in three weeks | 20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October. | Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026 |
+| The MASK token | StonkFun is a Solana launchpad whose reward tokens convert trading fees into a chosen asset and pay holders pro rata; Nullmask chose ZEC, and its team wallet also receives ZEC as a holder. The product does not run on Zcash. Nullmask’s documentation has no token page and describes no staking, governance or fee-discount role for MASK; the roadmap says Solana support would bring the product to MASK’s home chain. 2.15% of supply has been burned. Not to be confused with Mask Network, an unrelated project that also trades as MASK. About 590M of roughly 980M MASK circulate, a market cap of about $19.0M and fully diluted value of about $31.3M. | Nullmask press release via The Block, 19 October 2026; DefiLlama adapter PR 9855; Datawallet and Blocmates, StonkFun explainers; CoinGecko, 26 October 2026 |
+| What to watch | Points Season One launched on 19 October 2026. The roadmap targets an SDK, Solana integration and private perpetuals for Q4 2026, and BNB Chain and Robinhood Chain support, a cross-chain bridge and direct withdrawals to ZEC wallets for October 2026. Nullmask’s documentation says it protects against outside observers, not the operator. | Nullmask documentation: roadmap and privacy, checked 24 October 2026; Nullmask press release via The Block, 19 October 2026 |
+
+[View slide 13](https://kdotpham.github.io/khala-privacy-reviewed/#nullmask)
+
+## Slide 14: Privacy tools leak in three places: the connection, entry and exit, and the operator
 
 **Primary paper checked on 2026-10-18: address-to-IP linking under controlled router observations; Ethereum mainnet and testnet are separate. Not a population-wide exposure estimate; three of four tests ran on testnets.**
 
-In a 2025 controlled experiment, researchers linked wallet addresses to IPs with 95-98% success after 3-4 observations, a result specific to the study’s setup.
-Swap boundaries: reused refund addresses can link activity
-RPC traffic: address-to-IP linking in controlled tests
-Because researchers observed encrypted RPC traffic through controlled routers and did not test UR (SN25), the study does not establish UR’s protection.
+Private tokens and apps can still expose users where they connect, where funds enter and leave, and to the service they trust; in a controlled 2025 study, researchers linked wallet addresses to IP addresses with 95-98% success.
+Three places privacy leaks
+1. The connection: linking wallets to IP addresses in controlled tests
+Wang et al., arXiv preprint (not peer-reviewed), 2025. Controlled setup; three of four tests ran on testnets; links addresses to IPs, not to named people.
 
-### Swap route into shielded ZEC and where it leaked
+### Three places where privacy tools leak, what each exposes and the defence
 
-Chart labels in display order: Wallet elsewhere · SOL, ETH or USDC · NEAR Intents · Solvers fill the swap · Shielded ZEC · Private balance · Refund · A reused transparent refund address · can link amounts and timing · $1.5B+ · ZEC swap volume through · NEAR Intents by March 2026 · (sponsored research)
+Chart labels in display order: 1 · Your connection · Wallet requests travel · over the internet · What is exposed · Your IP address, which can · be linked to your wallet · (chart, right) · Defence · Tor, VPNs, mixnets or · dVPNs such as Nym · and URnetwork · 2 · Entry and exit · Funds move into and out · of a private pool · What is exposed · Public deposits and · withdrawals; matching amounts · and timing can link them · Defence · Waiting, and splitting · withdrawals, as Nullmask’s · Waves option does · 3 · The operator · The service that runs · the private pool · What is exposed · Some services can read your · history: Nullmask’s servers · hold users’ keys · Defence · Encrypted designs the · operator cannot read, such · as Umbra on Arcium
 
 ### Controlled TRAP experiments: wallet-address-to-IP linking success, by blockchain and network
 
@@ -416,11 +427,9 @@ Chart labels in display order: 0% · 50% · 100% · Ethereum mainnet · MetaMask
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Wallet elsewhere | SOL, ETH or USDC |  |
-| NEAR Intents | Solvers fill the swap |  |
-| Shielded ZEC | Private balance |  |
-| Refund address reuse | Reusing a transparent refund address can link activity. ECC’s Q4 2025 roadmap proposed ephemeral addresses. Zashi iOS release 2.4.7 (5 November 2025) added ephemeral-address recovery; 2.4.8 (17 November 2025) updated NEAR swaps to unified addresses. This diagram illustrates address-reuse risk, not a current Zodl vulnerability. | https://zodl.com/ecc-roadmap-q4-2025/; https://github.com/zodl-inc/zodl-ios/blob/main/CHANGELOG.md |
-| $1.5B+ through NEAR Intents | Cumulative ZEC swap volume by the end of March 2026. | CoinDesk Research, sponsored by GenZcash |
+| The connection | Wallets send requests to network nodes over the internet, so an observer at an internet exchange or provider router can link a wallet address to an IP address from traffic timing. The study’s authors name Tor or VPNs as possible defences; mixnets such as Nym and decentralised VPNs such as URnetwork also hide where traffic comes from. | Wang et al., Time Tells All, arXiv:2508.21440v1; Nym and URnetwork documentation |
+| Entry and exit | Nullmask, Umbra and Zcash all keep balances and transfers private inside their pools, but moving funds in or out is public. Umbra’s documentation warns that withdrawing the exact amount just deposited can link the two, and Nullmask’s Waves withdrawals split an exit into parts. | Nullmask documentation, privacy and fees; Umbra documentation, checked 20 October 2026 |
+| The operator | Nullmask’s documentation says its servers hold users’ account keys and that it protects against outside observers, not the operator. Venice’s default Private mode relies on a contractual promise, while its TEE and end-to-end encrypted modes and Umbra’s computation on Arcium are designed so the operator cannot read the data. | Nullmask documentation, privacy; venice.ai/privacy; The Block, 27 March 2026 |
 | Ethereum mainnet: 95.33% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1 |
 | Ethereum testnet: 96.80% | MetaMask · 3 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1 |
 | Bitcoin testnet: 97.70% | Electrum · 4 observations. Success linking a wallet pseudonym/address to an IP under the paper’s observer setup; not named-person identification or population-wide exposure. Researcher-controlled endpoints and emulated routers. | Wang et al., Time Tells All, arXiv:2508.21440v1, §§8-10; https://arxiv.org/html/2508.21440v1 |
@@ -512,30 +521,30 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 
 [View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
 
-## Slide 18: UR (SN25) would be worth 11× at Helium’s market cap and 21× to 61× at Grass’s
+## Slide 18: UR (SN25) is valued below larger connectivity networks that already earn revenue
 
 
-The 23 October 2026 comparison places UR (SN25) at $7.4M, Helium at $82M and Grass at $157M to $452M, depending on the circulating supply used, on a logarithmic USD scale, illustrating relative size rather than a modelled valuation.
-A wide valuation gap Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times.
+On 26 October 2026, UR (SN25) was valued at $9.7M, against $23M for Nym, $77M for Helium and $490M for Grass, on a logarithmic scale that shows relative size rather than a valuation.
+Where UR (SN25) sits At about $9.7M, UR (SN25) is valued below Nym ($23M) and well below Helium ($77M) and Grass ($490M), which report paying subscribers or revenue.
 A product already in market URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch.
 Demand linked to usage If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced.
-What UR (SN25) would be worth at its peers’ market caps
+UR (SN25) and its peers by market cap
 
 ### UR (SN25) market cap against peers
 
-Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $7.4M · Nym · $24.7M · 3.3x · Helium · $82M · 11x · Grass · $452M · 61x
+Chart labels in display order: $1M · $10M · $100M · $1B · UR (SN25) · $9.7M · Nym · $23M · Helium · $77M · Grass · $490M
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| A wide valuation gap | Transaction-privacy assets are valued at about $32B, against $32M for Nym and UR (SN25), a gap of around 1,000 times. |  |
+| Where UR (SN25) sits | At about $9.7M, UR (SN25) is valued below Nym ($23M) and well below Helium ($77M) and Grass ($490M), which report paying subscribers or revenue. Helium burns all its mobile subscriber revenue as HNT, and Grass reports about $33M a year of revenue from AI firms. | CoinGecko, 26 October 2026; Crypto Briefing, 3 July 2026; BlockEden, 21 February 2026 |
 | A product already in market | URnetwork, the VPN that UR (SN25) supplies, reports about 350K monthly users and 126,717 providers across 103 countries, so the thesis does not depend on a product launch. |  |
 | Demand linked to usage | If a non-zero rate is adopted, usage-based deposits would lock tokens, although growing traffic would not guarantee new market buying because revenue-funded purchases are not enforced. | https://github.com/urfoundation/sn |
-| UR (SN25) today: ~$7.4M | UR (SN25) market cap, 23 October 2026. | CoinGecko and CoinMarketCap, 23 October 2026 |
-| Nym: ~$24.7M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko and CoinMarketCap, 23 October 2026 |
-| Helium: ~$82M | Carriers and subscribers pay for coverage; about $50K a day of data credits burned. | CoinGecko and CoinMarketCap, 23 October 2026 |
-| Grass: ~$452M | Sells residential bandwidth to AI firms; about $17M of 2025 revenue (team-reported). CoinMarketCap shows $157M on 244M circulating tokens; CoinGecko’s 699M supply is used as the more conservative figure, which would put UR (SN25) at 21× rather than 61×. | CoinGecko and CoinMarketCap, 23 October 2026 |
+| UR (SN25): ~$9.7M | UR (SN25) market cap, 26 October 2026. | CoinGecko, 26 October 2026 |
+| Nym: ~$23M | Mixnet with its own VPN; rewards moving to gateways that serve users. | CoinGecko, 26 October 2026 |
+| Helium: ~$77M | Carriers and subscribers pay for coverage, and all mobile subscriber revenue is used to burn HNT. | CoinGecko, 26 October 2026 |
+| Grass: ~$490M | Sells public web data gathered through home internet connections to AI firms; about $33M a year of revenue (team-reported, July 2026). CoinGecko’s figure uses about 699M circulating tokens. | CoinGecko, 26 October 2026; Crypto Briefing, 3 July 2026 |
 
 [View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
