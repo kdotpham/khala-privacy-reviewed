@@ -47,19 +47,19 @@
     {
       "slide_number": 1,
       "id": "summary",
-      "title": "Privacy demand is real and growing, but value still sits in privacy as money, not the apps",
+      "title": "Demand for privacy is growing, but most of the value still sits in privacy coins",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#summary",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
         "Executive summary",
-        "Privacy demand is real and growing, but value still sits in privacy as money, not the apps",
-        "1 Institutions now want privacy that regulators can still see into Tether offers USDT on Zama’s confidentiality layer, Sui opened confidential stablecoin transfers with issuer controls in June, and Bron paid salaries privately, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Value sits in privacy as money, not yet in the apps Zcash and Monero are worth about $32B, about 14 times the six app tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against app tokens 3 Private use is growing, but few tokens share in it yet Half of Zcash’s Q3 transactions used shielded pools, up from 27% in Q2. Only Venice links its token to customer revenue, and new supply from Pearl’s mining and Venice’s vesting weighs on holders. 53% of Zcash transactions used shielded pools in Q3 4 Regulation and trust will set how far privacy goes Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
-        "Catalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra performance tokens, from April 2027 Venice investor unlock, July 2027",
-        "Disclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 25 October 2026."
+        "Demand for privacy is growing, but most of the value still sits in privacy coins",
+        "1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
+        "Catalysts to watch Pearl listing on Coinbase First private NOCK transfers, Q2 2027 UR (SN25) operators start locking tokens Venice investor unlock, July 2027",
+        "Disclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 26 October 2026."
       ],
-      "text": "Executive summary\nPrivacy demand is real and growing, but value still sits in privacy as money, not the apps\n1 Institutions now want privacy that regulators can still see into Tether offers USDT on Zama’s confidentiality layer, Sui opened confidential stablecoin transfers with issuer controls in June, and Bron paid salaries privately, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Value sits in privacy as money, not yet in the apps Zcash and Monero are worth about $32B, about 14 times the six app tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against app tokens 3 Private use is growing, but few tokens share in it yet Half of Zcash’s Q3 transactions used shielded pools, up from 27% in Q2. Only Venice links its token to customer revenue, and new supply from Pearl’s mining and Venice’s vesting weighs on holders. 53% of Zcash transactions used shielded pools in Q3 4 Regulation and trust will set how far privacy goes Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCatalysts to watch First operator deposit on UR (SN25) NOCK privacy pool, Q2 2027 Umbra performance tokens, from April 2027 Venice investor unlock, July 2027\nDisclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 25 October 2026.",
+      "text": "Executive summary\nDemand for privacy is growing, but most of the value still sits in privacy coins\n1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui opened confidential stablecoin transfers with issuer controls in June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other tokens covered here. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice links its token to customer revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCatalysts to watch Pearl listing on Coinbase First private NOCK transfers, Q2 2027 UR (SN25) operators start locking tokens Venice investor unlock, July 2027\nDisclosure: Khala Research may have commercial relationships with projects in this sector, including Sui. Data as of 19 to 26 October 2026.",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -530,20 +530,20 @@
     {
       "slide_number": 6,
       "id": "priced",
-      "title": "Privacy as money is worth $32B, about 14 times all privacy app tokens combined",
+      "title": "Privacy as money is worth $32B, about 14 times all other privacy tokens combined",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#priced",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Privacy as money is worth $32B, about 14 times all privacy app tokens combined",
-        "Zcash and Monero, held as private money, are worth about $32B together, while the six app and infrastructure tokens here total about $2.4B, led by Venice at $1.3B.",
+        "Privacy as money is worth $32B, about 14 times all other privacy tokens combined",
+        "Zcash and Monero, held as private money, are worth about $32B together, while the nine other tokens covered here, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.",
         "Like Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token."
       ],
-      "text": "Privacy as money is worth $32B, about 14 times all privacy app tokens combined\nZcash and Monero, held as private money, are worth about $32B together, while the six app and infrastructure tokens here total about $2.4B, led by Venice at $1.3B.\nLike Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token.",
+      "text": "Privacy as money is worth $32B, about 14 times all other privacy tokens combined\nZcash and Monero, held as private money, are worth about $32B together, while the nine other tokens covered here, from apps to newer chains, total about $2.3B, led by Venice at $1.2B.\nLike Bitcoin, Zcash and Monero are valued as money to hold rather than on fees, while the app tokens’ value depends on their products growing and linking that use to the token.",
       "charts": [
         {
-          "description": "Market capitalisation of privacy tokens by use case, logarithmic USD scale, 23 to 24 October 2026",
+          "description": "Market capitalisation of eleven privacy tokens grouped by use case, logarithmic USD scale, CoinGecko 26 October 2026",
           "labels": [
             "1M",
             "10M",
@@ -551,65 +551,87 @@
             "1B",
             "10B",
             "100B",
+            "Log scale",
             "Payments and payroll",
             "Zcash",
-            "$20.9B",
+            "$20.5B",
             "Monero",
-            "$11.4B",
+            "$11.1B",
+            "NOCK",
+            "$44M",
+            "Nullmask",
+            "$19M",
+            "Umbra",
+            "$6.2M",
             "Private computation and AI",
             "Venice",
-            "$1.3B",
+            "$1.2B",
             "Pearl",
-            "$733M",
+            "$624M",
             "Trading and tokenised assets",
             "Zama",
-            "$194M",
+            "$178M",
             "Railgun",
-            "$148M",
+            "$147M",
             "Private connectivity",
             "Nym",
-            "$25M",
+            "$23M",
             "UR (SN25)",
-            "$7.4M"
+            "$9.7M"
           ],
           "details": [
             {
-              "label": "Zcash: ~$20.8B",
+              "label": "Zcash: ~$20.5B",
               "description": "Private money with optional shielded pools, which hold about 29% of supply. Holders do not receive fees; the value is a bet on ZEC as private money. Fees: about $1.1M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Monero: ~$11.4B",
+              "label": "Monero: ~$11.1B",
               "description": "Private by default for every transfer. Like Zcash, holders do not receive fees. Fees: about $1.6M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Venice: ~$1.3B",
+              "label": "NOCK: ~$44M",
+              "description": "Money on a chain mined with zero-knowledge proofs; private transfers are planned for Q2 2027. Miners receive all fees and 80% of new issuance.",
+              "source": "CoinGecko, 26 October 2026; Nockchain documentation"
+            },
+            {
+              "label": "Nullmask: ~$19M",
+              "description": "Private transfers and swaps for existing wallets on Ethereum and Base, launched in October 2026. MASK holders earn ZEC from a fee on MASK trading; the 0.5% product fees are kept by Nullmask.",
+              "source": "CoinGecko, 26 October 2026; Nullmask documentation"
+            },
+            {
+              "label": "Umbra: ~$6.2M",
+              "description": "Private transfers and swaps on Solana, built on Arcium. Protocol fees of about 0.21% go to a treasury that UMBRA holders direct by vote.",
+              "source": "CoinGecko, 26 October 2026; Umbra documentation"
+            },
+            {
+              "label": "Venice: ~$1.2B",
               "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns. Revenue: about $123M a year by Tokenomist’s onchain count, and above $150M by the CEO’s claim of 14 October 2026; VVV buybacks and burns ran at about $985K in the last 30 days (DefiLlama), about $12M a year.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Pearl: ~$733M",
+              "label": "Pearl: ~$624M",
               "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates. Fees: not disclosed. About 1M PRL, roughly $1.9M, is issued to miners each day as a subsidy, and Pearl’s inference revenue is not published.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Zama: ~$194M",
+              "label": "Zama: ~$178M",
               "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates. Fees: not tracked by DefiLlama.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Railgun: ~$148M",
+              "label": "Railgun: ~$147M",
               "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers. CoinMarketCap shows $39.5M on 15M circulating tokens; CoinGecko’s 60M supply is used as the more conservative figure. Fees: about $4.2M over the last 12 months (DefiLlama), paid to a treasury that pays RAIL stakers who vote.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DL News, 21 October 2025; DefiLlama, 24 October 2026"
             },
             {
-              "label": "Nym: ~$25M",
+              "label": "Nym: ~$23M",
               "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic. Fees: not disclosed. NymVPN does not publish subscription revenue, and node operators are paid mainly from NYM reward pools.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             },
             {
-              "label": "UR (SN25): ~$7.4M",
+              "label": "UR (SN25): ~$9.7M",
               "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported). Fees to the subnet: zero, because operator deposits launched at a zero rate.",
               "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
             }
@@ -619,42 +641,57 @@
       "tables": [],
       "hover_details": [
         {
-          "label": "Zcash: ~$20.8B",
+          "label": "Zcash: ~$20.5B",
           "description": "Private money with optional shielded pools, which hold about 29% of supply. Holders do not receive fees; the value is a bet on ZEC as private money. Fees: about $1.1M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Monero: ~$11.4B",
+          "label": "Monero: ~$11.1B",
           "description": "Private by default for every transfer. Like Zcash, holders do not receive fees. Fees: about $1.6M a year, annualised from DefiLlama’s 24-hour chain fees on 24 October 2026, all paid to miners.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Venice: ~$1.3B",
+          "label": "NOCK: ~$44M",
+          "description": "Money on a chain mined with zero-knowledge proofs; private transfers are planned for Q2 2027. Miners receive all fees and 80% of new issuance.",
+          "source": "CoinGecko, 26 October 2026; Nockchain documentation"
+        },
+        {
+          "label": "Nullmask: ~$19M",
+          "description": "Private transfers and swaps for existing wallets on Ethereum and Base, launched in October 2026. MASK holders earn ZEC from a fee on MASK trading; the 0.5% product fees are kept by Nullmask.",
+          "source": "CoinGecko, 26 October 2026; Nullmask documentation"
+        },
+        {
+          "label": "Umbra: ~$6.2M",
+          "description": "Private transfers and swaps on Solana, built on Arcium. Protocol fees of about 0.21% go to a treasury that UMBRA holders direct by vote.",
+          "source": "CoinGecko, 26 October 2026; Umbra documentation"
+        },
+        {
+          "label": "Venice: ~$1.2B",
           "description": "Private AI chat, images, video and audio. Customer revenue, about $100M a year (company-reported), funds VVV buybacks and burns. Revenue: about $123M a year by Tokenomist’s onchain count, and above $150M by the CEO’s claim of 14 October 2026; VVV buybacks and burns ran at about $985K in the last 30 days (DefiLlama), about $12M a year.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Pearl: ~$733M",
+          "label": "Pearl: ~$624M",
           "description": "A layer 1 whose miners do useful AI computation, verified with zero-knowledge proofs. Fully diluted value is about $4.3B because 17% of supply circulates. Fees: not disclosed. About 1M PRL, roughly $1.9M, is issued to miners each day as a subsidy, and Pearl’s inference revenue is not published.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Zama: ~$194M",
+          "label": "Zama: ~$178M",
           "description": "Encryption layer that keeps balances and transfers confidential on existing chains; fees for confidential operations are paid in ZAMA. Fully diluted value is about $862M because only 23% of supply circulates. Fees: not tracked by DefiLlama.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Railgun: ~$148M",
+          "label": "Railgun: ~$147M",
           "description": "Private trading and transfers on Ethereum, with $1.6B shielded in 2025. A share of shielding fees is paid to RAIL stakers. CoinMarketCap shows $39.5M on 15M circulating tokens; CoinGecko’s 60M supply is used as the more conservative figure. Fees: about $4.2M over the last 12 months (DefiLlama), paid to a treasury that pays RAIL stakers who vote.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DL News, 21 October 2025; DefiLlama, 24 October 2026"
         },
         {
-          "label": "Nym: ~$25M",
+          "label": "Nym: ~$23M",
           "description": "Mixnet that hides who is talking to whom and powers NymVPN. Operators are paid in NYM for routing traffic. Fees: not disclosed. NymVPN does not publish subscription revenue, and node operators are paid mainly from NYM reward pools.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         },
         {
-          "label": "UR (SN25): ~$7.4M",
+          "label": "UR (SN25): ~$9.7M",
           "description": "Bittensor subnet 25, the token for URnetwork’s decentralised VPN, which reports about 350K monthly users (team-reported). Fees to the subnet: zero, because operator deposits launched at a zero rate.",
           "source": "CoinGecko and CoinMarketCap, 23 October 2026; DefiLlama, 24 October 2026"
         }
@@ -1000,10 +1037,10 @@
             "exit",
             "Private from chain watchers",
             "Nullmask’s servers hold the keys that read balances and history.",
-            "$26.1M",
-            "Market cap · 24 Oct 2026",
-            "$43.0M",
-            "FDV · 24 Oct 2026"
+            "$19.0M",
+            "Market cap · 26 Oct 2026",
+            "$31.3M",
+            "FDV · 26 Oct 2026"
           ],
           "details": [
             {
@@ -1032,14 +1069,14 @@
               "source": "Nullmask documentation, privacy, checked 24 October 2026"
             },
             {
-              "label": "MASK market cap: $26.1M",
-              "description": "About 590.5M MASK in circulation at about $0.044.",
-              "source": "CoinGecko, 24 October 2026"
+              "label": "MASK market cap: $19.0M",
+              "description": "About 590M MASK in circulation at about $0.032.",
+              "source": "CoinGecko, 26 October 2026"
             },
             {
-              "label": "MASK fully diluted value: $43.0M",
+              "label": "MASK fully diluted value: $31.3M",
               "description": "About 40% of supply is not yet circulating.",
-              "source": "CoinGecko, 24 October 2026"
+              "source": "CoinGecko, 26 October 2026"
             }
           ]
         }
@@ -1072,14 +1109,14 @@
           "source": "Nullmask documentation, privacy, checked 24 October 2026"
         },
         {
-          "label": "MASK market cap: $26.1M",
-          "description": "About 590.5M MASK in circulation at about $0.044.",
-          "source": "CoinGecko, 24 October 2026"
+          "label": "MASK market cap: $19.0M",
+          "description": "About 590M MASK in circulation at about $0.032.",
+          "source": "CoinGecko, 26 October 2026"
         },
         {
-          "label": "MASK fully diluted value: $43.0M",
+          "label": "MASK fully diluted value: $31.3M",
           "description": "About 40% of supply is not yet circulating.",
-          "source": "CoinGecko, 24 October 2026"
+          "source": "CoinGecko, 26 October 2026"
         },
         {
           "label": "What it does",
@@ -1093,8 +1130,8 @@
         },
         {
           "label": "The MASK token",
-          "description": "StonkFun is a Solana launchpad whose reward tokens convert trading fees into a chosen asset and pay holders pro rata; Nullmask chose ZEC, and its team wallet also receives ZEC as a holder. The product does not run on Zcash. Nullmask’s documentation has no token page and describes no staking, governance or fee-discount role for MASK; the roadmap says Solana support would bring the product to MASK’s home chain. 2.15% of supply has been burned. Not to be confused with Mask Network, an unrelated project that also trades as MASK. About 590M of roughly 980M MASK circulate, a market cap of about $26.1M and fully diluted value of about $43.0M.",
-          "source": "Nullmask press release via The Block, 19 October 2026; DefiLlama adapter PR 9855; Datawallet and Blocmates, StonkFun explainers; CoinGecko, 24 October 2026"
+          "description": "StonkFun is a Solana launchpad whose reward tokens convert trading fees into a chosen asset and pay holders pro rata; Nullmask chose ZEC, and its team wallet also receives ZEC as a holder. The product does not run on Zcash. Nullmask’s documentation has no token page and describes no staking, governance or fee-discount role for MASK; the roadmap says Solana support would bring the product to MASK’s home chain. 2.15% of supply has been burned. Not to be confused with Mask Network, an unrelated project that also trades as MASK. About 590M of roughly 980M MASK circulate, a market cap of about $19.0M and fully diluted value of about $31.3M.",
+          "source": "Nullmask press release via The Block, 19 October 2026; DefiLlama adapter PR 9855; Datawallet and Blocmates, StonkFun explainers; CoinGecko, 26 October 2026"
         },
         {
           "label": "What to watch",
@@ -1146,8 +1183,8 @@
             "Private apps",
             "Prove results without",
             "revealing inputs",
-            "$49M",
-            "market cap, 24 Oct 2026",
+            "$44M",
+            "market cap, 26 Oct 2026",
             "9,549",
             "wrapped NOCK holders on Base",
             "Q2 2027",
@@ -1190,9 +1227,9 @@
               "source": "Nockchain README; https://www.nockchain.org/roadmap"
             },
             {
-              "label": "Market cap: $48.9M",
-              "description": "Price about $0.021; fully diluted value about $88.8M; about 2.37B NOCK circulating.",
-              "source": "CoinGecko, 24 October 2026"
+              "label": "Market cap: $44.5M",
+              "description": "Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating.",
+              "source": "CoinGecko, 26 October 2026"
             },
             {
               "label": "Holders: 9,549",
@@ -1245,9 +1282,9 @@
           "source": "Nockchain README; https://www.nockchain.org/roadmap"
         },
         {
-          "label": "Market cap: $48.9M",
-          "description": "Price about $0.021; fully diluted value about $88.8M; about 2.37B NOCK circulating.",
-          "source": "CoinGecko, 24 October 2026"
+          "label": "Market cap: $44.5M",
+          "description": "Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating.",
+          "source": "CoinGecko, 26 October 2026"
         },
         {
           "label": "Holders: 9,549",
@@ -1271,8 +1308,8 @@
         },
         {
           "label": "The NOCK token",
-          "description": "The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $48.9M and fully diluted value of about $88.8M.",
-          "source": "Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 24 October 2026"
+          "description": "The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $44.5M and fully diluted value of about $80.7M.",
+          "source": "Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "What to watch",
@@ -1336,8 +1373,8 @@
             "deposits, 23 Oct 2026",
             "3,428",
             "encrypted accounts",
-            "$5.3M",
-            "market cap, 24 Oct 2026"
+            "$6.2M",
+            "market cap, 26 Oct 2026"
           ],
           "details": [
             {
@@ -1386,9 +1423,9 @@
               "source": "Solana chain data, 17 October 2026"
             },
             {
-              "label": "Market cap: $5.3M",
-              "description": "Price about $0.38 against the $0.30 sale price; fully diluted value about $10.5M; about 13.8M UMBRA circulating.",
-              "source": "CoinGecko, 24 October 2026; The Block, 10 October 2025"
+              "label": "Market cap: $6.2M",
+              "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating.",
+              "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025"
             }
           ]
         }
@@ -1441,9 +1478,9 @@
           "source": "Solana chain data, 17 October 2026"
         },
         {
-          "label": "Market cap: $5.3M",
-          "description": "Price about $0.38 against the $0.30 sale price; fully diluted value about $10.5M; about 13.8M UMBRA circulating.",
-          "source": "CoinGecko, 24 October 2026; The Block, 10 October 2025"
+          "label": "Market cap: $6.2M",
+          "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating.",
+          "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025"
         },
         {
           "label": "What it does",
@@ -1457,8 +1494,8 @@
         },
         {
           "label": "The UMBRA token",
-          "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $5.3M and fully diluted value about $10.5M.",
-          "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 24 October 2026"
+          "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
+          "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "What to watch",
@@ -1560,7 +1597,7 @@
             {
               "label": "VVV",
               "description": "VVV is Venice’s main token, on Base and, since 6 October 2026, Solana. It gives no claim on Venice’s revenue or equity. About 48.6M circulate of 81M outstanding.",
-              "source": "Tokenomist, 20 October 2026; CoinGecko, 24 October 2026; Pluang, 6 October 2026"
+              "source": "Tokenomist, 20 October 2026; CoinGecko, 26 October 2026; Pluang, 6 October 2026"
             },
             {
               "label": "Staking",
@@ -1610,7 +1647,7 @@
         {
           "label": "VVV",
           "description": "VVV is Venice’s main token, on Base and, since 6 October 2026, Solana. It gives no claim on Venice’s revenue or equity. About 48.6M circulate of 81M outstanding.",
-          "source": "Tokenomist, 20 October 2026; CoinGecko, 24 October 2026; Pluang, 6 October 2026"
+          "source": "Tokenomist, 20 October 2026; CoinGecko, 26 October 2026; Pluang, 6 October 2026"
         },
         {
           "label": "Staking",
@@ -1634,8 +1671,8 @@
         },
         {
           "label": "The tokens",
-          "description": "VVV market cap about $1.18B and fully diluted value about $1.97B. A Venice-owned wallet holds about 20.75M VVV, roughly a quarter of supply, and a 4-of-6 multisig controls staking settings.",
-          "source": "CoinGecko, 24 October 2026; Tokenomist, 20 October 2026"
+          "description": "VVV market cap about $1.21B and fully diluted value about $2.03B. A Venice-owned wallet holds about 20.75M VVV, roughly a quarter of supply, and a 4-of-6 multisig controls staking settings.",
+          "source": "CoinGecko, 26 October 2026; Tokenomist, 20 October 2026"
         },
         {
           "label": "What to watch",
@@ -1657,10 +1694,10 @@
         "Like Bitcoin, miners compete for block rewards, but their work is the maths AI models run on, and a zero-knowledge proof lets the network check it without seeing the data inside; PRL transfers stay public.",
         "What it does A Bitcoin-style blockchain whose miners run AI maths instead of puzzles, so GPUs can earn PRL while serving AI customers. Nockchain’s AI mining uses Pearl-compatible maths.",
         "Traction About 320K GPU-equivalents mine it. Together AI, a cloud that hosts AI models, mines PRL while serving one and passes the rewards on as a 25% discount. Coinbase added PRL to its listing roadmap.",
-        "The PRL token Capped at 2.1B with no premine or sale, and about 16% mined. About 1M PRL a day are still mined, nearly doubling supply within a year, and customers pay in credits, not PRL.",
+        "The PRL token Capped at 2.1B with no premine or sale, and about 17% mined. About 1M PRL a day are still mined, nearly doubling supply within a year, and customers pay in credits, not PRL.",
         "What to watch Whether private inference with Attestable goes live, whether paid AI work replaces synthetic mining, and how concentrated mining stays. The company does not disclose its PRL holdings."
       ],
-      "text": "Pearl turns mining into AI computing, with proofs that keep the work’s data hidden\nLike Bitcoin, miners compete for block rewards, but their work is the maths AI models run on, and a zero-knowledge proof lets the network check it without seeing the data inside; PRL transfers stay public.\nWhat it does A Bitcoin-style blockchain whose miners run AI maths instead of puzzles, so GPUs can earn PRL while serving AI customers. Nockchain’s AI mining uses Pearl-compatible maths.\nTraction About 320K GPU-equivalents mine it. Together AI, a cloud that hosts AI models, mines PRL while serving one and passes the rewards on as a 25% discount. Coinbase added PRL to its listing roadmap.\nThe PRL token Capped at 2.1B with no premine or sale, and about 16% mined. About 1M PRL a day are still mined, nearly doubling supply within a year, and customers pay in credits, not PRL.\nWhat to watch Whether private inference with Attestable goes live, whether paid AI work replaces synthetic mining, and how concentrated mining stays. The company does not disclose its PRL holdings.",
+      "text": "Pearl turns mining into AI computing, with proofs that keep the work’s data hidden\nLike Bitcoin, miners compete for block rewards, but their work is the maths AI models run on, and a zero-knowledge proof lets the network check it without seeing the data inside; PRL transfers stay public.\nWhat it does A Bitcoin-style blockchain whose miners run AI maths instead of puzzles, so GPUs can earn PRL while serving AI customers. Nockchain’s AI mining uses Pearl-compatible maths.\nTraction About 320K GPU-equivalents mine it. Together AI, a cloud that hosts AI models, mines PRL while serving one and passes the rewards on as a 25% discount. Coinbase added PRL to its listing roadmap.\nThe PRL token Capped at 2.1B with no premine or sale, and about 17% mined. About 1M PRL a day are still mined, nearly doubling supply within a year, and customers pay in credits, not PRL.\nWhat to watch Whether private inference with Attestable goes live, whether paid AI work replaces synthetic mining, and how concentrated mining stays. The company does not disclose its PRL holdings.",
       "charts": [
         {
           "description": "How Pearl mining works, and who earns what from customers and mining",
@@ -1757,7 +1794,7 @@
             {
               "label": "Exchanges",
               "description": "PRL trades mainly on BigONE and SafeTrade, with about $6M to $8M a day of volume; Coinbase added it to its listing roadmap on 20 October 2026.",
-              "source": "KuCoin News, 13 October 2026; CoinMarketCap, 20 October 2026; CoinGecko, 25 October 2026"
+              "source": "KuCoin News, 13 October 2026; CoinMarketCap, 20 October 2026; CoinGecko, 26 October 2026"
             }
           ]
         }
@@ -1817,7 +1854,7 @@
         {
           "label": "Exchanges",
           "description": "PRL trades mainly on BigONE and SafeTrade, with about $6M to $8M a day of volume; Coinbase added it to its listing roadmap on 20 October 2026.",
-          "source": "KuCoin News, 13 October 2026; CoinMarketCap, 20 October 2026; CoinGecko, 25 October 2026"
+          "source": "KuCoin News, 13 October 2026; CoinMarketCap, 20 October 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "What it does",
@@ -1827,12 +1864,12 @@
         {
           "label": "Traction",
           "description": "The GPU estimate comes from a June 2026 study. Coinbase’s roadmap listing sets no trading date and does not guarantee one. PRL trades on BigONE and SafeTrade, with about $6M to $8M of daily volume.",
-          "source": "Tom’s Hardware, June 2026; CoinMarketCap, 20 October 2026; KuCoin News, 13 October 2026; CoinGecko, 25 October 2026"
+          "source": "Tom’s Hardware, June 2026; CoinMarketCap, 20 October 2026; KuCoin News, 13 October 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "The PRL token",
-          "description": "Market cap about $664M and fully diluted value about $3.9B. About 122M PRL, 36% of supply at the time, were issued in the first six days. Inflation is very high in year one and falls to roughly 30% by year three.",
-          "source": "CoinGecko, 25 October 2026; KuCoin News, 13 October 2026; Bankless, 16 October 2026"
+          "description": "Market cap about $624M and fully diluted value about $3.7B. About 122M PRL, 36% of supply at the time, were issued in the first six days. Inflation is very high in year one and falls to roughly 30% by year three.",
+          "source": "CoinGecko, 26 October 2026; KuCoin News, 13 October 2026; Bankless, 16 October 2026"
         },
         {
           "label": "What to watch",
