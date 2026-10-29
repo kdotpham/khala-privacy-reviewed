@@ -334,37 +334,32 @@ Chart labels in display order: How a private payment moves through Umbra · Hidd
 ## Slide 12: Nockchain mines with zero-knowledge proofs and plans private NOCK transfers for 2027
 
 
-Miners prove their work with zero-knowledge proofs, and since August can also mine with the maths behind AI, but NOCK balances and transfers stay public until a privacy pool ships, planned for Q2 2027.
-Token role Pays miners: 2,048 NOCK a block, plus all fees
+NOCK balances and transfers stay public until a privacy pool ships, planned for Q2 2027.
 To holders Nothing yet new NOCK goes 80% to miners, 20% to a protocol fund
 What it does Money on a chain whose miners produce zero-knowledge proofs instead of hashes. Since August, miners can also win blocks doing the matrix maths used in AI inference.
 Traction No private transfers or paying apps yet. AI mining was set to win 30% of blocks at launch, and its first inference customer is National Compute, a company founded by Nockchain’s founder.
-The NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, dropping to 1,536 after about 6 months, 80% to the miner and 20% to a protocol fund, and miners keep all fees.
 What to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.
 
 ### Nockchain today, where proofs secure mining and transfers are public, the 2027 roadmap that would make NOCK private, and what the chain sees
 
-Chart labels in display order: Today: proofs and AI maths secure the chain · 2027: the same proofs are meant to make NOCK private · Miners · ZK proof, or AI maths · Block reward · 2,048 NOCK a block · NOCK holders · Fully public today · ZK verification · Native opcode, Q1 2027 · Privacy pool · Private NOCK, Q2 2027 · Private apps · Prove, not reveal, inputs · The chain sees · Block and proof · Reward to miner · Balances, transfers · Proofs, checked natively · Transfers hidden (plan) · Inputs hidden (plan) · $44M market cap, 26 Oct 2026 · 9,549 wrapped NOCK holders on Base · Q2 2027 first private NOCK transfers
+Chart labels in display order: Today: proofs and AI maths secure the chain · Miners · ZK proof, or AI maths · Block reward · 2,048 NOCK a block · NOCK holders · Fully public today · Block and proof · Reward to miner · Balances, transfers · 2027: the same proofs are meant to make NOCK private · ZK verification · Native opcode, Q1 2027 · Privacy pool · Private NOCK, Q2 2027 · Private apps · Prove, not reveal, inputs · Proofs, checked natively · Transfers hidden (plan) · Inputs hidden (plan) · visible to the chain · hidden from the chain, planned · $44M market cap, 26 Oct 2026 · 9,549 wrapped NOCK holders on Base
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps. | Nockchain README and vision documents |
 | Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible matrix maths. | Nockchain tokenomics documentation |
 | Block reward | Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner. | Nockchain documentation, tokenomics |
 | Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”. Wrapped NOCK also trades publicly on Base. | docs.nockchain.org FAQ |
+| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps. | Nockchain README and vision documents |
 | ZK verification opcode | A native opcode for verifying zero-knowledge proofs is planned for Q1 2027 with forced data availability, which Nockchain calls the foundation for privacy apps. | nockchain.org/roadmap |
 | Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification; it would be the first time NOCK can move privately. | nockchain.org/roadmap |
 | Private NockApps | Apps would prove state changes so nodes verify them without seeing private inputs, with private DeFi foundations planned for Q3 2027. | Nockchain README; nockchain.org/roadmap |
-| Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. | CoinGecko, 26 October 2026 |
+| Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. Supply is capped at 2^32 NOCK, about 4.29B, with no premine or sale, and 55% is mined. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% protocol fund. | CoinGecko, 26 October 2026; Nockchain FAQ and tokenomics documentation; Blockworks 0xResearch, 13 August 2026 |
 | Holders: 9,549 | Addresses holding wrapped NOCK on Base. | Basescan, 20 October 2026 |
-| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live. | nockchain.org/roadmap |
-| Block reward | Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner. | Nockchain documentation, tokenomics |
 | To holders | NOCK holders receive no buyback, burn or fee share: each block pays 2,048 NOCK, 80% to the miner and 20% to a protocol fund, and miners keep all fees. | Nockchain documentation, tokenomics |
 | What it does | Each ZK miner runs a fixed Nock program and produces a compact STARK proof that nodes check without redoing the work. The Logos upgrade at block 126,000 in August 2026 added a second puzzle, AI proof of work, using Pearl-compatible integer matrix maths, with its own difficulty. | Nockchain FAQ and tokenomics documentation, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
 | Traction | Blocks were split 30% to the AI puzzle and 70% to ZK mining at activation; no measured split is published. National Compute also wrote the Logos proposal, so the upgrade and its first customer share an author. About 9,549 addresses hold wrapped NOCK on Base; native holder counts are not published in readable form. | Blockworks 0xResearch, 13 August 2026; KuCoin News, 14 August 2026; Basescan, 20 October 2026 |
-| The NOCK token | The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $44.5M and fully diluted value of about $80.7M. | Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 26 October 2026 |
 | What to watch | The roadmap targets a ZK verification opcode and forced data availability for Q1 2027, the privacy pool for Q2 2027 and private DeFi foundations for Q3 2027. Activation dates for Logos moved twice before launch. | nockchain.org roadmap, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
 
 [View slide 12](https://kdotpham.github.io/khala-privacy-reviewed/#nock)
