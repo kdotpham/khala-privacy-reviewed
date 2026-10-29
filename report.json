@@ -408,20 +408,20 @@
     {
       "slide_number": 5,
       "id": "sui",
-      "title": "Sui is building private stablecoin payments that issuers and auditors can still see into",
+      "title": "Private stablecoin payments that issuers and auditors can still see into",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sui",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Sui is building private stablecoin payments that issuers and auditors can still see into",
+        "Private stablecoin payments that issuers and auditors can still see into",
         "Sui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.",
         "What it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.",
         "Where it stands In public beta on Sui’s Devnet since June 2026, with mainnet targeted for Q4 2026. The code is open source but not yet audited.",
         "Who is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.",
         "What to watch Whether it reaches mainnet on schedule, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today."
       ],
-      "text": "Sui is building private stablecoin payments that issuers and auditors can still see into\nSui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.\nWhat it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.\nWhere it stands In public beta on Sui’s Devnet since June 2026, with mainnet targeted for Q4 2026. The code is open source but not yet audited.\nWho is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.\nWhat to watch Whether it reaches mainnet on schedule, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today.",
+      "text": "Private stablecoin payments that issuers and auditors can still see into\nSui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.\nWhat it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.\nWhere it stands In public beta on Sui’s Devnet since June 2026, with mainnet targeted for Q4 2026. The code is open source but not yet audited.\nWho is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.\nWhat to watch Whether it reaches mainnet on schedule, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today.",
       "charts": [
         {
           "description": "What public, Sui confidential and Zcash shielded transfers reveal, and where Sui confidential transfers stand",

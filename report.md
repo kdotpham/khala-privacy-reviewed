@@ -107,7 +107,7 @@ VPNs ($54B) and confidential computing ($24B) take most privacy spend, but tradi
 
 [View slide 4](https://kdotpham.github.io/khala-privacy-reviewed/#usecases)
 
-## Slide 5: Sui is building private stablecoin payments that issuers and auditors can still see into
+## Slide 5: Private stablecoin payments that issuers and auditors can still see into
 
 
 Sui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.
