@@ -1410,40 +1410,38 @@
       "text": "Umbra brings private transfers and swaps to Solana, built on Arcium\nUsers deposit Solana tokens into a private balance that hides who paid whom and how much, while protocol fees build a treasury that UMBRA holders direct through MetaDAO votes.\nWhat it does A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. Deposits are free; private transfers and withdrawals cost about 0.21%, a rate governance can change.\nTraction About 3.4K encrypted accounts and $250K deposited. Streamflow, a token vesting platform with 1.3M users, now offers private vesting through Umbra, and Range screens transfers for compliance.\nThe UMBRA token Umbra sold $3M of tokens at $0.30 on MetaDAO against about $155M of demand from 10.5K investors. Fees go to a treasury holders direct by vote, and up to 13.5M new tokens can be issued to the team from 2027 if the price multiplies.\nWhat to watch Whether deposits grow from a small base, whether more apps follow Streamflow in building on Umbra, and how the DAO chooses to use its fee income.",
       "charts": [
         {
-          "description": "How a private payment moves through Umbra on Solana, what stays public, and where protocol fees and control go",
+          "description": "How a private payment moves through Umbra, what is public and hidden, and Umbra’s token sale against deposits today",
           "labels": [
             "How a private payment moves through Umbra",
+            "Hidden inside Umbra, encrypted using Arcium",
             "Solana wallet",
-            "Deposits SOL or",
-            "tokens into Umbra",
-            "Private balance",
-            "Encrypted on Solana",
-            "using Arcium",
-            "Recipient",
-            "Another Umbra user,",
-            "or any Solana address",
-            "deposit",
-            "send",
+            "Deposits SOL",
+            "or tokens",
             "Public",
             "wallet, token, amount",
+            "Private balance",
+            "Encrypted",
+            "on Solana",
             "Hidden",
-            "balances, senders, amounts",
-            "Public on withdrawal",
-            "destination and amount",
-            "Where fees and control go",
-            "Protocol fee",
-            "About 0.21% on each",
-            "private transaction",
-            "DAO treasury",
-            "Payout account set",
-            "only by a vote",
-            "UMBRA holders",
-            "Steer the treasury via",
-            "MetaDAO markets",
-            "fees",
-            "govern",
+            "balance",
+            "Private send",
+            "Relayer submits;",
+            "details hidden",
+            "Hidden",
+            "sender, recipient, amount",
+            "Withdraw",
+            "To any",
+            "Solana address",
+            "Public",
+            "destination, amount",
+            "The token sale against deposits today",
+            "$155M",
+            "demand from 10.5K investors, MetaDAO sale",
+            "$3M",
+            "raised at $0.30, about 2% of commitments",
             "$250K",
-            "deposits, 23 Oct 2026",
+            "deposited in Umbra, 23 Oct 2026",
+            "Bars drawn to scale",
             "3,428",
             "encrypted accounts",
             "$6.2M",
@@ -1471,19 +1469,14 @@
               "source": "Umbra documentation, checked 20 October 2026"
             },
             {
-              "label": "Protocol fee",
-              "description": "Each private transaction commits a protocol fee in the token used. Governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip.",
-              "source": "Umbra documentation, fee model and fee collection"
+              "label": "The UMBRA token",
+              "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
+              "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
             },
             {
-              "label": "Treasury",
-              "description": "Protocol fees are paid to a treasury payout account that only a timelocked governance proposal can set. Nothing in the documentation buys back UMBRA or pays fees to holders.",
-              "source": "Umbra documentation, fee collection"
-            },
-            {
-              "label": "UMBRA holders",
-              "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees.",
-              "source": "MetaDAO; CoinDesk"
+              "label": "The UMBRA token",
+              "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
+              "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
             },
             {
               "label": "Deposits: $250K",
@@ -1526,19 +1519,14 @@
           "source": "Umbra documentation, checked 20 October 2026"
         },
         {
-          "label": "Protocol fee",
-          "description": "Each private transaction commits a protocol fee in the token used. Governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip.",
-          "source": "Umbra documentation, fee model and fee collection"
+          "label": "The UMBRA token",
+          "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
+          "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
         },
         {
-          "label": "Treasury",
-          "description": "Protocol fees are paid to a treasury payout account that only a timelocked governance proposal can set. Nothing in the documentation buys back UMBRA or pays fees to holders.",
-          "source": "Umbra documentation, fee collection"
-        },
-        {
-          "label": "UMBRA holders",
-          "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees.",
-          "source": "MetaDAO; CoinDesk"
+          "label": "The UMBRA token",
+          "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
+          "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "Deposits: $250K",
@@ -1975,34 +1963,35 @@
       "text": "Nullmask adds privacy to existing wallets, with 32K transactions in three weeks\nUsers keep MetaMask or Rabby and move funds into shielded pools on Ethereum and Base, hiding transfers from outside observers, although Nullmask’s servers hold the keys that read their balances.\nWhat it does Private transfers and swaps from a shielded balance, with no Nullmask fee on either. Deposits and withdrawals cost 0.5% each and stay public. Ethereum Base\nTraction in three weeks About 32K transactions to the pool contract since launch around 2 October, and more than $50M of private volume, company-reported. Only about $220K sits in the pools, so most money passes through rather than stays.\nThe MASK token MASK has no documented role in the product yet. Holders earn ZEC from a fee on trading MASK itself on StonkFun, about $1.5M so far, and 2.15% of supply has been burned. The 0.5% product fees are kept by Nullmask.\nWhat to watch Whether use holds once launch incentives and points fade, whether the SDK, Solana and private perpetuals ship as planned in Q4 2026, and whether users accept an operator that holds their keys.",
       "charts": [
         {
-          "description": "Nullmask product flow from an existing wallet through the shielded pool to a public withdrawal, and MASK valuation",
+          "description": "How a Nullmask transfer works, what the chain and Nullmask’s servers can see, and money through versus money held",
           "labels": [
-            "How a Nullmask transfer works",
+            "How a Nullmask transfer works, and who sees what",
             "Existing wallet",
             "MetaMask",
             "Rabby",
-            "Wallet creates your keys",
-            "Shielded pool",
-            "Balances hidden from",
-            "chain watchers",
+            "Deposit",
+            "0.5% fee",
             "Transfer or swap",
-            "Relayer submits the action;",
-            "swap amounts visible",
+            "no Nullmask fee",
             "Withdraw",
-            "Destination and",
-            "amount public",
-            "deposit",
             "0.5% fee",
-            "use",
-            "no fee",
-            "exit",
-            "0.5% fee",
-            "Private from chain watchers",
-            "Nullmask’s servers hold the keys that read balances and history.",
+            "The chain sees",
+            "Wallet address",
+            "Deposit amount",
+            "Sender, recipient, amount hidden",
+            "Destination, amount, timing",
+            "Nullmask’s servers see",
+            "Hold your account keys",
+            "Balances",
+            "Balances and history",
+            "Balances and history",
+            "Money through vs money held",
+            "$50M+ volume",
+            "$220K in the pools",
             "$19.0M",
-            "Market cap · 26 Oct 2026",
-            "$31.3M",
-            "FDV · 26 Oct 2026"
+            "Market cap, 26 Oct",
+            "32K",
+            "transactions"
           ],
           "details": [
             {
@@ -2011,9 +2000,9 @@
               "source": "Nullmask documentation, getting started, checked 24 October 2026"
             },
             {
-              "label": "Shielded pool",
-              "description": "Balances and private transfers are hidden from chain observers.",
-              "source": "nullmask.io/docs/privacy"
+              "label": "What it does",
+              "description": "Private transfers and swaps from a shielded balance. Deposits and withdrawals cost 0.5% each and are public; swaps and private transfers carry no Nullmask fee, only network and exchange fees. MetaMask and Rabby are named as supported wallets, which does not imply a partnership.",
+              "source": "Nullmask documentation: fees, privacy, getting started and networks, checked 24 October 2026"
             },
             {
               "label": "Relayed transfers and swaps",
@@ -2026,9 +2015,19 @@
               "source": "nullmask.io/docs/privacy"
             },
             {
+              "label": "Shielded pool",
+              "description": "Balances and private transfers are hidden from chain observers.",
+              "source": "nullmask.io/docs/privacy"
+            },
+            {
               "label": "Who can see the history?",
               "description": "Nullmask’s servers hold users’ account keys and can read private balances and history. The documentation says the product protects against outside observers, not the operator.",
               "source": "Nullmask documentation, privacy, checked 24 October 2026"
+            },
+            {
+              "label": "Traction in three weeks",
+              "description": "20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October.",
+              "source": "Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026"
             },
             {
               "label": "MASK market cap: $19.0M",
@@ -2036,9 +2035,9 @@
               "source": "CoinGecko, 26 October 2026"
             },
             {
-              "label": "MASK fully diluted value: $31.3M",
-              "description": "About 40% of supply is not yet circulating.",
-              "source": "CoinGecko, 26 October 2026"
+              "label": "Traction in three weeks",
+              "description": "20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October.",
+              "source": "Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026"
             }
           ]
         }
@@ -2051,9 +2050,9 @@
           "source": "Nullmask documentation, getting started, checked 24 October 2026"
         },
         {
-          "label": "Shielded pool",
-          "description": "Balances and private transfers are hidden from chain observers.",
-          "source": "nullmask.io/docs/privacy"
+          "label": "What it does",
+          "description": "Private transfers and swaps from a shielded balance. Deposits and withdrawals cost 0.5% each and are public; swaps and private transfers carry no Nullmask fee, only network and exchange fees. MetaMask and Rabby are named as supported wallets, which does not imply a partnership.",
+          "source": "Nullmask documentation: fees, privacy, getting started and networks, checked 24 October 2026"
         },
         {
           "label": "Relayed transfers and swaps",
@@ -2066,9 +2065,19 @@
           "source": "nullmask.io/docs/privacy"
         },
         {
+          "label": "Shielded pool",
+          "description": "Balances and private transfers are hidden from chain observers.",
+          "source": "nullmask.io/docs/privacy"
+        },
+        {
           "label": "Who can see the history?",
           "description": "Nullmask’s servers hold users’ account keys and can read private balances and history. The documentation says the product protects against outside observers, not the operator.",
           "source": "Nullmask documentation, privacy, checked 24 October 2026"
+        },
+        {
+          "label": "Traction in three weeks",
+          "description": "20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October.",
+          "source": "Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026"
         },
         {
           "label": "MASK market cap: $19.0M",
@@ -2076,9 +2085,9 @@
           "source": "CoinGecko, 26 October 2026"
         },
         {
-          "label": "MASK fully diluted value: $31.3M",
-          "description": "About 40% of supply is not yet circulating.",
-          "source": "CoinGecko, 26 October 2026"
+          "label": "Traction in three weeks",
+          "description": "20,287 transactions to the pool contract on Ethereum and 11,994 on Base to 24 October 2026; the count includes relayer and housekeeping transactions, so it is not a user count, and Nullmask publishes none. Nullmask reported more than $50M of private volume since 1 October, about $3M a day. TVL was about $222K on 23 October.",
+          "source": "Etherscan and Basescan, pool contract 0xd64E…91c6, 24 October 2026; Nullmask press release via The Block, 19 October 2026; DefiLlama, 23 October 2026"
         },
         {
           "label": "What it does",
