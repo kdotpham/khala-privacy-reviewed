@@ -17,9 +17,7 @@
   ],
   "market_data_as_of": "2026-10-26",
   "research_status": "Targeted primary-source audit on 2026-10-20 covers Nullmask fees, reward accounting and delivery status; Nockchain privacy status, issuance and roadmap; Pearl mining and inference payments; wallet RPC experiments; refund release history; and UR (SN25) launch pricing. Market values retain their stated historical observation dates. This is not a transaction-level audit of every metric.",
-  "sample_data_slide_numbers": [
-    17
-  ],
+  "sample_data_slide_numbers": [],
   "market_data_overrides": {},
   "coverage_universe": [
     "Zcash",
@@ -40,7 +38,7 @@
     "Nym",
     "UR (SN25)"
   ],
-  "slide_count": 21,
+  "slide_count": 20,
   "slides": [
     {
       "slide_number": 1,
@@ -1598,9 +1596,10 @@
       "text": "Nockchain mines with zero-knowledge proofs and plans private NOCK transfers for 2027\nMiners prove their work with zero-knowledge proofs, and since August can also mine with the maths behind AI, but NOCK balances and transfers stay public until a privacy pool ships, planned for Q2 2027.\nWhat it does Money on a chain whose miners produce zero-knowledge proofs instead of hashes. Since August, miners can also win blocks doing the matrix maths used in AI inference.\nTraction No private transfers or paying apps yet. AI mining was set to win 30% of blocks at launch, and its first inference customer is National Compute, a company founded by Nockchain’s founder.\nThe NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, 80% to the miner and 20% to a community-run fund, and miners keep all fees.\nWhat to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.",
       "charts": [
         {
-          "description": "Nockchain today, where zero-knowledge proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private",
+          "description": "Nockchain today, where proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private",
           "labels": [
             "Today: proofs and AI maths secure the chain",
+            "2027: the same proofs are meant to make NOCK private",
             "Miners",
             "Produce a ZK proof, or",
             "AI maths since August",
@@ -1610,18 +1609,17 @@
             "NOCK holders",
             "Balances and transfers",
             "are fully public",
-            "The thesis: the proving system that already secures mining becomes the engine for",
-            "private transfers and private apps. Nockchain calls NOCK “soon-to-be private”.",
-            "2027: the same proofs are meant to make NOCK private",
             "ZK verification",
-            "Native opcode to",
-            "verify proofs, Q1 2027",
+            "Native opcode to verify",
+            "proofs, Q1 2027",
             "Privacy pool",
             "Private NOCK transfers,",
             "planned for Q2 2027",
             "Private apps",
             "Prove results without",
             "revealing inputs",
+            "The thesis: the proving system that already secures mining becomes the engine for",
+            "private transfers and private apps. Nockchain calls NOCK “soon-to-be private”.",
             "$44M",
             "market cap, 26 Oct 2026",
             "9,549",
@@ -1632,38 +1630,38 @@
           "details": [
             {
               "label": "Miners",
-              "description": "ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible integer matrix maths, proved with recursive STARK certificates.",
-              "source": "Nockchain tokenomics documentation, checked 24 October 2026"
+              "description": "ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible matrix maths.",
+              "source": "Nockchain tokenomics documentation"
             },
             {
               "label": "Block reward",
-              "description": "Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner.",
+              "description": "Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner.",
               "source": "Nockchain documentation, tokenomics"
             },
             {
               "label": "Not private yet",
-              "description": "Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base.",
-              "source": "https://docs.nockchain.org/start-here/faq"
-            },
-            {
-              "label": "The privacy thesis",
-              "description": "Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one.",
-              "source": "Nockchain README and vision documents"
+              "description": "Nockchain’s FAQ answers whether transfers are private with “Not currently”. Wrapped NOCK also trades publicly on Base.",
+              "source": "docs.nockchain.org FAQ"
             },
             {
               "label": "ZK verification opcode",
-              "description": "A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps.",
-              "source": "https://www.nockchain.org/roadmap"
+              "description": "A native opcode for verifying zero-knowledge proofs is planned for Q1 2027 with forced data availability, which Nockchain calls the foundation for privacy apps.",
+              "source": "nockchain.org/roadmap"
             },
             {
               "label": "Privacy pool",
-              "description": "Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately.",
-              "source": "https://www.nockchain.org/roadmap"
+              "description": "Privacy is planned as a pool application following the ShieldedCSV specification; it would be the first time NOCK can move privately.",
+              "source": "nockchain.org/roadmap"
             },
             {
               "label": "Private NockApps",
-              "description": "The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs.",
-              "source": "Nockchain README; https://www.nockchain.org/roadmap"
+              "description": "Apps would prove state changes so nodes verify them without seeing private inputs, with private DeFi foundations planned for Q3 2027.",
+              "source": "Nockchain README; nockchain.org/roadmap"
+            },
+            {
+              "label": "The privacy thesis",
+              "description": "Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps.",
+              "source": "Nockchain README and vision documents"
             },
             {
               "label": "Market cap: $44.5M",
@@ -1672,13 +1670,13 @@
             },
             {
               "label": "Holders: 9,549",
-              "description": "Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form",
+              "description": "Addresses holding wrapped NOCK on Base.",
               "source": "Basescan, 20 October 2026"
             },
             {
               "label": "Privacy pool: Q2 2027",
-              "description": "Planned date on the Nockchain roadmap; not yet live",
-              "source": "https://www.nockchain.org/roadmap"
+              "description": "Planned date on the Nockchain roadmap; not yet live.",
+              "source": "nockchain.org/roadmap"
             }
           ]
         }
@@ -1687,38 +1685,38 @@
       "hover_details": [
         {
           "label": "Miners",
-          "description": "ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible integer matrix maths, proved with recursive STARK certificates.",
-          "source": "Nockchain tokenomics documentation, checked 24 October 2026"
+          "description": "ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible matrix maths.",
+          "source": "Nockchain tokenomics documentation"
         },
         {
           "label": "Block reward",
-          "description": "Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner.",
+          "description": "Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner.",
           "source": "Nockchain documentation, tokenomics"
         },
         {
           "label": "Not private yet",
-          "description": "Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base.",
-          "source": "https://docs.nockchain.org/start-here/faq"
-        },
-        {
-          "label": "The privacy thesis",
-          "description": "Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one.",
-          "source": "Nockchain README and vision documents"
+          "description": "Nockchain’s FAQ answers whether transfers are private with “Not currently”. Wrapped NOCK also trades publicly on Base.",
+          "source": "docs.nockchain.org FAQ"
         },
         {
           "label": "ZK verification opcode",
-          "description": "A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps.",
-          "source": "https://www.nockchain.org/roadmap"
+          "description": "A native opcode for verifying zero-knowledge proofs is planned for Q1 2027 with forced data availability, which Nockchain calls the foundation for privacy apps.",
+          "source": "nockchain.org/roadmap"
         },
         {
           "label": "Privacy pool",
-          "description": "Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately.",
-          "source": "https://www.nockchain.org/roadmap"
+          "description": "Privacy is planned as a pool application following the ShieldedCSV specification; it would be the first time NOCK can move privately.",
+          "source": "nockchain.org/roadmap"
         },
         {
           "label": "Private NockApps",
-          "description": "The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs.",
-          "source": "Nockchain README; https://www.nockchain.org/roadmap"
+          "description": "Apps would prove state changes so nodes verify them without seeing private inputs, with private DeFi foundations planned for Q3 2027.",
+          "source": "Nockchain README; nockchain.org/roadmap"
+        },
+        {
+          "label": "The privacy thesis",
+          "description": "Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps.",
+          "source": "Nockchain README and vision documents"
         },
         {
           "label": "Market cap: $44.5M",
@@ -1727,13 +1725,13 @@
         },
         {
           "label": "Holders: 9,549",
-          "description": "Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form",
+          "description": "Addresses holding wrapped NOCK on Base.",
           "source": "Basescan, 20 October 2026"
         },
         {
           "label": "Privacy pool: Q2 2027",
-          "description": "Planned date on the Nockchain roadmap; not yet live",
-          "source": "https://www.nockchain.org/roadmap"
+          "description": "Planned date on the Nockchain roadmap; not yet live.",
+          "source": "nockchain.org/roadmap"
         },
         {
           "label": "What it does",
@@ -1977,24 +1975,28 @@
       "text": "Nullmask adds privacy to existing wallets, with 32K transactions in three weeks\nUsers keep MetaMask or Rabby and move funds into shielded pools on Ethereum and Base, hiding transfers from outside observers, although Nullmask’s servers hold the keys that read their balances.\nWhat it does Private transfers and swaps from a shielded balance, with no Nullmask fee on either. Deposits and withdrawals cost 0.5% each and stay public. Ethereum Base\nTraction in three weeks About 32K transactions to the pool contract since launch around 2 October, and more than $50M of private volume, company-reported. Only about $220K sits in the pools, so most money passes through rather than stays.\nThe MASK token MASK has no documented role in the product yet. Holders earn ZEC from a fee on trading MASK itself on StonkFun, about $1.5M so far, and 2.15% of supply has been burned. The 0.5% product fees are kept by Nullmask.\nWhat to watch Whether use holds once launch incentives and points fade, whether the SDK, Solana and private perpetuals ship as planned in Q4 2026, and whether users accept an operator that holds their keys.",
       "charts": [
         {
-          "description": "Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026",
+          "description": "Nullmask product flow from an existing wallet through the shielded pool to a public withdrawal, and MASK valuation",
           "labels": [
-            "Deposits and withdrawals remain public",
+            "How a Nullmask transfer works",
             "Existing wallet",
             "MetaMask",
             "Rabby",
             "Wallet creates your keys",
             "Shielded pool",
-            "0.5% deposit fee",
-            "deposit",
+            "Balances hidden from",
+            "chain watchers",
             "Transfer or swap",
-            "Relayer submits the action",
-            "Swap assets and amounts visible",
-            "use",
+            "Relayer submits the action;",
+            "swap amounts visible",
             "Withdraw",
-            "0.5% withdrawal fee",
-            "Destination and amount public",
+            "Destination and",
+            "amount public",
+            "deposit",
+            "0.5% fee",
+            "use",
+            "no fee",
             "exit",
+            "0.5% fee",
             "Private from chain watchers",
             "Nullmask’s servers hold the keys that read balances and history.",
             "$19.0M",
@@ -2005,23 +2007,23 @@
           "details": [
             {
               "label": "Supported wallets",
-              "description": "Connecting a wallet and signing a free message creates the account keys, and the same wallet always gives the same keys. MetaMask and Rabby are named as examples, not partners.",
+              "description": "Connecting a wallet and signing a free message creates the account keys. MetaMask and Rabby are named as examples, not partners.",
               "source": "Nullmask documentation, getting started, checked 24 October 2026"
             },
             {
               "label": "Shielded pool",
-              "description": "Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount.",
-              "source": "https://nullmask.io/docs/privacy"
+              "description": "Balances and private transfers are hidden from chain observers.",
+              "source": "nullmask.io/docs/privacy"
             },
             {
               "label": "Relayed transfers and swaps",
               "description": "Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it.",
-              "source": "https://nullmask.io/docs/swap"
+              "source": "nullmask.io/docs/swap"
             },
             {
               "label": "Withdrawal",
-              "description": "The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit.",
-              "source": "https://nullmask.io/docs/privacy"
+              "description": "The recipient, asset, amount, fee and timing are public; amount and timing can still link pool entry and exit.",
+              "source": "nullmask.io/docs/privacy"
             },
             {
               "label": "Who can see the history?",
@@ -2045,23 +2047,23 @@
       "hover_details": [
         {
           "label": "Supported wallets",
-          "description": "Connecting a wallet and signing a free message creates the account keys, and the same wallet always gives the same keys. MetaMask and Rabby are named as examples, not partners.",
+          "description": "Connecting a wallet and signing a free message creates the account keys. MetaMask and Rabby are named as examples, not partners.",
           "source": "Nullmask documentation, getting started, checked 24 October 2026"
         },
         {
           "label": "Shielded pool",
-          "description": "Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount.",
-          "source": "https://nullmask.io/docs/privacy"
+          "description": "Balances and private transfers are hidden from chain observers.",
+          "source": "nullmask.io/docs/privacy"
         },
         {
           "label": "Relayed transfers and swaps",
           "description": "Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it.",
-          "source": "https://nullmask.io/docs/swap"
+          "source": "nullmask.io/docs/swap"
         },
         {
           "label": "Withdrawal",
-          "description": "The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit.",
-          "source": "https://nullmask.io/docs/privacy"
+          "description": "The recipient, asset, amount, fee and timing are public; amount and timing can still link pool entry and exit.",
+          "source": "nullmask.io/docs/privacy"
         },
         {
           "label": "Who can see the history?",
@@ -2396,135 +2398,6 @@
     },
     {
       "slide_number": 17,
-      "id": "mau",
-      "title": "UR (SN25) reports 350K monthly users",
-      "url": "https://kdotpham.github.io/khala-privacy-reviewed/#mau",
-      "kind": "content",
-      "data_status": "sample_not_for_publication",
-      "warnings": [
-        "SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported."
-      ],
-      "paragraphs": [
-        "UR (SN25) reports 350K monthly users",
-        "The monthly series is illustrative and ends at the team-reported figure of 350K monthly users.",
-        "126,717 providers across 103 countries",
-        "Although URnetwork reports an existing user base, its zero launch deposit rate means app usage does not yet require operators to buy UR (SN25).",
-        "The bars show the chart layout, not measured monthly growth.",
-        "SAMPLE DATA · NOT FOR POSTING"
-      ],
-      "text": "UR (SN25) reports 350K monthly users\nThe monthly series is illustrative and ends at the team-reported figure of 350K monthly users.\n126,717 providers across 103 countries\nAlthough URnetwork reports an existing user base, its zero launch deposit rate means app usage does not yet require operators to buy UR (SN25).\nThe bars show the chart layout, not measured monthly growth.\nSAMPLE DATA · NOT FOR POSTING",
-      "charts": [
-        {
-          "description": "Placeholder monthly active users chart. Sample data, not for posting.",
-          "labels": [
-            "120K",
-            "1 APR 2026",
-            "150K",
-            "1 MAY 2026",
-            "185K",
-            "1 JUN 2026",
-            "220K",
-            "1 JUL 2026",
-            "265K",
-            "1 AUG 2026",
-            "UR (SN25) launches on Bittensor UR (SN25)",
-            "300K",
-            "1 SEP 2026",
-            "330K",
-            "1 OCT 2026",
-            "350K",
-            "15 OCT 2026"
-          ],
-          "details": [
-            {
-              "label": "Apr 1",
-              "description": "120K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "May 1",
-              "description": "150K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Jun 1",
-              "description": "185K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Jul 1",
-              "description": "220K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Aug 1",
-              "description": "265K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Sep 1",
-              "description": "300K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Oct 1",
-              "description": "330K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            },
-            {
-              "label": "Oct 15",
-              "description": "350K monthly active users",
-              "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-            }
-          ]
-        }
-      ],
-      "tables": [],
-      "hover_details": [
-        {
-          "label": "Apr 1",
-          "description": "120K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "May 1",
-          "description": "150K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Jun 1",
-          "description": "185K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Jul 1",
-          "description": "220K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Aug 1",
-          "description": "265K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Sep 1",
-          "description": "300K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Oct 1",
-          "description": "330K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        },
-        {
-          "label": "Oct 15",
-          "description": "350K monthly active users",
-          "source": "SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series."
-        }
-      ]
-    },
-    {
-      "slide_number": 18,
       "id": "operators",
       "title": "Priced deposits could create demand for UR (SN25)",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#operators",
@@ -2672,7 +2545,7 @@
       ]
     },
     {
-      "slide_number": 19,
+      "slide_number": 18,
       "id": "pipeline",
       "title": "UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#pipeline",
@@ -2759,7 +2632,7 @@
       ]
     },
     {
-      "slide_number": 20,
+      "slide_number": 19,
       "id": "bull",
       "title": "The most valuable connectivity networks are the ones with paying customers",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#bull",
@@ -2915,7 +2788,7 @@
       ]
     },
     {
-      "slide_number": 21,
+      "slide_number": 20,
       "id": "catalysts",
       "title": "Dated events and operating signals will test the privacy thesis",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#catalysts",

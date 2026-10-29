@@ -5,7 +5,7 @@ Publication date: 2026-11-02
 Market-cap snapshot: 2026-10-26
 Canonical report: https://kdotpham.github.io/khala-privacy-reviewed/
 
-Slide 17: SAMPLE DATA · NOT FOR POSTING. Its monthly chart contains placeholders. Market caps are CoinGecko observations from 26 October 2026.
+Market caps are CoinGecko observations from 26 October 2026.
 
 ## Slide 1: Demand for privacy is growing, but most of the value still sits in privacy coins
 
@@ -347,24 +347,24 @@ Traction No private transfers or paying apps yet. AI mining was set to win 30% o
 The NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, 80% to the miner and 20% to a community-run fund, and miners keep all fees.
 What to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.
 
-### Nockchain today, where zero-knowledge proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
+### Nockchain today, where proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
 
-Chart labels in display order: Today: proofs and AI maths secure the chain · Miners · Produce a ZK proof, or · AI maths since August · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · 2027: the same proofs are meant to make NOCK private · ZK verification · Native opcode to · verify proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
+Chart labels in display order: Today: proofs and AI maths secure the chain · 2027: the same proofs are meant to make NOCK private · Miners · Produce a ZK proof, or · AI maths since August · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · ZK verification · Native opcode to verify · proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible integer matrix maths, proved with recursive STARK certificates. | Nockchain tokenomics documentation, checked 24 October 2026 |
-| Block reward | Each block pays 2,048 NOCK under the current schedule, falling in steps to a 64 NOCK floor. New issuance is split 80% to the miner and 20% to a protocol fund; fees go entirely to the miner. | Nockchain documentation, tokenomics |
-| Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”: the mining proof does not hide transaction values or public chain state. Wrapped NOCK also trades publicly on Base. | https://docs.nockchain.org/start-here/faq |
-| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”. The bet is that the proving system already running for mining becomes the engine for private transfers and private apps, so privacy arrives on a chain built for zero-knowledge proofs from day one. | Nockchain README and vision documents |
-| ZK verification opcode | A native opcode for verifying zero-knowledge proofs, alongside the completed Nock ZKVM, is planned for Q1 2027 together with forced data availability, which Nockchain calls the foundation for client-side-validation privacy apps. | https://www.nockchain.org/roadmap |
-| Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification, rather than as a base-layer transaction feature. It would be the first time NOCK can move privately. | https://www.nockchain.org/roadmap |
-| Private NockApps | The proposed design lets an app prove a state change so nodes verify it without seeing its private inputs, with private DeFi foundations planned for Q3 2027. The current transaction engine does not yet verify these proofs. | Nockchain README; https://www.nockchain.org/roadmap |
+| Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible matrix maths. | Nockchain tokenomics documentation |
+| Block reward | Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner. | Nockchain documentation, tokenomics |
+| Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”. Wrapped NOCK also trades publicly on Base. | docs.nockchain.org FAQ |
+| ZK verification opcode | A native opcode for verifying zero-knowledge proofs is planned for Q1 2027 with forced data availability, which Nockchain calls the foundation for privacy apps. | nockchain.org/roadmap |
+| Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification; it would be the first time NOCK can move privately. | nockchain.org/roadmap |
+| Private NockApps | Apps would prove state changes so nodes verify them without seeing private inputs, with private DeFi foundations planned for Q3 2027. | Nockchain README; nockchain.org/roadmap |
+| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps. | Nockchain README and vision documents |
 | Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. | CoinGecko, 26 October 2026 |
-| Holders: 9,549 | Addresses holding wrapped NOCK on Base; native Nockchain holders are not published in readable form | Basescan, 20 October 2026 |
-| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live | https://www.nockchain.org/roadmap |
+| Holders: 9,549 | Addresses holding wrapped NOCK on Base. | Basescan, 20 October 2026 |
+| Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live. | nockchain.org/roadmap |
 | What it does | Each ZK miner runs a fixed Nock program and produces a compact STARK proof that nodes check without redoing the work. The Logos upgrade at block 126,000 in August 2026 added a second puzzle, AI proof of work, using Pearl-compatible integer matrix maths, with its own difficulty. | Nockchain FAQ and tokenomics documentation, checked 24 October 2026; Blockworks 0xResearch, 13 August 2026 |
 | Traction | Blocks were split 30% to the AI puzzle and 70% to ZK mining at activation; no measured split is published. National Compute also wrote the Logos proposal, so the upgrade and its first customer share an author. About 9,549 addresses hold wrapped NOCK on Base; native holder counts are not published in readable form. | Blockworks 0xResearch, 13 August 2026; KuCoin News, 14 August 2026; Basescan, 20 October 2026 |
 | The NOCK token | The cap is 2^32 NOCK. Since the Aletheia upgrade in May 2026, each block pays 2,048 NOCK, falling in nine steps to a 64 NOCK floor. Zorp, the company that built Nockchain, mined NOCK and owed seed investors 35% of what it acquired; it wound down in mid-2026 and handed its code and trademark to Nock Community Co., which governs the 20% fund. About 2.37B NOCK circulate, a market cap of about $44.5M and fully diluted value of about $80.7M. | Nockchain FAQ and tokenomics documentation; nockchain.org, NOCK trades; Blockworks 0xResearch, 13 August 2026; CoinGecko, 26 October 2026 |
@@ -417,18 +417,18 @@ Traction in three weeks About 32K transactions to the pool contract since launch
 The MASK token MASK has no documented role in the product yet. Holders earn ZEC from a fee on trading MASK itself on StonkFun, about $1.5M so far, and 2.15% of supply has been burned. The 0.5% product fees are kept by Nullmask.
 What to watch Whether use holds once launch incentives and points fade, whether the SDK, Solana and private perpetuals ship as planned in Q4 2026, and whether users accept an operator that holds their keys.
 
-### Nullmask product flow: existing wallet, shielded pool, relayed actions and public withdrawal; valuation snapshot 19 October 2026
+### Nullmask product flow from an existing wallet through the shielded pool to a public withdrawal, and MASK valuation
 
-Chart labels in display order: Deposits and withdrawals remain public · Existing wallet · MetaMask · Rabby · Wallet creates your keys · Shielded pool · 0.5% deposit fee · deposit · Transfer or swap · Relayer submits the action · Swap assets and amounts visible · use · Withdraw · 0.5% withdrawal fee · Destination and amount public · exit · Private from chain watchers · Nullmask’s servers hold the keys that read balances and history. · $19.0M · Market cap · 26 Oct 2026 · $31.3M · FDV · 26 Oct 2026
+Chart labels in display order: How a Nullmask transfer works · Existing wallet · MetaMask · Rabby · Wallet creates your keys · Shielded pool · Balances hidden from · chain watchers · Transfer or swap · Relayer submits the action; · swap amounts visible · Withdraw · Destination and · amount public · deposit · 0.5% fee · use · no fee · exit · 0.5% fee · Private from chain watchers · Nullmask’s servers hold the keys that read balances and history. · $19.0M · Market cap · 26 Oct 2026 · $31.3M · FDV · 26 Oct 2026
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
-| Supported wallets | Connecting a wallet and signing a free message creates the account keys, and the same wallet always gives the same keys. MetaMask and Rabby are named as examples, not partners. | Nullmask documentation, getting started, checked 24 October 2026 |
-| Shielded pool | Balances and private transfers are hidden from chain observers. Deposits publish the source, asset and amount. | https://nullmask.io/docs/privacy |
-| Relayed transfers and swaps | Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it. | https://nullmask.io/docs/swap |
-| Withdrawal | The recipient, asset, amount, fee and timing are public. Amount and timing can still link pool entry and exit. | https://nullmask.io/docs/privacy |
+| Supported wallets | Connecting a wallet and signing a free message creates the account keys. MetaMask and Rabby are named as examples, not partners. | Nullmask documentation, getting started, checked 24 October 2026 |
+| Shielded pool | Balances and private transfers are hidden from chain observers. | nullmask.io/docs/privacy |
+| Relayed transfers and swaps | Private transfers conceal the sender, recipient and amount. A swap publishes its assets and amounts, but not who made it. | nullmask.io/docs/swap |
+| Withdrawal | The recipient, asset, amount, fee and timing are public; amount and timing can still link pool entry and exit. | nullmask.io/docs/privacy |
 | Who can see the history? | Nullmask’s servers hold users’ account keys and can read private balances and history. The documentation says the product protects against outside observers, not the operator. | Nullmask documentation, privacy, checked 24 October 2026 |
 | MASK market cap: $19.0M | About 590M MASK in circulation at about $0.032. | CoinGecko, 26 October 2026 |
 | MASK fully diluted value: $31.3M | About 40% of supply is not yet circulating. | CoinGecko, 26 October 2026 |
@@ -500,36 +500,7 @@ Chart labels in display order: How your traffic moves · You · App on phone, ·
 
 [View slide 16](https://kdotpham.github.io/khala-privacy-reviewed/#urnet)
 
-## Slide 17: UR (SN25) reports 350K monthly users
-
-**SAMPLE DATA · NOT FOR POSTING. Monthly chart values are placeholders, not observed history. The 350K headline is separately team-reported.**
-
-The monthly series is illustrative and ends at the team-reported figure of 350K monthly users.
-126,717 providers across 103 countries
-Although URnetwork reports an existing user base, its zero launch deposit rate means app usage does not yet require operators to buy UR (SN25).
-The bars show the chart layout, not measured monthly growth.
-SAMPLE DATA · NOT FOR POSTING
-
-### Placeholder monthly active users chart. Sample data, not for posting.
-
-Chart labels in display order: 120K · 1 APR 2026 · 150K · 1 MAY 2026 · 185K · 1 JUN 2026 · 220K · 1 JUL 2026 · 265K · 1 AUG 2026 · UR (SN25) launches on Bittensor UR (SN25) · 300K · 1 SEP 2026 · 330K · 1 OCT 2026 · 350K · 15 OCT 2026
-
-### Chart details and interactive notes
-
-| Metric or element | Detail | Source supplied with the slide |
-| --- | --- | --- |
-| Apr 1 | 120K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| May 1 | 150K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Jun 1 | 185K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Jul 1 | 220K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Aug 1 | 265K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Sep 1 | 300K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Oct 1 | 330K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-| Oct 15 | 350K monthly active users | SAMPLE DATA: NOT FOR POSTING. Placeholder monthly series. |
-
-[View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#mau)
-
-## Slide 18: Priced deposits could create demand for UR (SN25)
+## Slide 17: Priced deposits could create demand for UR (SN25)
 
 
 Although the launch rate is zero, priced deposits would lock UR (SN25) against traffic, with revenue-funded purchases expected in the design but not enforced.
@@ -555,9 +526,9 @@ Chart labels in display order: MINER EMISSIONS · ur.io · 1 operator · ONCE PR
 | Operator 5 | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
 | Operator N | Illustrative priced-deposit case: locks tokens against usage. Funding from new market purchases is expected, not enforced; existing inventory can be used. | Illustrative design; https://github.com/urfoundation/sn#deposits--the-demand-signal-conviction-stake-and-a-buyback |
 
-[View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
+[View slide 17](https://kdotpham.github.io/khala-privacy-reviewed/#operators)
 
-## Slide 19: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
+## Slide 18: UR (SN25)’s operator roadmap extends from consumer VPNs into enterprise and AI
 
 
 With ur.io already live and enterprise and AI programmes still in research, the peer figures illustrate market scale rather than forecast UR (SN25) revenue.
@@ -583,9 +554,9 @@ If these programmes become paying operators, their traffic could create UR (SN25
 | Project Stargate | Residential routes that let agents browse, retrieve and index the open web |  |
 | Third-party operators | Any business can bill users and data on the same network |  |
 
-[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
+[View slide 18](https://kdotpham.github.io/khala-privacy-reviewed/#pipeline)
 
-## Slide 20: The most valuable connectivity networks are the ones with paying customers
+## Slide 19: The most valuable connectivity networks are the ones with paying customers
 
 
 Grass and Helium, which report revenue or paying subscribers, are worth $77M to $490M, while five privacy VPN networks, most of which publish no revenue, are worth $2M to $23M.
@@ -606,9 +577,9 @@ Chart labels in display order: Network · What it sells · Reported usage · How
 | Mysterium | Users route traffic through nodes run by individuals and pay them in MYST in proportion to the bandwidth used. | Kryptex, 16 April 2026; CoinGecko, 26 October 2026 |
 | Sentinel | Sentinel provides the network and SDK behind several VPN apps; wallets pay node operators directly onchain in P2P, formerly DVPN. | sentinel.co, checked 26 October 2026; CoinGecko, 26 October 2026 |
 
-[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
+[View slide 19](https://kdotpham.github.io/khala-privacy-reviewed/#bull)
 
-## Slide 21: Dated events and operating signals will test the privacy thesis
+## Slide 20: Dated events and operating signals will test the privacy thesis
 
 
 Scheduled milestones test delivery, while deposits and burns show whether adoption reaches the token.
@@ -637,7 +608,7 @@ Scheduled milestones test delivery, while deposits and burns show whether adopti
 | Nullmask: Product fees, MASK burns and delivery | The dashboard reports service fees, developer-wallet ZEC rewards, holder payouts and burns as distinct metrics. Solana and private perpetuals remain roadmap targets. | https://app.nullmask.io/analytics; https://nullmask.io/docs/project-roadmap |
 | Pearl: PRL compute market and proof of inference | The whitepaper describes a PRL-based compute marketplace with no launch date, and a proof-of-inference layer is being built with Attestable. Either would give inference demand a route to PRL. | Bankless, 16 October 2026 |
 
-[View slide 21](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
+[View slide 20](https://kdotpham.github.io/khala-privacy-reviewed/#catalysts)
 
 
 ## Disclosures
