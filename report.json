@@ -51,11 +51,11 @@
       "paragraphs": [
         "Executive summary",
         "Demand for privacy is growing, but most of the value still sits in privacy coins",
-        "1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui’s confidential stablecoin transfers with issuer controls have been in Devnet beta since June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice and Nullmask link their tokens to protocol revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
+        "1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui’s confidential stablecoin transfers with issuer controls have been in Devnet beta since June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Real usage is growing faster than token value capture Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice and Nullmask link their tokens to protocol revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date",
         "Covered in this report Zcash Monero Venice Umbra NOCK Pearl Nullmask Zama Railgun Nym UR (SN25)",
         "Market data as of 26 October 2026. Disclosures are at the end of this report."
       ],
-      "text": "Executive summary\nDemand for privacy is growing, but most of the value still sits in privacy coins\n1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui’s confidential stablecoin transfers with issuer controls have been in Devnet beta since June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Venice and URnetwork show real demand, and Venice already turns it into buybacks Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice and Nullmask link their tokens to protocol revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCovered in this report Zcash Monero Venice Umbra NOCK Pearl Nullmask Zama Railgun Nym UR (SN25)\nMarket data as of 26 October 2026. Disclosures are at the end of this report.",
+      "text": "Executive summary\nDemand for privacy is growing, but most of the value still sits in privacy coins\n1 Institutions now want private payments, and Tether and Sui are building them Tether offers USDT on Zama’s confidentiality layer and Sui’s confidential stablecoin transfers with issuer controls have been in Devnet beta since June, while about $390B of stablecoin payments a year still settle in public. $390B stablecoin payments a year on public ledgers 2 Investors still pay far more for private money than for privacy apps Zcash and Monero are worth about $32B, about 14 times the nine other privacy tokens in this report. Venice, the largest app token, trades at about 10 times its estimated revenue. 14× privacy money’s value against other tokens 3 Real usage is growing faster than token value capture Half of Zcash’s Q3 transactions were private, Venice has 3.5M users and URnetwork reports 350K monthly users of its VPN app. Only Venice and Nullmask link their tokens to protocol revenue, and new supply from Pearl and Venice weighs on holders. 350K monthly URnetwork app users (team-reported) 4 Legal risk and trust in operators could slow adoption Roman Storm’s retrial on Tornado Cash laundering and sanctions charges will test the legal risk of building privacy tools, and many users still trust operators: Nullmask’s servers hold users’ keys. Apr 2027 Storm retrial date\nCovered in this report Zcash Monero Venice Umbra NOCK Pearl Nullmask Zama Railgun Nym UR (SN25)\nMarket data as of 26 October 2026. Disclosures are at the end of this report.",
       "charts": [],
       "tables": [],
       "hover_details": []
@@ -295,7 +295,7 @@
               "Trading and tokenised assets",
               "$2.7T traded onchain each year",
               "Orders, positions and holdings",
-              "~$4B shielded through Railgun, 2× Oct 2024 $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
+              "~$4B shielded on Railgun, doubled since October 2024 $121M shielded on Ethereum in Zama’s token sale $340M traded through Renegade’s dark pool to date",
               "Railgun Zama Renegade"
             ],
             [
@@ -408,20 +408,19 @@
     {
       "slide_number": 5,
       "id": "sui",
-      "title": "Private stablecoin payments that issuers and auditors can still see into",
+      "title": "Sui offers private stablecoin payments that issuers and auditors can still see into",
       "url": "https://kdotpham.github.io/khala-privacy-reviewed/#sui",
       "kind": "content",
       "data_status": "supplied_research",
       "warnings": [],
       "paragraphs": [
-        "Private stablecoin payments that issuers and auditors can still see into",
+        "Sui offers private stablecoin payments that issuers and auditors can still see into",
         "Sui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.",
         "What it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.",
-        "Where it stands In Devnet beta since June 2026, with no mainnet date announced. The code is open source but not yet audited.",
         "Who is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.",
         "What to watch Whether it reaches mainnet, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today."
       ],
-      "text": "Private stablecoin payments that issuers and auditors can still see into\nSui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.\nWhat it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.\nWhere it stands In Devnet beta since June 2026, with no mainnet date announced. The code is open source but not yet audited.\nWho is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.\nWhat to watch Whether it reaches mainnet, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today.",
+      "text": "Sui offers private stablecoin payments that issuers and auditors can still see into\nSui’s confidential transfers hide amounts and balances but keep senders, receivers and an issuer-chosen auditor in view, the controlled privacy that banks and payment firms say they need.\nWhat it does Stablecoin issuers can switch on a confidential mode, so amounts and balances are encrypted onchain while addresses stay public and an auditor chosen by the issuer can read each transfer.\nWho is building with it Bridge is exploring it as a stablecoin issuer, and TRM Labs and Merkle Science are testing compliance tools. It builds on fee-free stablecoin transfers that went live on Sui in May 2026.\nWhat to watch Whether it reaches mainnet, whether a large issuer such as Bridge switches it on, and whether stablecoins on Sui grow from about $470M today.",
       "charts": [
         {
           "description": "What public, Sui confidential and Zcash shielded transfers reveal, and where Sui confidential transfers stand",
@@ -554,11 +553,6 @@
           "label": "What it does",
           "description": "Amounts use twisted ElGamal encryption with zero-knowledge proofs, and supply checks sit in the protocol, separate from the privacy proof. Public and confidential transfers run side by side.",
           "source": "MystenLabs/confidential-transfers; Sui Foundation, 8 June 2026; BeInCrypto, 5 June 2026"
-        },
-        {
-          "label": "Where it stands",
-          "description": "Testnet was targeted for later in 2026. The repository says the code is a work in progress, unaudited and not for production use.",
-          "source": "Sui Foundation, 8 June 2026; MystenLabs/confidential-transfers"
         },
         {
           "label": "Who is building with it",
@@ -1371,18 +1365,16 @@
       "warnings": [],
       "paragraphs": [
         "Umbra brings private transfers and swaps to Solana, built on Arcium",
-        "Users deposit Solana tokens into a private balance that hides who paid whom and how much, while protocol fees build a treasury that UMBRA holders govern through MetaDAO decision markets.",
-        "Token role Governs the treasury through MetaDAO decision markets",
-        "To holders Governance only fees (about 0.21%) fund the treasury, paid out only by proposal",
-        "What it does A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. Deposits are free; private transfers and withdrawals cost about 0.21%, a rate governance can change.",
+        "Users deposit Solana tokens into a private balance that hides who paid whom and how much.",
+        "To holders Governance only fees (0.21%) fund the treasury, paid out only by proposal",
+        "What it does A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. Deposits are free; private transfers and withdrawals cost 0.21%, a rate governance can change.",
         "Traction About 3.4K encrypted accounts and $250K deposited. Streamflow, a token vesting platform with 1.3M users, now offers private vesting through Umbra, and Range screens transfers for compliance.",
-        "The UMBRA token Umbra sold $3M of tokens at $0.30 on MetaDAO against about $155M of demand from 10.5K investors. Fees go to a treasury governed through MetaDAO decision markets, and up to 13.5M new tokens can be issued to the team from 2027 if the price multiplies.",
         "What to watch Whether deposits grow from a small base, whether more apps follow Streamflow in building on Umbra, and how the DAO chooses to use its fee income."
       ],
-      "text": "Umbra brings private transfers and swaps to Solana, built on Arcium\nUsers deposit Solana tokens into a private balance that hides who paid whom and how much, while protocol fees build a treasury that UMBRA holders govern through MetaDAO decision markets.\nToken role Governs the treasury through MetaDAO decision markets\nTo holders Governance only fees (about 0.21%) fund the treasury, paid out only by proposal\nWhat it does A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. Deposits are free; private transfers and withdrawals cost about 0.21%, a rate governance can change.\nTraction About 3.4K encrypted accounts and $250K deposited. Streamflow, a token vesting platform with 1.3M users, now offers private vesting through Umbra, and Range screens transfers for compliance.\nThe UMBRA token Umbra sold $3M of tokens at $0.30 on MetaDAO against about $155M of demand from 10.5K investors. Fees go to a treasury governed through MetaDAO decision markets, and up to 13.5M new tokens can be issued to the team from 2027 if the price multiplies.\nWhat to watch Whether deposits grow from a small base, whether more apps follow Streamflow in building on Umbra, and how the DAO chooses to use its fee income.",
+      "text": "Umbra brings private transfers and swaps to Solana, built on Arcium\nUsers deposit Solana tokens into a private balance that hides who paid whom and how much.\nTo holders Governance only fees (0.21%) fund the treasury, paid out only by proposal\nWhat it does A private wallet for Solana that hides sender, recipient and amount on transfers and the size of swaps. Deposits are free; private transfers and withdrawals cost 0.21%, a rate governance can change.\nTraction About 3.4K encrypted accounts and $250K deposited. Streamflow, a token vesting platform with 1.3M users, now offers private vesting through Umbra, and Range screens transfers for compliance.\nWhat to watch Whether deposits grow from a small base, whether more apps follow Streamflow in building on Umbra, and how the DAO chooses to use its fee income.",
       "charts": [
         {
-          "description": "How a private payment moves through Umbra, what is public and hidden, and the token sale against deposits today",
+          "description": "How a private payment moves through Umbra, what is public and hidden, and the UMBRA token sale",
           "labels": [
             "How a private payment moves through Umbra",
             "Hidden inside Umbra, encrypted using Arcium",
@@ -1406,15 +1398,11 @@
             "Solana address",
             "Public",
             "destination, amount",
-            "The token sale against deposits today",
+            "The UMBRA token sale on MetaDAO",
             "$155M",
             "demand from 10.5K investors, MetaDAO sale",
             "$3M",
             "raised at $0.30, about 2% of commitments",
-            "$250K",
-            "deposited in Umbra, 23 Oct 2026",
-            "Bars drawn to scale",
-            "3,428 encrypted accounts",
             "$6.2M market cap, 26 Oct 2026"
           ],
           "details": [
@@ -1449,19 +1437,9 @@
               "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
             },
             {
-              "label": "Deposits: $250K",
-              "description": "Value deposited in Umbra, up from about $187K on 15 October.",
-              "source": "DefiLlama, 23 October 2026"
-            },
-            {
-              "label": "Encrypted accounts: 3,428",
-              "description": "Existing encrypted user accounts on Solana, a cumulative count rather than monthly users",
-              "source": "Solana chain data, 17 October 2026"
-            },
-            {
               "label": "Market cap: $6.2M",
-              "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating.",
-              "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025"
+              "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation, and spending, issuance and buybacks need a passing MetaDAO proposal.",
+              "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026"
             }
           ]
         }
@@ -1499,28 +1477,13 @@
           "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
         },
         {
-          "label": "Deposits: $250K",
-          "description": "Value deposited in Umbra, up from about $187K on 15 October.",
-          "source": "DefiLlama, 23 October 2026"
-        },
-        {
-          "label": "Encrypted accounts: 3,428",
-          "description": "Existing encrypted user accounts on Solana, a cumulative count rather than monthly users",
-          "source": "Solana chain data, 17 October 2026"
-        },
-        {
           "label": "Market cap: $6.2M",
-          "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating.",
-          "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025"
-        },
-        {
-          "label": "Treasury",
-          "description": "Protocol fees are paid to a treasury payout account that only a timelocked governance proposal can set. Nothing in the documentation buys back UMBRA or pays fees to holders.",
-          "source": "Umbra documentation, fee collection"
+          "description": "Price about $0.45 against the $0.30 sale price; fully diluted value about $12.2M; about 13.8M UMBRA circulating. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation, and spending, issuance and buybacks need a passing MetaDAO proposal.",
+          "source": "CoinGecko, 26 October 2026; The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026"
         },
         {
           "label": "UMBRA holders",
-          "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees. Each private transaction commits a protocol fee in the token used; governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip.",
+          "description": "Umbra launched through MetaDAO, where proposals pass or fail according to markets that trade on their expected effect on the token price. Holders therefore control how the treasury is used, but receive no automatic share of fees. Each private transaction commits a protocol fee in the token used; governance sets the rate per token, and Umbra’s protocol documentation caps any default at 5%. Relayers can also receive a public tip. Fees are paid to a treasury payout account that only a timelocked governance proposal can set, and nothing in the documentation buys back UMBRA or pays fees to holders.",
           "source": "MetaDAO; CoinDesk; Umbra documentation, fee model and fee collection"
         },
         {
@@ -1530,13 +1493,8 @@
         },
         {
           "label": "Traction",
-          "description": "3,428 encrypted accounts is a cumulative count, not monthly users. DefiLlama shows about $250K deposited on 23 October 2026. The Streamflow integration launched in May 2026, and each new vesting schedule adds to Umbra’s shared anonymity pool.",
+          "description": "3,428 encrypted accounts is a cumulative count, not monthly users. DefiLlama shows about $250K deposited on 23 October 2026, up from about $187K on 15 October. The Streamflow integration launched in May 2026, and each new vesting schedule adds to Umbra’s shared anonymity pool.",
           "source": "Solana chain data, 17 October 2026; DefiLlama, 23 October 2026; The Block, 26 May 2026; Range"
-        },
-        {
-          "label": "The UMBRA token",
-          "description": "The October 2025 sale was capped at $3M, so buyers received about 2% of their commitments. 55% of supply went to the sale. From 18 months after launch, 13.5M performance tokens can be minted in five tranches at 2×, 4×, 8×, 16× and 32× the sale valuation. Spending, issuance and buybacks need a passing MetaDAO proposal. Market cap about $6.2M and fully diluted value about $12.2M.",
-          "source": "The Block, 10 October 2025; Blockworks token transparency filing, as of 15 February 2026; CoinGecko, 26 October 2026"
         },
         {
           "label": "What to watch",
