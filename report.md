@@ -280,9 +280,9 @@ Traction 3.5M users and revenue of over $100M a year, which its CEO now puts abo
 The tokens VVV is the main token and carries no claim on revenue or equity; about a tenth of revenue buys and burns it. DIEM is a second token, made by locking VVV, worth $1 of Venice AI a day.
 What to watch VVV supply still grows, because new issuance and team tokens vesting until January 2027 outpace burns, and up to 6.5M investor tokens unlock from July 2027.
 
-### How Venice compares with ChatGPT and how its VVV and DIEM tokens work
+### Where chats go with ChatGPT against Venice, and how Venice revenue reaches its two tokens
 
-Chart labels in display order: How Venice differs from ChatGPT · ChatGPT · Venice · Chat history · Saved to your OpenAI account · Kept on your device only · Your prompts · Kept by OpenAI, and can train · its models unless you opt out · Not kept by Venice; outside · model providers may keep theirs · AI models · OpenAI’s own models · Open models Venice runs, plus big · names with your identity removed · How the two tokens work · Customers pay · $18 to $200 a month, · or buy API credits · VVV is bought and burned · $2 of each $18 plan, · 5% of credits bought · About a tenth of revenue · roughly $12M a year, · October pace · VVV · Venice’s main token; no claim · on revenue or equity · Stake it: earn new VVV · stakers share 2M · new VVV a year · Lock it: get DIEM · a second token worth $1 · of Venice AI every day · from sales · stake · lock
+Chart labels in display order: Where your chats go: ChatGPT against Venice · ChatGPT · Venice · Chat history · Saved on OpenAI’s servers, · in your account · Stays on your device; never · stored on Venice’s servers · Your prompts · Kept by OpenAI; can train its · models unless you opt out · Not kept by Venice; outside AI · providers may keep their copy · AI models · OpenAI’s own models · Open models Venice runs, plus · big names with your identity removed · How Venice revenue reaches its two tokens · Customers pay · $18 to $200 a month · or buy API credits · Buy and burn · $2 of each $18 plan, · 5% of credits bought · VVV · Main token; no claim · on revenue or equity · Stake it · earn new VVV · Lock it: get DIEM · $1 of Venice AI a day · Burn size: about a tenth of revenue, roughly $12M a year at the October pace
 
 ### Chart details and interactive notes
 
@@ -293,10 +293,10 @@ Chart labels in display order: How Venice differs from ChatGPT · ChatGPT · Ven
 | AI models | Venice runs open-source models itself and routes requests to third-party models such as OpenAI’s and Anthropic’s through its proxy with identifying details removed. | venice.ai/privacy, checked 25 October 2026 |
 | Customers pay | Subscriptions and API credit purchases are Venice’s revenue: over $100M a year by the company’s August figure, above $150M by its CEO on 14 October, and about $123M by Tokenomist’s onchain count. | Venice, August 2026; Erik Voorhees, 14 October 2026; Tokenomist, 20 October 2026 |
 | Buy and burn | Each plan funds a fixed burn ($2 of $18 Pro, $5 of $68 Pro+, $10 of $200 Max) and 5% of API credit purchases buys VVV on the market and burns it, plus occasional larger discretionary burns. In October this came to about a tenth of revenue. | Tokenomist, 20 October 2026; Venice, 17 July 2026 |
-| Burn size | About 30,700 VVV burned from 1 to 18 October, worth about $750K, about 10% to 12% of revenue on Tokenomist’s figures. | Tokenomist, 20 October 2026; DefiLlama |
 | VVV | VVV is Venice’s main token, on Base and, since 6 October 2026, Solana. It gives no claim on Venice’s revenue or equity. About 48.6M circulate of 81M outstanding. | Tokenomist, 20 October 2026; CoinGecko, 26 October 2026; Pluang, 6 October 2026 |
 | Staking | Staked VVV earns a share of new issuance, cut from 14M a year at launch to 2M from 1 October 2026, about 6% a year at current staking. Unstaking takes seven days. | Decrypt, 21 September 2026; Tokenomist, 20 October 2026; Venice documentation |
 | DIEM | Locking staked VVV creates DIEM, a separate tradeable token. Each staked DIEM gives $1 of Venice API use that refreshes daily, so a developer holding 100 DIEM gets $100 of AI a day without a monthly bill. | Venice documentation, VVV and DIEM; Venice, 17 July 2026 |
+| Burn size | About 30,700 VVV burned from 1 to 18 October, worth about $750K, about 10% to 12% of revenue on Tokenomist’s figures. | Tokenomist, 20 October 2026; DefiLlama |
 | What it does | Users choose a privacy mode per model: Private, where Venice keeps nothing; Anonymised, where the outside provider sees the prompt but not the user; and TEE or end-to-end encrypted modes on Pro, sealed in verified hardware. Venice says it never stores conversation history on its servers. | venice.ai/privacy, checked 25 October 2026 |
 | Traction | 3.5M users reported at the July 2026 Series A ($65M at a $1B valuation, led by Dragonfly). Revenue: $100M run rate in August (company), above $150M (Erik Voorhees, 14 October), about $123M from burn-wallet payments (Tokenomist). OpenRouter tokens served rose from about 40B to 76B a day. | Cointelegraph, 2 July 2026; Venice, August 2026; Tokenomist, 20 October 2026 |
 | The tokens | VVV market cap about $1.21B and fully diluted value about $2.03B. A Venice-owned wallet holds about 20.75M VVV, roughly a quarter of supply, and a 4-of-6 multisig controls staking settings. | CoinGecko, 26 October 2026; Tokenomist, 20 October 2026 |
@@ -346,21 +346,21 @@ Traction No private transfers or paying apps yet. AI mining was set to win 30% o
 The NOCK token Supply is capped at about 4.29B with no premine or sale, and 55% is mined. Each block pays 2,048 NOCK, 80% to the miner and 20% to a community-run fund, and miners keep all fees.
 What to watch Whether the ZK opcode, privacy pool and private apps ship on their 2027 dates, and whether paid AI demand grows beyond the founder’s own company.
 
-### Nockchain today, where proofs secure mining but transfers are public, and the 2027 roadmap that would make NOCK private
+### Nockchain today, where proofs secure mining and transfers are public, the 2027 roadmap that would make NOCK private, and what the chain sees
 
-Chart labels in display order: Today: proofs and AI maths secure the chain · 2027: the same proofs are meant to make NOCK private · Miners · Produce a ZK proof, or · AI maths since August · Block reward · 2,048 NOCK a block; · 80% miner, 20% fund · NOCK holders · Balances and transfers · are fully public · ZK verification · Native opcode to verify · proofs, Q1 2027 · Privacy pool · Private NOCK transfers, · planned for Q2 2027 · Private apps · Prove results without · revealing inputs · The thesis: the proving system that already secures mining becomes the engine for · private transfers and private apps. Nockchain calls NOCK “soon-to-be private”. · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
+Chart labels in display order: Today: proofs and AI maths secure the chain · 2027: the same proofs are meant to make NOCK private · Miners · ZK proof, or AI maths · Block reward · 2,048 NOCK a block · NOCK holders · Fully public today · ZK verification · Native opcode, Q1 2027 · Privacy pool · Private NOCK, Q2 2027 · Private apps · Prove, not reveal, inputs · The chain sees · Block and proof · Reward to miner · Balances, transfers · Proofs, checked natively · Transfers hidden (plan) · Inputs hidden (plan) · $44M · market cap, 26 Oct 2026 · 9,549 · wrapped NOCK holders on Base · Q2 2027 · first private NOCK transfers
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
+| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps. | Nockchain README and vision documents |
 | Miners | ZK miners produce a compact STARK proof for each candidate block. Since the Logos upgrade in August 2026, AI miners can instead win blocks with Pearl-compatible matrix maths. | Nockchain tokenomics documentation |
 | Block reward | Each block pays 2,048 NOCK, falling in steps to a 64 NOCK floor. Issuance splits 80% to the miner and 20% to a protocol fund; fees go to the miner. | Nockchain documentation, tokenomics |
 | Not private yet | Nockchain’s FAQ answers whether transfers are private with “Not currently”. Wrapped NOCK also trades publicly on Base. | docs.nockchain.org FAQ |
 | ZK verification opcode | A native opcode for verifying zero-knowledge proofs is planned for Q1 2027 with forced data availability, which Nockchain calls the foundation for privacy apps. | nockchain.org/roadmap |
 | Privacy pool | Privacy is planned as a pool application following the ShieldedCSV specification; it would be the first time NOCK can move privately. | nockchain.org/roadmap |
 | Private NockApps | Apps would prove state changes so nodes verify them without seeing private inputs, with private DeFi foundations planned for Q3 2027. | Nockchain README; nockchain.org/roadmap |
-| The privacy thesis | Nockchain describes NOCK as “programmable gold, soon-to-be private”: the proving system already running for mining becomes the engine for private transfers and private apps. | Nockchain README and vision documents |
 | Market cap: $44.5M | Price about $0.019; fully diluted value about $80.7M; about 2.37B NOCK circulating. | CoinGecko, 26 October 2026 |
 | Holders: 9,549 | Addresses holding wrapped NOCK on Base. | Basescan, 20 October 2026 |
 | Privacy pool: Q2 2027 | Planned date on the Nockchain roadmap; not yet live. | nockchain.org/roadmap |
@@ -380,16 +380,16 @@ Traction About 320K GPU-equivalents mine it. Together AI, a cloud that hosts AI 
 The PRL token Capped at 2.1B with no premine or sale, and about 17% mined. About 1M PRL a day are still mined, nearly doubling supply within a year, and customers pay in credits, not PRL.
 What to watch Whether private inference with Attestable goes live, whether paid AI work replaces synthetic mining, and how concentrated mining stays. The company does not disclose its PRL holdings.
 
-### How Pearl mining works, and who earns what from customers and mining
+### How Pearl mining works, what stays hidden or public, and who earns what
 
-Chart labels in display order: How mining works: like Bitcoin, but the work is AI maths · AI work · a customer’s request, · or synthetic workloads · GPU miner · runs the maths · on NVIDIA GPUs · ZK proof · checks the work, · hides the data · Block reward · the lucky chunk · wins new PRL · Not live yet: private prompts for paying customers (with Attestable), and paying for AI in PRL. · Who earns what · AI customers · pay for AI in credits, · not PRL · Pearl Research Labs · the company: sells AI access, · runs an official mining pool · PRL holders · no link to customer · revenue yet · Pearl network · creates about 1M · new PRL a day · Miners · GPU owners, mostly in · two large pools · Exchanges · miners sell PRL to · cover their costs · credits · new PRL · sell some · 20% pool fee, in PRL
+Chart labels in display order: How mining works: like Bitcoin, but the work is AI maths · The proof checks the work without seeing the data · AI work · A customer request, · or synthetic work · GPU miner · Runs the maths · on NVIDIA GPUs · ZK proof · Checks the work, · hides the data · Block reward · The lucky chunk · wins new PRL · Hidden · input matrices · Public · shapes and commitments · Public · PRL balances, transfers · Not live yet: private prompts for paying customers (with Attestable), and paying for AI in PRL · Who earns what · AI customers · Pay for AI in credits, · not PRL · Pearl Research Labs · Sells AI access, runs · an official mining pool · PRL holders · No link to customer · revenue yet · Pearl network · Creates about 1M · new PRL a day · Miners · GPU owners, mostly · in two large pools · Exchanges · Miners sell PRL to · cover their costs · credits · new PRL · sell some · 20% pool fee, in PRL
 
 ### Chart details and interactive notes
 
 | Metric or element | Detail | Source supplied with the slide |
 | --- | --- | --- |
 | AI work | Bitcoin miners repeat SHA-256 hashing, which has no use beyond securing the chain. Pearl’s work is matrix multiplication, the core of AI inference, so a GPU can answer an AI request and mine at the same time. Today mining also rewards the same maths run on synthetic data, with no customer behind it. | Pearl whitepaper; Bankless, 16 October 2026; CoinMarketCap, October 2026 |
-| GPU miner | About 320,000 RTX 3090-class GPU-equivalents were estimated to be mining in June 2026. A testnet upgrade cut the slowdown mining adds to AI work from 10–15% to 0–3%. | Tom’s Hardware, June 2026; KuCoin News, 13 October 2026 |
+| GPU miner | About 320,000 RTX 3090-class GPU-equivalents were estimated to be mining in June 2026. A testnet upgrade cut the slowdown mining adds to AI work from 10 to 15% to 0 to 3%. | Tom’s Hardware, June 2026; KuCoin News, 13 October 2026 |
 | ZK proof | A zkSNARK lets the network verify the work without seeing the input matrices, which can hold model weights or user data; the proof still shows shapes and commitments. PRL balances and transfers are public. | Pearl whitepaper |
 | Block reward | Like a lottery, each chunk of work has a small chance to win a block. Rewards started near 3,230 PRL a block and decay smoothly instead of halving. | BTCC, Pearl guide; Bankless, 16 October 2026 |
 | Not live yet | Private prompts and answers for paying customers are being built with Attestable, and a marketplace where customers pay for AI in PRL has no launch date. | Bankless, 16 October 2026 |
@@ -449,9 +449,9 @@ Three places privacy leaks
 1. The connection: linking wallets to IP addresses in controlled tests
 Wang et al., arXiv preprint (not peer-reviewed), 2025. Controlled setup; three of four tests ran on testnets; links addresses to IPs, not to named people.
 
-### Three places where privacy tools leak, what each exposes and the defence
+### A payment’s path from wallet through the internet and a private pool to exit, where privacy leaks, who can see and the defence
 
-Chart labels in display order: 1 · Your connection · Wallet requests travel · over the internet · What is exposed · Your IP address, which can · be linked to your wallet · (chart, right) · Defence · Tor, VPNs, mixnets or · dVPNs such as Nym · and URnetwork · 2 · Entry and exit · Funds move into and out · of a private pool · What is exposed · Public deposits and · withdrawals; matching amounts · and timing can link them · Defence · Waiting, and splitting · withdrawals, as Nullmask’s · Waves option does · 3 · The operator · The service that runs · the private pool · What is exposed · Some services can read your · history: Nullmask’s servers · hold users’ keys · Defence · Encrypted designs the · operator cannot read, such · as Umbra on Arcium
+Chart labels in display order: 1 · 2 · 3 · 2 · Your wallet · Sends requests · The internet · Carries them · Private pool · Run by an operator · Exit · Back to public · Where it leaks, and who can see · 1 · Your connection · Who sees · Network observer · What is exposed · Your IP address, which can · be linked to your wallet · Defence · Tor, VPNs, mixnets or · dVPNs such as Nym · and URnetwork · 2 · Entry and exit · Who sees · Anyone on chain · What is exposed · Public deposits and · withdrawals; matching · amounts and timing link them · Defence · Waiting, and splitting · withdrawals, as Nullmask’s · Waves option does · 3 · The operator · Who sees · The service itself · What is exposed · Some can read your history: · Nullmask’s servers · hold users’ keys · Defence · Encrypted designs the · operator cannot read, such · as Umbra on Arcium
 
 ### Controlled TRAP experiments: wallet-address-to-IP linking success, by blockchain and network
 
